@@ -1,0 +1,400 @@
+{
+  "title": "Determinants of human NK cell diversity by mass cytometry",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY232",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Determinants of human NK cell diversity by mass cytometry",
+  "performedBy": [
+    {
+      "firstName": "Catherine",
+      "lastName": "Blish",
+      "email": "cblish@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Unrelated Adults",
+          "size": 12
+        },
+        {
+          "name": "First pair of twins",
+          "size": 2
+        },
+        {
+          "name": "Second pair of twins",
+          "size": 2
+        },
+        {
+          "name": "Third pair of twins",
+          "size": 2
+        },
+        {
+          "name": "Fourth pair of twins",
+          "size": 2
+        },
+        {
+          "name": "Fifth pair of twins",
+          "size": 2
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "2B4-158Gd"
+        },
+        {
+          "name": "CCR7-169Tm"
+        },
+        {
+          "name": "CD10-150Nd"
+        },
+        {
+          "name": "CD117-152Sm"
+        },
+        {
+          "name": "CD11b-160Gd"
+        },
+        {
+          "name": "CD122-162Dy"
+        },
+        {
+          "name": "CD127-165Ho"
+        },
+        {
+          "name": "CD16-149Sm"
+        },
+        {
+          "name": "CD19-142Nd"
+        },
+        {
+          "name": "CD25-176Yb"
+        },
+        {
+          "name": "CD27-141Pr"
+        },
+        {
+          "name": "CD3-112Cd"
+        },
+        {
+          "name": "CD33-159Tb"
+        },
+        {
+          "name": "CD34-168Er"
+        },
+        {
+          "name": "CD4-143Nd"
+        },
+        {
+          "name": "CD56-174Yb"
+        },
+        {
+          "name": "CD57-145Nd"
+        },
+        {
+          "name": "CD8-144Nd"
+        },
+        {
+          "name": "CD94-167Er"
+        },
+        {
+          "name": "DOTA-Maleimide-115In"
+        },
+        {
+          "name": "EMPTY-139La"
+        },
+        {
+          "name": "HLA-DR-172Yb"
+        },
+        {
+          "name": "IgG1-176Yb"
+        },
+        {
+          "name": "IgG2a-175Lu"
+        },
+        {
+          "name": "IgG2b-174Yb"
+        },
+        {
+          "name": "ILT2-154Gd"
+        },
+        {
+          "name": "Interchelator-Ir191/193"
+        },
+        {
+          "name": "KIR2DL1-166Er"
+        },
+        {
+          "name": "KIR2DL1/S1-146Nd"
+        },
+        {
+          "name": "KIR2DL2/L3/S2-148Nd"
+        },
+        {
+          "name": "KIR2DL3-170Yb"
+        },
+        {
+          "name": "KIR2DL4-173Yb"
+        },
+        {
+          "name": "KIR2DL5-175Lu"
+        },
+        {
+          "name": "KIR2DS4-153Eu"
+        },
+        {
+          "name": "KIR3DL1-163Dy"
+        },
+        {
+          "name": "KIR3DL1/S1-151Eu"
+        },
+        {
+          "name": "NKG2A-171Yb"
+        },
+        {
+          "name": "NKG2C-157Gd"
+        },
+        {
+          "name": "NKG2D-156Gd"
+        },
+        {
+          "name": "NKp30-161Dy"
+        },
+        {
+          "name": "NKp44-164Dy"
+        },
+        {
+          "name": "NKp46-155Gd"
+        },
+        {
+          "name": "TRAIL-147Sm"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subject willing to be bled and have DNA used for genotyping"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Catherine",
+      "lastName": "Blish",
+      "email": "cblish@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI090019"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?  http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "24154599",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Horowitz A(1), Strauss-Albee DM, Leipold M, Kubo J, Nemat-Gorgani N, Dogan OC, Dekker CL, Mackey S, Maecker H, Swan GE, Davis MM, Norman PJ, Guethlein LA, Desai M, Parham P, Blish CA.",
+      "title": "Genetic and environmental determinants of human NK cell diversity revealed by mass cytometry.",
+      "publicationVenue": "Sci Transl Med.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "25288567",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Strauss-Albee DM(1), Horowitz A(2), Parham P(2), Blish CA(3).",
+      "title": "Coordinated regulation of NK receptor expression in the maturing human immune system.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-11-01",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "CyTOF"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No Treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY232",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Determinants of human NK cell diversity by mass cytometry",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY232",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Natural Killer (NK) cells play critical roles in immune defense and reproduction, yet remain the most poorly understood lymphocyte population. Because their activation is controlled by a variety of combinatorially expressed activating and inhibitory receptors, NK cell diversity and function are closely linked. To provide an unprecedented understanding of NK cell repertoire diversity, we used mass cytometry to simultaneously analyze 35 parameters, including 28 NK cell receptors, on peripheral blood NK cells from five sets of monozygotic twins and twelve unrelated donors of defined HLA and killer cell immunoglobulin-like receptor (KIR) genotype. This analysis revealed a remarkable degree of NK cell diversity, with an estimated 6,000-30,000 phenotypic populations within an individual and >100,000 phenotypes in this population. Genetics largely determined inhibitory receptor expression, whereas activation receptor expression was heavily environmentally influenced. Therefore, NK cells may maintain self-tolerance through strictly regulated expression of inhibitory receptors, while using adaptable expression patterns of activating and costimulatory receptors to respond to pathogens and tumors. These findings further suggest the possibility that discrete NK cell subpopulations could be harnessed for immunotherapeutic strategies in the settings of infection, reproduction, and transplantation"
+}

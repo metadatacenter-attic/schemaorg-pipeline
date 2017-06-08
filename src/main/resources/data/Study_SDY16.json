@@ -1,0 +1,323 @@
+{
+  "title": "Susceptibility and Resistance to Common Encapsulated Bacteria Infections",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY16",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Susceptibility and Resistance to Common Encapsulated Bacteria Infections",
+  "performedBy": [
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Gulcher",
+      "email": "jgulcher@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Ingileif",
+      "lastName": "Jonsdottir",
+      "email": "ingileif.jonsdottir@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "IBD-Encap",
+          "size": 1
+        },
+        {
+          "name": "IBD_mening",
+          "size": 1
+        },
+        {
+          "name": "IBD_sepsis",
+          "size": 109
+        },
+        {
+          "name": "IBD_MD",
+          "size": 1
+        },
+        {
+          "name": "IBD_IPD",
+          "size": 1
+        },
+        {
+          "name": "IBD_HiD",
+          "size": 1
+        },
+        {
+          "name": "IBD_Ctrl",
+          "size": 28
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Averaged case vs. control SNP association data"
+        },
+        {
+          "name": "TruSeq SBS Kit v5 GA"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Icelander"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "diagnosed with invasive disease caused by encapsulated bacteria"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Gulcher",
+      "email": "jgulcher@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200400064C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The overall objective of this proposal is to use the genealogic approach in Iceland to carry out genome-wide linkage scans to map and isolate important host genes conferring risk for specific infections and vaccination responses.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=4500e317ae114f140184b324181e555e"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-11-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between IBD-Encap case vs. controls. Results available as txt and xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between IBD_mening case vs. controls. Results available as txt and xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between case vs. controls. Results available as txt and xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between IBD_sepsis case vs. controls. Results available as txt and xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between IBD_IPD case vs. controls. Results available as txt and xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between IBD_HiD case vs. controls. Results available as txt and xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Transcriptome mRNA sequence analysis of 135 deCode IBD-Sepsis case and control subjects.",
+        "types": [
+            {
+               "value": "Sequencing"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY16",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Susceptibility and Resistance to Common Encapsulated Bacteria Infections",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY16",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=4fe38afb31cad52ce3d9ce016a3990bb"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To map and isolate human host supergenes that confer general susceptibility and resistance to common encapsulated bacteria infections such as pneumococcus, meningococcus, and H. influenza."
+}

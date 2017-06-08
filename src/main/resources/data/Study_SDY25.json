@@ -1,0 +1,316 @@
+{
+  "title": "Genotyping and gene function in healthy volunteers",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY25",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Genotyping and gene function in healthy volunteers",
+  "performedBy": [
+    {
+      "firstName": "Richard",
+      "lastName": "Kaslow",
+      "email": "?",
+      "affiliations": [
+          {
+             "name": "University of Alabama at Birmingham"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Jeffrey C. ",
+      "lastName": "Edberg",
+      "email": "?",
+      "affiliations": [
+          {
+             "name": "University of Alabama at Birmingham"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Genotyping and gene function in healthy volunteers",
+          "size": 1423
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "SearchLight Multiplex Assay Kit"
+        },
+        {
+          "name": "CSQ_Data_Dictionary"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects with no history of chronic infectious or immune diseases "
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "NOT sampling during current acute infection"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects who agree to be available to be recalled for blood sampling for ex vivo studies"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with history of chronic infectious or immune diseases "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Sampling during current acute infection"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Richard",
+      "lastName": "Kaslow",
+      "email": "?",
+      "affiliations": [
+          {
+             "name": "University of Alabama at Birmingham"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200400068C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Our central purpose is to investigate variability in host genes predicting variation in antibody reponses and adverse reactions to Anthrax Vaccine Adsorbed (AVA). The results should more generally enhance our understanding of the immune response in the context of vaccines, pathogenic agents and autoimmunity.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=57844bf8ab61f31368b70452adf994b5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21368772",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Pajewski NM(1), Parker SD, Poland GA, Ovsyannikova IG, Song W, Zhang K, McKinney  BA, Pankratz VS, Edberg JC, Kimberly RP, Jacobson RM, Tang J, Kaslow RA.",
+      "title": "The role of HLA-DR-DQ haplotypes in variable antibody responses to anthrax vaccine adsorbed.",
+      "publicationVenue": "Genes Immun.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-11-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "Multiplex assays to measure cytokines, chemokines, and related protein products in healthy volunteers. 86 samples, with relatively equal representation of African Americans versus European Americans and males versus females. Custom SearchLight assays (Pierce Biotechnology)",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Assessment of genetic variations associated with immune responses against Anthrax Vaccine Adsorbed (AVA).  Genotpyiong was performed byagarose gel elecrophoresis plus ethidium bromide staining to assess the number of 37-nt tandem repeats following PCR of this region of the FCRN gene in selected healthy control participants. 146 samples assayed. To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Assessment of genetic variations associated with immune responses against Anthrax Vaccine Adsorbed (AVA). 200 samples assayed. To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Other"
+        },
+        "description": "Assessments",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Other"
+        },
+        "description": "Illumina's iSelect custom genotyping panel was used for genotyping the 2306 subjects at 7800 SNPs using the Illumina's Infinium II assay in the AVA project. This experiment describes the QC process used to select the SNPs that were assayed in the Illumina iSelect custom genotyping panel for the SNP genotyping experiment in the AVA project.",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY25",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Genotyping and gene function in healthy volunteers",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY25",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=7337893&icde=23814781&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Functionally important genetic variants (certain naturally occurring SNPs) in a set of candidate genes that are known to be relevant for immune response to protein antigens, are expected to be associated with AbPA response and B-cell physiology."
+}

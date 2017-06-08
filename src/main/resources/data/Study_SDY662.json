@@ -1,0 +1,363 @@
+{
+  "title": "WISP-R ITN029ST: Withdrawal of Immunosuppression in Pediatric Liver Transplant Recipients",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY662",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "WISP-R ITN029ST: Withdrawal of Immunosuppression in Pediatric Liver Transplant Recipients",
+  "performedBy": [
+    {
+      "firstName": "Sandy",
+      "lastName": "Feng",
+      "email": "sandy.feng@ucsfmedctr.org",
+      "affiliations": [
+          {
+             "name": "University of California, San Francisco"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Withdrawal",
+          "size": 25
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Living-donor liver transplant from parental donor"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Age less than 18 years at time of transplantation"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "At least 4 years since transplantation"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Availability and willingness of parental liver donor to participate in the trial"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Liver biopsy at screening demonstrating no evidence of acute or chronic rejection and less than stage 2 fibrosis on the Ishak Scale"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative urine pregnancy test at entry and agreement to use birth control during the study for women of childbearing potential"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative purified protein derivative (PPD) test results or history of appropriate treatment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Indication for transplantation liver failure due to autoimmune disease, such as autoimmune hepatitis, primary sclerosing cholangitis, or primary biliary cirrhosis"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Hepatitis B infection, as defined by the presence of HBsAg or active treatment for hepatitis B"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Hepatitis C infection, as defined by the presence of antibody against hepatitis C"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Serologic evidence of autoimmunity, defined as abnormal antinuclear, anti-smooth-muscle, antimitochondrial, or anti-liver-kidney microsomal antibody titers greater than or equal to 1:160"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Transplantation of a second organ before, simultaneous with, or after liver transplantation; or liver retransplantation"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Aspartate or alanine aminotransferase (AST or ALT) of greater than 2 times the upper limit of normal"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Total bilirubin and direct bilirubin, and either alkaline phosphatase or gamma-glutamyl transferase (GGT) greater than 2 times the upper limit of normal"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Clinically significant change in hepatic function in the past 26 weeks"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Immunosuppression with 50% dose increase in a currrent agent within 26 weeks of screening"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Immunosuppression with more than one agent within 52 weeks of screening"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any systemic illness requiring, or likely to require, immunosuppressive drug use"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Human immunodeficiency virus (HIV) infection"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnancy or breast-feeding"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Unwillingness or inability to comply with study requirements and procedures"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Sandy",
+      "lastName": "Feng",
+      "email": "sandy.feng@ucsfmedctr.org",
+      "affiliations": [
+          {
+             "name": "University of California, San Francisco"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22253395",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Feng S(1), Ekong UD, Lobritto SJ, Demetris AJ, Roberts JP, Rosenthal P, Alonso EM, Philogene MC, Ikle D, Poole KM, Bridges ND, Turka LA, Tchao NK.",
+      "title": "Complete immunosuppression withdrawal and subsequent allograft function among pediatric recipients of parental living donor liver transplants.",
+      "publicationVenue": "JAMA.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-05-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-02-05",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Autoimmune Liver Disease"
+        }
+      },{
+        "name": {
+            "value": "Comprehensive Metabolic Panel"
+        }
+      },{
+        "name": {
+            "value": "Protein or Enzyme Type Measurement"
+        }
+      },{
+        "name": {
+            "value": "Allograft_Dysfunction"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY662",
+              "identifierSource": "ImmPort"
+          },
+          "title": "WISP-R ITN029ST: Withdrawal of Immunosuppression in Pediatric Liver Transplant Recipients",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY662",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Antirejection medicines are prescribed to organ transplant recipients to prevent new organ rejection. Long-term use places transplant recipients at higher risk of serious infections and certain types of cancer. The purpose of this study is to determine whether immunosuppressive drugs can be safely withdrawn over a minimum of 9 months from children who received liver transplants at least 4 years ago."
+}

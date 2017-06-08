@@ -1,0 +1,389 @@
+{
+  "title": "Responses to Influenza Vaccination in Systemic Lupus Year 2 2006-2007",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY197",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Responses to Influenza Vaccination in Systemic Lupus Year 2 2006-2007",
+  "performedBy": [
+    {
+      "firstName": "Linda",
+      "lastName": "Thompson",
+      "email": "Linda-Thompson@omrf.org",
+      "affiliations": [
+          {
+             "name": "Oklahoma Medical Research Foundation (OMRF)"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "SLE case subjects",
+          "size": 31
+        },
+        {
+          "name": "Healthy control subjects",
+          "size": 32
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "blank none"
+        },
+        {
+          "name": "anti-IgM-biotin, SA-PE"
+        },
+        {
+          "name": "hu IgM-biotin; CD14-PE-Cy7; biotin-Strepavidin-PE"
+        },
+        {
+          "name": "CD14-PE; CD19-PE-Cy7"
+        },
+        {
+          "name": "CD22, IgM, CD19"
+        },
+        {
+          "name": "CD32, IgM, CD19"
+        },
+        {
+          "name": "CD72, IgM, CD19"
+        },
+        {
+          "name": "LYN, IgM, CD19"
+        },
+        {
+          "name": "ERK1/2, IgM, CD19"
+        },
+        {
+          "name": "Syk, IgM, CD19"
+        },
+        {
+          "name": "SHIP, IgM, CD19"
+        },
+        {
+          "name": "SHP1, IgM, CD19"
+        },
+        {
+          "name": "SHP2, IgM, CD19"
+        },
+        {
+          "name": "pLYN508, CD79a"
+        },
+        {
+          "name": "pErk1/2, CD79a"
+        },
+        {
+          "name": "pSrc, CD79a"
+        },
+        {
+          "name": "CD4-APC,HLADR-PE,no stim"
+        },
+        {
+          "name": "CD4-APC,HLADR-PE, PHA"
+        },
+        {
+          "name": "052g"
+        },
+        {
+          "name": "IFN gamma ELISPOT plates"
+        },
+        {
+          "name": "ImmunoSpot ELISPOT reader"
+        },
+        {
+          "name": "HAI_reagent"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Meet the American College of Rheumatology classification criteria for SLE and receiving an injectable influenza vaccination."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Ward of state."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Vulnerable special classes of subjects such as fetuses, pregnant women, prisoners or other institutionalized individuals."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Equal number of gender, race, and age within 5 years unaffected controls receiving injectable influenza vaccination."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Linda",
+      "lastName": "Thompson",
+      "email": "Linda-Thompson@omrf.org",
+      "affiliations": [
+          {
+             "name": "Oklahoma Medical Research Foundation (OMRF)"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Responses to Influenza Vaccination in Systemic Lupus",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-050026"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The goal of our project is to understand why many patients with systemic lupus erythematosus (SLE) fail to make adequate responses to immunization with the influenza vaccine. Our approach is to compare the major components of the normal immune response to vaccination in SLE patients and control subjects in order to identify abnormalities in this group of immunocompromised individuals. These are the first steps in devising a strategy to modify the current vaccine protocol to improve the immune response of SLE patients and other individuals undergoing immunosuppressive therapy. Our approach, as outlined in the Objectives below, is to compare the major components of the normal immune response to vaccination in SLE patients and control subjects in order to identify abnormalities in this group of immunocompromised individuals. These are the first steps in devising a strategy to modify the current vaccine protocol to improve the immune response of SLE patients and other individuals undergoing immunosuppressive therapy. Objective I. To establish and serially follow a collection of SLE patients and matched controls before and after influenza vaccination (or documented influenza infection). Objective II. To evaluate the antibody responses of SLE patients and controls to influenza vaccination to determine the relative titers and specificities of protective vs. non-protective antibodies. Objective III. To analyze the differentiation of influenza-specific B cells in SLE patients and controls following immunization and to generate and characterize anti-influenza monoclonal antibodies. Objective IV. To evaluate the expression levels of regulatory molecules of B cell signaling by flow cytometry and to determine whether signaling thresholds are altered in SLE patients compared to controls. Objective V. To evaluate T cell responses to influenza vaccination by measuring IFN gamma production and CD4 T cell activation. Objective VI. To evaluate changes in autoantibody titers, specificities and epitopes in SLE patients who are high and low responders to immunization with the influenza vaccine. This comprehensive analysis from a core set of well-characterized patients and matched controls will provide significant insight into the cause of defective vaccination responses in SLE patients and identify areas for future exploration. Based upon the shared immunosuppressive therapies utilized in autoimmunity, transplantation and chemotherapy, the knowledge gained and hypotheses generated through these cross-sectional studies in SLE may also be relevant for other categories of immunosuppressed patients.  http://projectreporter.nih.gov/project_info_details.cfm?aid=8787079&icde=23840541&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21598235",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Crowe SR(1), Merrill JT, Vista ES, Dedeke AB, Thompson DM, Stewart S, Guthridge JM, Niewold TB, Franek BS, Air GM, Thompson LF, James JA.",
+      "title": "Influenza vaccination responses in human systemic lupus erythematosus: impact of  clinical and demographic features.",
+      "publicationVenue": "Arthritis Rheum.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2007-12-31",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2013-06-12",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "To evaluate T cell responses to influenza vaccination by measuring IFNgamma production after in vitro culture with vaccine or PHA.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "Influenza hemagglutination inhibition assay",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "OMRF_Flow_expSample_treatment"
+        },
+        {
+          "name": "No Treatment"
+        },
+        {
+          "name": "PHA 2.5 Sigma"
+        },
+        {
+          "name": "PHA 1.25 Sigma"
+        },
+        {
+          "name": "Vaccine 0.4"
+        },
+        {
+          "name": "Vaccine 0.13"
+        },
+        {
+          "name": "OMRF_ELISPOT_expSample_PHA_treatment"
+        },
+        {
+          "name": "OMRF_ELISPOT_expSample_vaccine_treatment"
+        },
+        {
+          "name": "OMRF_HAI_expSample_treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY197",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Responses to Influenza Vaccination in Systemic Lupus Year 2 2006-2007",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY197",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Responses to Influenza Vaccination in Systemic Lupus",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=7008295&icde=23823493&ddparam=&ddvalue=&ddsub=&cr=6&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Compare the major components of the normal immune response to flu vaccination in SLE patients and control subjects in order to identify abnormalities in SLE group of immunocompromised individuals."
+}

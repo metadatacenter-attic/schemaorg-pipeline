@@ -1,0 +1,517 @@
+{
+  "title": "Genotype Polymorphism effects on Cholera Vaccine responses.",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY23",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Genotype Polymorphism effects on Cholera Vaccine responses.",
+  "performedBy": [
+    {
+      "firstName": "Diane",
+      "lastName": "Wagener",
+      "email": "dwagener@rti.org",
+      "affiliations": [
+          {
+             "name": "Research Triangle Institute, NC"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Carol",
+      "lastName": "Whisnant",
+      "email": "No Contact information available.",
+      "affiliations": [
+          {
+             "name": "Research Triangle Institute, NC"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Partha ",
+      "lastName": "Majumder",
+      "email": "No Contact information available.",
+      "affiliations": [
+          {
+             "name": "TCG-ISI Centre for Population Genomics, India"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Herman",
+      "lastName": "Staats",
+      "email": "No Contact information available.",
+      "affiliations": [
+          {
+             "name": "Duke University, NC"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Cholera Vaccine Recipients",
+          "size": 1000
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Fluorokine MAP cytokine multiplex kits"
+        },
+        {
+          "name": "Goat Serum 500ml"
+        },
+        {
+          "name": "PFA"
+        },
+        {
+          "name": "Bovine Serum Albumin 500gms"
+        },
+        {
+          "name": "Goat anti-human IgG-PE 0.5mg"
+        },
+        {
+          "name": "calibration beads"
+        },
+        {
+          "name": "Bead region 042"
+        },
+        {
+          "name": "Complement"
+        },
+        {
+          "name": "Drystrips 24 cm ph 4-7"
+        },
+        {
+          "name": "Albumin and IgG removal Kit"
+        },
+        {
+          "name": "Cydye Cy2"
+        },
+        {
+          "name": "Cydye Cy3"
+        },
+        {
+          "name": "Cydye Cy5"
+        },
+        {
+          "name": "N-N Dimethylformamide"
+        },
+        {
+          "name": "Coomassie Plus Bradford Assay Kit"
+        },
+        {
+          "name": "L-Lysine monohydrochloride"
+        },
+        {
+          "name": "Acetone"
+        },
+        {
+          "name": "goat anti-mouse IgG1-rPE"
+        },
+        {
+          "name": "mouse anti-human IgA secretory, clone  HP6141"
+        },
+        {
+          "name": "goat anti-human IgA UNLB"
+        },
+        {
+          "name": "goat anti-mouse IgG1-AP"
+        },
+        {
+          "name": "Trifluoroacetic acid in 1mL ampoules"
+        },
+        {
+          "name": "Formic acid in 1mL ampoules"
+        },
+        {
+          "name": "Bovine Serum Albumin"
+        },
+        {
+          "name": "Dithiothreitol"
+        },
+        {
+          "name": "Urea"
+        },
+        {
+          "name": "Trizma HCl"
+        },
+        {
+          "name": "Trizma base"
+        },
+        {
+          "name": "Iodoacetamide"
+        },
+        {
+          "name": "Coomassie Plus Protein Assay"
+        },
+        {
+          "name": "Modified Trypsin"
+        },
+        {
+          "name": "Urea, PlusOne"
+        },
+        {
+          "name": "Dithiothreitol, PlusOne"
+        },
+        {
+          "name": "CHAPS, PlusOne"
+        },
+        {
+          "name": "Sodium borate, reagent grade"
+        },
+        {
+          "name": "Deep Purple Total Protein Stain"
+        },
+        {
+          "name": "Ammonium bicarbonate, reagent grade"
+        },
+        {
+          "name": "Acetonitrile, HPLC grade"
+        },
+        {
+          "name": "Trypsin Gold, mass spectrometry grade"
+        },
+        {
+          "name": "acid in 1mL ampoules, sequanal grade"
+        },
+        {
+          "name": "Formic acid in 1mL ampoules, sequanal grade"
+        },
+        {
+          "name": "Salivary Blood Contamination Enzyme Immunoassay Kit"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Using a stratified random sampling design, 1,000 participants receiving vaccine to V. cholerae will be recruited from eight strata (two age groups [< 25 years, > 25 years], two gender, and two ethnic groups [Hindu, Muslim]). Stratum sample size will be proportional to total stratum size."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects are unrelated to the first -cousin level. "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Persons with previous infections-determined from ongoing surveillance study with a complete census of the population-will be excluded. "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Current fever or diarrhea, pregnancy, and lactation. "
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Diane",
+      "lastName": "Wagener",
+      "email": "dwagener@rti.org",
+      "affiliations": [
+          {
+             "name": "Research Triangle Institute, NC"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Response Polymorphisms: Typhoid/Cholera Vaccines",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200400067C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The objective is to understand role of polymorphisms in genes of innate and adaptive immunity in modulating the response to vaccines for two gastrointestinal tract infections: typhoid and cholera.  http://www.ncbi.nlm.nih.gov/pubmed/18571127"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-08-01",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2010-11-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "MULTIPLEX BIOPLEX BEAD ASSAY",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Determine response to vaccination through measurement of total serum anti-cholera LPS Ig (IgA, IgG, and IgM) using a multiplex bead assay in Cholera Vaccine Study using serum samples collected before (day 0 ) and after (day 28) vaccination",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Whole cell killing assay of pathogen using participant serum.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Determine serum anti-cholera LPS IgA response to vaccination using a multiplex bead assay in Cholera Vaccine Study using serum samples collected before (day 0) and after (day 28) vaccination.",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Other"
+        },
+        "description": "Two-dimensional gel electrophoresis separations of serum will permit identification and quantitation of proteins associated immune response in Cholera Vaccine Study.  Spots selected from the gels showing association will be picked for protein identification using mass spectrometry.",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "The GoldenGate Assay allows for a high degree of loci multiplexing during the extension and amplification steps.  The DNA sample used in this assay is activated for binding to paramagnetic particles. Assay oligonucleotides, hybridization buffer, and paramagnetic particles are then combined with the activated DNA in the hybridization step.  Three oligonucleotides are designed for each SNP locus. Two oligos are specific to each allele of the SNP site, called the Allele-Specific Oligos (ASOs). A third oligo that hybridizes several bases downstream from the SNP site is the Locus-Specific Oligo (LSO). All three oligonucleotide sequences contain regions of genomic complementarity and universal PCR primer sites; the LSO also contains a unique address sequence that targets a particular bead type. Up to 1,536 SNPs may be interrogated simultaneously in this manner using GoldenGate technology. During the primer hybridization process, the assay oligonucleotides hybridize to the genomic DNA sample bound to paramagnetic particles.  Following hybridization, several wash steps are performed, reducing noise by removing excess and mis-hybridized oligonucleotides. Extension of the appropriate ASO and ligation of the extended product to the LSO joins information about the genotype present at the SNP site to the address sequence on the LSO. These joined, fulllength products provide a template for PCR using universal PCR primers P1, P2, and P3.  Universal PCR primers P1 and P2 are Cy3- and Cy5-labeled. After downstream-processing the single-stranded, dye-labeled DNAs are hybridized to their complement bead type through their unique address sequences. Hybridization of the GoldenGate Assay products onto the Array Matrix or BeadChip allows for the separation of the assay products in solution, onto a solid surface for individual SNP genotype readout. After hybridization, the BeadArray Reader is used to analyze fluorescence signal on the Sentrix Array Matrix or BeadChip, which is in turn analyzed using software for automated genotype clustering and calling provided by Illumina. To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "The GoldenGate Assay allows for a high degree of loci multiplexing during the extension and amplification steps.  The DNA sample used in this assay is activated for binding to paramagnetic particles. Assay oligonucleotides, hybridization buffer, and paramagnetic particles are then combined with the activated DNA in the hybridization step.  Three oligonucleotides are designed for each SNP locus. Two oligos are specific to each allele of the SNP site, called the Allele-Specific Oligos (ASOs). A third oligo that hybridizes several bases downstream from the SNP site is the Locus-Specific Oligo (LSO). All three oligonucleotide sequences contain regions of genomic complementarity and universal PCR primer sites; the LSO also contains a unique address sequence that targets a particular bead type. Up to 1,536 SNPs may be interrogated simultaneously in this manner using GoldenGate technology. During the primer hybridization process, the assay oligonucleotides hybridize to the genomic DNA sample bound to paramagnetic particles.  Following hybridization, several wash steps are performed, reducing noise by removing excess and mis-hybridized oligonucleotides. Extension of the appropriate ASO and ligation of the extended product to the LSO joins information about the genotype present at the SNP site to the address sequence on the LSO. These joined, fulllength products provide a template for PCR using universal PCR primers P1, P2, and P3.  Universal PCR primers P1 and P2 are Cy3- and Cy5-labeled. After downstream-processing the single-stranded, dye-labeled DNAs are hybridized to their complement bead type through their unique address sequences. Hybridization of the GoldenGate Assay products onto the Array Matrix or BeadChip allows for the separation of the assay products in solution, onto a solid surface for individual SNP genotype readout. After hybridization, the BeadArray Reader is used to analyze fluorescence signal on the Sentrix Array Matrix or BeadChip, which is in turn analyzed using software for automated genotype clustering and calling provided by Illumina. To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Determine salivary anti-cholera LPS IgG, IgA, IgM and secretory IgA response to vaccination using a multiplex bead assay in Cholera Vaccine Study using saliva samples collected before (day 0) and after (day 28) vaccination.",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Saliva samples from subjects are stratified and analyzed by gender, age, ethnicity, time point, and response to vaccination to LPS.  Immobilized pH gradient isoelectric focusing of tryptic peptides in the first dimension followed by reverse phase chromatography for the second dimension of separation.  The resulting separated peptides are ionized via electrospray and analyzed using tandem mass spectrometry.",
+        "types": [
+            {
+               "value": "Mass Spectrometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Subjects for defensin analysis were chosen based on response to vaccination (hi/low) mesured by LPS for cholera.  Subjects were further stratified based on sampling day, age, gender, and ethnicity.  Saliva samples were analyzed for the following defensin tagets: alpha-defensin-1 (HNP-1), alpha-defensin-2 (HNP-2), and alpha-defensin-3 (HNP-3).  Samples are extracted via solid phase extraction and are analyzed using LC-MS/MS over a concentration range of 0.1 - 25 ug/mL for HNP-1 and HNP-2, and 0.02 - 5ug/mL for HNP-3.",
+        "types": [
+            {
+               "value": "Mass Spectrometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Proteins from 2-D gel experiments are identified by excising the idividual spots of interest, performing an in-gel digest using trypsin, extracting the peptides, analysis via LC-MS/MS, database searching, and statistical analysis.",
+        "types": [
+            {
+               "value": "Mass Spectrometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Transferrin levels were determined using ELISA assays to determine the level of blood contamination in saliva from the Cholera Study participants.",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY23",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Genotype Polymorphism effects on Cholera Vaccine responses.",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY23",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Response Polymorphisms: Typhoid/Cholera Vaccines",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=d13444233afaede32270db399b0ab691"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Innate immunity gene products are known to be the first-line of host-defense and to control and assist the adaptive immune system. This research represents the opportunity to study, in detail, the responses longitudinally to vaccination (using clinical examination and laboratory assays) in a large ethnic population. Consequently, a prioritized set of genes and gene products from both systems will be evaluated."
+}

@@ -1,0 +1,641 @@
+{
+  "title": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination - 2013",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY478",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination - 2013",
+  "performedBy": [
+    {
+      "firstName": "Mark",
+      "lastName": "Davis",
+      "email": "mmdavis@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "SLVP015_2013A",
+          "size": 17
+        },
+        {
+          "name": "SLVP015_2013B",
+          "size": 25
+        },
+        {
+          "name": "SLVP015_2013C",
+          "size": 27
+        },
+        {
+          "name": "SLVP015_2013_CyTOFcontrol",
+          "size": 1
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Custom  63 plex Magnetic Bead array  kit for Luminex"
+        },
+        {
+          "name": "CyTOF_PBS"
+        },
+        {
+          "name": "CyTOF_EDTA"
+        },
+        {
+          "name": "CyTOF_Bovine Serum Albumin"
+        },
+        {
+          "name": "CyTOF_16% paraformaldehyde"
+        },
+        {
+          "name": "CyTOF_Permeabilization buffer"
+        },
+        {
+          "name": "CyTOF_Antibody Stabilizer buffer-PBS"
+        },
+        {
+          "name": "CyTOF_DOTA-maleimide"
+        },
+        {
+          "name": "CyTOF_CD19 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD4 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD8 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_IgD antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD85j antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD16 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD3 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD38 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD27 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD14 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD94 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CCR7 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD45RA antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD20 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD127 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD33 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD28 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD24 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD161 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_TCRgd antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD56 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_HLADR antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD25 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD57 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD11c antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD11b antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CCR6 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD86 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CXCR3 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CXCR5 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_ICOS antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_PD-1 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_CD123 antibody-unconjugated"
+        },
+        {
+          "name": "CyTOF_Indium III) chloride, In113 enriched"
+        },
+        {
+          "name": "CyTOF_Nd142 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Nd143 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Nd144 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Nd146 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Sm147 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Nd148 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Sm149 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Nd150 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Eu151 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Sm152 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Eu153 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Sm154 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Gd155 (III) chloride"
+        },
+        {
+          "name": "CyTOF_Gd156 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Gd157 (III) chloride"
+        },
+        {
+          "name": "CyTOF_Gd158 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Gd160 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Dy162 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Dy164 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Er166 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Er167 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Er168 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Er170 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Yb171 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Yb172 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Yb173 (III) chloride"
+        },
+        {
+          "name": "CyTOF_Yb174 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Yb176 DN3 MAXPAR kit"
+        },
+        {
+          "name": "CyTOF_Iridium intercalator"
+        },
+        {
+          "name": "CyTOF_Terbium (III) chloride"
+        },
+        {
+          "name": "CyTOF_Lutetium (III) chloride"
+        },
+        {
+          "name": "CyTOF_Holmium (III) chloride"
+        },
+        {
+          "name": "CyTOF_Thulium (III) chloride"
+        },
+        {
+          "name": "CyTOF_Indium (III) chloride"
+        },
+        {
+          "name": "CyTOF_CyPBS"
+        },
+        {
+          "name": "CyTOF_CyFACS"
+        },
+        {
+          "name": "CyTOF_Indium-DOTA-maleimide"
+        },
+        {
+          "name": "CyTOF_CD57-In113"
+        },
+        {
+          "name": "CyTOF_CD19-Nd142"
+        },
+        {
+          "name": "CyTOF_CD4-Nd143"
+        },
+        {
+          "name": "CyTOF_CD8-Nd144"
+        },
+        {
+          "name": "CyTOF_IgD-Nd146"
+        },
+        {
+          "name": "CyTOF_CD85j-Sm147"
+        },
+        {
+          "name": "CyTOF_CD11c-Nd148"
+        },
+        {
+          "name": "CyTOF_CD16-Sm149"
+        },
+        {
+          "name": "CyTOF_CD3-Nd150"
+        },
+        {
+          "name": "CyTOF_CD38-Eu151"
+        },
+        {
+          "name": "CyTOF_CD27-Sm152"
+        },
+        {
+          "name": "CyTOF_CD11b-Eu153"
+        },
+        {
+          "name": "CyTOF_CD14-Sm154"
+        },
+        {
+          "name": "CyTOF_CCR6-Gd155"
+        },
+        {
+          "name": "CyTOF_CD94-Gd156"
+        },
+        {
+          "name": "CyTOF_CD86-Gd157"
+        },
+        {
+          "name": "CyTOF_CXCR5-Gd158"
+        },
+        {
+          "name": "CyTOF_CXCR3-Tb159"
+        },
+        {
+          "name": "CyTOF_CCR7-Gd160"
+        },
+        {
+          "name": "CyTOF_CD45RA-Dy162"
+        },
+        {
+          "name": "CyTOF_CD20-Dy164"
+        },
+        {
+          "name": "CyTOF_CD127-Ho165"
+        },
+        {
+          "name": "CyTOF_CD33-Er166"
+        },
+        {
+          "name": "CyTOF_CD28-Er167"
+        },
+        {
+          "name": "CyTOF_CD24-Er168"
+        },
+        {
+          "name": "CyTOF_ICOS-Tm169"
+        },
+        {
+          "name": "CyTOF_CD161-Er170"
+        },
+        {
+          "name": "CyTOF_TCRgd-Yb171"
+        },
+        {
+          "name": "CyTOF_PD-1-Yb172"
+        },
+        {
+          "name": "CyTOF_CD123-Yb173"
+        },
+        {
+          "name": "CyTOF_CD56-Yb174"
+        },
+        {
+          "name": "CyTOF_HLADR-Lu175"
+        },
+        {
+          "name": "CyTOF_CD25-Yb176"
+        },
+        {
+          "name": "after2012_CyTOFreagentset"
+        },
+        {
+          "name": "Phosphate Buffer Saline"
+        },
+        {
+          "name": "Sodium Chloride"
+        },
+        {
+          "name": "Chicken Red Blood Cells"
+        },
+        {
+          "name": "Receptor Destroying Enzyme II"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Genrally healthy and ambulatory at time of initial study enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of immunodeficiency or any known or suspected impairment of immunologic function at time of initial study enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Recent or current use of immunosuppressive medication at the time of initial study enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Acute systemic or serious concurrent illness on Day 0"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receipt of a vaccination up to 8 weeks prior to enrollment on Day 0"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Recipients or donors of blood or blood products within the past 6 months or 6 weeks, respectively, prior to enrollment at Day 0"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Mark",
+      "lastName": "Davis",
+      "email": "mmdavis@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI090019"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?  http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Longitudinal"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "CyTOF surface phenotyping, day 0",
+        "types": [
+            {
+               "value": "CyTOF"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Virus Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "SLVP015_2013_MBAAtreatment"
+        },
+        {
+          "name": "PBMC extraction protocol"
+        },
+        {
+          "name": "HAI_treat"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY478",
+              "identifierSource": "ImmPort"
+          },
+          "title": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination - 2013",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY478",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Systems biology approach to examine effects of seasonal flu vaccination in adults of different ages on gene expression, cytokine stimulation and serum cytokines with parameters such as immune senescence to uncover new markers and mechanisms behind failure of immune function in many older people."
+}

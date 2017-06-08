@@ -1,0 +1,409 @@
+{
+  "title": "Aerosol vaccination in mice",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY64",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Aerosol vaccination in mice",
+  "performedBy": [
+    {
+      "firstName": "Ralph",
+      "lastName": "Tripp",
+      "email": "ratripp@uga.edu",
+      "affiliations": [
+          {
+             "name": "College of Veterinary Medicine, University of Georgia"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "live X31 - intranasal",
+          "size": 2
+        },
+        {
+          "name": "live X31 -aerosol -20 M- 15 sec",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -20 M- 30 sec",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -20 M- 45 sec",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M- 15 sec",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M- 30 sec",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M- 45 sec",
+          "size": 1
+        },
+        {
+          "name": "live X31 - intranasal-10?(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 - intranasal-10?(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 - intranasal-10?(TCID50/ml)",
+          "size": 2
+        },
+        {
+          "name": "live X31 - intranasal-10*4(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 - intranasal-10*5(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 - aerosol -30 M-10?(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10?(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 Ml-10?(TCID50/ml)",
+          "size": 0
+        },
+        {
+          "name": "live X31 - aerosol -30 M-10*4(TCID50/ml)",
+          "size": 0
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10*5(TCID50/ml)",
+          "size": 0
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10?(TCID50/ml)-0.1 cc/min",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10?(TCID50/ml)-0.5 cc/min",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10?(TCID50/ml)-1 cc/min",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10?(TCID50/ml)-2 cc/min",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10?(TCID50/ml)",
+          "size": 0
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10?(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10*4(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10*5(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "live X31 -aerosol -30 M-10*6(TCID50/ml)",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated:  X31 i.m. inoculation , 14 dpi: live virus X31",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated:  X31 i.m. inoculation , 14 dpi: live virus PR8",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated:  X31 i.n. inoculation , 14 dpi: live virus X31",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated:  X31 i.n. inoculation , 14 dpi: live virus PR8",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated: X31 aerosol  inoculation , 14 dpi: live virus X31",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated:  X31 aerosol  inoculation , 14 dpi: live virus PR8",
+          "size": 1
+        },
+        {
+          "name": "Naive, challenged  live virus X31",
+          "size": 1
+        },
+        {
+          "name": "Naive, challenged  live virus PR8",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated: X31 i.m.",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated:  X31 i.n.",
+          "size": 1
+        },
+        {
+          "name": "Vaccinated:  X31 aerosal",
+          "size": 1
+        },
+        {
+          "name": "Naive",
+          "size": 1
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "A/Hong Kong/1/68 x A/Puerto Rico/8/34 (X31;N3N2)"
+        },
+        {
+          "name": "H1N1 influenza virus strain A/PR/8/34"
+        },
+        {
+          "name": "control"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Ralph",
+      "lastName": "Tripp",
+      "email": "ratripp@uga.edu",
+      "affiliations": [
+          {
+             "name": "College of Veterinary Medicine, University of Georgia"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700006C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Influenza Pathogenesis & Immunology Research Center (IPIRC) is one of five national Influenza Centers of Excellence funded by NIH/NIAID. The goals of the Center are to determine the molecular, ecologic and/or environmental factors that influence the evolution, emergence, transmission and pathogenicity of influenza viruses, including studies on animal influenza viruses with pandemic potential; and to characterize the immune response to influenza vaccination to improve understanding of the immune correlates of protection and cross-protection. The Center's structure is comprised of four research projects, two pilot projects, and two training slots. The scope of the Center's focus includes planning for pandemic influenza and sharing data with other scientists in order to promote collaboration and lay the groundwork for new and improved methods of controlling influenza virus. In the event of a public health emergency involving the emergence and spread of an influenza pandemic in humans, the Network of Centers will be on the frontline to implement the NIAID Pandemic Public Health Research Response Plan.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=da736a25c9098cee65ba909ab9c63121"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21300100",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Smith JH(1), Brooks P, Johnson S, Tompkins SM, Custer KM, Haas DL, Mair R, Papania M, Tripp RA.",
+      "title": "Aerosol vaccination induces robust protective immunity to homologous and heterologous influenza infection in mice.",
+      "publicationVenue": "Vaccine.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-06-12",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Virus Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "TCID50"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "A/Hong Kong/1/1968 x A/Puerto Rico/8/1934 (H3N2) X31 HAI"
+        },
+        {
+          "name": "A/PR/8/1934 (H1N1) PR8 HAI"
+        },
+        {
+          "name": "A/Hong Kong/1/1968 x A/Puerto Rico/8/1934 (H3N2) X31 ELISA"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY64",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Aerosol vaccination in mice",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY64",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&tab=core&id=380b2c8bd10fee1ebd65475f236dfd39&_cview=0"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "A comparison between large and small droplet flu vaccination"
+}

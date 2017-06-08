@@ -1,0 +1,281 @@
+{
+  "title": "Decay of Memory T cells In Old Population",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY60",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Decay of Memory T cells In Old Population",
+  "performedBy": [
+    {
+      "firstName": "Jack",
+      "lastName": "Gorski",
+      "email": "jack.gorski@bcw.edu",
+      "affiliations": [
+          {
+             "name": "BloodCenter of Wisconsin"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "A2 - Seniors",
+          "size": 70
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "No Reagent Used"
+        },
+        {
+          "name": "Panel 1 T cell"
+        },
+        {
+          "name": "Panel 2 Memory T cells"
+        },
+        {
+          "name": "Panel 3 Activated T cells"
+        },
+        {
+          "name": "Panel 7 T cell"
+        },
+        {
+          "name": "Panel 8 Memory T cells"
+        },
+        {
+          "name": "Panel 9 Activated T cells"
+        },
+        {
+          "name": "Panel 10 T cell"
+        },
+        {
+          "name": "Panel 11 Memory T cells"
+        },
+        {
+          "name": "Panel 12 Activated T cells"
+        },
+        {
+          "name": "Panel 4 T cell"
+        },
+        {
+          "name": "Panel 5 Memory T cells"
+        },
+        {
+          "name": "Panel 6 Activated T cells"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Jack",
+      "lastName": "Gorski",
+      "email": "jack.gorski@bcw.edu",
+      "affiliations": [
+          {
+             "name": "BloodCenter of Wisconsin"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Generation and Decay of Memory T Cell in Young, Old and Immunocompromised Populations",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-050032"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The generation of T cell memory is the basis of immunity to repeat pathogen exposure and is the goal of vaccination. How this memory is generated in man is still poorly understood. We have observed that T cell memory to influenza in man involves the generation of complex memory repertoires for both class I and class II restricted responses. A detailed longitudinal analysis of T cell memory in healthy adults is being currently conducted. Our objectives in this contract are to:  1) Extend our study of T cell memory repertoires to include an aging population in which the repertoires may be decaying. 2) Analyze memory T cells in children who should still be in the process of generating memory repertoires.  3) Examine flu-specific memory repertoires in children with autoimmune diseases who are undergoing mild immunosuppression.   http://projectreporter.nih.gov/project_info_details.cfm?aid=7337893&icde=23814781&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21515795",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Naumov YN(1), Naumova EN, Yassai MB, Gorski J.",
+      "title": "Selective T cell expansion during aging of CD8 memory repertoires to influenza revealed by modeling.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2005-09-19",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2013-11-01",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "CD8 T cell recall clonotypes"
+        },
+        "description": "CD8 T cell memory repertoires to influenza A matrix M1 protein",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "T cell Subsets (PBMCs are stained for TCR alpha/beta, TCR gamma/delta, CD4 and CD8 T cells),  Memory Subsets ((PBMCs are stained for CD4, CD8, CD45RA, and CD45RO), Activated Subsets ((PBMCs are stained for CD4, CD8, HLA DR, and CD25)  ",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No Treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY60",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Decay of Memory T cells In Old Population",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY60",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Generation and Decay of Memory T Cell in Young, Old and Immunocompromised Populations",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=7337892&icde=23814545&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To expand our study of T cell memory repertoires in an aging population for which the repertoires may be decaying. These studies will provide data about the aging-specific dynamics of memory repertoires. "
+}

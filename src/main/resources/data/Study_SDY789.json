@@ -1,0 +1,379 @@
+{
+  "title": "Temporal Response to seasonal and pandemic H1N1 infection in human DCs",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY789",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Temporal Response to seasonal and pandemic H1N1 infection in human DCs",
+  "performedBy": [
+    {
+      "firstName": "Stuart",
+      "lastName": "Sealfon",
+      "email": "stuart.sealfon@mssm.edu",
+      "affiliations": [
+          {
+             "name": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Donors",
+          "size": 2
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "RNeasy Plus Micro Kit"
+        },
+        {
+          "name": "HumanHT-12 v4 Expression BeadChip"
+        },
+        {
+          "name": "Alantoic Fluid"
+        },
+        {
+          "name": "1918 Wt"
+        },
+        {
+          "name": "California/4/09 wild-type"
+        },
+        {
+          "name": "New Caledonia/07/99"
+        },
+        {
+          "name": "Texas/36/1991"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects consent to blood donation"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Stuart",
+      "lastName": "Sealfon",
+      "email": "stuart.sealfon@mssm.edu",
+      "affiliations": [
+          {
+             "name": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Mount Sinai School of Medicine Modeling Immunity for Biodefense Contract",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN272201000054C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "We plan to continue the Program for Research on Immune Modeling and Experimentation (PRIME), a Mount Sinai Medical School led Modeling Immunity for Biodefense consortium with five subcontractors that will: 1. Develop user-friendly predictive models to understand how pathogen and host variation and cytokine environment shape the dendritic cell response to pandemic, seasonal and modified new 2009 pandemic H1N1 influenza viruses, 2. Perform experiments to refine the models and test model predictions, 3. Refine the PRIME Bioinformatics platform to facilitate point of experiment data capture, sharing and deposition in BISC/ImmPort for PRIME researchers and the wider immunology community, and 4. Continue the PRIME education program directed towards improving the use of models and computational tools by experimental immunologists.   https://www.fbo.gov/index?s=opportunity&mode=form&id=6edf076f00731ffef8b7c4e3e5308cd4&tab=core&tabmode=list&="
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "26223639",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Hartmann BM(1), Thakar J(2), Albrecht RA(3), Avey S(4), Zaslavsky E(1), Marjanovic N(5), Chikina M(5), Fribourg M(5), Hayot F(1), Schmolke M(6), Meng H(2), Wetmur J(7), Garc??a-Sastre A(8), Kleinstein SH(9), Sealfon SC(10).",
+      "title": "Human Dendritic Cell Response Signatures Distinguish 1918, Pandemic, and Seasonal H1N1 Influenza Viruses.",
+      "publicationVenue": "J Virol.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-09-30",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55278",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "Control 0hrs"
+        },
+        {
+          "name": "AlaF 2hrs"
+        },
+        {
+          "name": "AlaF 2.7hrs"
+        },
+        {
+          "name": "AlaF 3.3hrs"
+        },
+        {
+          "name": "AlaF 4hrs"
+        },
+        {
+          "name": "AlaF 5hrs"
+        },
+        {
+          "name": "AlaF 6hrs"
+        },
+        {
+          "name": "AlaF 8hrs"
+        },
+        {
+          "name": "Brevig 2hrs"
+        },
+        {
+          "name": "Brevig 2.7hrs"
+        },
+        {
+          "name": "Brevig 3.3hrs"
+        },
+        {
+          "name": "Brevig 4hrs"
+        },
+        {
+          "name": "Brevig 5hrs"
+        },
+        {
+          "name": "Brevig 6hrs"
+        },
+        {
+          "name": "Brevig 7hrs"
+        },
+        {
+          "name": "Brevig 8hrs"
+        },
+        {
+          "name": "Cal 2hrs"
+        },
+        {
+          "name": "Cal 2.7hrs"
+        },
+        {
+          "name": "Cal 3.3hrs"
+        },
+        {
+          "name": "Cal 4hrs"
+        },
+        {
+          "name": "Cal 5hrs"
+        },
+        {
+          "name": "Cal 6hrs"
+        },
+        {
+          "name": "Cal 7hrs"
+        },
+        {
+          "name": "Cal 8hrs"
+        },
+        {
+          "name": "NC 2hrs"
+        },
+        {
+          "name": "NC 2.7hrs"
+        },
+        {
+          "name": "NC 3.3hrs"
+        },
+        {
+          "name": "NC 4hrs"
+        },
+        {
+          "name": "NC 5hrs"
+        },
+        {
+          "name": "NC 6hrs"
+        },
+        {
+          "name": "NC 7hrs"
+        },
+        {
+          "name": "NC 8hrs"
+        },
+        {
+          "name": "Tx 2hrs"
+        },
+        {
+          "name": "Tx 2.7hrs"
+        },
+        {
+          "name": "Tx 3.3hrs"
+        },
+        {
+          "name": "Tx 4hrs"
+        },
+        {
+          "name": "Tx 5hrs"
+        },
+        {
+          "name": "Tx 6hrs"
+        },
+        {
+          "name": "Tx 7hrs"
+        },
+        {
+          "name": "Tx 8hrs"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY789",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Temporal Response to seasonal and pandemic H1N1 infection in human DCs",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY789",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Mount Sinai School of Medicine Modeling Immunity for Biodefense Contract",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&tab=core&id=f631aaca2d0aa12214e0108d3bb07089&_cview=0"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Purpose: mRNA expression analysis of DC response to influenza viruses. Experiment variables (brief description of biological sample treatments and time points): human mDCs are infected with H1N1 influenza viruses (IAV) Brevig/1918, California/09, New Caledonia/99 and Texas/91 for 2, 2.4, 3.2, 4, 5, 6, 7 and 8 hours. RNA is isolated and hybridized to gene expression microarrays"
+}

@@ -1,0 +1,310 @@
+{
+  "title": "Susceptibility and Resistance to Tuberculosis",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY19",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Susceptibility and Resistance to Tuberculosis",
+  "performedBy": [
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Gulcher",
+      "email": "jgulcher@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Ingileif",
+      "lastName": "Jonsdottir",
+      "email": "ingileif.jonsdottir@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "TB_case",
+          "size": 1
+        },
+        {
+          "name": "TB_BactConf",
+          "size": 1
+        },
+        {
+          "name": "TB_Pulm",
+          "size": 1
+        },
+        {
+          "name": "TB_OR_TST_pos",
+          "size": 1
+        },
+        {
+          "name": "TB_TST_pos",
+          "size": 1
+        },
+        {
+          "name": "TB_TST_neg",
+          "size": 1
+        },
+        {
+          "name": "TB_Ctrl",
+          "size": 2
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Averaged case vs. control SNP association data"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Icelander"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "TB case and/or TST status known"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Gulcher",
+      "email": "jgulcher@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200400064C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The overall objective of this proposal is to use the genealogic approach in Iceland to carry out genome-wide linkage scans to map and isolate important host genes conferring risk for specific infections and vaccination responses.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=4500e317ae114f140184b324181e555e"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-11-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between TB_case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between TB_BactConf case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between TB_Pulm case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between TB_OR_TST_pos case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between TB_TST_pos case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between TB_TST_neg case vs. controls. Results available as txt and xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY19",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Susceptibility and Resistance to Tuberculosis",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY19",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=4fe38afb31cad52ce3d9ce016a3990bb"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To map, isolate and validate human genes that confer susceptibility or resistance to  mycobacterium tuberculosis infections."
+}

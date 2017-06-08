@@ -1,0 +1,273 @@
+{
+  "title": "AbATE ITN027AI:  Autoimmunity-blocking Antibody for Tolerance in Recently Diagnosed Type 1 Diabetes",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY524",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "AbATE ITN027AI:  Autoimmunity-blocking Antibody for Tolerance in Recently Diagnosed Type 1 Diabetes",
+  "performedBy": [
+    {
+      "firstName": "Kevan",
+      "lastName": "Herold",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "Yale University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "hOKT3",
+          "size": 56
+        },
+        {
+          "name": "Control",
+          "size": 27
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Diagnosis of type 1 diabetes (according to American Diabetes Association [ADA] criteria) within the 8 weeks prior to study entry"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Weigh at least 25 kg (55 lbs)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Insulin autoantibodies assessed within 10 days of any insulin use OR anti-glutamic acid decarboxylase (GAD) autoantibodies OR anti-ICA512/IA-2 autoantibodies"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects or guardian(s) willing to provide informed consent"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior participation in a clinical trial that could potentially affect diabetes condition or immunologic status"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participation in another investigational clinical trial within the 6 weeks prior to study entry"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Kevan",
+      "lastName": "Herold",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "Yale University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23835333",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Herold KC(1), Gitelman SE, Ehlers MR, Gottlieb PA, Greenbaum CJ, Hagopian W, Boyle KD, Keyes-Elstein L, Aggarwal S, Phippard D, Sayre PH, McNamara J, Bluestone JA; AbATE Study Team.",
+      "title": "Teplizumab (anti-CD3 mAb) treatment preserves C-peptide responses in patients with new-onset type 1 diabetes in a randomized controlled trial: metabolic and immunologic features at baseline identify a subgroup of responders.",
+      "publicationVenue": "Diabetes.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Autoimmune"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2005-09-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Chemistry Test"
+        }
+      },{
+        "name": {
+            "value": "Hematology test"
+        }
+      },{
+        "name": {
+            "value": "Protein measurement"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY524",
+              "identifierSource": "ImmPort"
+          },
+          "title": "AbATE ITN027AI:  Autoimmunity-blocking Antibody for Tolerance in Recently Diagnosed Type 1 Diabetes",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY524",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Anti-CD3 monoclonal antibody (a.k.a. hOKT3gamma1 [Ala-Ala],teplizumab, MGA031) is a humanized antibody that is commonly used to prevent organ rejection. The purpose of this study is determine whether anti-CD3 mAb treatment can halt the progression of newly diagnosed type 1 diabetes."
+}

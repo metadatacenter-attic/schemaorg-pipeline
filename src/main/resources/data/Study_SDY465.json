@@ -1,0 +1,267 @@
+{
+  "title": "Exploring the human maternal microbiome and its contribution to preterm birth",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY465",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Exploring the human maternal microbiome and its contribution to preterm birth",
+  "performedBy": [
+    {
+      "firstName": "David",
+      "lastName": "Relman",
+      "email": "relman@stanford.edu",
+      "affiliations": [
+          {
+             "name": "March of Dimes Prematurity Research Center at Stanford University School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Spontaneous Preterm Birth",
+          "size": 19
+        },
+        {
+          "name": "Full Term birth",
+          "size": 21
+        },
+        {
+          "name": "Fetal Demise",
+          "size": 2
+        },
+        {
+          "name": "No Delivery Recorded",
+          "size": 2
+        },
+        {
+          "name": "Withdrew",
+          "size": 3
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Linker Primer"
+        },
+        {
+          "name": "Reverse Primer"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Female"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "David",
+      "lastName": "Relman",
+      "email": "relman@stanford.edu",
+      "affiliations": [
+          {
+             "name": "March of Dimes Prematurity Research Center at Stanford University School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "March of Dimes Human Microbiome",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "TBD"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "March of Dimes Human Microbiome Effect on Pre-Term Births"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "26283357",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "DiGiulio DB(1), Callahan BJ(2), McMurdie PJ(2), Costello EK(3), Lyell DJ(4), Robaczewska A(1), Sun CL(3), Goltsman DS(3), Wong RJ(5), Shaw G(5), Stevenson DK(5), Holmes SP(2), Relman DA(6).",
+      "title": "Temporal and spatial variation of the human microbiota during pregnancy.",
+      "publicationVenue": "Proc Natl Acad Sci U S A.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2011-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Longitudinal analysis of the pregnancy-associated human microbiome",
+        "types": [
+            {
+               "value": "Sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Maternal_Health_and_Pregnancy_Status"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY465",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Exploring the human maternal microbiome and its contribution to preterm birth",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY465",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "March of Dimes Human Microbiome",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "None"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "This study will characterize the human maternal microbiome and host response profiles associated with term and preterm births and identify features of each that are predicitive of preterm labor and delivery"
+}

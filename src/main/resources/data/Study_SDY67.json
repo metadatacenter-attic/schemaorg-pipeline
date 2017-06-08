@@ -1,0 +1,841 @@
+{
+  "title": "Bioinformatics Approach to 2010-2011 TIV Influenza A/H1N1 Vaccine Immune Profiling",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY67",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Bioinformatics Approach to 2010-2011 TIV Influenza A/H1N1 Vaccine Immune Profiling",
+  "performedBy": [
+    {
+      "firstName": "Gregory",
+      "lastName": "Poland",
+      "email": "poland.gregory@mayo.edu",
+      "affiliations": [
+          {
+             "name": "Mayo Clinic"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "healthy adults, 50-74 yo",
+          "size": 159
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Glutamine"
+        },
+        {
+          "name": "FCS"
+        },
+        {
+          "name": "Penicillin-Strptomycin"
+        },
+        {
+          "name": "Sodium Pyruvate"
+        },
+        {
+          "name": "DNAse"
+        },
+        {
+          "name": "PHA"
+        },
+        {
+          "name": "TMB-H"
+        },
+        {
+          "name": "MCF-7/Tert"
+        },
+        {
+          "name": "MCF-7/GAPDH"
+        },
+        {
+          "name": "B-reag1"
+        },
+        {
+          "name": "B-reag2"
+        },
+        {
+          "name": "B-reag3"
+        },
+        {
+          "name": "B-reag4"
+        },
+        {
+          "name": "B-reag5"
+        },
+        {
+          "name": "PE-Cy7 Mouse Anti-Human CD24"
+        },
+        {
+          "name": "APC Mouse Anti-Human CD27"
+        },
+        {
+          "name": "APC-Cy7 Mouse Anti-Human CD3"
+        },
+        {
+          "name": "BV605 Mouse IgG1, kappa Isotype Control"
+        },
+        {
+          "name": "Mouse IgG2B PE-Conjugated Antibody"
+        },
+        {
+          "name": "PE-Cy7 Mouse IgG2a, kappa Isotype Control"
+        },
+        {
+          "name": "B-Cell reagent set"
+        },
+        {
+          "name": "CH-reag1"
+        },
+        {
+          "name": "CH-reag2"
+        },
+        {
+          "name": "CYT-reag1"
+        },
+        {
+          "name": "CYT-reag2"
+        },
+        {
+          "name": "NGS-reag1"
+        },
+        {
+          "name": "Receptor Destroying Enzyme"
+        },
+        {
+          "name": "1x Opti-MEM I Reduced-Serum Medium"
+        },
+        {
+          "name": "1 mg/ml trypsin-TPCK"
+        },
+        {
+          "name": "Receptor Destroying Enzyme (RDE) of Vibrio cholera filtrate, Sigma cat# C8772"
+        },
+        {
+          "name": "BD Cytofix/Cytoperm"
+        },
+        {
+          "name": "Perm/Wash Buffer"
+        },
+        {
+          "name": "Brilliant Stain Buffer"
+        },
+        {
+          "name": "Protein Transport Inhibitor (Containing Brefeldin A) (BFA)"
+        },
+        {
+          "name": "Protein Transport Inhibitor (Containing Monensin) (MON)"
+        },
+        {
+          "name": "Leukocyte Activation Cocktail, with BD GolgiPlug"
+        },
+        {
+          "name": "Trypsin from Bovine Pancreas (Trypsin-TPCK)"
+        },
+        {
+          "name": "1X Phosphate Buffered Saline (PBS)"
+        },
+        {
+          "name": "Fetal Bovine Serum, Characterized (heat inactivated)"
+        },
+        {
+          "name": "Sodium Azide"
+        },
+        {
+          "name": "Flow Buffer"
+        },
+        {
+          "name": "Paraformadlehyde (PFA)"
+        },
+        {
+          "name": "Sodium hydroxide"
+        },
+        {
+          "name": "4% Paraformaldehyde (PFA)"
+        },
+        {
+          "name": "RPMI Media with L-Glutamine"
+        },
+        {
+          "name": "Penicillin-Streptomycin Solution Hybri-Max"
+        },
+        {
+          "name": "RPMI Thawing Media"
+        },
+        {
+          "name": "Trypan Blue"
+        },
+        {
+          "name": "T-Cell reagent set"
+        },
+        {
+          "name": "BV421 Mouse Anti-Human CD28"
+        },
+        {
+          "name": "V500 Mouse Anti-Human HLA-DR"
+        },
+        {
+          "name": "BV605 Mouse Anti-Human CD25"
+        },
+        {
+          "name": "FITC Mouse Anti-Human CD45RO"
+        },
+        {
+          "name": "Tregreag-5"
+        },
+        {
+          "name": "PE-Cy7 Mouse Anti-Human CD194"
+        },
+        {
+          "name": "Alexa Fluor 647 Mouse Anti-Human CD127"
+        },
+        {
+          "name": "Alexa Fluor 700 Mouse Anti-Human CD4"
+        },
+        {
+          "name": "V500 Mouse IgG2A, kappa Isotype Control"
+        },
+        {
+          "name": "PE-Cy7 Mouse IgG1 kappa Isotype Control"
+        },
+        {
+          "name": "Alexa Fluor 647 Mouse IgG1 kappa Isotype Control"
+        },
+        {
+          "name": "T regulation reagent set"
+        },
+        {
+          "name": "Innate reagent set"
+        },
+        {
+          "name": "Normal processing per illumina"
+        },
+        {
+          "name": "0.1% SDS"
+        },
+        {
+          "name": "100mM MgCl2 in 50mM Tris, pH 8.5"
+        },
+        {
+          "name": "Simple Stop 1 100x phosphatase inhibitor cocktail"
+        },
+        {
+          "name": "Simple Stop 4 100x phosphatase inhibitor cocktail"
+        },
+        {
+          "name": "Benzonase nuclease 25units/ul"
+        },
+        {
+          "name": "50mM Tris, pH 8.5"
+        },
+        {
+          "name": "Lysis buffer"
+        },
+        {
+          "name": "1M DTT"
+        },
+        {
+          "name": "1M DTT in 50mM Tris, pH 8.5"
+        },
+        {
+          "name": "IAA (iodoacetamide)"
+        },
+        {
+          "name": "250mM IAA in 50mM Tris, pH 8.5"
+        },
+        {
+          "name": "Trypsin"
+        },
+        {
+          "name": "0.5ml Pierce detergent removal columns"
+        },
+        {
+          "name": "Desalt A"
+        },
+        {
+          "name": "Acetonitrile"
+        },
+        {
+          "name": "Isopropyl alcohol"
+        },
+        {
+          "name": "Formic Acid"
+        },
+        {
+          "name": "Elution solvent #1"
+        },
+        {
+          "name": "Elution solvent #2"
+        },
+        {
+          "name": "Volatile buffer kit"
+        },
+        {
+          "name": "POROS strong anion exchanger"
+        },
+        {
+          "name": "Trifluoroacetic acid (TFA)"
+        },
+        {
+          "name": "SAX tip cleaning solution"
+        },
+        {
+          "name": "di-isopropyldiethylamine (DIEA)"
+        },
+        {
+          "name": "Equilibration solution for SAX tips"
+        },
+        {
+          "name": "Methanol"
+        },
+        {
+          "name": "pH 8.0 buffer"
+        },
+        {
+          "name": "pH 7.0 buffer"
+        },
+        {
+          "name": "pH 6.0 buffer"
+        },
+        {
+          "name": "pH 2.5 buffer"
+        },
+        {
+          "name": "0.1% N-ethyl-morpholine"
+        },
+        {
+          "name": "0.1% Zwittergent 3-16"
+        },
+        {
+          "name": "Reconstituation buffer"
+        },
+        {
+          "name": "NA"
+        },
+        {
+          "name": "miRNeasy Mini Kit"
+        },
+        {
+          "name": "Rneasy MinElute Cleanup Kit"
+        },
+        {
+          "name": "RPMI medium"
+        },
+        {
+          "name": "Fetal bovine serum (FBS)"
+        },
+        {
+          "name": "Penicillin-Streptomycin"
+        },
+        {
+          "name": "Brilliant Dye Staining Solution"
+        },
+        {
+          "name": "CD19 Brilliant Violet 421"
+        },
+        {
+          "name": "CD4 Brilliant Violet 510"
+        },
+        {
+          "name": "CD8 Alexa Fluor 488"
+        },
+        {
+          "name": "CD3 PE"
+        },
+        {
+          "name": "CD56 Alexa Fluor 647"
+        },
+        {
+          "name": "CD16 APC-Cy7"
+        },
+        {
+          "name": "NEBNext? Multiplex Small RNA Library Prep Set for Illumina?"
+        },
+        {
+          "name": "MinElute PCR Purification Kit"
+        },
+        {
+          "name": "FBS"
+        },
+        {
+          "name": "1X phosphate buffered solution (PBS)"
+        },
+        {
+          "name": "Polyhydroxyalkanoate (PHA)"
+        },
+        {
+          "name": "Influenza A virus (H1N1 A/California/2009/179A)"
+        },
+        {
+          "name": "V-PLEX Proinflammatory Panel 1 (human) Kit"
+        },
+        {
+          "name": "TREC1"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Gregory",
+      "lastName": "Poland",
+      "email": "poland.gregory@mayo.edu",
+      "affiliations": [
+          {
+             "name": "Mayo Clinic"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Bioinformatics Approach to Influenza A/H1N1 Vaccine Immune Profiling",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI089859"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This application is for funding of a study to characterize the human immune response before and after 2010-2011 influenza A/California/H1N1 seasonal vaccination by developing comprehensive immune profiles utilizing systems biology and bioinformatics approaches. We will develop novel comprehensive immune profiles using a systems biology approach to define specific immune profiles that discriminate baseline, early, mid, and late (homeostatic) innate, humoral, and cellular immune responses after immunization among older adults. Our broad objective is to create comprehensive and innovative immune profiles that explain and predict variations in immune responses to influenza A/H1N1 vaccines. Using novel bioinformatic approaches and a comprehensive assay set (immune outcomes, immune profiles, and immunosenescence markers), we v/ill create models of immune profiling that are the focus of this application, among pre- and postimmunosenescent subjects. To accomplish these goals, we propose the following specific aims: 1) To describe and characterize longitudinal immune system profiles (Day 0 to Day 75) before and after influenza A/H1N1 vaccination, 2) To identify immune profiles that correlate with vaccine immunogenicity at the humoral and cellular levels Day 0 to Day 75 after vaccination, and 3) To replicate and verify the immune profiles and models discovered in Specific Aims 1-2 in a new replication cohort. This proposal is innovative and significant in that it will: Utilize cutting edge technology that has not previously been applied to understanding influenza A vaccine-induced immune responses. Create comprehensive immune profiles that provide a model and a framework that describe and explain the variability of immune responses to influenza A vaccine in the continuum from baseline, early, mid (peak), and late (homeostatic) immune responses after antigenic challenge. Provide general knowledge important to the development of new influenza vaccines. The end result of this series of aims will be the first systematic immune profiles and models of influenza A vaccine-specific immunogenicity using novel high dimensional technology and bioinformatics approaches, and has the potential to set the standard for analytical methods to understand complex biologic systems. Relevance to Public Health: This grant will provide novel information describing how immune responses to inactivated influenza A/H1N1 vaccine are generated. This information is useful in designing new vaccines to control this deadly viral disease.  http://projectreporter.nih.gov/project_info_details.cfm?aid=8695082&icde=23854480&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25816015",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Haralambieva IH(1), Painter SD(2), Kennedy RB(1), Ovsyannikova IG(1), Lambert ND(1), Goergen KM(3), Oberg AL(3), Poland GA(4).",
+      "title": "The impact of immunosenescence on humoral immune response variation after influenza A/H1N1 vaccination in older subjects.",
+      "publicationVenue": "PLoS One.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "27031986",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Zimmermann MT(1,)(2), Oberg AL(1,)(2), Grill DE(1,)(2), Ovsyannikova IG(2), Haralambieva IH(2), Kennedy RB(2), Poland GA(2).",
+      "title": "System-Wide Associations between DNA-Methylation, Gene Expression, and Humoral Immune Response to Influenza Vaccination.",
+      "publicationVenue": "PLoS One.",
+      "dates": [
+        {
+          "date": "2016",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Longitudinal"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "unstim = unstimulated;stim =stimulated;pha = control",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Meso Scale Discovery ECL"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Meso Scale Discovery ECL"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "RNA sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Raw and Normalized Mass Spec Proteomics of Influeza subjects post vaccine",
+        "types": [
+            {
+               "value": "Mass Spectrometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "RNA sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "DNA Methylation filtered data set",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "RNA sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "RNA sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "RNA sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "RNA sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "RNA sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Activity"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Cell Culture"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "None"
+        },
+        {
+          "name": "None1"
+        },
+        {
+          "name": "Control"
+        },
+        {
+          "name": "H1N1"
+        },
+        {
+          "name": "UNS"
+        },
+        {
+          "name": "Influenza virus (Influenza A/H1N1 California-like)"
+        },
+        {
+          "name": "Unstim. (unstimulated)"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY67",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Bioinformatics Approach to 2010-2011 TIV Influenza A/H1N1 Vaccine Immune Profiling",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY67",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Bioinformatics Approach to Influenza A/H1N1 Vaccine Immune Profiling",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&tab=core&id=cb3ae74a3d7c4d4d48679bb875a27dcc&_cview=0"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Aim 1: Characterize Immune Profiles Over Time, Aim 2:  Correlate Immune Profiles with Vaccine Immunogenicity,Aim 3: Replication of Immune Profiles and Verification of Models"
+}

@@ -1,0 +1,832 @@
+{
+  "title": "Age-related alterations in innate immune responses (See companion study SDY739)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY720",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Age-related alterations in innate immune responses (See companion study SDY739)",
+  "performedBy": [
+    {
+      "firstName": "Elias",
+      "lastName": "Haddad",
+      "email": "Elias.elhaddad@drexelmed.edu",
+      "affiliations": [
+          {
+             "name": "Drexel University College of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Adult",
+          "size": 31
+        },
+        {
+          "name": "Old",
+          "size": 30
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "VeriKine Human IFNA Elisa Kit"
+        },
+        {
+          "name": "CCL22_luminex"
+        },
+        {
+          "name": "CCL3_luminex"
+        },
+        {
+          "name": "CCL4_luminex"
+        },
+        {
+          "name": "CCL7_luminex"
+        },
+        {
+          "name": "CX3CL1_luminex"
+        },
+        {
+          "name": "CXCL1_luminex"
+        },
+        {
+          "name": "CXCL10_luminex"
+        },
+        {
+          "name": "CXCL8_luminex"
+        },
+        {
+          "name": "EGF_luminex"
+        },
+        {
+          "name": "Eotaxin_luminex"
+        },
+        {
+          "name": "FGF2_luminex"
+        },
+        {
+          "name": "FLT3L_luminex"
+        },
+        {
+          "name": "GCSF_luminex"
+        },
+        {
+          "name": "GMCSF_luminex"
+        },
+        {
+          "name": "IFNA2_luminex"
+        },
+        {
+          "name": "IFNG_luminex"
+        },
+        {
+          "name": "IL10_luminex"
+        },
+        {
+          "name": "IL12p40_luminex"
+        },
+        {
+          "name": "IL12P70_luminex"
+        },
+        {
+          "name": "IL13_luminex"
+        },
+        {
+          "name": "IL15_luminex"
+        },
+        {
+          "name": "IL17A_luminex"
+        },
+        {
+          "name": "IL1A_luminex"
+        },
+        {
+          "name": "IL1B_luminex"
+        },
+        {
+          "name": "IL1RA_luminex"
+        },
+        {
+          "name": "IL2_luminex"
+        },
+        {
+          "name": "IL3_luminex"
+        },
+        {
+          "name": "IL4_luminex"
+        },
+        {
+          "name": "IL5_luminex"
+        },
+        {
+          "name": "IL6_luminex"
+        },
+        {
+          "name": "IL7_luminex"
+        },
+        {
+          "name": "IL9_luminex"
+        },
+        {
+          "name": "sCD40L_luminex"
+        },
+        {
+          "name": "TGFA_luminex"
+        },
+        {
+          "name": "TNFA_luminex"
+        },
+        {
+          "name": "TNFB_luminex"
+        },
+        {
+          "name": "EMD MILLIPORE Human Cytokine/Chemokine Magnetic Bead Panel Premixed 38-plex"
+        },
+        {
+          "name": "CCL1_luminex"
+        },
+        {
+          "name": "CCL13_luminex"
+        },
+        {
+          "name": "CCL17_luminex"
+        },
+        {
+          "name": "CCL21_luminex"
+        },
+        {
+          "name": "CCL24_luminex"
+        },
+        {
+          "name": "CCL26_Luminex"
+        },
+        {
+          "name": "CCL27_luminex"
+        },
+        {
+          "name": "CCL5_luminex"
+        },
+        {
+          "name": "CCL8_luminex"
+        },
+        {
+          "name": "CXCL12_luminex"
+        },
+        {
+          "name": "CXCL13_luminex"
+        },
+        {
+          "name": "CXCL5_luminex"
+        },
+        {
+          "name": "IL16_luminex"
+        },
+        {
+          "name": "IL20_luminex"
+        },
+        {
+          "name": "Il21_luminex"
+        },
+        {
+          "name": "IL23_luminex"
+        },
+        {
+          "name": "IL28A_luminex"
+        },
+        {
+          "name": "IL33_luminex"
+        },
+        {
+          "name": "LIF_luminex"
+        },
+        {
+          "name": "SCF_luminex"
+        },
+        {
+          "name": "TPO_luminex"
+        },
+        {
+          "name": "TRAIL_luminex"
+        },
+        {
+          "name": "TSLP_luminex"
+        },
+        {
+          "name": "EMD MILLIPORE Human Cytokine/Chemokine Panel II Magnetic Bead Panel Premixed 23-plex"
+        },
+        {
+          "name": "CXCL8_CBA"
+        },
+        {
+          "name": "CCL5_CBA"
+        },
+        {
+          "name": "CXCL9_CBA"
+        },
+        {
+          "name": "CCL2_CBA"
+        },
+        {
+          "name": "CXCL10_CBA"
+        },
+        {
+          "name": "BD CBA Human Chemokine Kit"
+        },
+        {
+          "name": "IL2_CBA"
+        },
+        {
+          "name": "IL4_CBA"
+        },
+        {
+          "name": "IL6_CBA"
+        },
+        {
+          "name": "IL10_CBA"
+        },
+        {
+          "name": "TNF_CBA"
+        },
+        {
+          "name": "IFNg_CBA"
+        },
+        {
+          "name": "IL17A_CBA"
+        },
+        {
+          "name": "BD CBA Human Th1/Th2/Th17 Cytokine Kit"
+        },
+        {
+          "name": "Annexin V PE"
+        },
+        {
+          "name": "CD3 Alexa Fluor 700"
+        },
+        {
+          "name": "CD4 APC Cy7"
+        },
+        {
+          "name": "LIVE/DEAD Fixable Aqua Dead Cell Stain Kit"
+        },
+        {
+          "name": "TruStain Fcr Block"
+        },
+        {
+          "name": "Annexin V Binding Buffer"
+        },
+        {
+          "name": "Allogenic mixed lymphocyte reaction"
+        },
+        {
+          "name": "CD19 PE Cy7"
+        },
+        {
+          "name": "CD3 PE Cy5"
+        },
+        {
+          "name": "HLA-DR Alexa Fluor 700"
+        },
+        {
+          "name": "CD11c Pacific Blue"
+        },
+        {
+          "name": "CD1c APC Cy7"
+        },
+        {
+          "name": "CD141 FITC"
+        },
+        {
+          "name": "CD303 APC"
+        },
+        {
+          "name": "Dendritic cell Profile"
+        },
+        {
+          "name": "CD3 APC Cy7"
+        },
+        {
+          "name": "CD16 Alexa Fluor 700"
+        },
+        {
+          "name": "CD14 PerCp"
+        },
+        {
+          "name": "CD40 PE"
+        },
+        {
+          "name": "CD40 Surface receptor Profile"
+        },
+        {
+          "name": "PDL2 PE"
+        },
+        {
+          "name": "PDL2 Surface receptor Profile"
+        },
+        {
+          "name": "CTLA4 PE"
+        },
+        {
+          "name": "CTLA4 Surface receptor Profile"
+        },
+        {
+          "name": "TLR3 PE"
+        },
+        {
+          "name": "Toll Like Receptor 3 Profile"
+        },
+        {
+          "name": "TLR4 PE"
+        },
+        {
+          "name": "Toll Like Receptor 4 Profile"
+        },
+        {
+          "name": "TLR7 PE"
+        },
+        {
+          "name": "Toll Like Receptor 7 Profile"
+        },
+        {
+          "name": "PDL1 PE"
+        },
+        {
+          "name": "PDL1 Surface receptor Profile"
+        },
+        {
+          "name": "B7H4 PE"
+        },
+        {
+          "name": "B7H4 Surface receptor Profile"
+        },
+        {
+          "name": "HumanHT-12 v4 Expression BeadChip Kit"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "comorbid conditions including cancer (within the last 5 yrs for those ? 65 yrs)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Immunocompromising disorders"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "steriod usage"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "controlled hypertension"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "occasion/tolerable 'aching joints' from arthristis and not taking daily NSAIDS or acetaminophen"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "controlled diabetes"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "21-40 years of age"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "65-93 years of age"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects older than 65 yrs that score lower than 6 on the Katz index of independence in activities of daily living (ADL) use to assess the functional impairment of subjects >65yrs"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Old subjects were also assessed for dementia using the Mini-COG assessment instrument for dementia. The Mini-Cog combines two simple cognitive tasks (three-item word memory and clock drawing test (CDT)) with an empirical algorithm for scoring. Subjects with a recall score of 1-2 words with a normal CDT or a recall score of 3 words was considered non-demented"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Elias",
+      "lastName": "Haddad",
+      "email": "Elias.elhaddad@drexelmed.edu",
+      "affiliations": [
+          {
+             "name": "Drexel University College of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN272201100017C "
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "As part of its biodefense research program, NIAID is issuing a Broad Agency Announcement (BAA) to encourage research to understand the immune status of special populations. This research program seeks to identify the factors and mechanisms that contribute to susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in immunocompromised populations, including neonates, children under 5 years of age, pregnant women, the elderly, and individuals receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. For example, the number of the most vulnerable individuals, in terms of immune status, is increasing. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations. Research is needed to understand the mechanisms of immune compromise, and to provide the foundation for the development of novel interventions.  For this initiative, special populations are defined as neonates, children under 5 years of age, pregnant women the elderly, and individuals who are receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. All of these populations are referred to as ?immunocompromised' throughout the solicitation. This research program seeks to identify the factors and mechanisms that contribute to increased susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in these immunocompromised populations. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations.   https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25728020",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Metcalf TU(1), Cubas RA, Ghneim K, Cartwright MJ, Grevenynghe JV, Richner JM, Olagnier DP, Wilkinson PA, Cameron MJ, Park BS, Hiscott JB, Diamond MS, Wertheimer AM, Nikolich-Zugich J, Haddad EK.",
+      "title": "Global analyses revealed age-related alterations in innate immune responses after stimulation of pathogen recognition receptors.",
+      "publicationVenue": "Aging Cell.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2011-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "IFNA Analysis",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Activity"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Hematology test"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "LPS 6"
+        },
+        {
+          "name": "LPS 24"
+        },
+        {
+          "name": "CLO97 6"
+        },
+        {
+          "name": "CLO97 24"
+        },
+        {
+          "name": "NoTreatment 6"
+        },
+        {
+          "name": "NoTreatment 24"
+        },
+        {
+          "name": "5'pppRNA 24"
+        },
+        {
+          "name": "PolyIC 24"
+        },
+        {
+          "name": "Lyovec 24"
+        },
+        {
+          "name": "5pppRNA 6"
+        },
+        {
+          "name": "PolyIC  6"
+        },
+        {
+          "name": "Lyovec 6"
+        },
+        {
+          "name": "Ex vivo"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY720",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Age-related alterations in innate immune responses (See companion study SDY739)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY720",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Aging leads to dysregulation of multiple components of the immune system that result in increased susceptibility to infections and poor response to vaccines in the aging population. The dysfunctions of adaptive B and T cells are well documented but the effect of aging on innate immunity remains incompletely understood. Using a heterogeneous population of peripheral blood mononuclear cells (PBMCs), we first undertook transcriptional profiling and found that PBMCs isolated from old individuals (>= 65 yrs) exhibited a delayed and altered response to stimulation with TLR4, TLR7/8, and RIG-I agonists compared to cells obtained from adults (<= 40 yrs). This delayed response to innate immune agonists resulted in the reduced production of pro-inflammatory and antiviral cytokines and chemokines including TNFa, IL-6, IL-1b, IFNg, IFNa, CCL2 and CCL7. While the major monocyte and dendritic cell subsets did not change numerically with aging, activation of specific cell types was altered. PBMCs from old subjects also had a lower frequency of CD40+ monocytes, impaired up-regulation of PD-L1 on monocytes and T cells and increased expression of PD-L2 and B7-H4 on B cells. The defective immune response to innate agonists adversely affected adaptive immunity as TLR-stimulated PBMCs (minus CD3 T cells) from old subjects elicited significantly lower levels of adult T cell proliferation than those from adult subjects in an allogeneic mixed lymphocyte reaction (MLR). Collectively, these age-associated changes in cytokine, chemokine and interferon production, as well as co-stimulatory protein expression could contribute to the blunted memory B and T cell immune responses to vaccines and infections."
+}

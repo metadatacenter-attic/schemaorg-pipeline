@@ -1,0 +1,591 @@
+{
+  "title": "ADVN Biomarker Registry Study",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY6",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "ADVN Biomarker Registry Study",
+  "performedBy": [
+    {
+      "firstName": "Kathleen",
+      "lastName": "Barnes",
+      "email": "kbarnes@jhmi.edu",
+      "affiliations": [
+          {
+             "name": "Johns Hopkins Medical Institute"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Gallo",
+      "email": "rgallo@ucsd.edu ",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Donald",
+      "lastName": "Leung",
+      "email": "leungd@njc.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Jon",
+      "lastName": "Hanifin",
+      "email": "hanifinj@ohsu.edu",
+      "affiliations": [
+          {
+             "name": "Oregon Health & Science University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Lynda",
+      "lastName": "Schneider",
+      "email": "lynda.schneider@childrens.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Children's Hospital Boston"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Beck",
+      "email": "Lisa_Beck@URMC.ROCHESTER.EDU",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Paller",
+      "email": "apaller@nmff.org",
+      "affiliations": [
+          {
+             "name": "Northwestern University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Paller",
+      "email": "apaller@nmff.org",
+      "affiliations": [
+          {
+             "name": "Children's Memorial Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "AD+ EH+ ",
+          "size": 216
+        },
+        {
+          "name": "AD+ EH-",
+          "size": 547
+        },
+        {
+          "name": "AD+ EV+",
+          "size": 5
+        },
+        {
+          "name": "AD+ EV-",
+          "size": 1
+        },
+        {
+          "name": "AD+ MC+",
+          "size": 3
+        },
+        {
+          "name": "NA MC+",
+          "size": 0
+        },
+        {
+          "name": "Healthy controls",
+          "size": 438
+        },
+        {
+          "name": "Unassigned Subjects",
+          "size": 19
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "CCL17 (TARC)"
+        },
+        {
+          "name": "CCL27 (CTACK)"
+        },
+        {
+          "name": "CXCL10 (IP-10 )"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Sign the informed consent form (or a parent or guardian, if applicable)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "8 months to 80 years of age."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Self reported Ethnicity and Race as either Non Hispanic African American or Non Hispanic Caucasian for the ADEH- and NA healthy control groups."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Residing in the U.S."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "No systemic disorders (i.e., immunodeficiency disorders such as human immunodeficiency virus [HIV] or lupus erythematosus) other than the condition being studied."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Meet the criteria for one of the diagnostic groups (see Appendix I), as confirmed by an ADVN investigator or co-investigator.  The standardized definitions (see Appendix I) for ADEH+, ADEH-, ADMC, NAMC, ADEV+, ADEV-, and NA Control have been developed for use in all ADVN studies and will be used to determine eligibility."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Unable or unwilling to complete the informed consent process."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects that self report as more than one race or a race other than African American or Caucasian for the ADEH- or NA group."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects that self report as Hispanic for the ADEH- or NA group."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has atopy but lacks stringent AD features (only presumptive diagnosis of AD)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of any systemic illness other than the condition being studied."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has autoimmune or immunodeficiency disease. "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of active systemic malignancy, excluding uncomplicated non-melanoma skin cancer."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of any skin disease other than AD that might compromise the stratum corneum barrier (e.g., bullous disease, psoriasis, cutaneous T cell lymphoma [also called Mycosis Fungoides or Sezary syndrome])."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receiving an experimental new drug as part of a separate clinical trial.  If it is a Food and Drug Administration (FDA) approved drug the subject will be allowed to enroll and the information will be captured in their medication history."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Lisa",
+      "lastName": "Beck",
+      "email": "Lisa_Beck@URMC.ROCHESTER.EDU",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-05-11",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-02-05",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "Thymus and activation-regulated chemokine (TARC/CC chemokine ligand [CCL]17) is a member of the C-C chemokine subfamily and is produced by monocyte-derived dendritic cells, endothelial cells, and epithelial cells. In vitro studies demonstrated that the TARC/CCR4 ligand receptor pair are important in Th2 cell trafficking. Elevated serum levels of TARC have been identified in subjects with asthma, allergic rhinitis, and AD, but not in subjects with psoriasis.   TARC levels will be assessed as surrogate measures of Th2 cytokines.",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "A newly-identified C-C chemokine that may be of particular relevance is the cutaneous T cell-attracting chemokine (CTACK/CCL27) which selectively induces the in vitro migration of the skin-homing, memory T cells identified by the surface expression of the glycoprotein, cutaneous lymphocyte antigen (CLA)+.",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Previous staphylococcus aureus culture"
+        }
+      },{
+        "name": {
+            "value": "IgE/RAST"
+        }
+      },{
+        "name": {
+            "value": "CBC_Results"
+        }
+      },{
+        "name": {
+            "value": "Rajka-Langeland Score"
+        }
+      },{
+        "name": {
+            "value": "Vaccination history"
+        }
+      },{
+        "name": {
+            "value": "Physical Exam"
+        }
+      },{
+        "name": {
+            "value": "Original Diagnosis"
+        }
+      },{
+        "name": {
+            "value": "Non-AD Assessment"
+        }
+      },{
+        "name": {
+            "value": "Molluscum Contagiosum Assessment"
+        }
+      },{
+        "name": {
+            "value": "Interim Medical History"
+        }
+      },{
+        "name": {
+            "value": "Health Status"
+        }
+      },{
+        "name": {
+            "value": "EASI Score"
+        }
+      },{
+        "name": {
+            "value": "Initial diagnosis"
+        }
+      },{
+        "name": {
+            "value": "Confirmation of Diagnostic Category"
+        }
+      },{
+        "name": {
+            "value": "Current Medical History"
+        }
+      },{
+        "name": {
+            "value": "CBC Panic values"
+        }
+      },{
+        "name": {
+            "value": "Affected body surface area for Atopic dermatitis subject"
+        }
+      },{
+        "name": {
+            "value": "Allergy History"
+        }
+      },{
+        "name": {
+            "value": "Atopic Dermatitis Assessment"
+        }
+      },{
+        "name": {
+            "value": "Skin Infection History"
+        }
+      },{
+        "name": {
+            "value": "Staphylococcus aureus infection history for previously enrolled subject"
+        }
+      },{
+        "name": {
+            "value": "Family History"
+        }
+      },{
+        "name": {
+            "value": "EV Assessment"
+        }
+      },{
+        "name": {
+            "value": "Eczema Herpeticum Assessment"
+        }
+      },{
+        "name": {
+            "value": "Any medications taken"
+        }
+      },{
+        "name": {
+            "value": "Atopic dermatitis supplemental information"
+        }
+      },{
+        "name": {
+            "value": "Skin/Integument exam"
+        }
+      },{
+        "name": {
+            "value": "Staphylococcus Aureus Infection History Questionnaire"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Interim Skin Infection History"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY6",
+              "identifierSource": "ImmPort"
+          },
+          "title": "ADVN Biomarker Registry Study",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY6",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The proposed Registry is a database with a minimum of 1,000 subjects to improve scientific understanding of the increased risk of complications after exposure to the smallpox vaccine for people with atopic dermatitis."
+}

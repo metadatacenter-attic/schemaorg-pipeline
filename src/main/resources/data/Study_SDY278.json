@@ -1,0 +1,225 @@
+{
+  "title": "Optimization FACS panels",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY278",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Optimization FACS panels",
+  "performedBy": [
+    {
+      "firstName": "Julie",
+      "lastName": "McElrath",
+      "email": "jmcelrat@fhcrc.org",
+      "affiliations": [
+          {
+             "name": "FHCRC"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "SAC Control",
+          "size": 1
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Ab cocktail multifunctional panel"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Healthy adult"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Julie",
+      "lastName": "McElrath",
+      "email": "jmcelrat@fhcrc.org",
+      "affiliations": [
+          {
+             "name": "FHCRC"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Profile and Network Analysis of Malaria Infection and Vaccination",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI089986"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "It Is an opportune time for malaria vaccine (development with the first indication of vaccine efficacy and the promise of very effective vaccines in trials that are underway, planned for the coming year, and poised to enter phase 1/2a clinical trials during the grant period. A consortium of committed experts from strong institutions and with complementary expertise in malaria, immunology, systems biology, vaccines, and biostatistics has assembled to use the available trial samples in order to characterize in detail antimalarial immune responses and their relationship to immune protection. This opportunity attracted the enthusiastic participation of those who are conducting vaccine trials and who will provide the clinical samples. The design of these trials supports comprehensive immune profiling and network analysis assessment. Samples will be obtained prior to and following vaccination and challenge or natural infection from study populations that span malaria-naive adults to children and adults living in endemic regions. The P. falciparum parasites range from well characterized clinical isolates (e.g. NF54) to biodiverse natural populations in several African countries. The project will use a wide range of best-of-breed methodologies to characterize a wide range of immune responses and immune cell types. This includes multi-parametric assessments of malaria specific leukocyte phenotypes, cytokine and chemokine profiles, antibody responses, and transcriptional and host DNA analyses. This is designed to generate a profiles of immune responses that can in a systems biology approach be correlated with immune status and mechanisms and identify functional networks associated with immune protection. The study is designed to provide insight into protective immune mechanisms to malaria in order to improve anti-malarial vaccines and also to lay a foundation for improved vaccine development in general that can be shared with the community. RELEVANCE: A consortium of investigators with complementary expertise that span a wide range of high-end laboratory and informatic technologies have joined forces to comprehensively profile immune responses to malaria infection and the development of immunity. The overall goal of this project is to elucidate the mechanisms of immune protection to malaria in order to accelerate development of a broadly effective malaria vaccine and to advance the process of vaccine development in general.  http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "DMSO"
+        },
+        {
+          "name": "CMV"
+        },
+        {
+          "name": "SEB"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY278",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Optimization FACS panels",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY278",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Profile and Network Analysis of Malaria Infection and Vaccination",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=83ad594dd96d819ef2b39bb56601a15f&_cview=1"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Optimization of ICS and phenotyping panels for the Mal067 study using cryopreserved PBMC samples from the SAC cohort"
+}

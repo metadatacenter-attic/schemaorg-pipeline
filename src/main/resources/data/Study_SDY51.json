@@ -1,0 +1,322 @@
+{
+  "title": "Original Antigenic Sin Responses to Influenza Viruses",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY51",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Original Antigenic Sin Responses to Influenza Viruses",
+  "performedBy": [
+    {
+      "firstName": "Joshy",
+      "lastName": "Jacob",
+      "email": "joshy.jacob@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory Vaccine Center, Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "primary: inactive virus PR8, secondary: inactive virus FM1 1mo, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: inactive virus FM1 1mo, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: PBS 1mo, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PR8 HA DNA vaccine, secondary: FM1 HA DNA vaccine",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: FM1 HA DNA vaccine",
+          "size": 1
+        },
+        {
+          "name": "primary: live virus PR8, secondary: live virus FM1 1mo, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: live virus FM1 1mo, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: PBS  1mo, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: live virus PR8, secondary: live virus FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary:  live virus FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: live virus PR8, secondary: live virus FM1 3mos, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary:  live virus FM1 3mos, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: PBS 3mos, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: inactive virus PR8, secondary: inactive virus FM1 3mos, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: inactive virus FM1 3mos, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: PBS, secondary: PBS 3mos, challenge: FM1",
+          "size": 1
+        },
+        {
+          "name": "primary: live virus FM1, secondary:  live virus PR8",
+          "size": 1
+        },
+        {
+          "name": "primary: live virus PBS secondary  live virus PR8",
+          "size": 1
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "H1N1 influenza virus strain A/PR/8/34"
+        },
+        {
+          "name": "H1N1 influenza virus strain  A/FM/1/47"
+        },
+        {
+          "name": "Phosphate Buffered Saline"
+        },
+        {
+          "name": "plaque assay"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Joshy",
+      "lastName": "Jacob",
+      "email": "joshy.jacob@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory Vaccine Center, Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700006C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Influenza Pathogenesis & Immunology Research Center (IPIRC) is one of five national Influenza Centers of Excellence funded by NIH/NIAID. The goals of the Center are to determine the molecular, ecologic and/or environmental factors that influence the evolution, emergence, transmission and pathogenicity of influenza viruses, including studies on animal influenza viruses with pandemic potential; and to characterize the immune response to influenza vaccination to improve understanding of the immune correlates of protection and cross-protection. The Center's structure is comprised of four research projects, two pilot projects, and two training slots. The scope of the Center's focus includes planning for pandemic influenza and sharing data with other scientists in order to promote collaboration and lay the groundwork for new and improved methods of controlling influenza virus. In the event of a public health emergency involving the emergence and spread of an influenza pandemic in humans, the Network of Centers will be on the frontline to implement the NIAID Pandemic Public Health Research Response Plan.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=da736a25c9098cee65ba909ab9c63121"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "19648276",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Kim JH(1), Skountzou I, Compans R, Jacob J.",
+      "title": "Original antigenic sin responses to influenza viruses.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2009",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2012-04-23",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "Kim Mouse Serum Samples Neutralization titer",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "HAI titers using freshly grown viruses in MDCK cells",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "lung viral titers via plaque assay on MDCK cells; the data are shown as plaque forming units (pfu/ml)",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY51",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Original Antigenic Sin Responses to Influenza Viruses",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY51",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&tab=core&id=380b2c8bd10fee1ebd65475f236dfd39&_cview=0"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Determining the extent to which original antigenic sin is induced by variant influenza viruses by using two related strains of influenza"
+}

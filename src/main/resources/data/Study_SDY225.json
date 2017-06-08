@@ -1,0 +1,316 @@
+{
+  "title": "Aerosol Inoculation with a Sub-lethal Influenza Virus Leads to Exacerbated Morbidity and Pulmonary Disease Pathogenesis",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY225",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Aerosol Inoculation with a Sub-lethal Influenza Virus Leads to Exacerbated Morbidity and Pulmonary Disease Pathogenesis",
+  "performedBy": [
+    {
+      "firstName": "Ralph",
+      "lastName": "Tripp",
+      "email": "ratripp@uga.edu",
+      "affiliations": [
+          {
+             "name": "College of Veterinary Medicine, University of Georgia"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "X31 intranasal (IN) virus inoculation",
+          "size": 1
+        },
+        {
+          "name": "X31 Aerosal virus inoculation",
+          "size": 1
+        },
+        {
+          "name": "PR8 intranasal (IN) virus inoculation",
+          "size": 1
+        },
+        {
+          "name": "X31-Aerosal with purified rat IgG",
+          "size": 1
+        },
+        {
+          "name": "X31-Aerosal with anti-IL-6 antibody treatment",
+          "size": 1
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "H3N2 A/Aichi/2/68 (x31)"
+        },
+        {
+          "name": "H1N1A/Puerto Rico/8/34 (PR8)"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Six- to 8-week-old specific-pathogen-free female BALB/c mice"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Ralph",
+      "lastName": "Tripp",
+      "email": "ratripp@uga.edu",
+      "affiliations": [
+          {
+             "name": "College of Veterinary Medicine, University of Georgia"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700006C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Influenza Pathogenesis & Immunology Research Center (IPIRC) is one of five national Influenza Centers of Excellence funded by NIH/NIAID. The goals of the Center are to determine the molecular, ecologic and/or environmental factors that influence the evolution, emergence, transmission and pathogenicity of influenza viruses, including studies on animal influenza viruses with pandemic potential; and to characterize the immune response to influenza vaccination to improve understanding of the immune correlates of protection and cross-protection. The Center's structure is comprised of four research projects, two pilot projects, and two training slots. The scope of the Center's focus includes planning for pandemic influenza and sharing data with other scientists in order to promote collaboration and lay the groundwork for new and improved methods of controlling influenza virus. In the event of a public health emergency involving the emergence and spread of an influenza pandemic in humans, the Network of Centers will be on the frontline to implement the NIAID Pandemic Public Health Research Response Plan.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=da736a25c9098cee65ba909ab9c63121"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21449723",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Smith JH(1), Nagy T, Barber J, Brooks P, Tompkins SM, Tripp RA.",
+      "title": "Aerosol inoculation with a sub-lethal influenza virus leads to exacerbated morbidity and pulmonary disease pathogenesis.",
+      "publicationVenue": "Viral Immunol.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-11-01",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Other"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Severity and the extent (%) of anatomical structures affected",
+        "types": [
+            {
+               "value": "Microscopy"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Microscopy"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "IN instillation of H3N2A/Aichi/2/68 (x31) 10x6 TCID50/ml"
+        },
+        {
+          "name": "Aerosol inoculation of H3N2A/Aichi/2/68 (x31) 10x6 TCID50/ml with flow rate of 1 cc/min."
+        },
+        {
+          "name": " rat IgG isotype control antibody (R&D Systems, Inc., Minneapolis)"
+        },
+        {
+          "name": "monoclonal anti-mouse IL-6 antibody(R&D Systems,, Inc)"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY225",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Aerosol Inoculation with a Sub-lethal Influenza Virus Leads to Exacerbated Morbidity and Pulmonary Disease Pathogenesis",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY225",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&tab=core&id=380b2c8bd10fee1ebd65475f236dfd39&_cview=0"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Examined how the method of inoculation affected immunity and disease pathogenesis in mice using mouseadaptedH3N2 A/Aichi/2/68 (x31)"
+}

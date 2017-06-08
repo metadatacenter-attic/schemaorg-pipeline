@@ -1,0 +1,373 @@
+{
+  "title": "Immunity to Smallpox Vaccination",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY18",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Immunity to Smallpox Vaccination",
+  "performedBy": [
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Gulcher",
+      "email": "jgulcher@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Ingileif",
+      "lastName": "Jonsdottir",
+      "email": "ingileif.jonsdottir@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "SP_NR",
+          "size": 1
+        },
+        {
+          "name": "SP_Neg",
+          "size": 1
+        },
+        {
+          "name": "SP_AE",
+          "size": 1
+        },
+        {
+          "name": "SP_IA",
+          "size": 1
+        },
+        {
+          "name": "SP_LoR",
+          "size": 2
+        },
+        {
+          "name": "SP_Adv",
+          "size": 2
+        },
+        {
+          "name": "SP_Ctrl",
+          "size": 2
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Averaged case vs. control SNP association data"
+        },
+        {
+          "name": "Custom 34,580 70mer expression array"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Icelander"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "received smallpox vaccination "
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Gulcher",
+      "email": "jgulcher@decode.is",
+      "affiliations": [
+          {
+             "name": "deCODE"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200400064C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The overall objective of this proposal is to use the genealogic approach in Iceland to carry out genome-wide linkage scans to map and isolate important host genes conferring risk for specific infections and vaccination responses.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=4500e317ae114f140184b324181e555e"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-11-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between SP_NR case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between SP_Neg case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between SP_AE case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Summarized analysis of over 303,000 SNP associations between SP_IA case vs. controls. Results available as xls files linked to experiment samples.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 4hr untreated control cell cultures of increase and prolonged absence subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 4hr untreated control cell cultures of Lack of response subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 4hr vaccinia treated cell cultures of increase and prolonged absence subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 4hr vaccinia treated cell cultures of Lack of response subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 20hr untreated control cell cultures of increase and prolonged absence subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 20hr untreated control cell cultures of Lack of response subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 20hr vaccinia treated cell cultures of increase and prolonged absence subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Averaged gene expression analysis data for 20hr vaccinia treated cell cultures of Lack of response subjects vs. control RNA",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY18",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Immunity to Smallpox Vaccination",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY18",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Population Genetics Analysis Program: Immunity to Vaccines/Infections",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=4fe38afb31cad52ce3d9ce016a3990bb"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To map, isolate and validate human host genes that confer risk of either adverse reactions to smallpox vaccination or lack of specific immune response to the vaccine (specific anergy)."
+}

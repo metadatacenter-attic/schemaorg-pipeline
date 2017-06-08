@@ -1,0 +1,323 @@
+{
+  "title": "FACTOR ITN507ST:  Study of Tolerant Kidney Transplant Recipients",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY546",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "FACTOR ITN507ST:  Study of Tolerant Kidney Transplant Recipients",
+  "performedBy": [
+    {
+      "firstName": "Kenneth",
+      "lastName": "Newell",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Kenneth",
+      "lastName": "Newell",
+      "email": "kanewel@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Tolerant",
+          "size": 25
+        },
+        {
+          "name": "Standard Immunotherapy",
+          "size": 33
+        },
+        {
+          "name": "Donor",
+          "size": 30
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Must be a renal transplant recipient or living donor"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Meet the criteria for inclusion in one of the study enrollment groups"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Provide informed consent"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "AIDS [includes all HIV-infected persons who have less than 200 cells/mm(3) CD4+ T-lymphocytes/microL, or a CD4+ T-lymphocyte/micro liter or a CD4+ T-lymphocyte percent of total lymphocytes less than 14, or who have been diagnosed with an AIDS-defining condition as defined by the Centers for Disease Control and Prevention (CDC)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Current malignancy requiring recent surgery, ongoing chemotherapy or radiation"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Acute systemic infections within 30 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnancy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Transplant of another organ"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Kenneth",
+      "lastName": "Newell",
+      "email": "kanewel@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "20501946",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Newell KA(1), Asare A, Kirk AD, Gisler TD, Bourcier K, Suthanthiran M, Burlingham WJ, Marks WH, Sanz I, Lechler RI, Hernandez-Fuentes MP, Turka LA, Seyfert-Margolis VL; Immune Tolerance Network ST507 Study Group.",
+      "title": "Identification of a B cell signature associated with renal transplant tolerance in humans.",
+      "publicationVenue": "J Clin Invest.",
+      "dates": [
+        {
+          "date": "2010",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "22151236",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Haynes LD(1), Jankowska-Gan E, Sheka A, Keller MR, Hernandez-Fuentes MP, Lechler  RI, Seyfert-Margolis V, Turka LA, Newell KA, Burlingham WJ.",
+      "title": "Donor-specific indirect pathway analysis reveals a B-cell-independent signature which reflects outcomes in kidney transplant recipients.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "26461968",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Newell KA(1), Asare A(2,)(3), Sanz I(1), Wei C(1), Rosenberg A(4), Gao Z(3), Kanaparthi S(2,)(3), Asare S(2,)(3), Lim N(2,)(3), Stahly M(2,)(3), Howell M(2),  Knechtle S(1), Kirk A(1), Marks WH(5), Kawai T(3), Spitzer T(6), Tolkoff-Rubin N(6), Sykes M(7), Sachs DH(3), Cosimi AB(3), Burlingham WJ(8), Phippard D(2), Turka LA(2,)(3,)(6).",
+      "title": "Longitudinal studies of a B cell-derived signature of tolerance in renal transplant recipients.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2004-05-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-02-05",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY546",
+              "identifierSource": "ImmPort"
+          },
+          "title": "FACTOR ITN507ST:  Study of Tolerant Kidney Transplant Recipients",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY546",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this multi-center (observational) registry study is to establish a database of clinical and laboratory information that may help to identify any unique characteristics of tolerant participants that differ from participants who reject their kidney after discontinuing immunosuppressive drugs."
+}

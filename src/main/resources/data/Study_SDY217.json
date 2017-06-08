@@ -1,0 +1,425 @@
+{
+  "title": "Orchestration of CD4 T cell epitope preferences after multi-peptide immunization",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY217",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Orchestration of CD4 T cell epitope preferences after multi-peptide immunization",
+  "performedBy": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Sant",
+      "email": "andrea_sant@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "BALB/c",
+          "size": 174
+        },
+        {
+          "name": "Foxp3GFP",
+          "size": 8
+        },
+        {
+          "name": "Foxp3DTR",
+          "size": 26
+        },
+        {
+          "name": "IFN-gKO",
+          "size": 59
+        },
+        {
+          "name": "Thy1.1",
+          "size": 16
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Purified rat anti-mouse IFN-?"
+        },
+        {
+          "name": "Biotinylated rat anti-mouse IFN-?"
+        },
+        {
+          "name": "Purified rat anti-mouse IL-2"
+        },
+        {
+          "name": "Biotinylated rat anti-mouse IL-2"
+        },
+        {
+          "name": "CFSE"
+        },
+        {
+          "name": "anti-I-Ad PE antibody"
+        },
+        {
+          "name": "anti-ICAM-1 AlexaFluor 647 antibody"
+        },
+        {
+          "name": "anti-CD4 APC antibody"
+        },
+        {
+          "name": "7AAD"
+        },
+        {
+          "name": "anti-Thy1.1 Biotin antibody"
+        },
+        {
+          "name": "APC conjugated streptavidin"
+        },
+        {
+          "name": "anti-CD4 PE antibody"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Is mouse at least 6 weeks old"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Sant",
+      "email": "andrea_sant@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700008C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The New York Influenza Center of Excellence (NYICE) is collaborative, interdisciplinary approach involving investigators in the fields of immunology, virology, biochemistry, medicine, pediatrics, statistics and bioinformatics that will addresss directly the issues of cross-protective immunity and virus adaptation to the mammalian host. Our goal is to provide a truly transforming approach to influenza research.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=735406660d0e7582b7937b1d21142d8d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23772029",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Tung J(1), Sant AJ.",
+      "title": "Orchestration of CD4 T cell epitope preferences after multipeptide immunization.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-09-30",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "BALB/c mice were immunized with peptide/IFA emulsions containing OVA peptide alone or in combination with dominant MalE and Myo peptides. CD4 T cells were purified from pooled popliteal LNs of 2 mice/group and were restimulated with OVA peptide, MalE peptide, or Myo peptide in IFN-gamma Elispot assays. ",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "BALB/c mice were immunized with peptide/IFA emulsions containing OVA peptide alone or in combination with dominant MalE and Myo peptides. CD4 T cells were purified from pooled popliteal LNs of 2 mice/group and were restimulated with OVA peptide, MalE peptide, or Myo peptide in IL-2 Elispot assays at day 6 post immunization.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "BALB/c mice were immunized with DC loaded with OVA peptide alone or in combination with dominant MalE and Myo peptides. CD4 T cells were purified from pooled popliteal LNs of 3-5 mice/group and were restimulated with OVA peptide, MalE peptide, or Myo peptide in IL-2 Elispot assays at the indicated time points post immunization.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "BALB/c mice (4-5 mice/group) were immunized with CFSE-labeled DC loaded with no antigen, OVA peptide alone, or OVA peptide in combination with dominant MalE and Myo peptides. Expression of ICAM-1 and I-Ad on gated CFSE+ cells in pooled dLNs and absolute number of CFSE bright cells per LN are presented.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Foxp3GFP mice were immunized with peptide/IFA emulsions containing OVA peptide alone or in combination with dominant MalE and Myo peptides (+Competitors). Frequency of Foxp3+ CD4 T cells in unfractionated popliteal LNs from a representative mouse of two is shown for each group over time.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Tregs were flowsorted from pooled popliteal LNs of Foxp3GFP mice (2 mice/group) that were immunized 6 days prior. Tregs were co-cultured with irradiated APCs and CFSE-labeled target T cells (Thy1.1) in the presence of 1mg/ml anti-CD3 for 72 hrs. The change in the frequency of Thy1.1+ responder CD4 T cells that have proliferated in cocultures with Tregs sorted from the OVA +Competitors group is assessed compared to cocultures with Tregs sorted from the OVA alone group.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Foxp3DTR mice (2-3 mice/group) were immunized with peptide/IFA emulsions containing OVA peptide alone or OVA peptide in combination with MalE, NP261-274, and NP310-325 competitor peptides. Mice were administered DT or PBS control at days 3 and 4 post immunization. At day 10, CD4 T cells were purified from pooled inguinal and popliteal LNs and restimulated with OVA peptide.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "WT BALB/c and IFN-?KO mice (3-5 mice/group) were immunized with peptide/IFA emulsions containing OVA peptide alone (-Comp.) or OVA peptide in combination with dominant MalE and Myo peptides (+Comp.). At day 10 post immunization, CD4 T cells were purified from popliteal LNs of individual mice and were restimulated with OVA peptide, MalE peptide, or Myo peptide in IL-2 Elispot assays.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "WT BALB/c mice (3-5 pooled mice/group) were immunized with WT or IFN-gRKO DC loaded with OVA peptide alone (-Comp.) or OVA peptide in combination with dominant MalE and Myo peptides (+Comp.). CD4 T cells were purified from pooled popliteal LNs at day 9 and tested for reactivity to OVA peptide, MalE peptide, or Myo peptide.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "BALB/c mice (5 mice/group) were immunized with peptide/IFA emulsions containing OVA peptide alone (-Comp.) or OVA peptide in combination with dominant MalE and Myo peptides (+Comp.) and were orally administered 1-MT or control. At day 10 post immunization, CD4 T cells were purified from popliteal LNs of individual mice and were restimulated with OVA peptide, MalE peptide, or Myo peptide.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Foxp3DTR mice (2 mice/group) were immunized with peptide/IFA emulsions containing OVA peptide. Mice were administered DT at days 3 and 4 post immunization. At day 10 post immunization, CD4 T cells from pooled LNs were assessed for Foxp3DTR-GFP expression.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Foxp3DTR mice (2 mice/group) were immunized with peptide/IFA emulsions containing OVA peptide alone or OVA peptide in combination with MalE, NP261-274, and NP310-325 competitor peptides. Mice were administered DT at days 3 and 4 post immunization. Mice were orally administered 1-MT or control at the time of immunization. CD4 T cells from pooled LNs were purified from pooled inguinal and popliteal LNs and restimulated with OVA peptide or the indicated peptides at day 10 post immunization.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "WT BALB/c and IFN-gKO mice (3 mice/group) were immunized with peptide/IFA emulsions containing OVA peptide alone or OVA peptide in combination with dominant MalE and Myo peptides (+Comp.). Mice were orally administered with 1-MT or aspartame control at the time of immunization. At day 10 post immunization, CD4 T cells were purified from popliteal LNs of individual mice and were restimulated with OVA peptide, MalE peptide, or Myo peptide in IL-2 Elispot assays.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "OVA"
+        },
+        {
+          "name": "MalE"
+        },
+        {
+          "name": "Myo"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "MalE102-115"
+        },
+        {
+          "name": "NP44,45"
+        },
+        {
+          "name": "NP52,53"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY217",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Orchestration of CD4 T cell epitope preferences after multi-peptide immunization",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY217",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8677681&icde=23841314&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "A detailed understanding of the molecular and cellular mechanisms that underlie epitope preferences in T cell priming is important for vaccines designed to elicit a broad T cell response. Protein vaccinations generally elicit CD4 T cell responses that are skewed toward a small fraction of epitopes, a phenomenon known as immunodominance. This characteristic of T cell responses, that limits the diversity of CD4 T cell recognition, is generally attributed to intracellular antigen processing. However, we recently discovered that immunodominance hierarchies persist even after vaccination with synthetic peptides. In this study, we probed the regulatory mechanisms that cause diminished CD4 T cell responses to subdominant peptides after such multi-peptide immunization in mice. We have found that the delivery of subdominant and dominant epitopes on separate dendritic cells rescues expansion of less favored CD4 T cells. Furthermore, through the use of genetic models and inhibitors, we have found that selective losses in CD4 T cell responses are mediated by an IFN-gamma-induced pathway, involving indoleamine 2,3-dioxygenase (IDO), and that regulatory T cell (Treg) activities may also regulate preferences in CD4 T cell specificity. We propose that after multi-peptide immunization, the expansion and differentiation of dominant T cells initiate complex regulatory events that determine the final peptide specificity of the elicited CD4 T cell response."
+}

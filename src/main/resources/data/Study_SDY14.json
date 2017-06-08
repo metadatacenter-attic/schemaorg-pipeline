@@ -1,0 +1,522 @@
+{
+  "title": "Antimicrobial Response to Oral Vitamin D3 in Patients with Psoriasis",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY14",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Antimicrobial Response to Oral Vitamin D3 in Patients with Psoriasis",
+  "performedBy": [
+    {
+      "firstName": "Richard",
+      "lastName": "Gallo",
+      "email": "RGallo@ucsd.edu",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Tissa",
+      "lastName": "Hata",
+      "email": "thata@ucsd.edu",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "AD+ Vitamin D3",
+          "size": 7
+        },
+        {
+          "name": "AD+ Placebo",
+          "size": 10
+        },
+        {
+          "name": "Healthy controls Vitamin D3",
+          "size": 7
+        },
+        {
+          "name": "Healthy controls Placebo",
+          "size": 8
+        },
+        {
+          "name": "Psoriasis Vitamin D3",
+          "size": 8
+        },
+        {
+          "name": "Psoriasis Placebo",
+          "size": 8
+        },
+        {
+          "name": "Unassigned Subjects",
+          "size": 14
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              " The subject: a. has a definitive diagnosis of typical plaque psoriais for at least 6 months, stringently diagnosed using the ADVN Standard Diagnostic Criteria; or b. is an AD or non-atopic healthy control subject participating in the main protocol ADVN CATH 03."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Persons residing in the US."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects 18 to 70 years of age."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of AD with exfoliative erythroderma."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of psoriasis with exfoliative erythroderma or presence of guttate psoriasis, primary palmoplantar psoriasis, or pustular psoriasis."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnant or lactating females."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Existence of ongoing dental disease (e.g., gingivitis)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of bleeding disorders."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of psoriasis that would be exacerbated by withholding of topical corticosteroids, oral or topical antibiotics, topical or systemic antihistamines, oral antivirals, immune enhancers (e.g., imiquod), or topical calcineurin inhibitors within 7 days of Study Visit 2 (Baseline) and throughout the course of the trial."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receiving systemic immunosuppressives, chemotherapeutic agents, anti-inflammatory biologics (e.g., alefacept, etanercept), systemic, oral, injectable or inhaled steroids, vitamin D supplements (more than 400 IU daily) or oral calcineurin inhibitors 30 days prior to the Study Visit 2 (Baseline) or anytime during the course of the trial."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Using topical corticosteroids, oral or topical antibiotics, oral antivirals, immune enhancers (e.g., imiquimod), topical or systemic antihistamines, or topical calcineurin inhibitors within 7 days of Study Visit 2 (Baseline) and during the course of the trial."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receiving phototherapy (e.g., UVB, psoralen plus ultraviolet light A [PUVA]) within 30 days of Study Visit 2 (Baseline) and during the course of the trial."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Having autoimmune or immunodeficiency disease."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of active systemic fungal (excluding nail fungus), bacterial, or viral infections."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of or presence of active systemic malignancy, excluding uncomplicated non-melanoma skin cancer."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Mental illness or history of drug or alcohol abuse that, in the opinion of the investigator, would interfere with the participant's ability to comply with study requirements."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability or unwillingness of a participant to give written informed consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Diabetes."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with screening laboratory values not within normal limits, which would include calcium, serum PTH, and serum creatinine."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of kidney disease or kidney stones."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patients taking barbiturates such as pheonobarbital (Luminal)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects taking carbamazine (Tegretol), digoxin, phenytoin (Dilantin) or fosphenytoin (cerebyx)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patients on diuretics such as thiazide diuretics, calcium channel blockers, or beta-blockers"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patients taking magnesium-containing antacids, mineral oil, cholestyramine (Questran), colestipol(Colestid), oristat (xenical), the fat substitute Olestra, cod liver oil, fish oil, or omega 3 fatty acids."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patients taking oral antifungals such as ketoconazole."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patients with a history of serious or life-threatening anaphylactic reaction to tape or adhesives."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patients with lidocaine allergy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with a history of or active hyperparathyroidism, sarcoid, tuberculosis or lymphoma."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Richard",
+      "lastName": "Gallo",
+      "email": "RGallo@ucsd.edu",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23638978",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Hata TR(1), Audish D, Kotol P, Coda A, Kabigting F, Miller J, Alexandrescu D, Boguniewicz M, Taylor P, Aertker L, Kesler K, Hanifin JM, Leung DY, Gallo RL.",
+      "title": "A randomized controlled double-blind investigation of the effects of vitamin D dietary supplementation in subjects with atopic dermatitis.",
+      "publicationVenue": "J Eur Acad Dermatol Venereol.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2009-01-07",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2009-12-15",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2012-11-16",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Pregnancy test"
+        }
+      },{
+        "name": {
+            "value": "Microbial Evaluation"
+        }
+      },{
+        "name": {
+            "value": "IgE/RAST"
+        }
+      },{
+        "name": {
+            "value": "Calcium test"
+        }
+      },{
+        "name": {
+            "value": "Creatinine test"
+        }
+      },{
+        "name": {
+            "value": "Parathyroid test"
+        }
+      },{
+        "name": {
+            "value": "Vitamin D test"
+        }
+      },{
+        "name": {
+            "value": "Vital sign"
+        }
+      },{
+        "name": {
+            "value": "Smoking Status"
+        }
+      },{
+        "name": {
+            "value": "Skin lesion Involved and skin lesion duration"
+        }
+      },{
+        "name": {
+            "value": "Skin exam"
+        }
+      },{
+        "name": {
+            "value": "Rajka-Langeland Score"
+        }
+      },{
+        "name": {
+            "value": "Physical/Oral Exam"
+        }
+      },{
+        "name": {
+            "value": "Psoriasis Area and Severity Index"
+        }
+      },{
+        "name": {
+            "value": "Non-AD Assessment"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Family History"
+        }
+      },{
+        "name": {
+            "value": "Fitzpatrick skin scale assessment"
+        }
+      },{
+        "name": {
+            "value": "EASI Score"
+        }
+      },{
+        "name": {
+            "value": "Any medications taken"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      },{
+        "name": {
+            "value": "Atopic Dermatitis Assessment"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY14",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Antimicrobial Response to Oral Vitamin D3 in Patients with Psoriasis",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY14",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Atopic Dermatitis (AD) is a skin disorder in which people often have swelling and skin infection. People with this disease cannot receive the smallpox vaccine because it could cause them to have a fatal reaction known as eczema vaccinatum (EV). AD subjects have a lack of antimicrobial peptides (AMPs) under inflammatory conditions. This is a substudy to the ADVN Vitamin D3 study (ADVN CATH 03)."
+}

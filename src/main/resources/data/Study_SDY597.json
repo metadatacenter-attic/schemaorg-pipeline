@@ -1,0 +1,250 @@
+{
+  "title": "DC transcriptomics in response to vaccines",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY597",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "DC transcriptomics in response to vaccines",
+  "performedBy": [
+    {
+      "firstName": "Romain",
+      "lastName": "Banchereau",
+      "email": "Romain.Banchereau@baylorhealth.edu",
+      "affiliations": [
+          {
+             "name": "Baylor Institute for Immunology Research"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "HIPC1_CELLSUBS_INVITRO",
+          "size": 20
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "GX-BeadChip HT12v4"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "NA1"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "NA2"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Romain",
+      "lastName": "Banchereau",
+      "email": "Romain.Banchereau@baylorhealth.edu",
+      "affiliations": [
+          {
+             "name": "Baylor Institute for Immunology Research"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Systems Analysis Vaccine Responses in Healthy and Hyporesponsive Humans",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI089987"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Our goal is to identify early biomarkers of effective antibody responses to flu vaccination. Four aims are proposed to meet this goal: Aim 1: To establish the baseline immune profiles in healthy subjects. Aim 2: To establish the immune profiles of Flu vaccination in healthy subjects. Aim 3: To identify the molecular signatures of DC subset(s) in response to Flu vaccination. Aim 4: To identify the molecular signatures of activated monocytes in response to Flu vaccination. RELEVANCE (See instructions): Despite the success of vaccines, we understand little about how effective ones stimulate protective immune responses. We will study how the flu vaccine generates effective antibody responses. The goal is to identify the immune responses elicited by effective vaccines so that vaccines that aren't as effective can be improved. To do this, we will vaccinate healthy people with the flu vaccine and monitor their immune response following the vaccination.   http://projectreporter.nih.gov/project_info_details.cfm?aid=8691692&icde=23828587&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25335753",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Banchereau R(1), Baldwin N(1), Cepika AM(1), Athale S(1), Xue Y(1), Yu CI(1), Metang P(1), Cheruku A(1), Berthier I(1), Gayet I(1), Wang Y(1), Ohouo M(1), Snipes L(1), Xu H(1), Obermoser G(1), Blankenship D(1), Oh S(1), Ramilo O(2), Chaussabel D(3), Banchereau J(4), Palucka K(4), Pascual V(1).",
+      "title": "Transcriptional specialization of human dendritic cell subsets in response to microbial vaccines.",
+      "publicationVenue": "Nat Commun.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-11-29",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "HIPC1_CELLSUBS_INVITRO_TMNT"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY597",
+              "identifierSource": "ImmPort"
+          },
+          "title": "DC transcriptomics in response to vaccines",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY597",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Systems Analysis Vaccine Responses in Healthy and Hyporesponsive Humans",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8259851&icde=23826717&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "We measured the transcriptional responses of four human APC subsets to microbial vaccine challenge in vitro. We identified common and specific signatures, highlighting subset-specific responses to vaccines."
+}

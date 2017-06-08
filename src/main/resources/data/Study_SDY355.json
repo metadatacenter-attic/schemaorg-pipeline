@@ -1,0 +1,299 @@
+{
+  "title": "An Evaluation of IV Gamma Globulin As a Method to Improve Kidney Transplant Survival in Patients With End-Stage Renal Disease Who Are Highly Sensitized to Transplant Antigens",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY355",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "An Evaluation of IV Gamma Globulin As a Method to Improve Kidney Transplant Survival in Patients With End-Stage Renal Disease Who Are Highly Sensitized to Transplant Antigens",
+  "performedBy": [
+    {
+      "firstName": "Ann",
+      "lastName": "Limberger",
+      "email": "-",
+      "affiliations": [
+          {
+             "name": "-"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Ikle",
+      "email": "None",
+      "affiliations": [
+          {
+             "name": "PPD"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Early termination subjects",
+          "size": 14
+        },
+        {
+          "name": "Study subjects",
+          "size": 12
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Are 12 years of age or older"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Have end-stage renal disease"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Currently receive either hemo- or peritoneal dialysis"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Have an elevated (> 50%) level of panel reactive antibodies (PRA level) on 3 consecutive monthly tests"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Agree to practice sexual abstinence or to use effective means of birth control/contraception during the study and for 1 year after."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Have received IVIG for any reason within 6 months prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Are HIV positive"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Are Hepatitis B e-antigen/hepatitis B viral DNA-positive"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Have selective IgA deficiency or have known antibodies to IgA"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Are allergic to human immune globulin"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Are pregnant or breast-feeding"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "David",
+      "lastName": "Ikle",
+      "email": "None",
+      "affiliations": [
+          {
+             "name": "PPD"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Data Coordinating Center for Cooperative Clinical Trials in Pediatric Transplantation",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "5U01AI067075-03"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "PPD, Inc. proposes to be the Statistical and Clinical Coordinating Center (SACCC) for the Cooperative Clinical Trials in Pediatric Transplantation (CCTPT) and Clinical Trials in Organ Transplantation (CTOT) clinical trials networks funded by NIAID to conduct organ transplant studies. The PPD team has extensive experience in working closely with both government and pharmaceutical partners in managing all facets necessary for the execution of clinical research ranging from novel statistical approaches to protocol development to IND submissions to study product distribution to comprehensive adverse event reporting. With PPD's experience as the coordinating center for the NIAID-funded Immune Tolerance Network (ITN), the team has great insight into the inherent complexities and challenges in conducting transplantation research and specific experience collaborating with NIAID staff in the management of collaborative clinical research. The specific aims of this project are to provide high quality resources and procedures in support of: 1) Clinical trial design, implementation and management, including the development and implementation of plans and standard operating procedures for the statistical design, analysis and management of clinical trials, monitoring of clinical sites, and training of site clinical, technical and data management staff, according to ICH and GCP guidelines; 2) Protocol development, including the creation and modification of clinical protocols, case report forms, standard consent forms and Manuals of Procedures (MOPs); 3) Regulatory compliance, including preparation of Investigational New Drug (IND) Applications, interim and annual reports to the FDA, tracking of IND applications, and provision of data to all IND sponsors; 4) Computerized data and communication systems, including the creation and maintenance of secure and confidential clinical data collection and management systems, electronic systems to link clinical sites and the SACCC, clinical site registration systems, and systems for the receipt, follow-up, reporting and disposition of adverse events; 5) Provision of specified logistical services, including, packaging, distribution and tracking of study medications and collection and tracking of specimens required by project protocols; 6) Preparation of reports and analyses, including routine reports to CCTPT-CTOT sponsors, reports used for scientific presentations, and publications in scientific journals; and 7) Coordination of meetings of the Steering Committees and of investigators for the CCTPT and CTOT networks. The SACCC will administer, manage and facilitate this program in support of the NIAID agenda, interacting closely with the NIAID Scientific Coordinator.    http://projectreporter.nih.gov/project_info_details.cfm?aid=7277268&icde=23810485&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "1999-11-02",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2014-08-07",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "LIVER_FUNCTION"
+        }
+      },{
+        "name": {
+            "value": "CHEMISTRY"
+        }
+      },{
+        "name": {
+            "value": "CBC"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY355",
+              "identifierSource": "ImmPort"
+          },
+          "title": "An Evaluation of IV Gamma Globulin As a Method to Improve Kidney Transplant Survival in Patients With End-Stage Renal Disease Who Are Highly Sensitized to Transplant Antigens",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY355",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Data Coordinating Center for Cooperative Clinical Trials in Pediatric Transplantation",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8676643&icde=23828660&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "This study is designed to test the clinical and laboratory observations that suggest IVIG given before and after kidney transplant to patients who are sensitized (highly sensitive) to certain transplant antigens could result in reduced sensitization and reduced rates of kidney rejection. Some ESRD patients are highly sensitive to certain transplant antigens (foreign substances that activate the immune system) and must wait for a long time before a well-matched kidney becomes available. Transplant rejection is more likely among highly sensitized patients than in patients who are not highly sensitized. There is no proven method to improve a highly-sensitized patient's chances of receiving and keeping a transplanted kidney."
+}

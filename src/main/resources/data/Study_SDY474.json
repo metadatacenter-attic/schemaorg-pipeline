@@ -1,0 +1,482 @@
+{
+  "title": "Vitamin D3 in Systemic Lupus Erythematosus",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY474",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Vitamin D3 in Systemic Lupus Erythematosus",
+  "performedBy": [
+    {
+      "firstName": "Cynthia",
+      "lastName": "Aranow",
+      "email": "caranow@nshs.edu",
+      "affiliations": [
+          {
+             "name": "Feinstein Institute for Medical Research NS-LIJ Health System"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "4000 IU Vitamin D",
+          "size": 19
+        },
+        {
+          "name": "2000 IU Vitamin D",
+          "size": 19
+        },
+        {
+          "name": "Placebo",
+          "size": 19
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "SuperScript III RNase H  Reverse Transcriptase"
+        },
+        {
+          "name": "dNTP Mix"
+        },
+        {
+          "name": "Oligo(dT)12-18 Primer"
+        },
+        {
+          "name": "Ribonuclease H"
+        },
+        {
+          "name": "RNaseOUT Recombinant RNase Inhibitor"
+        },
+        {
+          "name": "2X iQ SYBR Green Supermix"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subject has provided written informed consent."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subject is >= 18 years of age."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Meets at least 4 of 11 modified American College of Rheumatology (ACR) 1982 Revised Criteria for the Classification of Systemic Lupus Erythematosus as updated in 1997."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Serum 25-OH vitamin D level less than or equal to 20 ng/mL."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Stable disease at Screening, defined as a modified SELENA SLEDAI <= 4."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Interferon signature present. Determination of the IFN alpha signature will be assessed by measuring expression levels of 3 IFN alpha responsive genes, Mx1, Ifit1, and Ifi44 using RT-PCR in mRNA extracted from PBMCs. The mean and standard deviation for normal controls is determined for each gene. The signature is present if one of the 3 genes is expressed at a level greater than or equal to 4 standard deviations above the mean of normal controls or if 2 of the 3 genes are expressed more than 2 standard deviations above the mean of normal controls."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Positive anti-dsDNA antibody at the time of screening."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "If on corticosteroids, the dose must be < 20mg per day and stable for the 4 weeks prior to screening and at baseline."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "If on immunosuppressive or immunomodulatory medication such as azathioprine, methotrexate, leflunomide, mycophenolate, or hydroxychloroquine, the dose must be stable for the 3 months prior to screening and baseline, and expected to remain stable over the course of the study."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "If taking a multivitamin or a vitamin D supplement, the dose of vitamin D must be less than or equal to 800 IU daily and stable for the 3 months prior to screening and at baseline."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Males and females with reproductive potential must agree to practice effective measures of birth control."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of receiving any multivitamin, supplement, or drug containing more than 800 IU daily of vitamin D within the last 3 months."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Unwillingness to stop using drugs or substances that interfere with or may interfere with fat absorption (e.g., Orlistat)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Hypercalcemia (serum calcium > 10.4 mg/dl) at screening."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Hypercalciuria (urinary calcium/creatinine ratio = 0.8) at screening."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of hyperparathyroidism."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of renal stones."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of cancer, except cervical carcinoma in situ and resected basal and squamous cell carcinomas of the skin."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Known history of chronic viral infections, including HIV, Hepatitis B, and Hepatitis C."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Known active tuberculosis."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any BILAG A or B manifestation with the exception of a BILAG B mucocutaneous manifestation."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "ALT or AST = 2x upper limit of normal."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Dialysis or serum creatinine > 1.5 mg/dl."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Expectation by the investigator to increase corticosteroid or immunosuppressive, or immunomodulatory medication dose at screening, baseline, or over the course of the study."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Current treatment with cyclophosphamide or a biologic."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Treatment with cyclophosphamide within 3 months prior to screening."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Treatment with rituximab within the 12 months prior to screening."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Other Investigational drug and/or treatment during the 4 weeks or seven half-lives of the other investigational drug prior to the start of study drug dosing (Day 0), whichever is the greater length of time."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Drug or alcohol abuse within 6 months prior to randomization."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnancy or lactation."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Treatment with digoxin."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Treatment with teriparatide (Forteo)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any condition that, in the opinion of the Investigator, would jeopardize the subject?s safety following exposure to the study drug."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Cynthia",
+      "lastName": "Aranow",
+      "email": "caranow@nshs.edu",
+      "affiliations": [
+          {
+             "name": "Feinstein Institute for Medical Research NS-LIJ Health System"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "EFFECT OF VITAMIN D3 ON THE IFNA SIGNATURE IN PATIENTS WITH LUPUS (ALE02)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "5M01RR018535-08"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This multi-center double-blind placebo controlled trial will investigate the effect of vitamin D supplementation on the interferon signature in patients with systemic lupus erythrematosus. Vitamin D deficient patients with spell out who possess the interferon signature will be randomized to receive 0, 2000 or 4000 IU/daily of cholecalciferol (vitamin D3) for 12 weeks. Potential clinical effects as well as safety will be assessed and monitored "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25777546",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Aranow C(1), Kamen DL(2), Dall'Era M(3), Massarotti EM(4), Mackay MC(1), Koumpouras F(5), Coca A(6), Chatham WW(7), Clowse ME(8), Criscione-Schreiber LG(8), Callahan S(9), Goldmuntz EA(9), Keyes-Elstein L(10), Oswald M(1), Gregersen PK(1), Diamond B(1).",
+      "title": "Randomized, Double-Blind, Placebo-Controlled Trial of the Effect of Vitamin D3 on the Interferon Signature in Patients With Systemic Lupus Erythematosus.",
+      "publicationVenue": "Arthritis Rheumatol.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Autoimmune"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2008-11-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-09-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Hematology test"
+        }
+      },{
+        "name": {
+            "value": "Comprehensive Metabolic Panel"
+        }
+      },{
+        "name": {
+            "value": "Immunology laboratory test"
+        }
+      },{
+        "name": {
+            "value": "Vitamin measurement"
+        }
+      },{
+        "name": {
+            "value": "Hormone measurement"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "IFNa stimulation"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY474",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Vitamin D3 in Systemic Lupus Erythematosus",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY474",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "EFFECT OF VITAMIN D3 ON THE IFNA SIGNATURE IN PATIENTS WITH LUPUS (ALE02)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_description.cfm?aid=6880173"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "This is a double-blind, multi-center, placebo controlled, Phase II study designed to assess biologic effects of 12 weeks of vitamin D3 supplementation on patients with well-controlled stable systemic lupus erythematosus who have low serum levels of 25-OH vitamin D and an IFN alpha signature."
+}

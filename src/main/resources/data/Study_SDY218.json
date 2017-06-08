@@ -1,0 +1,549 @@
+{
+  "title": "Oral Immunotherapy for Childhood Egg Allergy",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY218",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Oral Immunotherapy for Childhood Egg Allergy",
+  "performedBy": [
+    {
+      "firstName": "Wesley",
+      "lastName": "Burks",
+      "email": "wburks@email.unc.edu",
+      "affiliations": [
+          {
+             "name": "Duke University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Stacie",
+      "lastName": "Jones",
+      "email": "JonesStacieM@uams.edu",
+      "affiliations": [
+          {
+             "name": "Arkansas Children's Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Egg Oral Immunotherapy (OIT)",
+          "size": 40
+        },
+        {
+          "name": "Control Group",
+          "size": 15
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Immuno-CAP 100"
+        },
+        {
+          "name": "Mouse Anti-CD63 Monoclonal Antibody, FITC Conjugated, Clone H5C6"
+        },
+        {
+          "name": "Mouse Anti-CD203c Monoclonal Antibody, PE conjugated, Clone 97A6"
+        },
+        {
+          "name": "Mouse Anti-CD123 Monoclonal Antibody, PE-Cy5 Conjugated, Clone 9F5"
+        },
+        {
+          "name": "Mouse Anti-HLA-DR Monoclonal Antibody, PE-Cy7 Conjugated, Clone L243"
+        },
+        {
+          "name": "DUMP"
+        },
+        {
+          "name": "Mouse Anti-CD69 Monoclonal Antibody, APC-Cy7 Conjugated, Clone FN50"
+        },
+        {
+          "name": "SYK"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participation in any interventional study for the treatment of food allergy in the 6 months prior to study entry"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Severe asthma, uncontrolled mild or moderate asthma. More information on this criterion can be found in the protocol."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Parent/guardian willing to provide informed consent"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Chronic disease requiring therapy (e.g., heart disease, diabetes). Participants who have asthma, atopic dermatitis, or rhinitis are not excluded."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnancy or breastfeeding"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to use acceptable forms of contraception"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Convincing clinical history of egg allergy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Investigational drugs 90 days prior to study entry or planned use of an investigational drug during the study period"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of severe anaphylaxis to egg. More information on this criterion can be found in the protocol."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Age 6 to 18 years, with a serum IgE [UniCAP] to egg > 5 kUA/L OR Age 5 to 6 years, with a serum IgE [UniCAP] to egg >= 12kUA/L"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participant is on build-up phase of immunotherapy and has not reached maintenance dosing. Participants tolerating maintenance allergen immunotherapy are not excluded."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Omalizumab or other nontraditional forms of oral or sublingual allergen immunotherapy, immunomodulator therapy, or biologic therapy in the 12 months prior to study entry. Participants who have taken corticosteroids are not excluded."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability to discontinue antihistamines for the initial day of escalation, skin testing, and OFC"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Known allergy to corn"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Wesley",
+      "lastName": "Burks",
+      "email": "wburks@email.unc.edu",
+      "affiliations": [
+          {
+             "name": "Duke University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Stacie",
+      "lastName": "Jones",
+      "email": "JonesStacieM@uams.edu",
+      "affiliations": [
+          {
+             "name": "Arkansas Children's Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immunobiology of Food Allergy and Its Treatment (CoFAR)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": " U19AI066738"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Food allergies are a major health problem in the US. Food allergic reactions are the leading single leading cause of anaphylaxis treated in US emergency departments, and dietary management of eosinophilic esophagitis (EE)is extremely difficult and often ineffective. Recent oral immunotherapy trials suggest new approaches may alter the course of these disorders. A Consortium of investigators from five universities was formed to address this problem. The main objectives of this Consortium were to investigate the natural history of milk, egg and peanut allergy in infants, delineate underlying immunologic parameters associated with the natural course of milk and egg tolerance and peanut sensitization, and identify biological markers that distinguish young children likely to develop symptomatic peanut allergy; and to test novel immunotherapies for the treatment of food allergy and delineate responsible mechanisms.  http://projectreporter.nih.gov/project_info_details.cfm?aid=8696758&icde=23829293&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22808958",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Burks AW(1), Jones SM, Wood RA, Fleischer DM, Sicherer SH, Lindblad RW, Stablein  D, Henning AK, Vickery BP, Liu AH, Scurlock AM, Shreffler WG, Plaut M, Sampson HA; Consortium of Food Allergy Research (CoFAR).",
+      "title": "Oral immunotherapy for treatment of egg allergy in children.",
+      "publicationVenue": "N Engl J Med.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2007-05-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2014-05-30",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Allergen desensitization has been shown to induce basophil hyporesponsiveness to allergen-induced degranulation, however, chronic exposure to allergens is also associated with constitutively activated basophils. We will use flow cytometry-based assessment of basophil activation/ degranulation longitudinally with and without in vitro stimulation to track changes induced by OIT and their relationship to clinical desensitization and tolerance.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "ELISA no treatment of samples prior to assay"
+        },
+        {
+          "name": "Basophil medium RPMI"
+        },
+        {
+          "name": "Basophil medium with 2 ng/ml human IL-3"
+        },
+        {
+          "name": "Basophil medium w/ 1 uM fMLP"
+        },
+        {
+          "name": "Basophil medium w/ 0.001 ug EW"
+        },
+        {
+          "name": "Basophil medium w/ 0.01 ug EW"
+        },
+        {
+          "name": "Basophil medium w/ 0.1 ug EW"
+        },
+        {
+          "name": "Basophil medium w/ 1 ug EW"
+        },
+        {
+          "name": "Basophil medium w/ 1 ug anti-IgE"
+        },
+        {
+          "name": "undefined tube name:B"
+        },
+        {
+          "name": "undefined tube name:P1 C"
+        },
+        {
+          "name": "undefined tube name:P2 C"
+        },
+        {
+          "name": "undefined tube name:P3 C"
+        },
+        {
+          "name": "undefined tube name:P4 C"
+        },
+        {
+          "name": "undefined tube name:A"
+        },
+        {
+          "name": "undefined tube name:C"
+        },
+        {
+          "name": "undefined tube name:D"
+        },
+        {
+          "name": "undefined tube name:E"
+        },
+        {
+          "name": "undefined tube name:F"
+        },
+        {
+          "name": "undefined tube name:G"
+        },
+        {
+          "name": "undefined tube name:H"
+        },
+        {
+          "name": "undefined tube name:I"
+        },
+        {
+          "name": "t-Syk"
+        },
+        {
+          "name": "undefined tube name:P1 B"
+        },
+        {
+          "name": "undefined tube name:P2 B"
+        },
+        {
+          "name": "undefined tube name:P3 B"
+        },
+        {
+          "name": "undefined tube name:P4 B"
+        },
+        {
+          "name": "undefined tube name:A1"
+        },
+        {
+          "name": "undefined tube name:A2"
+        },
+        {
+          "name": "undefined tube name:A3"
+        },
+        {
+          "name": "undefined tube name:A4"
+        },
+        {
+          "name": "undefined tube name:A5"
+        },
+        {
+          "name": "undefined tube name:A6"
+        },
+        {
+          "name": "undefined tube name:A7"
+        },
+        {
+          "name": "undefined tube name:A8"
+        },
+        {
+          "name": "undefined tube name:A9"
+        },
+        {
+          "name": "undefined tube name:A10"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOa"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOb"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOc"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOd"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOe"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOf"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOg"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOh"
+        },
+        {
+          "name": "undefined tube name:CF3_JH010_BASOI"
+        },
+        {
+          "name": "undefined tube name:P1 D"
+        },
+        {
+          "name": "undefined tube name:P2 D"
+        },
+        {
+          "name": "undefined tube name:P3 D"
+        },
+        {
+          "name": "undefined tube name:P4 D"
+        },
+        {
+          "name": "undefined tube name:PE1"
+        },
+        {
+          "name": "undefined tube name:PE2"
+        },
+        {
+          "name": "undefined tube name:PE3"
+        },
+        {
+          "name": "undefined tube name:PE4"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY218",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Oral Immunotherapy for Childhood Egg Allergy",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY218",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immunobiology of Food Allergy and Its Treatment (CoFAR)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8651874&icde=23823612&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this study is to determine the safety and efficacy of the administration of  oral immunotherapy (OIT). The intent is to develop desensitization and eventually tolerance to egg allergen."
+}

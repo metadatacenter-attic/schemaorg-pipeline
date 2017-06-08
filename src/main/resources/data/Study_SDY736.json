@@ -1,0 +1,326 @@
+{
+  "title": "Human Aging and CMV",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY736",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Human Aging and CMV",
+  "performedBy": [
+    {
+      "firstName": "Janko",
+      "lastName": "Nikolich-Zugich",
+      "email": "jnikolich@medadmin.arizona.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "CMV positive",
+          "size": 241
+        },
+        {
+          "name": "CMV negative",
+          "size": 152
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "anti-human CD8b-ECD"
+        },
+        {
+          "name": "anti-human CD11a-FITC"
+        },
+        {
+          "name": "anti-human CD16-PB"
+        },
+        {
+          "name": "anti-human CD3-APC-Cy7"
+        },
+        {
+          "name": "anti-human CD28-Biotin"
+        },
+        {
+          "name": "anti-human CD95-APC"
+        },
+        {
+          "name": "anti-human CCR7 PE-Cy7"
+        },
+        {
+          "name": "anti-human CD4-PerCP-Cy5.5"
+        },
+        {
+          "name": "anti-human CD62L-PE"
+        },
+        {
+          "name": "SA-Qdot 525"
+        },
+        {
+          "name": "T phenotype panel"
+        },
+        {
+          "name": "anti-human CD3-A700"
+        },
+        {
+          "name": "anti-human CD4 APC-eFluor 780"
+        },
+        {
+          "name": "anti-human CD95-PeCy7"
+        },
+        {
+          "name": "anti-human CCR7 PE"
+        },
+        {
+          "name": "anti-human CD57 APC"
+        },
+        {
+          "name": "Live Dead Yellow Fixable Stain"
+        },
+        {
+          "name": "anti-human CD45RA-e450"
+        },
+        {
+          "name": "ALT T phenotype panel"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "No history of immune disease (Lupus, RA,HIV), no steroid usage (mild allergy and asthma was acceptable), no history of cancer within 5yrs, stroke, or recent surgery."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Janko",
+      "lastName": "Nikolich-Zugich",
+      "email": "jnikolich@medadmin.arizona.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN272201100017C "
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "As part of its biodefense research program, NIAID is issuing a Broad Agency Announcement (BAA) to encourage research to understand the immune status of special populations. This research program seeks to identify the factors and mechanisms that contribute to susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in immunocompromised populations, including neonates, children under 5 years of age, pregnant women, the elderly, and individuals receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. For example, the number of the most vulnerable individuals, in terms of immune status, is increasing. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations. Research is needed to understand the mechanisms of immune compromise, and to provide the foundation for the development of novel interventions.  For this initiative, special populations are defined as neonates, children under 5 years of age, pregnant women the elderly, and individuals who are receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. All of these populations are referred to as ?immunocompromised' throughout the solicitation. This research program seeks to identify the factors and mechanisms that contribute to increased susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in these immunocompromised populations. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations.   https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "24501199",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Wertheimer AM(1), Bennett MS, Park B, Uhrlaub JL, Martinez C, Pulko V, Currier NL, Nikolich-Zugich D, Kaye J, Nikolich-Zugich J.",
+      "title": "Aging and cytomegalovirus infection differentially and jointly affect distinct circulating T cell subsets in humans.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "27270402",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Pulko V(1,)(2), Davies JS(1,)(2), Martinez C(1,)(2), Lanteri MC(3), Busch MP(3),  Diamond MS(4,)(5,)(6), Knox K(1,)(7), Bush EC(8), Sims PA(8,)(9,)(10), Sinari S(11), Billheimer D(11), Haddad EK(12), Murray KO(13,)(14,)(15), Wertheimer AM(1,)(2), Nikolich-??ugich J(1,)(2,)(7).",
+      "title": "Human memory T cells with a naive phenotype accumulate with aging and respond to  persistent viruses.",
+      "publicationVenue": "Nat Immunol.",
+      "dates": [
+        {
+          "date": "2016",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2015-04-21",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-12-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Blood Cell Count with Differential"
+        }
+      },{
+        "name": {
+            "value": "CMV Screen and Titer"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No Treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY736",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Human Aging and CMV",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY736",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Delineate the effect of aging from that of cytomegalovirus (CMV) infection upon relative and absolute changes in blood T cell subsets."
+}

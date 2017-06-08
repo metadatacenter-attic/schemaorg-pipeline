@@ -1,0 +1,549 @@
+{
+  "title": "Heterovariant cross-reactive B-cell responses induced by the 2009 pandemic influenza virus A subtype H1N1 vaccine",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY202",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Heterovariant cross-reactive B-cell responses induced by the 2009 pandemic influenza virus A subtype H1N1 vaccine",
+  "performedBy": [
+    {
+      "firstName": "Harry",
+      "lastName": "Greenberg",
+      "email": "hbgreen@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Flow cytometry phenotyping technical control samples",
+          "size": 1
+        },
+        {
+          "name": "18-32 year old adults immunized intramuscularly with inactivated pH1N1 vaccine",
+          "size": 40
+        },
+        {
+          "name": "60-69 year old adults immunized intramuscularly inactivated pH1N1 vaccine",
+          "size": 20
+        },
+        {
+          "name": ">69 year old adults immunized intramuscularly with inactivated pH1N1 vaccine",
+          "size": 18
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "RosetteSep Human B Cell Enrichment Cocktail"
+        },
+        {
+          "name": "FLUZONE  FLU VACCINE"
+        },
+        {
+          "name": "Coating Solution Concentrate"
+        },
+        {
+          "name": "Anti-Human IgG (gamma) Antibody, Peroxidase labeled"
+        },
+        {
+          "name": "Anti-Human IgA (alpha) Antibody, Peroxidase labeled"
+        },
+        {
+          "name": "TMB Microwell Peroxidase Substrate System"
+        },
+        {
+          "name": "MultiScreenHTS IP Filter Plate, 0.45 ?m, white, non-sterile"
+        },
+        {
+          "name": "Anti-Human IgA+IgG+IgM (H+L) Antibody, Mouse Serum Adsorbed"
+        },
+        {
+          "name": "Reserve AP Anti-Human IgA (alpha) Antibody, Phosphatase labeled"
+        },
+        {
+          "name": "ReserveAP Anti-Human IgG (gamma) Antibody, Phosphatase labeled"
+        },
+        {
+          "name": "Blue Alkaline Phosphatase (AP) Substrate Kit"
+        },
+        {
+          "name": "Phosphate Buffer Saline"
+        },
+        {
+          "name": "Sodium Chloride"
+        },
+        {
+          "name": "Chicken Red Blood Cells"
+        },
+        {
+          "name": "Receptor Destroying Enzyme II"
+        },
+        {
+          "name": "Custom 51 plex Polysterene Bead array kit for Luminex: Discontinued"
+        },
+        {
+          "name": "BD Lyoplate 1"
+        },
+        {
+          "name": "CD4 PerCP-Cy5.5"
+        },
+        {
+          "name": "CD33 PE-Cy7"
+        },
+        {
+          "name": "CD3-Pacific Blue"
+        },
+        {
+          "name": "CD20-PerCp-Cy5.5"
+        },
+        {
+          "name": "CD45RA-QDot-605"
+        },
+        {
+          "name": "Stat-1Ax-488"
+        },
+        {
+          "name": "Stat-3-AX-647"
+        },
+        {
+          "name": "Stat-5-PE"
+        },
+        {
+          "name": "Benzonase Nuclease"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has received an inactivated vaccine within the 2 weeks or a live vaccine within the 4 weeks prior to enrollment in this study or plans to receive another vaccine within the next 28 days."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject is able to understand and comply with the planned study procedures, including being available for all study visits."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a diagnosis of schizophrenia, bi-polar disease, or other severe (disabling) chronic psychiatric diagnosis, or are receiving psychiatric drugs.  Subjects who are receiving a single antidepressant drug and are stable for at least 3 months prior to enrollment without decompensation are allowed enrollment into the study."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Female subjects of childbearing potential with a positive pregnancy test (urine or serum) within 24 hours prior  to vaccination."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a previous history of Guillain-Barr? syndrome within 6 weeks of receipt of influenza vaccine."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject must be in good health, as determined by: vital signs (heart rate <100 bpm; blood pressure: systolic ? 90 mm Hg and ?140 mm Hg; diastolic ? 90 mm Hg; oral temperature <100.0?F); medical history; and targeted physical examination, when necessary, based on medical history.  Stable medical condition is defined as: no recent increase in prescription medication, dose, or frequency of medication in the last 3 months and health outcomes of the specific disease are considered to be within acceptable limits in the last 6 months."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has long-term (greater than 2 weeks) use of oral or parenteral steroids, or high-dose inhaled steroids (>800 mcg/day of beclomethasone dipropionate or equivalent) within the preceding 6 months (nasal and topical steroids are allowed)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a known human immunodeficiency virus, hepatitis B, or hepatitis C infection."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has an acute illness or an oral temperature greater than 99.9?F (37.7?C) within 3 days prior to enrollment or vaccination.  Subjects who had an acute illness that was treated symptoms resolved are eligible to enroll as long as treatment is completed and symptoms resolved > 3 days prior to enrollment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has any condition that would, in the opinion of the site investigator, place the subject at an unacceptable risk of injury or render the subject unable to meet the requirements of the protocol."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has an active neoplastic disease (excluding non-melanoma skin cancer or prostate cancer that is stable in the absence of therapy) or a history of any hematological malignancy.  For this criterion, ?active? is defined as having received treatment within the past 5 years."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subject has a history of egg allergy or is allergic to other components of the vaccine."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has history of previous vaccination with A/New Jersey/76 vaccine (for subjects 60 and older)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject is immunosuppressed as a result of an underlying illness or treatment with immunosuppressive or cytotoxic drugs, or use of anticancer chemotherapy or radiation therapy within the preceding 36 months."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a history of alcohol or drug abuse in the 5 years prior to enrollment."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Female subjects must fulfill one of the following: (i) not able to bear children because she has been surgically sterilized (tubal ligation or hysterectomy) or (ii) agrees to practice effective methods of contraception that may include, but are not limited to abstinence, barrier methods, monogamous relationship with vasectomized partner, birth control pills, patches, hormonal shots or hormonal implants, NuvaRing and IUDs (intrauterine devices), from 30 days prior to study enrollment through 30 days following receipt of the last dose of vaccine."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "aged 18-32 or  >59"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior history of laboratory documented infection pH1N1 virus or immunization with pH1N1 vaccine."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject received immunoglobulin or another blood product within the 3 months prior to enrollment in this study."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject has provided informed consent prior to any study procedures."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has any condition that the prinicipal investigator (PI) believes may interfere with successful completion of the study."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has an acute or chronic medical condition that, in the opinion of the investigator, would render vaccination unsafe or would interfere with the evaluation of responses. These conditions include chronic conditions recognized as risk factors for influenza complications or as contraindications for live vaccination, including chronic cardiac (exclusive of hypertension) or pulmonary conditions (including asthma), diabetes mellitus, or renal impairment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject is currently participating or plans to participate in a study that involves an experimental agent (vaccine, drug, biologic, device, blood product, or medication) or has received an experimental agent within 1 month prior to enrollment in this study, or expects to receive another experimental agent during participation in this study, or intends to donate blood during the study period."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Harry",
+      "lastName": "Greenberg",
+      "email": "hbgreen@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI090019"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?  http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23107783",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "He XS(1), Sasaki S, Baer J, Khurana S, Golding H, Treanor JJ, Topham DJ, Sangster MY, Jin H, Dekker CL, Subbarao K, Greenberg HB.",
+      "title": "Heterovariant cross-reactive B-cell responses induced by the 2009 pandemic influenza virus A subtype H1N1 vaccine.",
+      "publicationVenue": "J Infect Dis.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2009-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-02-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "To generate plasmablast-derived polyclonal antibodies (PPAb) from blood samples collected at day 7 after immunization with different influenza vaccines",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "flow phenotyping",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "H1N1_phospho flow",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No treatment"
+        },
+        {
+          "name": "B cell enrichment"
+        },
+        {
+          "name": "H1N1_TREATMENT"
+        },
+        {
+          "name": "H1N1_luminextreatment"
+        },
+        {
+          "name": "H1N1_flowphenotreatment"
+        },
+        {
+          "name": "interferon alpha"
+        },
+        {
+          "name": "interferon gamma"
+        },
+        {
+          "name": "IL-10"
+        },
+        {
+          "name": "IL-2"
+        },
+        {
+          "name": "IL-21"
+        },
+        {
+          "name": "IL-6"
+        },
+        {
+          "name": "IL-7"
+        },
+        {
+          "name": "Unstim"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY202",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Heterovariant cross-reactive B-cell responses induced by the 2009 pandemic influenza virus A subtype H1N1 vaccine",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY202",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To study the plasmablast response to monovalent inactivated 2009 pandemic pH1N1 vaccine"
+}

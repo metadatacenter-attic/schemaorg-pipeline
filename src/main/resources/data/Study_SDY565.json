@@ -1,0 +1,383 @@
+{
+  "title": "IL2-RAPA ITN018AI:  Proleukin and Rapamune in Type 1 Diabetes Mellitus",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY565",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "IL2-RAPA ITN018AI:  Proleukin and Rapamune in Type 1 Diabetes Mellitus",
+  "performedBy": [
+    {
+      "firstName": "Carla",
+      "lastName": "Greenbaum",
+      "email": "cjgreen@benaroyaresearch.org",
+      "affiliations": [
+          {
+             "name": "Benaroya Research Institute"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Proleukin and Rapamune treatment",
+          "size": 9
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "CD4 AmCyan"
+        },
+        {
+          "name": "CD45RO (APC)-H7"
+        },
+        {
+          "name": "CD25 PE"
+        },
+        {
+          "name": "CD127 V450"
+        },
+        {
+          "name": "CXCR3 PE-Cy5"
+        },
+        {
+          "name": "CCR6 PerCP-Cy5.5"
+        },
+        {
+          "name": "CCR7 PE-Cy7"
+        },
+        {
+          "name": "CD38 Alexa 700"
+        },
+        {
+          "name": "CD8 eFluor650NC"
+        },
+        {
+          "name": "CRTh2 Alexa647"
+        },
+        {
+          "name": "CCR4 FITC"
+        },
+        {
+          "name": "CD3 V450"
+        },
+        {
+          "name": "CD16 APC-H7"
+        },
+        {
+          "name": "CD38 PerCP-Cy5.5"
+        },
+        {
+          "name": "CD56 PE"
+        },
+        {
+          "name": "CD57 FITC"
+        },
+        {
+          "name": "CD19 PE-Cy7"
+        },
+        {
+          "name": "CD27 Alexa647"
+        },
+        {
+          "name": "CD95 PE-Cy5"
+        },
+        {
+          "name": "Live/Dead Blue"
+        },
+        {
+          "name": "CD45RO Alexa700"
+        },
+        {
+          "name": "CD4 PE-Cy5"
+        },
+        {
+          "name": "IFN gamma V450"
+        },
+        {
+          "name": "IL-17 PerCP-Cy5.5"
+        },
+        {
+          "name": "FOXP3 Alexa647"
+        },
+        {
+          "name": "Helios FITC"
+        },
+        {
+          "name": "HLA DR eFluor605NC"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Diagnosed with type 1 diabetes (per ADA criteria) more than 3 but less than 48 months prior to enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "aged 18-45 years old"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "positive for at least one islet cell autoantibody (GAD65-antibody, CA512-antibody and/or ICA)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "chronic use of glucocorticoids or other immunosupporessive ages 4 weeks before enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "history of recurrent infections, other autoimmune diseases, cardiac disease, cataracts or other chronic medical conditions that investigators believe could compromise participant safety"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "females who are pregnant, lactating, intend to get pregnant, or are unwilling to  undergo pregnancy testing during the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "males who intend to father a pregnancy during the first 6 months of the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participation in another clinical study within the last 30 days"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Carla",
+      "lastName": "Greenbaum",
+      "email": "cjgreen@benaroyaresearch.org",
+      "affiliations": [
+          {
+             "name": "Benaroya Research Institute"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22721971",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Long SA(1), Rieck M, Sanda S, Bollyky JB, Samuels PL, Goland R, Ahmann A, Rabinovitch A, Aggarwal S, Phippard D, Turka LA, Ehlers MR, Bianchine PJ, Boyle KD, Adah SA, Bluestone JA, Buckner JH, Greenbaum CJ; Diabetes TrialNet and the Immune Tolerance Network.",
+      "title": "Rapamycin/IL-2 combination therapy in patients with type 1 diabetes augments Tregs yet transiently impairs ?-cell function.",
+      "publicationVenue": "Diabetes.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Autoimmune"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2007-08-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Evaulation of immunological changes after rapamycin/interleukin-2 combination therapy",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Hematology test"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No Treatment"
+        },
+        {
+          "name": "PMA"
+        },
+        {
+          "name": "Brefeldin A"
+        },
+        {
+          "name": "Myosin"
+        },
+        {
+          "name": "Ionomycin"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY565",
+              "identifierSource": "ImmPort"
+          },
+          "title": "IL2-RAPA ITN018AI:  Proleukin and Rapamune in Type 1 Diabetes Mellitus",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY565",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "This study will evaluate whether treatment of type 1 diabetes patients with Proleukin and Rapamune can halt the destruction of beta cells."
+}

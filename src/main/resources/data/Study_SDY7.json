@@ -1,0 +1,412 @@
+{
+  "title": "ADVN Biomarker Registry Study: CMI/Ab-Vaccinia Substudy",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY7",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "ADVN Biomarker Registry Study: CMI/Ab-Vaccinia Substudy",
+  "performedBy": [
+    {
+      "firstName": "Donald",
+      "lastName": "Leung",
+      "email": "leungd@njhealth.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Jon",
+      "lastName": "Hanifin",
+      "email": "hanifinj@ohsu.edu",
+      "affiliations": [
+          {
+             "name": "Oregon Health & Science University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Lynda",
+      "lastName": "Schneider",
+      "email": "lynda.schneider@childrens.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Children's Hospital Boston"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Gallo",
+      "email": "RGallo@ucsd.edu",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Beck",
+      "email": "Lisa_Beck@URMC.ROCHESTER.EDU",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "AD+ EV+ with vaccination",
+          "size": 7
+        },
+        {
+          "name": "AD+ EV- with vaccination",
+          "size": 29
+        },
+        {
+          "name": "Healthy controls with vaccination",
+          "size": 30
+        },
+        {
+          "name": "AD+ no vaccination",
+          "size": 24
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Sign the informed consent form."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "1 to 80 years of age."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Residing in the U.S."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "No systemic disorders (i.e., immunodeficiency disorders such as human immunodeficiency virus [HIV] or lupus erythematosus) other than the condition being studied."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Meet the criteria for one of the diagnostic groups; ADEV+; subjects with a history of or active AD with no adverse events following smallpox vaccination (AD and no EV despite the smallpox vaccination [ADEV-]; age-matched to the ADEV+ group) and NA subjects with no adverse events following smallpox vaccination (age-matched to ADEV group) as confirmed by an ADVN investigator or co-investigator.  The standardized definitions for ADEV+, ADEV-, and NA Control have been developed for use in all ADVN studies and will be used to determine eligibility."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects must be enrolled in the ADVN Biomarker Registry Study prior to the CMI/Ab-Vaccinia Substudy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Unable or unwilling to complete the informed consent process."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has atopy but lacks stringent AD features (only presumptive diagnosis of AD)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of any systemic illness other than the condition being studied."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has autoimmune or immunodeficiency disease.  Presence of active systemic malignancy, excluding uncomplicated non-melanoma skin cancer. "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of any skin disease other than AD that might compromise the stratum corneum barrier (e.g., bullous disease, psoriasis, cutaneous T cell lymphoma [also called Mycosis Fungoides or Sezary syndrome])."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receiving an experimental new drug as part of a separate clinical trial.  If it is a Food and Drug Administration (FDA) approved drug the subject will be allowed to enroll and the information will be captured in their medication history."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving systemic immunosuppressives, oral corticosteroids, or immunomodulatory medicaion within 12 days of enrollment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving immunotherapy within the last year."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects using topical medications including (but not restricted to) Elidel, Protopic, topical corticosteroids, or topical antibiotics at the site of the blood draw within the last 72 hours."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Donald",
+      "lastName": "Leung",
+      "email": "leungd@njhealth.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2008-04-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2012-11-16",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Skin/Integument exam"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Question about medications taken"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      },{
+        "name": {
+            "value": "Vaccination history"
+        }
+      },{
+        "name": {
+            "value": "Smallpox vaccination status"
+        }
+      },{
+        "name": {
+            "value": "Rajka-Langeland Score"
+        }
+      },{
+        "name": {
+            "value": "Physical Exam"
+        }
+      },{
+        "name": {
+            "value": "Interim Skin Infection History"
+        }
+      },{
+        "name": {
+            "value": "Interim Medical History"
+        }
+      },{
+        "name": {
+            "value": "Family History"
+        }
+      },{
+        "name": {
+            "value": "EASI Score"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY7",
+              "identifierSource": "ImmPort"
+          },
+          "title": "ADVN Biomarker Registry Study: CMI/Ab-Vaccinia Substudy",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY7",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To measure total and specific antibody titers and T cell responses in a sample of subjects who experienced eczema vaccinatum (EV) and a group of subjects who did not suffer from EV (normal controls or healthy AD subjects)."
+}

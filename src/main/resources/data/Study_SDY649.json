@@ -1,0 +1,305 @@
+{
+  "title": "Two separate defects affecting true naive or virtual memory T cell precursors combine to reduce naive T cell responses with aging.",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY649",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Two separate defects affecting true naive or virtual memory T cell precursors combine to reduce naive T cell responses with aging.",
+  "performedBy": [
+    {
+      "firstName": "Janko",
+      "lastName": "Nikolich-Zugich",
+      "email": "nikolich@email.arizona.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Kristin",
+      "lastName": "Renkema",
+      "email": "krenkema@umn.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Megan",
+      "lastName": "Smithey",
+      "email": "smithey@email.arizona.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Gang",
+      "lastName": "Li",
+      "email": "ganglic@hotmail.com",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Renkema_JI_2013_Adult",
+          "size": 1
+        },
+        {
+          "name": "Renkema_JI_2013_Old",
+          "size": 1
+        },
+        {
+          "name": "Renkema_JI_2013_B6.OT-I.Rag-knockout (KO) ? B6.Ly5-1 F1",
+          "size": 1
+        },
+        {
+          "name": "Renkema_JI_2013_B6.P14.Rag-KO ? B6.Thy1.1 F1",
+          "size": 1
+        },
+        {
+          "name": "Renkema_JI_2013_B6.gBT-1.Rag-KO ? B6.Thy1.1 F1",
+          "size": 1
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "C57BL/6 background"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Janko",
+      "lastName": "Nikolich-Zugich",
+      "email": "nikolich@email.arizona.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN272201100017C "
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "As part of its biodefense research program, NIAID is issuing a Broad Agency Announcement (BAA) to encourage research to understand the immune status of special populations. This research program seeks to identify the factors and mechanisms that contribute to susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in immunocompromised populations, including neonates, children under 5 years of age, pregnant women, the elderly, and individuals receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. For example, the number of the most vulnerable individuals, in terms of immune status, is increasing. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations. Research is needed to understand the mechanisms of immune compromise, and to provide the foundation for the development of novel interventions.  For this initiative, special populations are defined as neonates, children under 5 years of age, pregnant women the elderly, and individuals who are receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. All of these populations are referred to as ?immunocompromised' throughout the solicitation. This research program seeks to identify the factors and mechanisms that contribute to increased susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in these immunocompromised populations. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations.   https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "24293630",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Renkema KR(1), Li G, Wu A, Smithey MJ, Nikolich-Zugich J.",
+      "title": "Two separate defects affecting true naive or virtual memory T cell precursors combine to reduce naive T cell responses with aging.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Longitudinal"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2011-02-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-09-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "The assay results are found in the pzf files linked to the study directly.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "The assay results are found in the pzf files linked to the study directly.",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY649",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Two separate defects affecting true naive or virtual memory T cell precursors combine to reduce naive T cell responses with aging.",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY649",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Naive T cell responses are eroded with aging. We and others have recently shown that unimmunized old mice lose ? 70% of Ag-specific CD8 T cell precursors and that many of the remaining precursors acquire a virtual (central) memory (VM; CD44(hi)CD62L(hi)) phenotype. In this study, we demonstrate that unimmunized TCR transgenic (TCRTg) mice also undergo massive VM conversion with age, exhibiting rapid effector function upon both TCR and cytokine triggering. Age-related VM conversion in TCRTg mice directly depended on replacement of the original TCRTg specificity by endogenous TCR? rearrangements, indicating that TCR signals must be critical in VM conversion. Importantly, we found that VM conversion had adverse functional effects in both old wild-type and old TCRTg mice; that is, old VM, but not old true naive, T cells exhibited blunted TCR-mediated, but not IL-15-mediated, proliferation. This selective proliferative senescence correlated with increased apoptosis in old VM cells in response to peptide, but decreased apoptosis in response to homeostatic cytokines IL-7 and IL-15. Our results identify TCR as the key factor in differential maintenance and function of Ag-specific precursors in unimmunized mice with aging, and they demonstrate that two separate age-related defects--drastic reduction in true naive T cell precursors and impaired proliferative capacity of their VM cousins--combine to reduce naive T cell responses with aging."
+}

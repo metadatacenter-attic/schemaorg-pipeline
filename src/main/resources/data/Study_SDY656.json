@@ -1,0 +1,269 @@
+{
+  "title": "Histone deacetylation critically determines T cell subset radiosensitivity.",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY656",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Histone deacetylation critically determines T cell subset radiosensitivity.",
+  "performedBy": [
+    {
+      "firstName": "Janko",
+      "lastName": "Nikolich-Zugich",
+      "email": "nikolich@email.arizona.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Pugh",
+      "email": "jpugh@stanford.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Pugh_JI_2014_Adult",
+          "size": 1
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "C57BL/6 background"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Intervention Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Janko",
+      "lastName": "Nikolich-Zugich",
+      "email": "nikolich@email.arizona.edu",
+      "affiliations": [
+          {
+             "name": "University of Arizona"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN272201100017C "
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "As part of its biodefense research program, NIAID is issuing a Broad Agency Announcement (BAA) to encourage research to understand the immune status of special populations. This research program seeks to identify the factors and mechanisms that contribute to susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in immunocompromised populations, including neonates, children under 5 years of age, pregnant women, the elderly, and individuals receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. For example, the number of the most vulnerable individuals, in terms of immune status, is increasing. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations. Research is needed to understand the mechanisms of immune compromise, and to provide the foundation for the development of novel interventions.  For this initiative, special populations are defined as neonates, children under 5 years of age, pregnant women the elderly, and individuals who are receiving immunosuppressive drug therapies to treat a defective immune response or to suppress the rejection of transplanted organs. All of these populations are referred to as ?immunocompromised' throughout the solicitation. This research program seeks to identify the factors and mechanisms that contribute to increased susceptibility to infection from or limit vaccine efficacy against potential bioterrorism agents and emerging/re-emerging infectious diseases in these immunocompromised populations. The continued threat of bioterrorism and greater worldwide spread of emerging/re-emerging infectious diseases underscore the need for vaccines and immune-based therapeutics that can protect the entire population. More effective and better tolerated vaccines and immunotherapies are required for these immunocompromised populations.   https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "24990082",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Pugh JL(1), Sukhina AS(2), Seed TM(3), Manley NR(4), Sempowski GD(5), van den Brink MR(6), Smithey MJ(2), Nikolich-Zugich J(7).",
+      "title": "Histone deacetylation critically determines T cell subset radiosensitivity.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Intervention Longitudinal"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-06-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-09-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "The assay results are found in the pzf files linked to the study directly.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Other"
+        },
+        "description": "The assay results are found in the pzf files linked to the study directly.",
+        "types": [
+            {
+               "value": "Microscopy"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Other"
+        },
+        "description": "The assay results are found in the pzf files linked to the study directly.",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY656",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Histone deacetylation critically determines T cell subset radiosensitivity.",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY656",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immunological basis of age-related vulnerability in biodefense and emerging infections SP2 UAz",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&id=12fdea3dd39a82531753ce0ff78c3946&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Lymphocytes are sensitive to ionizing radiation and naive lymphocytes are more radiosensitive than their memory counterparts. Less is known about radiosensitivity of memory cell subsets. We examined the radiosensitivity of naive (TN), effector memory (TEM), and central memory (TCM) T cell subsets in C57BL/6 mice and found TEM to be more resistant to radiation-induced apoptosis than either TN or TCM. Surprisingly, we found no correlation between the extent of radiation-induced apoptosis in T cell subsets and 1) levels of pro- and antiapoptotic Bcl-2 family members or 2) the H2AX content and maximal ?H2AX fold change. Rather, TEM cell survival correlated with higher levels of immediate ?H2AX marking, immediate break binding and genome-wide open chromatin structure. T cells were able to mark DNA damage seemingly instantly (30 s), even if kept on ice. Relaxing chromatin with the histone deacetylase inhibitor valproic acid following radiation or etoposide treatment improved the survival of TCM and TN cells up to levels seen in the resistant TEM cells but did not improve survival from caspase-mediated apoptosis. We conclude that an open genome-wide chromatin state is the key determinant of efficient immediate repair of DNA damage in T cells, explaining the observed T cell subset radiosensitivity differences."
+}

@@ -1,0 +1,647 @@
+{
+  "title": "Simulation and Prediction of the Adaptive Immune Response and Quantification of Early and Adaptive Immune Response Kinetics to Influenza A Virus Infection",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY241",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Simulation and Prediction of the Adaptive Immune Response and Quantification of Early and Adaptive Immune Response Kinetics to Influenza A Virus Infection",
+  "performedBy": [
+    {
+      "firstName": "David",
+      "lastName": "Topham",
+      "email": "David_Topham@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Hulin",
+      "lastName": "Wu",
+      "email": "hulin_wu@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "WSN-OVA II Treated",
+          "size": 2
+        },
+        {
+          "name": "HeLa vBMW1 treated",
+          "size": 0
+        },
+        {
+          "name": "x31 Treated",
+          "size": 483
+        },
+        {
+          "name": "Control",
+          "size": 9
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Tetramer-PA-PE"
+        },
+        {
+          "name": "Tetramer-NP-APC"
+        },
+        {
+          "name": "CD4 PE-Cy5.5"
+        },
+        {
+          "name": "CD8 APC-Cy7"
+        },
+        {
+          "name": "CD90.2-PerCP"
+        },
+        {
+          "name": "CD44-Alexa 700"
+        },
+        {
+          "name": "CD62L-PE-TR"
+        },
+        {
+          "name": "CD11a-PE-Cy7"
+        },
+        {
+          "name": "CD49a-FITC"
+        },
+        {
+          "name": "Data Not Defined"
+        },
+        {
+          "name": "Goat anti Mouse IgG(H and L)-HRP"
+        },
+        {
+          "name": "Influenza x-31"
+        },
+        {
+          "name": "Mouse IgG standard"
+        },
+        {
+          "name": "Goat anti Mouse IgM-HRP"
+        },
+        {
+          "name": "Mouse IgM standard"
+        },
+        {
+          "name": "IL-2-Alexa 488"
+        },
+        {
+          "name": "CD73 PE-A"
+        },
+        {
+          "name": "Sca1 PE-Cy5-5"
+        },
+        {
+          "name": "IFN-gamma PE-Cy7"
+        },
+        {
+          "name": "CD44 Pacific Blue"
+        },
+        {
+          "name": "CD45.1 Qdot 705"
+        },
+        {
+          "name": "IL-4_5 APC"
+        },
+        {
+          "name": "CD4 APC-Alexa-750"
+        },
+        {
+          "name": "CD27 PE"
+        },
+        {
+          "name": "CD19 APC-CY7"
+        },
+        {
+          "name": "B220/CD45R Pacific Blue"
+        },
+        {
+          "name": "sIgD FITC"
+        },
+        {
+          "name": "sIgM PE-Cy7"
+        },
+        {
+          "name": "sIgG Qdot 655"
+        },
+        {
+          "name": "CD38 Qdot 705"
+        },
+        {
+          "name": "CD138 APC"
+        },
+        {
+          "name": "Flu 1_to_100 Pacific Orange"
+        },
+        {
+          "name": "IgM PE-Cy7"
+        },
+        {
+          "name": "IgA FITC"
+        },
+        {
+          "name": "IgG Qdot 655"
+        },
+        {
+          "name": "Flu 1_to_200 Pacific Orange"
+        },
+        {
+          "name": "IgG APC"
+        },
+        {
+          "name": "Flu 1_to_50 Pacific Orange"
+        },
+        {
+          "name": "Flu Pacific Orange"
+        },
+        {
+          "name": "sFlu Pacific Orange"
+        },
+        {
+          "name": "x31 Flu Alexa 680"
+        },
+        {
+          "name": "CD38 APC"
+        },
+        {
+          "name": "7 AAD"
+        },
+        {
+          "name": "x31 Flu Pacific Orange"
+        },
+        {
+          "name": "sFlu2 Alexa 680"
+        },
+        {
+          "name": "sFlu2 1_to_40 Alexa 680"
+        },
+        {
+          "name": "sFlu2 1_to_20 Alexa 680"
+        },
+        {
+          "name": "B220 PE-Texas-Red"
+        },
+        {
+          "name": "CD38 PE-Cy7"
+        },
+        {
+          "name": "live/dead-violet"
+        },
+        {
+          "name": "sIgM PE-Cy7"
+        },
+        {
+          "name": "sFlu1 Alexa 430"
+        },
+        {
+          "name": "sIgG PE"
+        },
+        {
+          "name": "IgM PE-Cy5"
+        },
+        {
+          "name": "sIgG APC"
+        },
+        {
+          "name": "CD38 Pacific Blue"
+        },
+        {
+          "name": "CD19 APC-CY7-A"
+        },
+        {
+          "name": "CD8 FITC"
+        },
+        {
+          "name": "IL-2 PE"
+        },
+        {
+          "name": "CD45-1 PE-Cy5-5"
+        },
+        {
+          "name": "TNF alpha PE-Cy7"
+        },
+        {
+          "name": "IFN gamma-APC-Alexa 750"
+        },
+        {
+          "name": "CD19 PE-Cy5-5"
+        },
+        {
+          "name": "CD4 Qdot 585"
+        },
+        {
+          "name": "CD103 Qdot 705"
+        },
+        {
+          "name": "Live_Dead Pacific Blue"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Strain is C57/BL6"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "David",
+      "lastName": "Topham",
+      "email": "David_Topham@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Hulin",
+      "lastName": "Wu",
+      "email": "hulin_wu@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "University of Rochester Center for Biodefense Immune Modeling",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200500020C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "To develop a comprehensive model of cell-mediated immune responses to influenza A virus and vaccinia virus.  Analysis of CD4 and CD8 T cell activation and differentiation (human and mouse), B cell and plasma cell differentiation (human), and cell prolieration and death following activation by infection or vaccination (mouse and human).  Conduct in vitro, ex vivo, and in vivo experiments for model generation, validation and refinement.  Data from animal studies (mouse) and human samples (influenza and vaccinia vaccine trials - Vaccine and Trials Unit at Rochester).  The main goal is to produce models that can be used to simulate human immune responses to natural variant or genetically engineered influenza and orthopox viruses  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=46f65798be43fc2f45e003ead1672907"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "19439465",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Lee HY(1), Topham DJ, Park SY, Hollenbaugh J, Treanor J, Mosmann TR, Jin X, Ward  BM, Miao H, Holden-Wiltse J, Perelson AS, Zand M, Wu H.",
+      "title": "Simulation and prediction of the adaptive immune response to influenza A virus infection.",
+      "publicationVenue": "J Virol.",
+      "dates": [
+        {
+          "date": "2009",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "20410284",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Miao H(1), Hollenbaugh JA, Zand MS, Holden-Wiltse J, Mosmann TR, Perelson AS, Wu  H, Topham DJ.",
+      "title": "Quantifying the early immune response and adaptive immune response kinetics in mice infected with influenza A virus.",
+      "publicationVenue": "J Virol.",
+      "dates": [
+        {
+          "date": "2010",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "21948988",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Wu H(1), Kumar A, Miao H, Holden-Wiltse J, Mosmann TR, Livingstone AM, Belz GT, Perelson AS, Zand MS, Topham DJ.",
+      "title": "Modeling of influenza-specific CD8+ T cells during the primary response indicates that the spleen is a major source of effectors.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "22468229",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Henn AD, Laski M, Yang H, Welle S, Qiu X, Miao H, Barry CT, Wu H, Zand MS.",
+      "title": "Functionally Distinct Subpopulations of CpG-Activated Memory B Cells.",
+      "publicationVenue": "Sci Rep.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "22554464",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Li X(1), Miao H, Henn A, Topham DJ, Wu H, Zand MS, Mosmann TR.",
+      "title": "Ki-67 expression reveals strong, transient influenza specific CD4 T cell responses after adult vaccination.",
+      "publicationVenue": "Vaccine.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "23900141",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Henn AD(1), Wu S, Qiu X, Ruda M, Stover M, Yang H, Liu Z, Welle SL, Holden-Wiltse J, Wu H, Zand MS.",
+      "title": "High-resolution temporal response patterns to influenza vaccine reveal a distinct human plasma cell gene signature.",
+      "publicationVenue": "Sci Rep.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Longitudinal"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2007-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2011-12-30",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2014-04-08",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "NP (nucleoprotein) and PA (acid polymerase) tetramer staining of cells derived from lung tissue of H3N2 A.Hong Kong/X31 infected mice.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Determination of virus-specific antibody levels by enzyme-linked immunosorbent assay (ELISA)",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "This experiment uses intracellular cytokine staining to detect influenza specific ThPP cells",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Flow cytometry experiment",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "This flow cytometry experiment detects antigen responsive CD4 and CD8 T cells against influenza X31 virus",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Using NP and PA tetramers to identify antigen specifc CD8 T cells during an HKx31 infection",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "This intracellular staining protocol detects cytokine producing CD4 and CD8 T cells against influenza A/HK-x31(X31) virus",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Flow cytometry based cell counting method using beads to enumerate total cell numbers with a sample.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Tissue for determination of CD8 T-cell counts and serum for antibody measurements were collected from 3 to 15 mice (9 to 12 mice for most time points for enzyme-linked immunospot [ELISPOT] assays",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "Treatment 1"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY241",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Simulation and Prediction of the Adaptive Immune Response and Quantification of Early and Adaptive Immune Response Kinetics to Influenza A Virus Infection",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY241",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "University of Rochester Center for Biodefense Immune Modeling",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=46f65798be43fc2f45e003ead1672907"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Modeling approaches were combined with experimental data to investigate innate and adaptive immune responses to IAV infection. Mathematical models developed describe the dynamic interactions between influenza virus, target cells, cytotoxic lymphocytes, and virus-specific IgG and IgM. In additon, a two-compartment model developed quantifies the effects of viral replication and adaptive immunity."
+}

@@ -1,0 +1,347 @@
+{
+  "title": "Assess the association between immune response genotype set and susceptibility to neuroinvasive disease.",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY20",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Assess the association between immune response genotype set and susceptibility to neuroinvasive disease.",
+  "performedBy": [
+    {
+      "firstName": "Mark",
+      "lastName": "Loeb",
+      "email": "loebm@mcmaster.ca",
+      "affiliations": [
+          {
+             "name": "Pathology & Molecular Medicine and Clinical Epidemiology and Biostatistics"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Bramson",
+      "email": "bramsonj@mcmaster.ca",
+      "affiliations": [
+          {
+             "name": "Department of Pathology and Molecular Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Hudson",
+      "email": "NA",
+      "affiliations": [
+          {
+             "name": "Medicine and Human Genetics"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Kelvin",
+      "email": "NA",
+      "affiliations": [
+          {
+             "name": "Experimental Therapeutics"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Tak",
+      "lastName": "Mak",
+      "email": "NA",
+      "affiliations": [
+          {
+             "name": "University of Toronto"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "WNv patients with neuroinvasive disease.",
+          "size": 614
+        },
+        {
+          "name": "WNv patients without neuroinvasive disease.",
+          "size": 999
+        },
+        {
+          "name": "Unknown Phenotype",
+          "size": 60
+        },
+        {
+          "name": "HapMap control",
+          "size": 1
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Cases and controls selected from states/provinces with high rates of WNv."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Controls are individuals who meet criteria for infection but do not develop neuroinvasive disease."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Cases are individuals who meet the CDC arboviral clinical case definitions for meningitis like: fever, headache, stiff neck, pleocytosis, and altered mental status."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Controls are individuals who meet criteria for infection but who do not develop neuroinvasive disease."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "All subjects are 18 years of age or older."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Mark",
+      "lastName": "Loeb",
+      "email": "loebm@mcmaster.ca",
+      "affiliations": [
+          {
+             "name": "Pathology & Molecular Medicine and Clinical Epidemiology and Biostatistics"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Population Genetics Analysis Program on West Nile Virus",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200400066C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The investigators hypothesize that the severity of West Nile virus infection is a consequence of genetic factors that result in increased West Nile virus replication and subsequent immune pathology in individuals with severe (encephalitis or meningitis) disease.  To address this hypothesis, in Research Area 1, the investigators will assess the association between known and discovered candidate immune response genotype sets and susceptibility to meningoencephalitis in patients infected with West Nile virus.    In Research Area 2, they will characterize the relationship between candidate immune response gene polymorphisms, protein function, and West Nile virus infection using in vitro and in vivo models, including natural infection in humans.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=d13444233afaede32270db399b0ab691 "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2003-08-10",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2009-09-30",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2010-11-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Genotyping of subjects for WNV project To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Genotyping of subjects for WNV project To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "WestNile WNOmni798_Report To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "WestNile WN1Mduo136_FinalReport To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY20",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Assess the association between immune response genotype set and susceptibility to neuroinvasive disease.",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY20",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Population Genetics Analysis Program on West Nile Virus",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=7337886&icde=23823462&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The severity of West Nile virus (WNv) infections are a consequence of genetic factors that result in increased WNv replication and subsequent immune pathology in individuals with severe (encephalitis or meningitis) disease.  Our preliminary draft of 156 genes includes potential candidates to study variation in the severity of WNv infections.  Using a candidate gene approach we have also selected a panel of candidate immune response genes for SNP analysis  guided by the collective understanding of virus-host interactions.  This portion of the study will genotype these genes in a population of WNv patients and control s to identify genes associated with variations in the severity of WNv disease."
+}

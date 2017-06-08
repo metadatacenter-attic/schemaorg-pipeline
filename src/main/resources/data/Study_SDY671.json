@@ -1,0 +1,465 @@
+{
+  "title": "Knechtle ITN013ST: Combination Immunosuppressive Therapy to Prevent Kidney Transplant Rejection in Adults",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY671",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Knechtle ITN013ST: Combination Immunosuppressive Therapy to Prevent Kidney Transplant Rejection in Adults",
+  "performedBy": [
+    {
+      "firstName": "Stuart",
+      "lastName": "Knechtle",
+      "email": "stuart.knechtle@emoryhealthcare.org",
+      "affiliations": [
+          {
+             "name": "Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Arjang",
+      "lastName": "Djamali",
+      "email": "axd@medicine.wisc.edu",
+      "affiliations": [
+          {
+             "name": "University of Wisconsin, Madison"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Alemtuzumab treatment",
+          "size": 20
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Kidney transplant with primary cadaveric or non-Human Leukocyte Antigen (HLA)-identical living donor kidney (0-3 HLA-antigen mismatch)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Receiving only a kidney and no other organs"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Able to take medications by mouth"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to use acceptable methods of contraception"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Received HLA-identical living-donor kidney transplant"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "HLA-antigen mismatch greater than 3"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Panel reactive antibody (PRA) value greater than 10% at any time prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Received a non-heart-beating donor allograft"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Received a kidney from a donor who is greater than 60 years of age"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "End-stage Renal Disease (ESRD) due to Focal Segmental Glomulerosclerosis (FSGS)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Previous kidney transplant"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Received multiorgan transplant"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Concomitant systemic corticosteroid therapy for other medical diseases"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Known hypersensitivity to alemtuzumab, tacrolimus, methylprednisolone, or sirolimus"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Human Immunodeficiency Virus (HIV) infected"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Hepatitis C virus infected"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Positive for hepatitis B surface antigen"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Received dual or en-bloc pediatric kidneys"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Anti-human Globulin (AHG) or T cell crossmatch positive"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Investigational drug within 6 weeks of study entry"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Known clinically significant cardiovascular or cerebrovascular disease"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Previous or current history of cancer or lymphoma. Patients with adequately treated basal or squamous cell skin carcinoma are not excluded"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Clinically significant coagulopathy or a requirement for chronic anti-coagulation therapy precluding biopsy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Cytomegalovirus (CMV)-negative recipient, if received kidney is from a CMV-positive donor"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of a psychological illness or condition that, in the opinion of the investigator, may interfere with the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Graves disease. Patients who have been previously adequately treated with radioiodine ablative therapy are not excluded"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Active systemic infections"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Platelets less than 100,000 cells/mm^3 at study entry"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnant or breastfeeding"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Stuart",
+      "lastName": "Knechtle",
+      "email": "stuart.knechtle@emoryhealthcare.org",
+      "affiliations": [
+          {
+             "name": "Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Arjang",
+      "lastName": "Djamali",
+      "email": "axd@medicine.wisc.edu",
+      "affiliations": [
+          {
+             "name": "University of Wisconsin, Madison"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "19344431",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Knechtle SJ(1), Pascual J, Bloom DD, Torrealba JR, Jankowska-Gan E, Burlingham WJ, Kwun J, Colvin RB, Seyfert-Margolis V, Bourcier K, Sollinger HW.",
+      "title": "Early and limited use of tacrolimus to avoid rejection in an alemtuzumab and sirolimus regimen for kidney transplantation: clinical results and immune monitoring.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2009",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "26461968",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Newell KA(1), Asare A(2,)(3), Sanz I(1), Wei C(1), Rosenberg A(4), Gao Z(3), Kanaparthi S(2,)(3), Asare S(2,)(3), Lim N(2,)(3), Stahly M(2,)(3), Howell M(2),  Knechtle S(1), Kirk A(1), Marks WH(5), Kawai T(3), Spitzer T(6), Tolkoff-Rubin N(6), Sykes M(7), Sachs DH(3), Cosimi AB(3), Burlingham WJ(8), Phippard D(2), Turka LA(2,)(3,)(6).",
+      "title": "Longitudinal studies of a B cell-derived signature of tolerance in renal transplant recipients.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2003-11-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-02-05",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Comprehensive Metabolic Panel"
+        }
+      },{
+        "name": {
+            "value": "Blood Cell Count with Differential"
+        }
+      },{
+        "name": {
+            "value": "Urinalysis"
+        }
+      },{
+        "name": {
+            "value": "Thyroid Panel"
+        }
+      },{
+        "name": {
+            "value": "Blood Flow Cytometry"
+        }
+      },{
+        "name": {
+            "value": "Overall_Outcome_Data"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY671",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Knechtle ITN013ST: Combination Immunosuppressive Therapy to Prevent Kidney Transplant Rejection in Adults",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY671",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this study is to test the safety and effectiveness of alemtuzumab in combination with sirolimus and tacrolimus, to prevent organ rejection after kidney transplantation. This study will test whether the medications allow patients to withdraw from antirejection medications"
+}

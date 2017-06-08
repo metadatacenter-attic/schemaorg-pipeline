@@ -1,0 +1,357 @@
+{
+  "title": "Response of women during pregnancy to the inactivated influenza virus vaccine",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY37",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Response of women during pregnancy to the inactivated influenza virus vaccine",
+  "performedBy": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Moran",
+      "email": "thomas.moran@mssm.edu",
+      "affiliations": [
+          {
+             "name": "School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Palese",
+      "email": "peter.palese@mssm.edu",
+      "affiliations": [
+          {
+             "name": "Department of Microbiology"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    },
+    {
+      "firstName": "Garcia",
+      "lastName": "Sastre",
+      "email": "adolfo.garcia-sastre@mssm.edu",
+      "affiliations": [
+          {
+             "name": "Department of Microbiology"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Pregnant Women, enrolled and receiving H1N1 vaccination anytime during pregnancy",
+          "size": 335
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "anti-human IgG Fc-specific-AP"
+        },
+        {
+          "name": "H1N1 neutralization reagents"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Pregnant women at least 18 years of age in any trimesters of pregnancy and receiving influenza vaccinations (seasonal and/or H1N1) as part of their routine clinical care."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Individuals unable to give informed consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Individuals who do not plan to remain in the geographic area for three months."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Individuals who can not be easily contacted by phone until the end of influenza season."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Moran",
+      "email": "thomas.moran@mssm.edu",
+      "affiliations": [
+          {
+             "name": "School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Response to Virus Infection During Pregnancy",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-050028"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Pregnancy is a uniquely advantageous system to evaluate the consequences of immunosuppression in that a woman returns to normal immune function following its resolution. Therefore, individual-level correlates of immune-function, such as vaccination status, allergies, medical history, and background genetic characteristics, become irrelevant when she acts as her own control.  Moreover, altered immunity during pregnancy may have consequences on the efficacy of vaccines or immunotherapeutic treatments. Susceptibility to infection may also be affected at specific times during pregnancy. Levels of circulating estrogen, progesterone, and other placental hormones/peptides are suspected to be critical factors that modulate the adaptive changes observed in maternal systemic immunity.  Thus, individuals in high-risk periods may need to be treated differently. We propose to enroll 50-75 women in a prospective cohort study to examine the longitudinal changes in immunity over the course of pregnancy, the post-partum lactation period, and post-lactation a??normala?? period. As such, each woman will act as her own control, allowing us to characterize the nature, extent and correlates of immune competence during the pregnancy and neonatal period. The study will determine whether the different trimesters of pregnancy, characterized by unique hormonal environments, are associated with (a) identifiable, discrete changes in maternal systemic immunity and/or (b) recognizable alterations in susceptibility to select bio-defense pathogens and/or (c) differential responses to influenza vaccination"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22353963",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Sperling RS(1), Engel SM, Wallenstein S, Kraus TA, Garrido J, Singh T, Kellerman  L, Moran TM.",
+      "title": "Immunogenicity of trivalent inactivated influenza vaccination received during pregnancy or postpartum.",
+      "publicationVenue": "Obstet Gynecol.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2005-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2010-01-10",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2013-04-05",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "Evaluation of total IgG, IgG1, IgG3, IgG4 in response to vaccination. Vaccine composition?A/Brisbane/10/2007 (H3N2)-like virus and a B/Florida/4/2006-like virus. Patient serum samples were evaluated for a post-vaccination boost in IgG antibody titer against the seasonal TIV (trivalent inactivated influenza virus vaccine) composition as a measure of vaccine response.",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "Longitudinal response to H1N1 vaccination",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Virus Titer"
+        },
+        "description": "H3N2, H1N1 seasonal influenza titer evaluation",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "Longitudinal H3N2, H1N1 influenza virus evaluation",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "Longitudinal evaluation of H3N2, H1N1 influenza vaccination response",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "Sera will be collected and tested in a microneutralization assay for its ability to inhibit virus infection of susceptible cells. Mixtures of sera and virus are added to the cell monolayers and infection is determined by replication of viral genes in the cell as indicated by the production of GFP.",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "Sera will be collected and tested in a microneutralization assay for its ability to inhibit virus infection of susceptible cells. Mixtures of sera and virus are added to the cell monolayers and infection is determined by replication of viral genes in the cell as indicated by the production of GFP.",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY37",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Response of women during pregnancy to the inactivated influenza virus vaccine",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY37",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Response to Virus Infection During Pregnancy",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "None"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Immunological changes play a physiological role in pregnancy, however they may also have consequences for vaccine response, which ultimately could impact maternal and fetal survival in the event of transmission of infectious diseases and/or bioterrorism.<br/><br/>The purpose of this study is to characterize the changes in immune response that occur during pregnancy."
+}

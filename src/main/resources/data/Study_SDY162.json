@@ -1,0 +1,260 @@
+{
+  "title": "Immunologic and genomic signatures of response to Hepatitis C Virus infection.",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY162",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Immunologic and genomic signatures of response to Hepatitis C Virus infection.",
+  "performedBy": [
+    {
+      "firstName": "David",
+      "lastName": "Hafler",
+      "email": "david.halfer@yale.edu",
+      "affiliations": [
+          {
+             "name": "Yale"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "VL+; chronically infected",
+          "size": 10
+        },
+        {
+          "name": "VL-; cleared",
+          "size": 10
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "HumanHT-12_V4"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "Interferon therapy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Infection with HCV genotype other than 1"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Hepatitis C virus (HCV) patients with positive antibody for genotype 1 HCV by enzyme immunoassay (EIA) and recombinant immunoblot assay (RIBA). Study subjects were divided into groups of chronically infected (HCV RNA in serum >50 IU/L before any HCV therapy) or spontaneously cleared (undetectable HCV RNA in serum (<50 IU/L) without having received any HCV therapy)."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "David",
+      "lastName": "Hafler",
+      "email": "david.halfer@yale.edu",
+      "affiliations": [
+          {
+             "name": "Yale"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Defining signatures for immune responsiveness by functional systems immunology",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI089992"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "In Research Project 1, we will develop immunologic signatures of influenza vaccine responsiveness and determine the effect of aging and functional status on these signatures. We will identify gene signatures and biological pathways that can distinguish between strong and weak immune responses to vaccination and that predict effective responses. In Research Project 2, we will investigate resistance to flaviviral infections using West Nile virus, and hepatitis C virus; through analysis of responses in patients from stratified cohorts, we will establish correlations between gene expression, immune cell responses and clinical outcome. In Research Project 3, we will generate mathematical models that detect connectivity and predict dynamic functional responses of the immune system. This approach will link data collected on both populations and individuals using multivariate statistical approaches to integrate cohort-wide data including genome wide association studies and novel single-cell analyses to assess immune responsiveness in relationship to genetic variation. Our functional systems immunology approach will allow us to define baseline human immune signatures following viral infection and vaccination along with deviations from this baseline, with the goal of identifying future targets for intervention and establishing sets of biomarkers that predict responses to vaccination  http://projectreporter.nih.gov/project_info_details.cfm?aid=8699127&icde=23814817&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23220997",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Qian F(1), Bolen CR, Jing C, Wang X, Zheng W, Zhao H, Fikrig E, Bruce RD, Kleinstein SH, Montgomery RR.",
+      "title": "Impaired toll-like receptor 3-mediated immune responses from macrophages of patients chronically infected with hepatitis C virus.",
+      "publicationVenue": "Clin Vaccine Immunol.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2014-08-07",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "TR_HCV_MCOK"
+        },
+        {
+          "name": "TR_HCV_PolyICH"
+        },
+        {
+          "name": "TR_HCV_PolyICL"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY162",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Immunologic and genomic signatures of response to Hepatitis C Virus infection.",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY162",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Defining signatures for immune responsiveness by functional systems immunology",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=da736a25c9098cee65ba909ab9c63121"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Examine the immune response in primary immune cells from subjects who have spontaneously cleared HCV compared to HCV chronically infected subjects"
+}

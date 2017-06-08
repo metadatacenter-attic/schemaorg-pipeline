@@ -1,0 +1,394 @@
+{
+  "title": "Gene expression changes in neonatal and adult plasmacytoid dendritic cells (pDC) and myeloid dendritic cells (mDC) upon TLR7/8 stimulation",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY282",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Gene expression changes in neonatal and adult plasmacytoid dendritic cells (pDC) and myeloid dendritic cells (mDC) upon TLR7/8 stimulation",
+  "performedBy": [
+    {
+      "firstName": "Christopher",
+      "lastName": "Wilson",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Tobias",
+      "lastName": "Kollmann",
+      "email": "tkollm@mac.com",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Co-Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Adeline",
+      "lastName": "Hajjar",
+      "email": "hajjar@uw.edu",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Co-Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Ernst",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Co-Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Samuel",
+      "lastName": "Miller",
+      "email": "millersi@u.washington.edu",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Co-Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Joe",
+      "lastName": "Ward",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "UCLA"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Roger",
+      "lastName": "Bumgarner",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Brent",
+      "lastName": "Wood",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Erika",
+      "lastName": "Douglass",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Kiea",
+      "lastName": "Arispe",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Sullivan",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Tanya Eng",
+      "lastName": "Aquino",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Neonate human",
+          "size": 12
+        },
+        {
+          "name": "Adult human",
+          "size": 12
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "RNeasy mini kit"
+        },
+        {
+          "name": "Illumina TotalPrep RNA Amplification Kit"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Human"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Christopher",
+      "lastName": "Wilson",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "TLRs in Innate Immunity and the Induction of Adaptive Immunity in the Neonate and Infant",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-050023"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The overall goal of this research project is to define comprehensively and in molecular and cellular detail differences in recognition and response to microbe-derived danger signals between adults, neonates and infants, and how these, in turn, contribute to differences in innate immunity and the induction of antigen-specific (adaptive) immunity. In so doing, we aim to discover candidate strategies by which immediate protection against potential bioterrorism agents might be provided to this vulnerable population, while at the same time facilitating the development of antigen-specific immunity to infection or immunization. This presentation will provide an overview of current knowledge regarding immunity in neonates and young infants compared to adults, deficiencies in that knowledge, and the objectives and approaches to be used in this project to address some of these deficiencies.  http://projectreporter.nih.gov/project_info_details.cfm?aid=7337886&icde=23823462&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2014-08-07",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "None"
+        },
+        {
+          "name": "3M-003"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY282",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Gene expression changes in neonatal and adult plasmacytoid dendritic cells (pDC) and myeloid dendritic cells (mDC) upon TLR7/8 stimulation",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY282",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "TLRs in Innate Immunity and the Induction of Adaptive Immunity in the Neonate and Infant",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=7337888&icde=23823658&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Differences in gene expression changes between neonatal and adult plasmacytoid dendritic cells upon stimulation with TLR7/8 may point to specific signaling pathways which, in turn, may account for the known differential immune response of babies to vaccination or infection when compared to adults."
+}

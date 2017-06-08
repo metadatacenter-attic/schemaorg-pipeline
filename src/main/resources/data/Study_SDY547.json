@@ -1,0 +1,390 @@
+{
+  "title": "STAyCIS ITN020AI:  Atorvastatin (Lipitor) Therapy in Patients with Clinically Isolated Syndrome (CIS) at Risk for Multiple Sclerosis",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY547",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "STAyCIS ITN020AI:  Atorvastatin (Lipitor) Therapy in Patients with Clinically Isolated Syndrome (CIS) at Risk for Multiple Sclerosis",
+  "performedBy": [
+    {
+      "firstName": "Scott",
+      "lastName": "Zamvil",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "University of California, San Francisco"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Zamvil",
+      "email": "scottsamvil@ucsf.neuroimmunol.org",
+      "affiliations": [
+          {
+             "name": "University of California, San Francisco"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Placebo",
+          "size": 32
+        },
+        {
+          "name": "Atorvastatin",
+          "size": 51
+        },
+        {
+          "name": "Lab Normal",
+          "size": 0
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Clinically isolated syndrome (CIS) as defined by an acute or subacute well-defined neurological event lasting at least 48 hours and consistent with MS (i.e., optic neuritis, spinal cord syndrome, brainstem/cerebellar syndromes). Other causes for optic neuritis other than CIS must be ruled out by an ophthalmologist. Patients with other clinically silent abnormal findings found upon neurological examination that are not attributable to the presenting symptom are not excluded."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Onset of CIS symptoms occurring within 90 days of randomization"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Abnormal, unenhanced brain MRI with 2 or more clinically silent T2 lesions greater than or equal to 3 mm in diameter, at least one of which is periventricular in location or ovoid in shape"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to use acceptable methods of contraception"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Have received 3 to 5 days of corticosteroid therapy within 60 days of CIS onset"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Definite diagnosis of MS according to McDonald criteria"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Previous history of neurological symptoms lasting more than 48 hours. Patients with a history of neurological symptoms lasting less than 48 hours will not be excluded."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior use of interferon, glatiramer acetate, cyclophosphamide, mitoxantrone, or plasmapheresis anytime prior to study entry"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of interferon preparations (unless as specified by the protocol), glatiramer acetate, cyclophosphamide, mitoxantrone, or plasmapheresis during the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of cyclosporine, fibric acid derivatives, niacin, erythromycin, or azole antifungal during the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Received more than 5 g of methylprednisolone (or the equivalent of other IV corticosteroid) prior to study screening"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of a cholesterol-lowering agent during the 3 months prior to study screening or need for such agents during the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Previous history of severe side effects with statin therapy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior exposure to total lymphoid irradiation"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of substance abuse in the 12 months prior to study screening"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of systemic illness or medical condition that would limit the likelihood of completing the MRI procedures or would interfere with the measurement of a therapeutic effect"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Implanted pacemakers, cochlear implants, defibrillators, or metallic objects on or inside the body"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Uncontrolled hypertension, asthma, known malignancy other than skin cancer, symptomatic cardiac disease, epilepsy, insulin-dependent diabetes, or symptoms that can only be explained by systemic lupus erythematosus (SLE) or other autoimmune diseases"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Active liver disease"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Major medical illnesses or psychiatric impairment that in the investigator's opinion could interfere with the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of severe depression or suicidal ideation within 1 year of study entry"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Scott",
+      "lastName": "Zamvil",
+      "email": "scottsamvil@ucsf.neuroimmunol.org",
+      "affiliations": [
+          {
+             "name": "University of California, San Francisco"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22459680",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Waubant E(1), Pelletier D, Mass M, Cohen JA, Kita M, Cross A, Bar-Or A, Vollmer T, Racke M, Stuve O, Schwid S, Goodman A, Kachuck N, Preiningerova J, Weinstock-Guttman B, Calabresi PA, Miller A, Mokhtarani M, Ikle D, Murphy S, Kopetskie H, Ding L, Rosenberg E, Spencer C, Zamvil SS; ITN STAyCIS Study Group;  ITN020AI Study Management Team.",
+      "title": "Randomized controlled trial of atorvastatin in clinically isolated syndrome: the  STAyCIS study.",
+      "publicationVenue": "Neurology.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Autoimmune"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2005-05-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-12-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Urinalysis"
+        }
+      },{
+        "name": {
+            "value": "Comprehensive Metabolic Panel"
+        }
+      },{
+        "name": {
+            "value": "Blood Cell Count with Differential"
+        }
+      },{
+        "name": {
+            "value": "Fasting Lipid Profile"
+        }
+      },{
+        "name": {
+            "value": "Protein or Enzyme Type Measurement"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY547",
+              "identifierSource": "ImmPort"
+          },
+          "title": "STAyCIS ITN020AI:  Atorvastatin (Lipitor) Therapy in Patients with Clinically Isolated Syndrome (CIS) at Risk for Multiple Sclerosis",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY547",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Patients who have been diagnosed with clinically isolated syndrome (CIS) often develop problems related to the central nervous system, which controls the nerves in the body. Some of these patients may later be diagnosed with multiple sclerosis (MS), a progressive disease of the nervous system. The purpose of this study is to determine if the drug atorvastatin is helpful to CIS patients. Study hypothesis: Early intervention with atorvastatin in patients with CIS will result in a state of immunological tolerance."
+}

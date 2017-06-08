@@ -1,0 +1,429 @@
+{
+  "title": "B and T Cell Determinants of Influenza Vaccine Responses in the Elderly 2008 (see companion study SDY773)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY460",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "B and T Cell Determinants of Influenza Vaccine Responses in the Elderly 2008 (see companion study SDY773)",
+  "performedBy": [
+    {
+      "firstName": "Scott",
+      "lastName": "Boyd",
+      "email": "sboyd1@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Group A 2008",
+          "size": 10
+        },
+        {
+          "name": "Group B 2008",
+          "size": 10
+        },
+        {
+          "name": "Group C 2008",
+          "size": 7
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Amplitaq Gold"
+        },
+        {
+          "name": "PCR Primers for IGH locus"
+        },
+        {
+          "name": "DNTPs"
+        },
+        {
+          "name": "Allprep"
+        },
+        {
+          "name": "Agarose"
+        },
+        {
+          "name": "gel extraction kit"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Age 18-30, 60-79, or 80-100 years, inclusive at time of initial enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "General good health and ambulatory at time of enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "No acute illness at time of vaccination"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing and able to sign Informed Consent"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Available for follow-up for the planned duration of the study"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Acceptable medical history by screening evaluation and brief clinical assessment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "All female subjects of childbearing potential must use an acceptable method of contraception and not become pregnant for the duration of the clinical phase of the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Off-study vaccination during the period of the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Allergy to egg or egg products"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Allergy to vaccine components, including thimerosal"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Active systemic or serious concurrent illness, including febrile illness on the day of vaccination"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of immunodeficiency"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any chronic disorder which, in the opinion of the investigator, might jeopardize volunteer safety or compliance with the protocol."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Blood pressure > 150 systolic or > 95 diastolic at Visit 1"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Chronic Hepatitis B or C"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Recent or current use of systemic immunosuppressive medication, including glucocorticoids (corticosteroid nasal sprays and inhaled steroids are permissible). Use of oral steroids (< 20mg predisone - equivalent/day) may be acceptable after review by the investigator."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Autoimmune disease"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of blood dyscrasias or hemoglobinopathies requiring regular medical follow up or hospitalization during the preceding year"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of anti-coagulation medication such as Coumadin or Lovenox, or anti-platelet agents such as aspirin, Plavix, Aggrenox must be reviewed by investigator to determine if this would affect the volunteer's safety."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receipt of blood or blood products within the past 6 months"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Medical or psychiatric condition or occupational responsibilities that preclude subject compliance with the protocol"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receipt of inactivated vaccine within 14 days prior to vaccination"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receipt of live, attenuated vaccine within 60 days of vaccination"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of Guillain-Barr? Syndrome"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnant or lactating woman"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of investigational agents within 30 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Donation of the equivalent of a unit of blood within 6 weeks prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any condition which, in the opinion of the investigator, might interfere with volunteer safety, study objectives or the ability of the participant to understand or comply with the study protocol."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Scott",
+      "lastName": "Boyd",
+      "email": "sboyd1@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI090019"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?  http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "24337376",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Wang C(1), Liu Y, Xu LT, Jackson KJ, Roskin KM, Pham TD, Laserson J, Marshall EL, Seo K, Lee JY, Furman D, Koller D, Dekker CL, Davis MM, Fire AZ, Boyd SD.",
+      "title": "Effects of aging, cytomegalovirus infection, and EBV infection on human B cell repertoires.",
+      "publicationVenue": "J Immunol.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Longitudinal"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2008-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "Identification of B cell clones based on IGH sequencing",
+        "types": [
+            {
+               "value": "Sequencing"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No_Treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY460",
+              "identifierSource": "ImmPort"
+          },
+          "title": "B and T Cell Determinants of Influenza Vaccine Responses in the Elderly 2008 (see companion study SDY773)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY460",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Application of high-throughput DNA sequencing of the IGH gene rearrangements to study the B cell repertoires over two successive years in 27 individuals ranging in age from 20 to 89 years old."
+}

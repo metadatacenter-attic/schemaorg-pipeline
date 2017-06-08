@@ -1,0 +1,135 @@
+<div class="content">
+  <h1>{{title}}</h1>
+  <table class="dataframe">
+    <tbody>
+      <tr>
+        <td class="dataframeKey">Study title:</td>
+        <td class="dataframeValue">{{title}}</td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Description:</td>
+        <td class="dataframeValue">{{description}}</td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">URL:</td>
+        <td class="dataframeValue"><a href="{{identifier/identifier}}">{{identifier/identifier}}</a></td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Performed by:</td>
+        <td class="dataframeValue">
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Affiliations</th>
+              <th>Role</th>
+            </tr>
+            {{#each producedBy/performedBy}}
+            <tr>
+              <td>{{lastName}}, {{firstName}}</td>
+              <td>{{email}}</td>
+              <td>
+                {{#affiliations}}
+                  {{name}}<br />
+                {{/affiliations}}
+              </td>
+              <td>
+                {{#roles}}
+                  {{value}}<br />
+                {{/roles}}
+              </td>
+            </tr>
+            {{/each}}
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Study groups:</td>
+        <td class="dataframeValue">
+          {{#if producedBy/studyGroups}}
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Size</th>
+            </tr>
+            {{#each producedBy/studyGroups}}
+            <tr>
+              <td>{{name}}</td>
+              <td>{{size}}</td>
+            </tr>
+            {{/each}}
+          </table>
+          {{else}}
+            N/A
+          {{/if}}
+        </td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Uses reagent:</td>
+        <td class="dataframeValue">
+          {{#if producedBy/usesReagent}}
+            {{#each producedBy/usesReagent}}
+              {{name}}{{#unless @last}}, {{/unless}}
+            {{/each}}
+          {{else}}
+            N/A
+          {{/if}}
+        </td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Selection criteria:</td>
+        <td class="dataframeValue">
+          {{#if producedBy/selectionCriteria}}
+          <table>
+            <tr>
+              <th>Category</th>
+              <th>Value</th>
+            </tr>
+            {{#each producedBy/selectionCriteria}}
+            <tr>
+              <td>{{category}}</td>
+              <td>{{values}}</td>
+            </tr>
+            {{/each}}
+          </table>
+          {{else}}
+            N/A
+          {{/if}}
+        </td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Publications:</td>
+        <td class="dataframeValue">
+          {{#if primaryPublications}}
+          <table>
+            <tr>
+              <th>Year</th>
+              <th>Title</th>
+            </tr>
+            {{#each primaryPublications}}
+            <tr>
+              <td>{{dates/0/date}}</td>
+              <td>{{authorsList}}. {{title}}. {{publicationVenue}}</td>
+            </tr>
+            {{/each}}
+          </table>
+          {{else}}
+            N/A
+          {{/if}}
+        </td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Refinement:</td>
+        <td class="dataframeValue">{{refinement}}</td>
+      </tr>
+      <tr>
+        <td class="dataframeKey">Licences:</td>
+        <td class="dataframeValue">
+          {{#each licenses}}
+            <a href="{{extraProperties/0/values/0/value}}">{{name}} {{version}}</a>{{#unless @last}}, {{/unless}}
+          {{/each}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

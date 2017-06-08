@@ -1,0 +1,479 @@
+{
+  "title": "Immune response evaluation in patients treated with TNF-alpha blockade (anti-TNF)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY146",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Immune response evaluation in patients treated with TNF-alpha blockade (anti-TNF)",
+  "performedBy": [
+    {
+      "firstName": "Ignacio",
+      "lastName": "Sanz",
+      "email": "ignacio_sanz@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Anolik",
+      "email": "jennifer_anolik@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Milner",
+      "email": "laura_milner@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Ritchlin",
+      "email": "christopher_ritchlin@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "RA Untreated",
+          "size": 15
+        },
+        {
+          "name": "RA anti-TNF",
+          "size": 5
+        },
+        {
+          "name": "RA MTX",
+          "size": 40
+        },
+        {
+          "name": "RA MTX and anti-TNF",
+          "size": 26
+        },
+        {
+          "name": "PsA MTX",
+          "size": 1
+        },
+        {
+          "name": "PsA MTX and anti-TNF",
+          "size": 1
+        },
+        {
+          "name": "PsA anti-TNF",
+          "size": 15
+        },
+        {
+          "name": "RA Switch",
+          "size": 29
+        },
+        {
+          "name": "PsA Switch",
+          "size": 8
+        },
+        {
+          "name": "Healthy",
+          "size": 85
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "FITC-IgD"
+        },
+        {
+          "name": "PE-CD1c"
+        },
+        {
+          "name": "PE-A610-CD24"
+        },
+        {
+          "name": "PE-Cy5-IgM"
+        },
+        {
+          "name": "PerCP-Cy5.5-CD3"
+        },
+        {
+          "name": "PE-Cy7-CD10"
+        },
+        {
+          "name": "Qdot655-CD38"
+        },
+        {
+          "name": "Qdot605-CD27"
+        },
+        {
+          "name": "APC-Cy7-CD19"
+        },
+        {
+          "name": "CD45R/B220-APC"
+        },
+        {
+          "name": "AlexaFluor 700-CD20"
+        },
+        {
+          "name": "Data Not Defined"
+        },
+        {
+          "name": "PE-Cy7-CD38"
+        },
+        {
+          "name": "CD19 PerCp-Cy5.5 Dump"
+        },
+        {
+          "name": "CD34 PerCp-Cy5.5 Dump"
+        },
+        {
+          "name": "7-AAD Dump"
+        },
+        {
+          "name": "CD11c PE-Cy7"
+        },
+        {
+          "name": "CD86 Pacific Blue"
+        },
+        {
+          "name": "CD141-biotin / SA-Pacific Orange"
+        },
+        {
+          "name": "CD303 APC"
+        },
+        {
+          "name": "CD14 Alexa700"
+        },
+        {
+          "name": "CD4 APC-Alexa750"
+        },
+        {
+          "name": "CD1c PE"
+        },
+        {
+          "name": "HLA-DR PE-Texas Red"
+        },
+        {
+          "name": "CD40 PE-Cy5"
+        },
+        {
+          "name": "CD3 PE-Cy5.5 Dump"
+        },
+        {
+          "name": "CD16 PerCp-Cy5.5 Dump"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "RA patient who has fulfilled 4 of the 1987 American College of Rheumatology revised criteria for RA classification"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Healthy with no inflammatory arthitides and not being treated with anti-TNF or other immunomodulating drugs"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Not diagnosed with RA or PsA and on immunomodulating drugs"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "PsA patient diagnosed by Moll and Wright criteria"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Ignacio",
+      "lastName": "Sanz",
+      "email": "ignacio_sanz@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Function and Biodefense in patients with TNF-a Blockade",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-050029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "A threat to our society in the foreseeable future is the possibility of a terrorist attack with lethal biological agents. In the event of such an attack, immunocompromised patients who prominently include autoimmune patients subject to therapeutic immunosuppression will be at a high risk. Therefore, there is a need to identify the specific immune defects that make these populations especially vulnerable. One of the more prevalent forms of immunosuppression used for a growing number of autoimmune conditions is chronic blockade of Tumor Necrosis Factor ??A? (TNF). It is expected that in the near future candidates for this type of therapy will include several million American citizens. The University of Rochester Program for Biodefense of Immunocompromised Populations will undertake the systematic study of human immune function with the goal of identifying defective mechanisms of immune response in patients treated with TNF??A? blockade (anti-TNF). Although our study will not be specifically designed to understand immune function in the elderly, the inclusion of a subset of patients and controls over and under age 50 may result in the discovery of age-specific defects. The Rochester Program will identify immune defects secondary to the use of anti-TNF therapies through a comprehensive series of studies of immune homeostasis and function, including the study of B-cell function in patients treated with anti-TNF, the study of T-cell function in patients treated with anti-TNF, the study of dendritic cell function in patients treated with anti-TNF, the development of a 3D bioreactor system for the study of human immune function. In addition we will build a discrete event stochastic simulator of B cell activation and differentiation. This in silico model will be used to formulate and test hypotheses regarding mechanisms of anti-TNF effects. A Biostatistics and Bioinformatics Core will assist in experimental design and have responsibility for the electronic storage and statistical analysis of all clinical and experimental data. Our results will be disseminated on a timely basis by a multi-prong approach that includes a web-based data sharing system, publication in appropriate peer-reviewed journals, presentation in scientific meetings and participation in annual program meetings"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "20298818",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Halliley JL(1), Kyu S, Kobie JJ, Walsh EE, Falsey AR, Randall TD, Treanor J, Feng C, Sanz I, Lee FE.",
+      "title": "Peak frequencies of circulating human influenza-specific antibody secreting cells correlate with serum antibody response after immunization.",
+      "publicationVenue": "Vaccine.",
+      "dates": [
+        {
+          "date": "2010",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "22177419",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Kobie JJ(1), Zheng B, Bryk P, Barnes M, Ritchlin CT, Tabechian DA, Anandarajah AP, Looney RJ, Thiele RG, Anolik JH, Coca A, Wei C, Rosenberg AF, Feng C, Treanor JJ, Lee FE, Sanz I.",
+      "title": "Decreased influenza-specific B cell responses in rheumatoid arthritis patients treated with anti-tumor necrosis factor.",
+      "publicationVenue": "Arthritis Res Ther.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2012-12-31",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2013-06-12",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Delineate the developmental subsets of human B cells based on the expression profiles of 10 different phenotypic markers as analyzed by FACS",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "T cell phenotyping",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Delineate the developmental subsets of human B cells based on the expression profiles of 10 different phenotypic markers as analyzed by FACS",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Immunofluoresence staining and phagocytosis of ex vivo PBDC",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Immunofluoresence staining and phagocytosis of ex vivo PBDC",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY146",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Immune response evaluation in patients treated with TNF-alpha blockade (anti-TNF)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY146",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Function and Biodefense in patients with TNF-a Blockade",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "None"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "A systematic study of human immune function with the goal of identifying defective mechanisms of immune response in patients treated with TNF-alpha blockade (anti-TNF)"
+}

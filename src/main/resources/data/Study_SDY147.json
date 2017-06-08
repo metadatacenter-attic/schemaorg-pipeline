@@ -1,0 +1,261 @@
+{
+  "title": "Analyses of the specificity of CD4 T Cells during the primary immune response to influenza virus reveals dramatic MHC-linked asymmetries in reactivity to individual viral proteins",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY147",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Analyses of the specificity of CD4 T Cells during the primary immune response to influenza virus reveals dramatic MHC-linked asymmetries in reactivity to individual viral proteins",
+  "performedBy": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Sant",
+      "email": "andrea_sant@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "B10",
+          "size": 44
+        },
+        {
+          "name": "SJL",
+          "size": 31
+        },
+        {
+          "name": "B10.S",
+          "size": 5
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Purified rat anti-mouse IL-2 antibody"
+        },
+        {
+          "name": "Biotinylated rat anti-mouse IL-2"
+        },
+        {
+          "name": "Alkaline phosphatase-streptavidin"
+        },
+        {
+          "name": "Vector Blue substrate kit III"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Is mouse age 3 months?"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Sant",
+      "email": "andrea_sant@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700008C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The New York Influenza Center of Excellence (NYICE) is collaborative, interdisciplinary approach involving investigators in the fields of immunology, virology, biochemistry, medicine, pediatrics, statistics and bioinformatics that will addresss directly the issues of cross-protective immunity and virus adaptation to the mammalian host. Our goal is to provide a truly transforming approach to influenza research.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=735406660d0e7582b7937b1d21142d8d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "20373997",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Nayak JL(1), Richards KA, Chaves FA, Sant AJ.",
+      "title": "Analyses of the specificity of CD4 T cells during the primary immune response to  influenza virus reveals dramatic MHC-linked asymmetries in reactivity to individual viral proteins.",
+      "publicationVenue": "Viral Immunol.",
+      "dates": [
+        {
+          "date": "2010",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-09-30",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Analyzing anti-influenza CD4 T-cell reactivity toward different viral proteins using pools of synthetic peptides representing the entire protein sequences of HA, NA, NP, M1, and NS1. Individual 17-mer peptides representing the entire sequences of the above proteins were pooled such that each peptide in the pools was at a final concentration of 2 uM. CD4 T-cell-enriched populations from previously infected mice were plated with the indicated peptide pool and the number of reactive cells was quantified by IL-2 EliSpots. Reactivity of CD4 T cells from C57BL=10 (B10) and SJL mice are shown as the average number of spots per 10^6 CD4-enriched T cells.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Screening of candidate individual epitopes in the NP, NA, NS1, M1, and HA proteins in the C57BL/10 and SJL mouse strains using EliSpot assays. Also, the pattern of positive and negative peptide pools was compared between SJL and B10.S mice. Peptides were used at a final concentration of 10 uM, and the number of reactive CD4 T cells was quantified by the number of IL-2 EliSpots per 10^6 CD4 T cells. All peptides were tested in at least two individual experiments. ",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY147",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Analyses of the specificity of CD4 T Cells during the primary immune response to influenza virus reveals dramatic MHC-linked asymmetries in reactivity to individual viral proteins",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY147",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8677681&icde=23841314&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Influenza is a contagious, acute respiratory disease that is a major cause of morbidity and mortality throughout the world. CD4 T cells play an important role in the immune response to this pathogen through the secretion of antiviral cytokines, and by providing help to CD8 T cells and B cells to promote the development of immunological memory and neutralizing antibody responses. Despite these well-defined roles in the anti-influenza response, our understanding of CD4 T-cell diversity and specificity remains limited. In the study reported here, overlapping peptides representing 5 different influenza viral proteins were used in EliSpot assays to enumerate and identify the specificity of anti-influenza CD4 T cells directly ex vivo following infection of mice with influenza virus, using two strains that express unrelated MHC class II molecules. These experiments evaluated whether the reactivity of CD4 T cells generally tracked with particular influenza proteins, or whether MHC preferences were the predominant factor dictating anti-CD4 T-cell specificity in the primary immune response. We made the unexpected discovery that the distribution of CD4 T-cell specificities for different influenza proteins varied significantly depending on the single class II molecule expressed in vivo. In SJL mice, the majority of epitopes were specific for the HA protein, while the NP protein dominated the response in C57BL/10 mice. Given the diversity of human MHC class II molecules, these findings have important implications for the ability to rationally design a vaccine that will generate a specific CD4 T-cell immune response that is effective across diverse human populations."
+}

@@ -1,0 +1,428 @@
+{
+  "title": "Inner-City Anti-IgE Therapy for Asthma",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY211",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Inner-City Anti-IgE Therapy for Asthma",
+  "performedBy": [
+    {
+      "firstName": "William",
+      "lastName": "Busse",
+      "email": "Unknown",
+      "affiliations": [
+          {
+             "name": "University of Wisconsin, Madison"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Experimental: Omalizumab (Xolair) + Conventional Therapy",
+          "size": 208
+        },
+        {
+          "name": "Placebo Comparator: Placebo + Conventional Therapy",
+          "size": 211
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed do not primarily speak English (or Spanish at centers with Spanish speaking staff)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included have had a diagnosis of asthma by a physician made > 1 year ago, as reported at Recruitment, or for participants who received an asthma diagnosis less than 1 year ago, whose symptoms have been present greater than 1 year, as reported at Recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed do not sleep at least 4 nights per week in one home."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed are those whose caretaker does not primarily speak English (or Spanish at centers with Spanish speaking staff); not applicable if participant is able to provide consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed have acute sinusitis or chest infection that required treatment with antibiotics within 1 month of the Screening Visit (may be rescheduled according to the ICATA Manual of Operations)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed have platelet levels < 100 x 10^9/L at the Pre-screening Visit."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included are willing to sign the written Informed Consent or whose parent or legal guardian is willing to sign the written Informed Consent (age appropriate) prior to initiation of any study procedure."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included have combined body weight and total serum IgE level suitable for omalizumab dosing, see Table A2a in Appendix 2."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed plan to move from the area during the study period."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included, as reported at Recruitment, are currently receiving long-term asthma control therapy and either have symptoms consistent with persistent asthma (criterion 4a) or have evidence of uncontrolled disease (criterion 4b); or who are not currently receiving long-term asthma control therapy and have symptoms consistent with persistent asthma (criterion 4a) and have evidence of uncontrolled disease (criterion 4b). (See Protocol for complete criterion)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed are pregnant or lactating. Females of child-bearing potential (post-menarche) must be abstinent or use a medically acceptable birth control method throughout the study (e.g. oral, subcutaneous, mechanical, or surgical contraception)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included are willing to sign the assent form, if age appropriate."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed do not have access to a phone (needed for scheduling appointments)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included are males and females ages 6 to 20 years, inclusive, at Recruitment."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included have a history of clinical varicella or administration of varicella vaccine."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed currently have diagnosed cancer, are currently being investigated for possible cancer, or who have a history of cancer."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed live with a foster parent; not applicable if participant is able to provide consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed have received systemic prednisone (or equivalent) for > 30 days out of the past 60 days prior to Recruitment (may be reassessed according to the ICATA Manual of Operations)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed have taken any of the following medications within 4 weeks of the Screening visit (Visit 1): Monoamine oxidase inhibitors (phenelzine, tranylcypromine); Tricyclic and tetracyclic antidepressants; Oral beta-blockers; Anticonvulsants (carbamazepine, phenobarbital, phenytoin, mephobarbital, primidone, ethosuximide, methsuximide, felbamate, gabapentin, lamotrigine, levetiracetam, oxcarbazepine, tiagabine, topiramate, valproic acid, divalproex sodium, zonisamide); Macrolide antibiotics* (erythromycin, azithromycin, clarithromycin, dirithromycin, troleandomycin); Rifampin*; Ketoconazole*; Sibutramine* (*may be rescreened if this therapy is short-lived)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included whose primary place of residence is in one of the pre-selected recruitment census tracts that contains at least 20% of households below the U.S. government poverty level documented at the Screening Visit."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed have previously been treated with anti-IgE therapy within 1 year of Recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed have significant medical illnesses other than asthma such as: any infectious, hematological, renal, hepatic, endocrine, respiratory (other than asthma), gastrointestinal, neurological, or cardiac condition requiring daily medications; any clotting disorder; any obvious severe mental retardation that prohibits the participant from answering questions or following instructions; any auto-immune disease; any immune deficiency; or any other serious medical condition. (See Protocol for complete criterion)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included are able to perform spirometry (according to ICATA Manual of Operations criteria) at the Screening Visit."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed have known hypersensitivity to any ingredients, including excipients (sucrose, histidine, polysorbate 20) of the study medication or drugs related to omalizumab (e.g. monoclonal antibodies, polyclonal gamma globulin)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed have received systemic prednisone (or equivalent) during the two weeks prior to the Randomization Visit (may be rescheduled according to the ICATA Manual of Operations)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed have received hyposensitization therapy to dust mite, Alternaria or cockroach for >= 6 months in the past 3 years prior to Recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed have a history of severe anaphylactoid or anaphylactic reaction(s)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed are currently participating in another asthma-related pharmaceutical study or intervention study or who have participated in another asthma-related pharmaceutical study or intervention study in the month prior to Recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed are currently receiving or have received hyposensitization therapy to any allergen in the past year prior to Recruitment."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included have some form of insurance which covers costs of medications at the Pre-screening Visit. Coverage must be in effect from Pre-screening through Randomization in order to be enrolled."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed, at Randomization (Visit 2), are assigned treatment level step 1 and who did not have evidence of uncontrolled disease from 6 months prior to Recruitment through Randomization for participants < 12 years old or from 12 months prior to Recruitment through Randomization for participants >=12 years old. Evidence of uncontrolled disease is defined as two or more asthma-related unscheduled visits to an emergency department (ED), urgent care (UC), or clinic or one or more asthma-related overnight hospitalizations."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded and may not be reassessed will not allow the study physician, an asthma specialist, to manage their disease for the duration of the study or who are not willing to change their asthma medications to follow the protocol."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included have a positive prick skin-test to at least one perennial allergen (i.e. dust mite, cockroach, mold, cat, dog, rat, mouse) documented at the Pre-screening Visit."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded but may be reassessed have clinically significant laboratory abnormalities (not associated with the study indication) at the Pre-screening Visit."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "William",
+      "lastName": "Busse",
+      "email": "Unknown",
+      "affiliations": [
+          {
+             "name": "University of Wisconsin, Madison"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Inner City Asthma Consortium (ICAC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-25496"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Inner-city Asthma Consortium (ICAC) was founded to investigate causes and potential treatments of asthma in inner-city juvenile and adolescent populations. ICAC examines the pathology of asthma specific to inner-city populations and leverages these insights to design more effective treatments. Asthma Control Evaluation study: 500 adolescents with asthma were divided into two groups: treatment based solely on clinical guidelines of asthma management, while the treatment of the other group was based on the clinical guidelines plus the measurement of exhaled nitric oxide, which is a biomarker of lung inflammation.  Inner City Anti-IgE Therapy for Asthma (ICATA) 419 children with moderate to severe allergic asthma, were followed who were receiving NIH guidelines-based asthma therapy to control their disease. Half of the participants received omalizumab, and the other half received placebo.  http://projectreporter.nih.gov/project_info_details.cfm?aid=7337876&icde=23810630&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21410369",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Busse WW(1), Morgan WJ, Gergen PJ, Mitchell HE, Gern JE, Liu AH, Gruchalla RS, Kattan M, Teach SJ, Pongracic JA, Chmiel JF, Steinbach SF, Calatroni A, Togias A, Thompson KM, Szefler SJ, Sorkness CA.",
+      "title": "Randomized trial of omalizumab (anti-IgE) for asthma in inner-city children.",
+      "publicationVenue": "N Engl J Med.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-10-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY211",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Inner-City Anti-IgE Therapy for Asthma",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY211",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Inner City Asthma Consortium (ICAC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8787079&icde=23840541&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this study is to find out if adding omalizumab to standard asthma treatment results in a safer, more effective, and longer lasting asthma treatment strategy than standard treatment alone, in inner-city children with mild to severe asthma."
+}

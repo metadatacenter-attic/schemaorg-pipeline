@@ -1,0 +1,300 @@
+{
+  "title": "CD4 T cell response to pH1N1 vaccination",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY97",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "CD4 T cell response to pH1N1 vaccination",
+  "performedBy": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Sant",
+      "email": "andrea_sant@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Age 18-32",
+          "size": 17
+        },
+        {
+          "name": "Age 60+",
+          "size": 32
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "anti-IFN-gamma coating antibody (purified)"
+        },
+        {
+          "name": "anti-IFN-gamma antibody (biotinylated)"
+        },
+        {
+          "name": "Alkaline phosphatase-streptavidin"
+        },
+        {
+          "name": "Vector blue substrate kit III"
+        },
+        {
+          "name": "California HA conserved peptide pool"
+        },
+        {
+          "name": "ACCUSPINsystem-Histopaque-1077"
+        },
+        {
+          "name": "Anti-CD8 antibody"
+        },
+        {
+          "name": "Anti-CD56 antibody"
+        },
+        {
+          "name": "LD columns"
+        },
+        {
+          "name": "NP/M1 conserved peptide pool"
+        },
+        {
+          "name": "HA/NA unique peptide pool"
+        },
+        {
+          "name": "H3N2 divergent peptide pool"
+        },
+        {
+          "name": "Tetanus toxoid"
+        },
+        {
+          "name": "Rreceptor-destroying enzyme (RDE)"
+        },
+        {
+          "name": "Turkey red blood cells"
+        },
+        {
+          "name": "anti-NP antibody"
+        },
+        {
+          "name": "Goat anti-mouse IgG conjugated HRP"
+        },
+        {
+          "name": "OPD"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Sant",
+      "email": "andrea_sant@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700008C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The New York Influenza Center of Excellence (NYICE) is collaborative, interdisciplinary approach involving investigators in the fields of immunology, virology, biochemistry, medicine, pediatrics, statistics and bioinformatics that will addresss directly the issues of cross-protective immunity and virus adaptation to the mammalian host. Our goal is to provide a truly transforming approach to influenza research.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=735406660d0e7582b7937b1d21142d8d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23148285",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Nayak JL(1), Fitzgerald TF, Richards KA, Yang H, Treanor JJ, Sant AJ.",
+      "title": "CD4+ T-cell expansion predicts neutralizing antibody responses to monovalent, inactivated 2009 pandemic influenza A(H1N1) virus subtype H1N1 vaccine.",
+      "publicationVenue": "J Infect Dis.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-08-15",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Frequencies of IFN-gamma secreting cells were determined by ELISPOT assay after in vitro coculture of CD8-CD56-depleted cells with peptide pools or Tetanus toxoid. Experiment sample IDs include prefixes HA, NP_M1, HA_NA, D- and T- representing the cocultured peptide pools ?California HA conserved?, ?NP/M1 conserved?, ?HA/NA unique?, ?H3N2 divergent?, and Tetanus toxoid, respectively.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Virus Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY97",
+              "identifierSource": "ImmPort"
+          },
+          "title": "CD4 T cell response to pH1N1 vaccination",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY97",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8677681&icde=23841314&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Healthy adult human subjects were given monovalent inactivated pH1N1 vaccine and antibody responses were assessed using HAI and MN assays.  CD4 T cell reactivity was examined using IFNg Elispot assays to look at reactivity to unique and conserved peptide pools."
+}

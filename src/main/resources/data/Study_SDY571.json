@@ -1,0 +1,435 @@
+{
+  "title": "Observational Study of Alloimmunity in Cardiac Transplant Recipients (CTOT-05)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY571",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Observational Study of Alloimmunity in Cardiac Transplant Recipients (CTOT-05)",
+  "performedBy": [
+    {
+      "firstName": "PETER",
+      "lastName": "HEEGER",
+      "email": "peter.heeger@mssm.edu",
+      "affiliations": [
+          {
+             "name": "Ricanati Miller Transplant Institute, Mount Sinai School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Co-Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "MOHAMED",
+      "lastName": "SAYEGH",
+      "email": "msayegh@rics.bwh.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Brigham & Women?s Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Co-Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Heart Transplant Recipients",
+          "size": 200
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "18S Primers"
+        },
+        {
+          "name": "BKV Dun-Pt Primers"
+        },
+        {
+          "name": "FAS-L Primers"
+        },
+        {
+          "name": "FoxP3 Primers"
+        },
+        {
+          "name": "GUS Primers"
+        },
+        {
+          "name": "GZMB Primers"
+        },
+        {
+          "name": "IP-10(CXCL10) Primers"
+        },
+        {
+          "name": "Perforin Primers"
+        },
+        {
+          "name": "HPRT Primers"
+        },
+        {
+          "name": "Anti-Leptin"
+        },
+        {
+          "name": "Anti-VEGF-C"
+        },
+        {
+          "name": "Anti-Endothelin-1"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "Anti-human IFNG"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Patients age >= 10 years AND >= 30kg"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Individuals on the waiting list for a transplant for whom a donor heart has become available"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subject and/or parent guardian able to understand and provide informed consent"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Women of childbearing potential with a positive serum or urine pregnancy test or nursing mothers. Women of childbearing potential not using 2 reliable forms of contraception, including a barrier method, for the duration of study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability or unwillingness of a participant to give written informed consent or comply with study protocol"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Recipients of multiple organ transplants"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Previous history of organ transplantation"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Known significant donor coronary artery disease defined by left main coronary artery obstruction >=50%, or single major epicardial coronary artery >=75%, or 2 or more major epicardial coronary arteries with >=50% obstruction as defined by coronary angiography"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Other co-morbidities determined by the site investigator"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Currently taking immunosuppression for non-transplant reasons"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participation in an interventional investigational drug clinical trial"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "name": "NONINVASIVE MARKERS AND TRANSPLANT OUTCOME IN HUMANS (CTOT-01)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "1U01AI063594"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "www.clinicaltrials.gov/ct/show/NCT00308802"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23763485",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Reed EF(1), Rao P, Zhang Z, Gebel H, Bray RA, Guleria I, Lunz J, Mohanakumar T, Nickerson P, Tambur AR, Zeevi A, Heeger PS, Gjertson D.",
+      "title": "Comprehensive assessment and standardization of solid phase multiplex-bead arrays for the detection of antibodies to HLA.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "26260101",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Starling RC(1), Stehlik J(2), Baran DA(3), Armstrong B(4), Stone JR(5), Ikle D(4), Morrison Y(6), Bridges ND(6), Putheti P(7), Strom TB(7), Bhasin M(7,)(8), Guleria I(9,)(10), Chandraker A(9), Sayegh M(9), Daly KP(11), Briscoe DM(10), Heeger PS(12); CTOT-05 consortium.",
+      "title": "Multicenter Analysis of Immune Biomarkers and Heart Transplant Outcomes: Results  of the Clinical Trials in Organ Transplantation-05 Study.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2016",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2007-06-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "HLA TYPING"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Activity"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Blood Cell Count"
+        }
+      },{
+        "name": {
+            "value": "Immunology Test"
+        }
+      },{
+        "name": {
+            "value": "Chemistry Test"
+        }
+      },{
+        "name": {
+            "value": "Intravascular Ultrasound"
+        }
+      },{
+        "name": {
+            "value": "Biopsy"
+        }
+      },{
+        "name": {
+            "value": "Death"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No Treatment"
+        },
+        {
+          "name": "Donor Stimulator Cells"
+        },
+        {
+          "name": "Panel of Reactive T Cell Assay"
+        },
+        {
+          "name": "Third Party Stimulator Cells"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY571",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Observational Study of Alloimmunity in Cardiac Transplant Recipients (CTOT-05)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY571",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "NONINVASIVE MARKERS AND TRANSPLANT OUTCOME IN HUMANS (CTOT-01)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "None"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this study is to identify a single test or a combination of noninvasive tests currently used for heart transplant monitoring that correlate to long-term graft survival."
+}

@@ -1,0 +1,380 @@
+{
+  "title": "Live Kidney Donor Study -Renal Function Study (RELIVE-06)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY291",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Live Kidney Donor Study -Renal Function Study (RELIVE-06)",
+  "performedBy": [
+    {
+      "firstName": "Sandra",
+      "lastName": "Taler",
+      "email": "taler.sandra@mayo.edu",
+      "affiliations": [
+          {
+             "name": "Division of Nephrology and Hypertension, Mayo Clinic"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Subjects who donated a kidney at location 8201",
+          "size": 215
+        },
+        {
+          "name": "Subjects who donated a kidney at location 8128",
+          "size": 133
+        },
+        {
+          "name": "Subjects who donated a kidney at the University of Alabama",
+          "size": 65
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "Less than 5 years out from time of kidney donation."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Underwent GFR measurement before and early after donor nephrectomy (Mayo Clinic)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnant or breast feeding women; or subjects with other medical condition that could skew or cause measured GFR to not be interpretable."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability or unwillingness to provide informed consent."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "No prior GFR measurement but meet criteria #1 (UAB)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Underwent GFR measurement late after donor nephrectomy and 3 or more years prior to the invitation to participate in this study (UMN)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Alive at the time of study recruitment."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Underwent unilateral donor nephrectomy between 5 and 50 years ago; but no later than June 30, 2005 at Mayo Clinic, UMN, or UAB."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Iodine or iodinated contrast allergy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability to complete a measured GFR procedure (e.g. medical conditions involving bladder emptying or poor oral intake)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability to contact donor."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative serum pregnancy test (Total Beta HCG <5) for women of child-bearing potential."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Sandra",
+      "lastName": "Taler",
+      "email": "taler.sandra@mayo.edu",
+      "affiliations": [
+          {
+             "name": "Division of Nephrology and Hypertension, Mayo Clinic"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "CLINICAL OUTCOMES OF LIVE ORGAN DONORS - DATA COORDINATING CENTER ",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "U01AI069491"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "DESCRIPTION (provided by applicant): We propose to develop and maintain a Data Coordinating Center (DCC) that will support a consortium of transplant centers (Clinical Centers) by conducting epidemiological research on the medical and functional outcomes of living individuals who have donated a kidney or a lobe of a lung for transplantation. The proposed DCC will be made up of collaborating experts in the fields of epidemiology, biostatistics, clinical research design, database management, research involving linkages of large public and private electronic health care databases, pulmonary medicine, nephrology, and live organ donor transplantation. The DCC will provide major support functions for the participating Clinical Centers and the NIAID Project Scientist, including research coordination, communication and logistical support, clinical study design, centralized data management, and analytical expertise. The specific scientific aims of the DCC will be developed in collaboration with the Clinical Centers and the NIAID Project Scientist, and will be closely integrated with those of the Clinical Centers. Proposed scientific activities of the DCC and participating Clinical Centers include 1) identification of study groups of previous live donors and appropriate controls; 2) linkage of retrospective donor data from the Clinical Centers with external data sources to enhance and validate available clinical information; 3) analyses of short- and long-term risks of death and major donation related morbidity; 4) studies of the informed consent process; and 5) cross-sectional assessments of donors' current health, residual organ function, quality of life, post-donation psychosocial adaptation, economic consequences, and perception of risk. Relevance to Public Health: Society and the professional transplant community are obligated to past and future live organ donors to study the donor experience and its outcomes in order to provide accurate information about donor safety and to go along with our knowledge about the benefits to recipients. While it is believed by the medical community and the public that kidney and lung donation by living persons is generally safe, the actual impact of donation on live donor health and well being is not completely understood. To address the lack of comprehensive, systematic, national, long-term analyses, this project will study the medical (death and complications) and functional (quality of life, social, psychological, and economic) outcomes of live lung and live kidney donors from selected transplant centers in the United States. "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21564530",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Noppakun K(1), Cosio FG, Dean PG, Taler SJ, Wauters R, Grande JP.",
+      "title": "Living donor age and kidney transplant outcomes.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "23137211",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Taler SJ(1), Messersmith EE, Leichtman AB, Gillespie BW, Kew CE, Stegall MD, Merion RM, Matas AJ, Ibrahim HN; RELIVE Study Group.",
+      "title": "Demographic, metabolic, and blood pressure characteristics of living kidney donors spanning five decades.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "24011252",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Gross CR(1), Messersmith EE, Hong BA, Jowsey SG, Jacobs C, Gillespie BW, Taler SJ, Matas AJ, Leichtman A, Merion RM, Ibrahim HN; RELIVE Study Group.",
+      "title": "Health-related quality of life in kidney donors from the last five decades: results from the RELIVE study.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "25136843",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Messersmith EE(1), Gross CR, Beil CA, Gillespie BW, Jacobs C, Taler SJ, Merion RM, Jowsey SG, Leichtman AB, Hong BA; RELIVE Study Group.",
+      "title": "Satisfaction With Life Among Living Kidney Donors: A RELIVE Study of Long-Term Donor Outcomes.",
+      "publicationVenue": "Transplantation.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "25293374",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Jowsey SG(1), Jacobs C, Gross CR, Hong BA, Messersmith EE, Gillespie BW, Beebe TJ, Kew C, Matas A, Yusen RD, Hill-Callahan M, Odim J, Taler SJ; RELIVE Study Group.",
+      "title": "Emotional well-being of living kidney donors: findings from the RELIVE Study.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "26463883",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Jacobs CL(1), Gross CR(2), Messersmith EE(2), Hong BA(2), Gillespie BW(2), Hill-Callahan P(2), Taler SJ(2), Jowsey SG(2), Beebe TJ(2), Matas AJ(2), Odim J(2), Ibrahim HN(2); RELIVE Study Group.",
+      "title": "Emotional and Financial Experiences of Kidney Donors over the Past 50 Years: The  RELIVE Study.",
+      "publicationVenue": "Clin J Am Soc Nephrol.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2009-09-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY291",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Live Kidney Donor Study -Renal Function Study (RELIVE-06)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY291",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "CLINICAL OUTCOMES OF LIVE ORGAN DONORS - DATA COORDINATING CENTER ",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8667989&icde=23814469&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "As part of a cross-sectional study of living kidney donors from 5 to more than 50 years following donor nephrectomy, this study's goal is to accurately measure current Glomerular Filtration Rate (GFR), then to look at the change in GFR from pre to post donation and from early to late time points after donation. This study builds on information generated from RELIVE-01 and RELIVE-04. Through direct contact with previous living kidney donors, this study aims to quantify changes in renal function (measured GFR) from pre to early post donation using data already collected in a related retrospective study (RELIVE 01), and the change in renal function from early (in the first 2 years) post donation to late (beyond the first 2 years) post donation by repeating a GFR measurement. Cross-sectional GFR measurements from black donors compared to white donors matched for age, sex, weight and time from donation will provide data on differences in GFR late after donor nephrectomy by race. When compared to GFR estimates using predictive equations at each of these time points, we can evaluate the accuracy of estimated GFR in white and black donor populations."
+}

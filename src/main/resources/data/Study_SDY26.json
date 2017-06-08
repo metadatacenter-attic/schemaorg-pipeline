@@ -1,0 +1,276 @@
+{
+  "title": "Identify polymorphisms associated with risk for the development of myopericarditis following smallpox vaccine",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY26",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Identify polymorphisms associated with risk for the development of myopericarditis following smallpox vaccine",
+  "performedBy": [
+    {
+      "firstName": "Christopher",
+      "lastName": "Wilson",
+      "email": "None",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Primary Case Group",
+          "size": 105
+        },
+        {
+          "name": "Control Group",
+          "size": 304
+        },
+        {
+          "name": "Unknown Status",
+          "size": 1
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "HLA SSP Invitrogen_UniTray"
+        },
+        {
+          "name": "high speed chromatin profiling"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Developed myocarditis within 30 days of smallpox vaccination."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "No myocarditis occurs after smallpox vaccination."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects between 19 to 43 years old."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects less than 18 years of age. "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects 44 years or older."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Christopher",
+      "lastName": "Wilson",
+      "email": "None",
+      "affiliations": [
+          {
+             "name": "University of Washington"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Genetic Risk for Smallpox Vaccine Related to Myocarditis",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200400069C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The overall goal of this proposal is to identify genetic differences that increase the risk for a major adverse event associated with smallpox vaccination - myocarditis - and to determine the mechanism by which these genetic differences confer risk.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=b451fe7b209680a81f73aeefdb9a3b26"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-08-04",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2010-11-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": " To obtain these genotyping results, please follow the process described <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Process.pptx'>here</a>. To download the Genotyping Data Request form, click <a href='https://immport.niaid.nih.gov/docs/GT_Data_Request_Form-v-3.docx'>here</a>.",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "To identify statistically significant association(s) between risk for clinically overt smallpox vaccine-associated myocarditis and polymorphisms in immune response genes.  resequence 7 primary candidate genes/gene loci based on their strong biological plausibility: CCR5; CCR2; PDCD1; FOXP3; CTLA4; TGFB; HLA. Each of these is involved in restraining over-exuberant immune responses and in the maintenance of self-tolerance, has been implicated in myocarditis or DCM in humans or in mice, and has alleles known to be more prevalent in individuals of European ancestry.  HLA-A, B, C, DRB1, DRB3-5, DQA1, DQB1 will be typed at high resolution by sequencing of the polymorphic region.",
+        "types": [
+            {
+               "value": "HLA TYPING"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Other"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Other"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY26",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Identify polymorphisms associated with risk for the development of myopericarditis following smallpox vaccine",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY26",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Genetic Risk for Smallpox Vaccine Related to Myocarditis",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=57844bf8ab61f31368b70452adf994b5"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The overall goal of this contract is to identify genetic differences that increase the risk for a major adverse event associated with smallpox vaccination - myocarditis - and to determine the mechanism by which these genetic differences confer risk."
+}

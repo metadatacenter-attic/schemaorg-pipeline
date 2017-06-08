@@ -1,0 +1,244 @@
+{
+  "title": "Live Lung Donor Cross-sectional Cohort Study (RELIVE-05)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY294",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Live Lung Donor Cross-sectional Cohort Study (RELIVE-05)",
+  "performedBy": [
+    {
+      "firstName": "Mark",
+      "lastName": "Barr",
+      "email": "mbarr@surgery.usc.edu",
+      "affiliations": [
+          {
+             "name": "University of Southern California"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Live lung donors",
+          "size": 162
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Donated a lung at University of Southern California or Washington University between January 1, 1993 and December 31, 2006"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "For questionnaire testing: inability to comprehend and complete questionnaires (with assistance)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "For post-bronchodilator spirometry: allergy to albuterol"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "For spirometry: self-reported pregnancy, inability to reproducibly perform, and contraindications"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Mark",
+      "lastName": "Barr",
+      "email": "mbarr@surgery.usc.edu",
+      "affiliations": [
+          {
+             "name": "University of Southern California"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "CLINICAL OUTCOMES OF LIVE ORGAN DONORS - DATA COORDINATING CENTER ",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "U01AI069491"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "DESCRIPTION (provided by applicant): We propose to develop and maintain a Data Coordinating Center (DCC) that will support a consortium of transplant centers (Clinical Centers) by conducting epidemiological research on the medical and functional outcomes of living individuals who have donated a kidney or a lobe of a lung for transplantation. The proposed DCC will be made up of collaborating experts in the fields of epidemiology, biostatistics, clinical research design, database management, research involving linkages of large public and private electronic health care databases, pulmonary medicine, nephrology, and live organ donor transplantation. The DCC will provide major support functions for the participating Clinical Centers and the NIAID Project Scientist, including research coordination, communication and logistical support, clinical study design, centralized data management, and analytical expertise. The specific scientific aims of the DCC will be developed in collaboration with the Clinical Centers and the NIAID Project Scientist, and will be closely integrated with those of the Clinical Centers. Proposed scientific activities of the DCC and participating Clinical Centers include 1) identification of study groups of previous live donors and appropriate controls; 2) linkage of retrospective donor data from the Clinical Centers with external data sources to enhance and validate available clinical information; 3) analyses of short- and long-term risks of death and major donation related morbidity; 4) studies of the informed consent process; and 5) cross-sectional assessments of donors' current health, residual organ function, quality of life, post-donation psychosocial adaptation, economic consequences, and perception of risk. Relevance to Public Health: Society and the professional transplant community are obligated to past and future live organ donors to study the donor experience and its outcomes in order to provide accurate information about donor safety and to go along with our knowledge about the benefits to recipients. While it is believed by the medical community and the public that kidney and lung donation by living persons is generally safe, the actual impact of donation on live donor health and well being is not completely understood. To address the lack of comprehensive, systematic, national, long-term analyses, this project will study the medical (death and complications) and functional (quality of life, social, psychological, and economic) outcomes of live lung and live kidney donors from selected transplant centers in the United States. "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25039865",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Yusen RD, Hong BA, Messersmith EE, Gillespie BW, Lopez BM, Brown KL, Odim J, Merion RM, Barr ML; RELIVE Study Group.",
+      "title": "Morbidity and mortality of live lung donation: results from the RELIVE study.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-08-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY294",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Live Lung Donor Cross-sectional Cohort Study (RELIVE-05)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY294",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "CLINICAL OUTCOMES OF LIVE ORGAN DONORS - DATA COORDINATING CENTER ",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8667989&icde=23814469&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The Live Lung Donor Cross-sectional Cohort Study (RELIVE-05) aimed to determine the effects of live lung donation on lung function, quality of life, morbidity, psychosocial status, satisfaction with live lung donation, and decision-making associated with live lung donation. This study built on the separate but related RELIVE-02 retrospective study that assessed the effects of live lung donation on survival and short-term morbidity. This multicenter cross-sectional cohort study invited the RELIVE-02 living former live lung donors to undergo questionnaire and pulmonary function test assessments to further determine the long-term outcomes of live lung donation. This study used preoperative donor pulmonary function data and normative data to assist with assessing the effects of live lung donation on lung donors."
+}

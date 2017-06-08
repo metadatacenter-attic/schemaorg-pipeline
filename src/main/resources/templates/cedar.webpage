@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resource Page</title>
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="../theme/cedar/css/style.css" media="screen" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>
+  <script type="application/ld+json">
+{{{metadata}}}
+  </script>
+</head>
+<body>
+<div id="header-first">
+  <header class="header" id="header" role="banner">
+  <a href="https://metadatacenter.org" title="Center for Expanded Data Annotation and Retrieval" rel="home" class="header__logo" id="logo"><img src="https://metadatacenter.org/sites/default/files/cedar_logo3.png" alt="Home" class="header__logo-image" /></a></header>
+</div>
+
+<div id="highlight-first">
+  <div class="region region-highlighted">
+    <div id="block-block-9" class="block block-block first last odd">
+      <div id="hero-inner-1">
+        <p>Metadata Publication</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="content-first">
+{{{content}}}
+</div>
+
+<div id="footer-first">
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-1" class="block block-block first odd">     
+      <ul><li class="first-li"><a href="https://metadatacenter.org/home">HOME</a></li>
+      </ul>
+    </div>
+    <div id="block-block-2" class="block block-block even">  
+      <ul><li class="first-li"><a href="https://metadatacenter.org/purpose">PURPOSE</a></li>
+      <li><a href="https://metadatacenter.org/purpose/mission">Mission</a></li>
+      <li><a href="https://metadatacenter.org/purpose/strategies">Strategies</a></li>
+      <li><a href="https://metadatacenter.org/purpose/scenarios">User Scenarios</a></li>
+      <li><a href="https://metadatacenter.org/purpose/goals">Project Goals</a></li>
+      <li><a href="https://metadatacenter.org/purpose/requirements">Requirements</a></li>
+      <li><a href="https://metadatacenter.org/purpose/user-persona">User Persona</a></li>
+      </ul>
+    </div>
+    <div id="block-block-3" class="block block-block odd">    
+      <ul><li class="first-li"><a href="research">RESEARCH</a></li>
+      <li><a href="https://metadatacenter.org/research/analytics-driven">Analytics Driving CEDAR</a></li>
+      <li><a href="https://metadatacenter.org/research/research-products">Research Using CEDAR</a></li>
+      <li><a href="https://metadatacenter.org/research/evaluating-cedar-effectiveness">Evaluating CEDAR Effectiveness</a></li>
+      </ul>
+    </div>
+    <div id="block-block-4" class="block block-block even">
+      <ul><li class="first-li"><a href="https://metadatacenter.org/tools-training">TOOLS | TRAINING</a></li>
+      <li><a href="https://metadatacenter.org/tools-training/cedar-metadata-tools">CEDAR Metadata Tools</a></li>
+      <li><a href="https://metadatacenter.org/tools-training/cedar-template-tools">CEDAR Template Tools</a></li>
+      <li><a href="https://metadatacenter.org/tools-training/training-cedar">Training for CEDAR</a></li>
+      <li><a href="https://metadatacenter.org/tools-training/training-metadata">Training on Metadata</a></li>
+      <li><a href="https://metadatacenter.org/tools-training/publications">Publications</a></li>
+      <li><a href="https://metadatacenter.org/tools-training/support">Support</a></li>
+      </ul>
+    </div>
+    <div id="block-block-5" class="block block-block odd">
+      <ul><li class="first-li"><a href="https://metadatacenter.org/community">COMMUNITY</a></li>
+      <li><a href="https://metadatacenter.org/community/news">News</a></li>
+      <li><a href="https://metadatacenter.org/community/events">Events</a></li>
+      <li><a href="https://metadatacenter.org/community/related-activities">Related Activities</a></li>
+      <li><a href="https://metadatacenter.org/community/recommended-content">Recommended Content</a></li>
+      <li><a href="https://metadatacenter.org/community/nih-bd2k">NIH • BD2K • Centers</a></li>
+      </ul>
+    </div>
+    <div id="block-block-6" class="block block-block even">
+      <ul><li class="first-li"><a href="https://metadatacenter.org/about-us">ABOUT US</a></li>
+      <li><a href="https://metadatacenter.org/about-us/team">Team</a></li>
+      <li><a href="https://metadatacenter.org/about-us/partner-projects">Partner Projects</a></li>
+      <li><a href="https://metadatacenter.org/about-us/external-advisory-board">External Advisory Board</a></li>
+      <li><a href="https://metadatacenter.org/about-us/data-sources">Data Sources</a></li>
+      <li><a href="https://metadatacenter.org/about-us/building-cedar">Building CEDAR</a></li>
+      <li><a href="https://metadatacenter.org/about-us/feedback">Feedback Form</a></li>
+      </ul>
+    </div>
+    <div id="block-block-7" class="block block-block last odd">
+      <p>Copyright @ 2016-2017 Center for Expanded Data Annotation and Retrieval</p>
+      <p>CEDAR is supported by the National Institutes of Health through an NIH Big Data to Knowledge program grant. (Grant Number 1U54AI117925-01)</p>
+      <p><a href="http://nih.gov/">NIH</a> &gt; <a href="https://datascience.nih.gov/bd2k">BD2K</a> &gt; <a href="https://www.stanford.edu/">Stanford University</a> | <a href="http://www.northropgrumman.com/Pages/default.aspx">Northrop Grumman</a> | <a href="http://www.ox.ac.uk/">University of Oxford</a> | <a href="http://www.yale.edu/">Yale University</a></p>
+      <p>Site maintained by Stanford BMIR</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

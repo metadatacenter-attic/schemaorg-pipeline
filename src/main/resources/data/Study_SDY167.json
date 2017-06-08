@@ -1,0 +1,620 @@
+{
+  "title": "VRC304 - A Phase I Study of the Safety and Immunogenicity of a Recombinant DNA Plasmid Vaccine (VRC-AVIDNA036-00-VP) Encoding for the Influenza Virus H5 Hemagglutinin Protein in Healthy Adults",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY167",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "VRC304 - A Phase I Study of the Safety and Immunogenicity of a Recombinant DNA Plasmid Vaccine (VRC-AVIDNA036-00-VP) Encoding for the Influenza Virus H5 Hemagglutinin Protein in Healthy Adults",
+  "performedBy": [
+    {
+      "firstName": "Julie",
+      "lastName": "Ledgerwood",
+      "email": "Unknown",
+      "affiliations": [
+          {
+             "name": "Vaccine Research Center, National Institute of Allergy and Infectious Diseases (NIAID)"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "1 mg vaccine arm",
+          "size": 15
+        },
+        {
+          "name": "4 mg vaccine arm",
+          "size": 15
+        },
+        {
+          "name": "placebo arm",
+          "size": 15
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Anti-H5 HA (A/Vietnam/1203/2004)"
+        },
+        {
+          "name": "Anti-H5 HA (A/Indonesia/5/2005)"
+        },
+        {
+          "name": "H5N1-PR8 reassortant virus"
+        },
+        {
+          "name": "IFN-gamma"
+        },
+        {
+          "name": "Britelite"
+        },
+        {
+          "name": "Anti-CD3 APC conjugated"
+        },
+        {
+          "name": "Anti-CD8 FITC conjugated"
+        },
+        {
+          "name": "Anti-CD4 PerCP conjugated"
+        },
+        {
+          "name": "Anti-IFN-gamma PE conjugated"
+        },
+        {
+          "name": "Anti-IL-2 PE conjugated"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received immunosuppressive medications, cytotoxic medications, inhaled corticosteroids, or long-acting beta-agonists within the past three months. [With the exceptions that use of corticosteroid nasal spray for rhinitis; topical corticosteroids for an acute uncomplicated dermatitis; short-acting beta-agonists in controlled asthmatics; or a short course (10 days or less) of corticosteroids for a non-chronic condition at least 2 weeks prior to enrollment in this study will not exclude study participation.]"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Hemoglobin >= 11.5 g/dL for women; >=13.5 g/dL for men within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to donate blood for sample storage to be used for future research"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of psychiatric condition that precludes compliance with the protocol; past or present psychoses; past or present bipolar disorder; disorder requiring lithium; or within five years prior to enrollment, a history of suicide plan or attempt"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of hereditary angioedema (HAE), acquired angioedema (AAE), or idiopathic forms of angioedema"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Total lymphocyte count >= 800 cells/mm3 within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of any medical, psychiatric, social condition, occupational reason or other responsibility that, in the judgment of the investigator, is a contraindication to protocol participation or impairs a volunteer's ability to give informed consent"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of bleeding disorder diagnosed by a doctor (e.g. factor deficiency, coagulopathy, or platelet disorder requiring special precautions) or significant bruising or bleeding difficulties with IM injections or blood draws"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative FDA-approved HIV blood test within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of autoimmune disease or immunodeficiency"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "In good general health without clinically significant medical history"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received blood products within 120 days prior to HIV screening"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of diabetes mellitus (type I or II), with the exception of gestational diabetes"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Serum creatinine <= 1 x upper limits of normal (<=1.3 mg/dL for females; <=1.4 mg/dL for males) within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "A female participant must meet one of the following criteria: No reproductive potential because of menopause [one year without menses] or because of a hysterectomy, bilateral oophorectomy, or tubal ligation, OR Participant agrees to be heterosexually inactive at least 21 days prior to enrollment and through Week 26 of the study, OR Participant agrees to consistently practice contraception at least 21 days prior to enrollment and through Week 26 of the study by one of the following methods: condoms, male or female, with or without a spermicide; diaphragm or cervical cap with spermicide;  intrauterine device; contraceptive pills, patch, implant or any other FDA-approved contraceptive method; male partner has previously undergone a vasectomy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of asplenia, functional asplenia or any condition resulting in the absence or removal of the spleen"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Complete an AoU prior to enrollment and verbalize understanding of all questions answered incorrectly"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of hypertension that is not well controlled by medication or is more than 145/95 at enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Alanine aminotransferase (ALT) <= 1.25 upper limit of normal within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative anti-hepatitis C virus (HCV) antibody and negative HCV PCR within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of malignancy that is active or treated malignancy for which there is not reasonable assurance of sustained cure or malignancy that is likely to recur during the period of the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of thyroidectomy or thyroid disease that required medication within the past 12 months"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received live attenuated vaccines within 30 days prior to initial study vaccine administration"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received current anti-TB prophylaxis or therapy"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Available for clinical follow-up through Week 42"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received medically indicated subunit or killed vaccines, e.g. influenza, pneumococcal, or allergy treatment with antigen injections, within 14 days of study vaccine administration"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of idiopathic urticaria within the past 2 years"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received investigational research agents within 30 days prior to initial study vaccine administration"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Immunized with the current season FDA-approved influenza vaccine prior to enrollment at the specified interval [14 days to 24 weeks prior to enrollment for the inactivated influenza vaccine OR 30 days to 24 weeks prior to enrollment for the live-attenuated influenza vaccine (FluMist(tm))]"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Platelets = 125,000-400,000/mm3 within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of asthma that is unstable or required emergent care, urgent care, hospitalization or intubation during the past two years or that requires the use of oral or intravenous corticosteroids"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "18 to 60 years old"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Normal urinalysis, defined as negative glucose, negative or trace protein and no clinically significant blood in the urine within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Able to provide proof of identity to the satisfaction of the study clinician completing the enrollment process"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of seizure disorder other than: 1) febrile seizures under the age of two, 2) seizures secondary to alcohol withdrawal more than 3 years ago, or 3) a singular seizure not requiring treatment within the last 3 years"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative beta-HCG pregnancy test (urine or serum) for women presumed to be of reproductive potential"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Differential either within institutional normal range or accompanied by site physician approval within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Physical examination and laboratory results without clinically significant findings and a Body Mass Index (BMI) <40 within the 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of contraindication to receiving an FDA approved 2006-2007 seasonal influenza vaccination (e.g., egg allergy)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative hepatitis B surface antigen (HBsAg) within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received immunoglobulin within 60 days prior to HIV screening"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has received previous H5 avian influenza investigational vaccine"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "White blood cells (WBC) = 3,300-12,000 cells/mm3 within 28 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of serious adverse reactions to vaccines such as anaphylaxis, urticaria (hives), respiratory difficulty, angioedema, or abdominal pain"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Able and willing to complete the informed consent process"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Volunteer has a history of allergic reaction to aminoglycoside antibiotics"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Woman breast-feeding or planning to become pregnant during the study"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Julie",
+      "lastName": "Ledgerwood",
+      "email": "Unknown",
+      "affiliations": [
+          {
+             "name": "Vaccine Research Center, National Institute of Allergy and Infectious Diseases (NIAID)"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "NIAID Vaccine Research Center (VRC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "Vaccine Research Center"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Vaccine Research Center (VRC) conducts research that facilitates the development of effective vaccines for human disease. The primary focus of research is the development of vaccines for AIDS.  Additional areas of research include influenza vaccines. "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22956656",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Ledgerwood JE(1), Hu Z, Gordon IJ, Yamshchikov G, Enama ME, Plummer S, Bailer R,  Pearce MB, Tumpey TM, Koup RA, Mascola JR, Nabel GJ, Graham BS; VRC 304 and VRC 305 Study Teams.",
+      "title": "Influenza virus h5 DNA vaccination is immunogenic by intramuscular and intradermal routes in humans.",
+      "publicationVenue": "Clin Vaccine Immunol.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-12-21",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "End-point titers of antibodies directed against H5 HA of Influenza A/Indonesia/5/05 (H5N1) strain and against H5 HA of the related influenza strain A/Vietnam/1203/2004 (H5N1) were determined by ELISA. End-point titer was calculated as the most dilute serum concentration that gave an optical density reading of >0.2 above background.",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "The Hemagglutinin Inhibition Assay was performed using 4 hemagglutinating units of H5N1 virus and 1% horse erythrocytes. The virus strain used for the HAI assay was a low-pathogenic, H5N1-PR8 reassortant, Clade 2.1, A/Indo/5/2005(H5N1)/PR8-IBCDC-RG2.",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Vaccine-induced T cell responses were detected by ELISpot using a commercially available ELISpot Kit. PBMC were stimulated overnight at 37 degrees C in triplicate wells at a density of 2 x 105 cells/well for all stimulations other than SEB, which was conducted at 5 x 104 cells/well. Following incubation, cells were lysed, and the wells were washed and incubated for 2 hour at room temperature in the presence of biotinylated IFN-gamma detection antibodies. Subsequently the wells were incubated with an Avidin-HRP solution for 1 hour at room temperature, followed by a 20 minute incubation with substrate solution. The plate was air-dried for a minimum of two hours prior to spot quantitation. Results were expressed as mean spot-forming cells (SFC) per million PBMC.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Virus Titer"
+        },
+        "description": "Subject sera were evaluated to determine the relative concentration of neutralizing antibodies against Influenza A/Indonesia/5/05 (H5N1) strain by evaluation of the capacity of the serum to prevent the infection of 293A cells by replication incompetent H5 HA-pseudotyped virus. The pseudotyped virus expressed the H5 HA antigen and the luciferase reporter gene. Neutralization activity was quantitated by relative decrease in the luciferase activity as compared to infection of 293A cells in the absence of subject sera. The 80% and 50% inhibition serum titer was determined to be the serum dilution which can be interpolated to have 20% and 50%, respectively, of the maximum luciferase activity as determined by the assay run in the absence of subject sera sample.",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "This experiment in conjunction with VRC304 ICS 1, EXP13572, contains the VRC304 flow cytometry analyzed results. This experiment does not include the raw data FCS files for its subset of experiment samples because they are not available. VRC304 ICS 1 does include the FCS files for its subset of experiment samples.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "This experiment in conjunction with VRC304 ICS 2, EXP13429, contains the VRC304 flow cytometry analyzed results. This experiment includes the raw data FCS files for its subset of experiment samples. VRC304 ICS 2 does not include the FCS files for its subset of experiment samples because they are not available.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "H5_IND"
+        },
+        {
+          "name": "VRC304_ICS_Treat-1"
+        },
+        {
+          "name": "Staphylococcal enterotoxin B"
+        },
+        {
+          "name": "anti-CD28"
+        },
+        {
+          "name": "anti-CD49d"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY167",
+              "identifierSource": "ImmPort"
+          },
+          "title": "VRC304 - A Phase I Study of the Safety and Immunogenicity of a Recombinant DNA Plasmid Vaccine (VRC-AVIDNA036-00-VP) Encoding for the Influenza Virus H5 Hemagglutinin Protein in Healthy Adults",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY167",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "NIAID Vaccine Research Center (VRC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=7337876&icde=23810630&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "VRC304 - A Phase I, double-blind, placebo-controlled, randomized, dose escalation study to evaluate safety, tolerability, and immunogenicity of a recombinant DNA vaccine against the influenza virus hemagglutinin H5."
+}

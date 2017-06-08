@@ -1,0 +1,391 @@
+{
+  "title": "HALT-MS ITN033AI: High-Dose Immunosuppression and Autologous Transplantation for Multiple Sclerosis ",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY549",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "HALT-MS ITN033AI: High-Dose Immunosuppression and Autologous Transplantation for Multiple Sclerosis ",
+  "performedBy": [
+    {
+      "firstName": "Richard",
+      "lastName": "Nash",
+      "email": "not available",
+      "affiliations": [
+          {
+             "name": "Blood and Marrow Transplant Program, Colorado Blood Cancer Institute, Presbyterian/St. Luke's"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Other"
+          }
+      ]
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Nash",
+      "email": "CBCIinformation@HealthONEcares.com",
+      "affiliations": [
+          {
+             "name": "Colorado Blood Cancer Institute"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Mobilized with G-CSF and prednisone",
+          "size": 25
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Diagnosis of relapsing-remitting or progressive-relapsing multiple sclerosis for less than 15 years using McDonald Criteria. More information on this criterion can be found in the protocol."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Score between 3.0 and 5.5 on the Expanded Disability Status Scale (EDSS)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "T2 abnormalities on brain MRI consistent with MS"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Two or more relapses in 18 months time on interferon (IFN), glatiramer acetate (GA), natalizumab or cytotoxic therapy with EDSS increase of 1.0 or greater for participants with EDSS at screening of 3.0 to 3.5 (0.5 or greater for participants with EDSS at screening of 4.0 to 5.5) sustained at least 4 weeks after at least one of these relapses OR one relapse on IFN, GA, natalizumab or cytotoxic therapy with EDSS increase of 1.5 or greater (1.0 for subjects with EDSS at screening of 5.5) sustained at least 4 weeks, together with MRI changes consistent with poor prognosis. More information on this criterion can be found in the protocol."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "On IFN or GA for at least 6 months before the relapses occur that are counted to satisfy previous inclusion criterion OR have received adequate doses of natalizumab or cytotoxic therapy on a treatment schedule before the relapses occur that are counted to satisfy previous inclusion criterion."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Approval by an MS Review Panel to participate in the study. More information on this criterion can be found in the protocol."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "In good clinical condition with adequate organ function and without coexisting medical problems that would increase the risk to the participant"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to use acceptable methods of contraception"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing and able to comply with all study requirements"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to accept and comprehend irreversible sterility as side effect of therapy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Primary progressive MS"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Secondary progressive MS without relapses (i.e., progression without exacerbations or relapses) for 12 or more months"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Neuromyelitis optica, a disease similar to MS"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Initiation of new immunosuppressant treatment after the participant becomes eligible for the protocol or continuance of immunosuppressant drugs after the participant is screened for the protocol. Treatment with IFN, GA, or corticosteroids is permitted after the participant becomes eligible for the protocol."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Lapse of greater than 6 months between the time a participant is eligible for the protocol and initiation of protocol treatment except when judged acceptable by the MS Review Panel"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior treatment with investigational immunosuppressive agents within 3 months of study eligibility"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Positive baseline plasma and CSF testing for JC virus or a brain MRI that has changes consistent with a diagnosis of progressive multifocal encephalopathy (PML)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of cytopenia consistent with the diagnosis of myelodysplastic syndrome (MDS)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Active hepatitis B or C infection, cirrhosis, or HIV infection"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Uncontrolled diabetes mellitus"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Uncontrolled viral, fungal, or bacterial infection. Patients with asymptomatic bacteriuria are not excluded."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any illness that would jeopardize the ability to tolerate aggressive chemotherapy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior history of malignancy, except localized basal cell or squamous skin cancer. Other malignancies for which the subject is judged cured by the administered therapy will be considered on an individual basis."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Hypersensitivity to mouse, rabbit, or Escherichia coli-derived proteins or to iron compounds/medications"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Metallic objects implanted in the body that would affect MRI exams"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Psychiatric illness, mental deficiency, or cognitive dysfunction"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Richard",
+      "lastName": "Nash",
+      "email": "CBCIinformation@HealthONEcares.com",
+      "affiliations": [
+          {
+             "name": "Colorado Blood Cancer Institute"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25546364",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Nash RA(1), Hutton GJ(2), Racke MK(3), Popat U(4), Devine SM(5), Griffith LM(6),  Muraro PA(7), Openshaw H(8), Sayre PH(9), St?ve O(10), Arnold DL(11), Spychala ME(12), McConville KC(12), Harris KM(13), Phippard D(13), Georges GE(14), Wundes  A(15), Kraft GH(16), Bowen JD(17).",
+      "title": "High-dose immunosuppressive therapy and autologous hematopoietic cell transplantation for relapsing-remitting multiple sclerosis (HALT-MS): a 3-year interim report.",
+      "publicationVenue": "JAMA Neurol.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Autoimmune"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-07-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-12-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY549",
+              "identifierSource": "ImmPort"
+          },
+          "title": "HALT-MS ITN033AI: High-Dose Immunosuppression and Autologous Transplantation for Multiple Sclerosis ",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY549",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this study is to determine the effectiveness of a new treatment for multiple sclerosis (MS), a serious disease in which the immune system attacks the brain and spinal cord. MS can be progressive and severe and lead to significant disability. The study treatment involves the use of high-dose chemotherapeutic drugs to suppress the immune system. The participant's own (autologous) blood-forming (hematopoietic, CD34+) stem cells are collected before the chemotherapy is given, and then transplanted back into the body following treatment. Transplantation of autologous hematopoietic stem cells is required to prevent very prolonged periods of low blood cell counts after the high-dose chemotherapy."
+}

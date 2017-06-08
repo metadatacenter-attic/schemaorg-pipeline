@@ -1,0 +1,350 @@
+{
+  "title": "T1DAL ITN045AI: Inducing Remission in New Onset Type 1 Diabetes Mellitus with Alefacept(Amevive) ",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY797",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "T1DAL ITN045AI: Inducing Remission in New Onset Type 1 Diabetes Mellitus with Alefacept(Amevive) ",
+  "performedBy": [
+    {
+      "firstName": "Mark R",
+      "lastName": "Rigby",
+      "email": "mrigby@iupui.edu",
+      "affiliations": [
+          {
+             "name": "Indiana University and Riley Hospital for Children"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Placebo Comparator: Placebo",
+          "size": 0
+        },
+        {
+          "name": "Experimental: Alefacept",
+          "size": 49
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Recent diagnosis (within 100 days of enrollment) of T1DM"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Positive for at least one diabetes autoantibody (Glutamate decarboxylase [GAD-65GAD65], IA2, ZnT8, ICA and Insulin, if obtained within 10 days of the onset of exogenous insulin therapy)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Peak stimulated C-peptide level > 0.2 pmol/mL following a mixed-meal tolerance test (MMTT)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willingness to provide written informed consent (either the subject or the subject's legally authorized representative)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Severe reaction or anaphylaxis to human monoclonal antibodies"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of malignancy or significant cardiovascular disease (including history of myocardial infarction, angina, use of anti-anginal medicines (e.g., nitroglycerin), or abnormal stress test)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of recent or ongoing uncontrolled bacterial, viral, fungal, or other opportunistic infections"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Evidence of infection with hepatitis B virus (HBV) as defined by hepatitis B surface antigen, HBsAg; hepatitis C virus (HCV) defined by anti-HCV antibodies; human immunodeficiency virus (HIV); or toxoplasmosis"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Positive tuberculin skin test (PPD)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Clinically active infection with Epstein-Barr virus (EBV)-EBV viral load ? 10,000 copies per 10^6 PBMCs; cytomegalovirus (CMV) -CMV viral load ?10,000 copies per mL whole blood; or tuberculosis (TB)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Diagnosis of liver disease or hepatic enzymes, as defined by ALT and/or AST ? 2 times the upper limit of normal"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior or current treatment that is known to cause a significant, ongoing change in the course of T1DM or immunologic status, including high-dose inhaled, extensive topical or systemic glucocorticoids"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Current or prior (within the last 30 days) use of metformin, sulfonylureas, glinides, thiazolidinediones, exenatide, liraglutide, DPP-IV inhibitors or amylin"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Current use of any medication known to influence glucose tolerance (e.g., atypical antipsychotics, diphenylhydantoin, thiazide, or other potassium-depleting diuretics, ?-adrenergic blockers, niacin)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any of the following hematologic abnormalities, confirmed by repeat tests at least 1 week apart:1. White blood count <4000/?L or >14,000/?L;2. CD4+ count below the lower limit of normal;3. Platelet count <150,000 /?L; or4. Hemoglobin <10 g/dL."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Females who are pregnant, lactating, or planning on pregnancy during the 2-year study period"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of bone marrow transplantation, or autoimmune disease associated with lymphopenia"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any medical condition that in the opinion of the principal investigator would interfere with safe completion of the trial"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Prior participation in a clinical trial that could potentially affect T1DM or immunologic status"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receipt of a live vaccine (e.g., varicella, measles, mumps, rubella, cold-attenuated intranasal influenza vaccine, bacillus Calmette-Gu?rin, and smallpox) in the 6 weeks before enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participation in an investigational clinical trial within the last six weeks."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Mark R",
+      "lastName": "Rigby",
+      "email": "mrigby@iupui.edu",
+      "affiliations": [
+          {
+             "name": "Indiana University and Riley Hospital for Children"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N/A1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Immune Tolerance Network"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "24622414",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Rigby MR(1), DiMeglio LA(2), Rendell MS(3), Felner EI(4), Dostou JM(5), Gitelman  SE(6), Patel CM(7), Griffin KJ(7), Tsalikian E(8), Gottlieb PA(9), Greenbaum CJ(10), Sherry NA(11), Moore WV(12), Monzavi R(13), Willi SM(14), Raskin P(15), Moran A(16), Russell WE(17), Pinckney A(18), Keyes-Elstein L(18), Howell M(19), Aggarwal S(19), Lim N(19), Phippard D(19), Nepom GT(10), McNamara J(20), Ehlers MR(21); T1DAL Study Team.",
+      "title": "Targeting of memory T cells with alefacept in new-onset type 1 diabetes (T1DAL study): 12 month results of a randomised, double-blind, placebo-controlled phase  2 trial.",
+      "publicationVenue": "Lancet Diabetes Endocrinol.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Autoimmune"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2011-03-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY797",
+              "identifierSource": "ImmPort"
+          },
+          "title": "T1DAL ITN045AI: Inducing Remission in New Onset Type 1 Diabetes Mellitus with Alefacept(Amevive) ",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY797",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this trial is to test whether a drug called alefacept will slow or halt destruction of the beta cells in the pancreas. If the destruction of the beta cells is stopped, the patients might be able to produce insulin on their own longer, which could stop or slow the progression of their type 1 diabetes."
+}

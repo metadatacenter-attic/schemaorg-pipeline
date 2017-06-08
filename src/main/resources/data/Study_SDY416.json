@@ -1,0 +1,448 @@
+{
+  "title": "Study to measure the immune response to the influenza vaccine in patients with chronic plaque psoriasis",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY416",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Study to measure the immune response to the influenza vaccine in patients with chronic plaque psoriasis",
+  "performedBy": [
+    {
+      "firstName": "Alan",
+      "lastName": "Menter",
+      "email": "Martin.Menter@baylorhealth.edu",
+      "affiliations": [
+          {
+             "name": "Baylor University Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "HIPC_PSORIASIS_2010-2011",
+          "size": 45
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "ELISA_A1"
+        },
+        {
+          "name": "ELISA_A2"
+        },
+        {
+          "name": "ELISA_A3"
+        },
+        {
+          "name": "ELISA_A4"
+        },
+        {
+          "name": "ELISA_A5"
+        },
+        {
+          "name": "ELISA_A6"
+        },
+        {
+          "name": "ELISA_A7"
+        },
+        {
+          "name": "ELISA_A8"
+        },
+        {
+          "name": "ELISA_A9"
+        },
+        {
+          "name": "ELISA_A10"
+        },
+        {
+          "name": "ELISA_A11"
+        },
+        {
+          "name": "ELISA_A12"
+        },
+        {
+          "name": "ELISA_A13"
+        },
+        {
+          "name": "ELISA_A14"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R1"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R2"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R3"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R4"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R5"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R6"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R7"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R8"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R9"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R10"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R11"
+        },
+        {
+          "name": "HIPC_PSOR_FLOW_B CELL"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R12"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R13"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R14"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R15"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R16"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R17"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R18"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R19"
+        },
+        {
+          "name": "HIPC_PSOR_FLOW_MONO_GRAN_SLAN"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R20"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R21"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R22"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R23"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R24"
+        },
+        {
+          "name": "HIPC_PSOR_FLOW_DC"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R25"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R26"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R27"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R28"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R29"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R30"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R31"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R32"
+        },
+        {
+          "name": "HIPC_PSOR_FLOW_TFH_CD4_CD8"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R33"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R34"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R35"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R36"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R37"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R38"
+        },
+        {
+          "name": "HIPC_PSOR_FLOW_TREG"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R39"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R40"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R41"
+        },
+        {
+          "name": "HIPC_PSOR_FLOW_TH17"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R42"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R43"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R44"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R45"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R46"
+        },
+        {
+          "name": "HIPC_PSOR-FR-R47"
+        },
+        {
+          "name": "HIPC_PSOR_FLOW_Ki-67"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Patients aged 18 to 45 years; Chronic plaque psoriasis; Treatment with ustekinumab or topical treatments only or no current psoriasis treatment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnancy; current infections or infections in previous 2 weeks; Any systemic or biologic treatment for psoriasis excluding usteinumab or systemic corticosteroids within the previous 4 weeks; renal or  hepatic disease"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Alan",
+      "lastName": "Menter",
+      "email": "Martin.Menter@baylorhealth.edu",
+      "affiliations": [
+          {
+             "name": "Baylor University Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Systems Analysis Vaccine Responses in Healthy and Hyporesponsive Humans",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI089987"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Our goal is to identify early biomarkers of effective antibody responses to flu vaccination. Four aims are proposed to meet this goal: Aim 1: To establish the baseline immune profiles in healthy subjects. Aim 2: To establish the immune profiles of Flu vaccination in healthy subjects. Aim 3: To identify the molecular signatures of DC subset(s) in response to Flu vaccination. Aim 4: To identify the molecular signatures of activated monocytes in response to Flu vaccination. RELEVANCE (See instructions): Despite the success of vaccines, we understand little about how effective ones stimulate protective immune responses. We will study how the flu vaccine generates effective antibody responses. The goal is to identify the immune responses elicited by effective vaccines so that vaccines that aren't as effective can be improved. To do this, we will vaccinate healthy people with the flu vaccine and monitor their immune response following the vaccination.   http://projectreporter.nih.gov/project_info_details.cfm?aid=8691692&icde=23828587&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-11-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "untreated"
+        },
+        {
+          "name": "Ustekinumab only"
+        },
+        {
+          "name": "Ustekinumab + MTX (Methotrexate)"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY416",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Study to measure the immune response to the influenza vaccine in patients with chronic plaque psoriasis",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY416",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Systems Analysis Vaccine Responses in Healthy and Hyporesponsive Humans",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8259851&icde=23826717&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Interleukin-12 (IL-12) and interleukin-23 are heterodimeric cytokines, with a common p40 subunit and a unique chain (IL-12p35 and IL-23p19).  The p40 subunit of both interleukins binds to the transmembrane IL-12 receptor-beta1 (IL-12R  ) on the surface of T lymphocytes and natural killer cells.  Ustekinumab is a fully human monoclonal antibody, anti-IL12p40, which binds to the p40 subunit of IL-12 and IL-23 with high affinity and specificity, inhibiting the activity of both interleukins.  Ustekinumab has proven to be highly effective in the treatment of chronic plaque psoriasis, with up to 76% of patients achieving a 75% reduction in their psoriasis area and severity index (PASI-75).1,  It is routinely recommended that psoriasis patients treated with biologic therapies such as ustekinumab be vaccinated annually with the influenza vaccine. We can thus assess the importance of these cytokines in the immune response to vaccination by comparing the immune response to influenza vaccination of psoriasis patients treated with ustekinumab with that of patients who are not receiving this treatment. We will assess gene expression profiles and white blood cell subsets in the blood of psoriasis patients before vaccination and at multiple time-points after vaccination."
+}

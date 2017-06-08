@@ -1,0 +1,328 @@
+{
+  "title": "Systems Biology of 2008 Influenza Vaccination in Humans (See companion studies SDY61 2007 / SDY270 2009 / SDY271 Role for CaMKIV in the Regulation of Antibody Responses to Influenza Vaccine)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY269",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Systems Biology of 2008 Influenza Vaccination in Humans (See companion studies SDY61 2007 / SDY270 2009 / SDY271 Role for CaMKIV in the Regulation of Antibody Responses to Influenza Vaccine)",
+  "performedBy": [
+    {
+      "firstName": "Bali",
+      "lastName": "Pulendran",
+      "email": "bpulend@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "LAIV group 2008",
+          "size": 32
+        },
+        {
+          "name": "TIV Group 2008",
+          "size": 31
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "biotinylated anti-human IgG antibody"
+        },
+        {
+          "name": "avidin-D-HRP conjugate"
+        },
+        {
+          "name": "TIV_VacAntigen"
+        },
+        {
+          "name": "biotinylated anti-human IgM antibody"
+        },
+        {
+          "name": "biotinylated anti-human IgA antibody"
+        },
+        {
+          "name": "Fluarix"
+        },
+        {
+          "name": "FluMist"
+        },
+        {
+          "name": "A/South Dakota/6/2007 (H1N1)"
+        },
+        {
+          "name": "A/Uruguay/716/2007  NYMC X-175C (H3N2)"
+        },
+        {
+          "name": "B/Florida/4/2006"
+        },
+        {
+          "name": "A/Brisbane/59/2007 (H1N1)"
+        },
+        {
+          "name": "B/Brisbane/3/2007"
+        },
+        {
+          "name": "Affymetrix HT HG-U133+ PM Array Plate"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "healthy adult"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Bali",
+      "lastName": "Pulendran",
+      "email": "bpulend@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700006C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Influenza Pathogenesis & Immunology Research Center (IPIRC) is one of five national Influenza Centers of Excellence funded by NIH/NIAID. The goals of the Center are to determine the molecular, ecologic and/or environmental factors that influence the evolution, emergence, transmission and pathogenicity of influenza viruses, including studies on animal influenza viruses with pandemic potential; and to characterize the immune response to influenza vaccination to improve understanding of the immune correlates of protection and cross-protection. The Center's structure is comprised of four research projects, two pilot projects, and two training slots. The scope of the Center's focus includes planning for pandemic influenza and sharing data with other scientists in order to promote collaboration and lay the groundwork for new and improved methods of controlling influenza virus. In the event of a public health emergency involving the emergence and spread of an influenza pandemic in humans, the Network of Centers will be on the frontline to implement the NIAID Pandemic Public Health Research Response Plan.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=da736a25c9098cee65ba909ab9c63121"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21743478",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Nakaya HI(1), Wrammert J, Lee EK, Racioppi L, Marie-Kunze S, Haining WN, Means AR, Kasturi SP, Khan N, Li GM, McCausland M, Kanchan V, Kokko KE, Li S, Elbein R, Mehta AK, Aderem A, Subbarao K, Ahmed R, Pulendran B.",
+      "title": "Systems biology of vaccination for seasonal influenza in humans.",
+      "publicationVenue": "Nat Immunol.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Freq of influenza-specific plasmablasts",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "HAI response induced by 2008 TIV and LAIV vaccines in plasma",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Frequency of influenza-specific plasmablasts",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Gene expression",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "none"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY269",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Systems Biology of 2008 Influenza Vaccination in Humans (See companion studies SDY61 2007 / SDY270 2009 / SDY271 Role for CaMKIV in the Regulation of Antibody Responses to Influenza Vaccine)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY269",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&tab=core&id=380b2c8bd10fee1ebd65475f236dfd39&_cview=0"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Using a systems biology approach to study innate and adaptive responses to influenza vaccination in humans during the 2008-2009 influenza season."
+}

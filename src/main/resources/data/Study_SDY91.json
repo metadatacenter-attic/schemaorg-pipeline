@@ -1,0 +1,403 @@
+{
+  "title": "Rituximab for the Treatment of Wegener's Granulomatosis and Microscopic Polyangiitis (RAVE ITN021AI)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY91",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Rituximab for the Treatment of Wegener's Granulomatosis and Microscopic Polyangiitis (RAVE ITN021AI)",
+  "performedBy": [
+    {
+      "firstName": "Ulrich",
+      "lastName": "Specks",
+      "email": "specks.ulrich@mayo.edu",
+      "affiliations": [
+          {
+             "name": "Mayo Clinic"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "John H.",
+      "lastName": "Stone",
+      "email": "jhstone@partners.org",
+      "affiliations": [
+          {
+             "name": "Johns Hopkins University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Experimental:  Rituximab",
+          "size": 99
+        },
+        {
+          "name": "Active Comparator: Cyclophophamide",
+          "size": 98
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "6 Month Panel Flow Panel 4"
+        },
+        {
+          "name": "EuroImmune reagent"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Ulrich",
+      "lastName": "Specks",
+      "email": "specks.ulrich@mayo.edu",
+      "affiliations": [
+          {
+             "name": "Mayo Clinic"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "John H.",
+      "lastName": "Stone",
+      "email": "jhstone@partners.org",
+      "affiliations": [
+          {
+             "name": "Johns Hopkins University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Rituximab for the Treatment of Wegener's Granulomatosis and Microscopic Polyangiitis (RAVE), Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-15416"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Rituximab for the Treatment of Wegener's Granulomatosis and Microscopic Polyangiitis (RAVE), Immune Tolerance Network  http://projectreporter.nih.gov/project_info_details.cfm?aid=8703922&icde=23840125&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "20647199",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Stone JH(1), Merkel PA, Spiera R, Seo P, Langford CA, Hoffman GS, Kallenberg CG,  St Clair EW, Turkiewicz A, Tchao NK, Webber L, Ding L, Sejismundo LP, Mieras K, Weitzenkamp D, Ikle D, Seyfert-Margolis V, Mueller M, Brunetta P, Allen NB, Fervenza FC, Geetha D, Keogh KA, Kissin EY, Monach PA, Peikert T, Stegeman C, Ytterberg SR, Specks U; RAVE-ITN Research Group.",
+      "title": "Rituximab versus cyclophosphamide for ANCA-associated vasculitis.",
+      "publicationVenue": "N Engl J Med.",
+      "dates": [
+        {
+          "date": "2010",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "21953143",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Monach PA(1), Tomasson G, Specks U, Stone JH, Cuthbertson D, Krischer J, Ding L,  Fervenza FC, Fessler BJ, Hoffman GS, Ikle D, Kallenberg CG, Langford CA, Mueller  M, Seo P, St Clair EW, Spiera R, Tchao N, Ytterberg SR, Gu YZ, Snyder RD, Merkel  PA.",
+      "title": "Circulating markers of vascular injury and angiogenesis in antineutrophil cytoplasmic antibody-associated vasculitis.",
+      "publicationVenue": "Arthritis Rheum.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "22279570",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Monach PA(1), Kumpers P, Lukasz A, Tomasson G, Specks U, Stone JH, Cuthbertson D, Krischer J, Carette S, Ding L, Hoffman GS, Ikle D, Kallenberg CG, Khalidi NA, Langford CA, Seo P, St Clair EW, Spiera R, Tchao N, Ytterberg SR, Haubitz M, Merkel PA.",
+      "title": "Circulating angiopoietin-2 as a biomarker in ANCA-associated vasculitis.",
+      "publicationVenue": "PLoS One.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "23902481",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Specks U(1), Merkel PA, Seo P, Spiera R, Langford CA, Hoffman GS, Kallenberg CG,  St Clair EW, Fessler BJ, Ding L, Viviano L, Tchao NK, Phippard DJ, Asare AL, Lim  N, Ikle D, Jepson B, Brunetta P, Allen NB, Fervenza FC, Geetha D, Keogh K, Kissin EY, Monach PA, Peikert T, Stegeman C, Ytterberg SR, Mueller M, Sejismundo LP, Mieras K, Stone JH; RAVE-ITN Research Group.",
+      "title": "Efficacy of remission-induction regimens for ANCA-associated vasculitis.",
+      "publicationVenue": "N Engl J Med.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "TBD_A",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Specks U, Merkel PA, Hoffman GS, Langford CA, Spiera R, Seo P, Kallenberg CGM, St. Clair EW, Ding L, Webber L, Mokhtarani M, Tchao NK, Sayre PH, Seyfert-Margolis V, Ikle D, Brunetta P, Mueller M, Zhang D, Sejismundo L, Stone JH",
+      "title": "Design of the Rituximab in ANCA-associated Vasculitis (RAVE) Trial.",
+      "publicationVenue": "The Open Arthritis Journal",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Autoimmune"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2005-01-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2010-01-01",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Whole blood flow cytometry used to evaluate the development, frequencies, and activation status of B and T cells, natural killer cells, and myeloid and dendritic cells",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "ELISA for clinical PR3-ANCA evaluation",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Chemistry Test"
+        }
+      },{
+        "name": {
+            "value": "Blood Cell Count"
+        }
+      },{
+        "name": {
+            "value": "Renal Function Test"
+        }
+      },{
+        "name": {
+            "value": "Vasculitis Damage Index"
+        }
+      },{
+        "name": {
+            "value": "Baseline Height (cm)"
+        }
+      },{
+        "name": {
+            "value": "SF-36"
+        }
+      },{
+        "name": {
+            "value": "Baseline Weight (kg)"
+        }
+      },{
+        "name": {
+            "value": "Remission"
+        }
+      },{
+        "name": {
+            "value": "BVAS/WG"
+        }
+      },{
+        "name": {
+            "value": "Flares"
+        }
+      },{
+        "name": {
+            "value": "Prednisone Taper"
+        }
+      },{
+        "name": {
+            "value": "Assignment"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "RAVE_TREATMENT"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY91",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Rituximab for the Treatment of Wegener's Granulomatosis and Microscopic Polyangiitis (RAVE ITN021AI)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY91",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Rituximab for the Treatment of Wegener's Granulomatosis and Microscopic Polyangiitis (RAVE), Immune Tolerance Network",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8696758&icde=23829293&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Antineutrophil cytoplasmic antibodies (ANCA)-associated vasculitis is the most common type of small blood vessel inflammation in adults. ANCA-associated vasculitis includes Wegener's granulomatosis (WG) and microscopic polyangiitis (MPA). Rituximab is a man-made antibody used to treat certain types of cancer. The purpose of this study is to determine the effectiveness of rituximab in treating patients with WG and MPA"
+}

@@ -1,0 +1,373 @@
+{
+  "title": "Characterization of in vitro Stimulated B Cells from Human Subjects",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY165",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Characterization of in vitro Stimulated B Cells from Human Subjects",
+  "performedBy": [
+    {
+      "firstName": "Martin",
+      "lastName": "Zand",
+      "email": "martin_zand@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Healthy_volunteer",
+          "size": 15
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "CpG oligodeoxynucleotide"
+        },
+        {
+          "name": "IL-2"
+        },
+        {
+          "name": "IL-10"
+        },
+        {
+          "name": "IL-15"
+        },
+        {
+          "name": "BAFF"
+        },
+        {
+          "name": "Human IgG"
+        },
+        {
+          "name": "photocleavable-biotinylation kit"
+        },
+        {
+          "name": "8-branch PEG polymer with amino linker groups"
+        },
+        {
+          "name": "Paramagnetic microspheres 8 micron"
+        },
+        {
+          "name": "Paramagnetic microspheres 10, 12, 16 or 30 mm in diameter "
+        },
+        {
+          "name": "streptavidin"
+        },
+        {
+          "name": "PolyLink Coupling Kit"
+        },
+        {
+          "name": "Mouse anti-Human IgG"
+        },
+        {
+          "name": "phosphatase-conjugated Goat anti-Human IgG"
+        },
+        {
+          "name": "RLT buffer (RNeasy Kit for RNA Isolation)"
+        },
+        {
+          "name": "Qiashredder column"
+        },
+        {
+          "name": "TaqManH Universal PCR Master Mix, No AmpEraseH UNG on the StepOnePlusTM Real-Time PCR System "
+        },
+        {
+          "name": "Live/Dead Violet"
+        },
+        {
+          "name": "AID-Alexa 488 antibody"
+        },
+        {
+          "name": "Pacific Blue Succinimidyl Ester"
+        },
+        {
+          "name": "Anti-CD59-APC antibody"
+        },
+        {
+          "name": "Anti-CD80-Alexa 647 antibody"
+        },
+        {
+          "name": "Anti-CD27-APC-H7 antibody"
+        },
+        {
+          "name": "Anti-CD19-FITC antibody"
+        },
+        {
+          "name": "Anti-IgG-PE-Cy7 antibody"
+        },
+        {
+          "name": "CFSE"
+        },
+        {
+          "name": "Anti-CD19-PE-Cy5 antibody"
+        },
+        {
+          "name": "Anti-IgG-APC antibody"
+        },
+        {
+          "name": "Anti-CD38-PE-y7 antibody"
+        },
+        {
+          "name": "Mouse Anti-AID antibody"
+        },
+        {
+          "name": "Anti-murine IgG-Alexa 680 antibody"
+        },
+        {
+          "name": "Anti-CD83-PE-Cy7 antibody"
+        },
+        {
+          "name": "Anti-IgG-PE-CY5 antibody"
+        },
+        {
+          "name": "Anti-CD19-PE-Cy7 antibody"
+        },
+        {
+          "name": "hybridized Affymetrix U133 Plus 2.0 chips"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Did subject provide informed consent prior to study."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Martin",
+      "lastName": "Zand",
+      "email": "martin_zand@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "University of Rochester Center for Biodefense Immune Modeling II",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN272201000055C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Our Center proposes to develop and refine multi-compartment, multi-level and multi-type mathematical/computational models for immune responses to vaccinations and infections of biodefense pathogens such as influenza viruses which will be tested and validated via the data from murine experiments and human studies. Our utmost goal is to develop modeling approaches to explore whether the rich in vitro and in vivo data from appropriate animal experiments, in combining with limited data from human studies, can be used to better predict human immune responses to vaccination and infections using both traditional modeling methods and cutting-edge systems biology approaches coupled with high-throughput technologies.   https://www.fbo.gov/?s=opportunity&mode=form&id=5a22e454d60d8d3a8a6701faa058d2b7&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22468229",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Henn AD, Laski M, Yang H, Welle S, Qiu X, Miao H, Barry CT, Wu H, Zand MS.",
+      "title": "Functionally Distinct Subpopulations of CpG-Activated Memory B Cells.",
+      "publicationVenue": "Sci Rep.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-06-12",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "ELISPOT-based quantification of the number of in vitro stimulated antigen-specific B cells from human peripheral blood, and assessment of the amount of IgG produced per cell.",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "To confirm and validate changes in expression of key B cell differentiation genes upon in vitro stimulation with CpG oligodeoxynucleotide.",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Flow cytometric characterization of in vitro CpG oligodeoxynucleotide stimulated B cells from the peripheral blood of human subjects using antibodies against CD27 and other cell markers.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Microarray of in vitro stimulated human B cells",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "CpG+CK stimulated Bc"
+        },
+        {
+          "name": "Unstimulated Bc"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY165",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Characterization of in vitro Stimulated B Cells from Human Subjects",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY165",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "University of Rochester Center for Biodefense Immune Modeling II",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&id=7236c0b575cad473e35e738c3565f739&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "During the human B cell (Bc) recall response, rapid cell division results in multiple Bc subpopulations. RNA microarray and functional analyses showed that proliferating CD27lo cells are a transient pre-plasmablast population, expressing genes associated with Bc receptor editing. Undivided cells had an active transcriptional program of non-ASC B cell functions, including cytokine secretion and costimulation, suggesting a link between innate and adaptive Bc responses.  Transcriptome analysis suggested a gene regulatory network for CD27lo and CD27hi Bc differentiation."
+}

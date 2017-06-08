@@ -1,0 +1,528 @@
+{
+  "title": "Immune Responses to Seasonal TIV 2010-2011 Influenza Vaccination in Humans (see companion study SDY396,SDY564)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY224",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Immune Responses to Seasonal TIV 2010-2011 Influenza Vaccination in Humans (see companion study SDY396,SDY564)",
+  "performedBy": [
+    {
+      "firstName": "Hulin",
+      "lastName": "Wu",
+      "email": "hulin_wu@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Zand",
+      "email": "martin_zand@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "TIV 2010",
+          "size": 14
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "FCMreag1"
+        },
+        {
+          "name": "FCMreag2"
+        },
+        {
+          "name": "FCMreag3"
+        },
+        {
+          "name": "FCMreag4"
+        },
+        {
+          "name": "FCMreag5"
+        },
+        {
+          "name": "FCMreag6"
+        },
+        {
+          "name": "FCMreag7"
+        },
+        {
+          "name": "FCMreag8"
+        },
+        {
+          "name": "FCMreag9"
+        },
+        {
+          "name": "FCMreag10"
+        },
+        {
+          "name": "anti-CD138 APC antibody"
+        },
+        {
+          "name": "anti-CD20 V450 antibody"
+        },
+        {
+          "name": "anti-CD19 PE-Texas Red antibody"
+        },
+        {
+          "name": "anti-CD27 PE-Cy5 antibody"
+        },
+        {
+          "name": "Anti-CD38 PE-Cy7 antibody"
+        },
+        {
+          "name": "Anti-CD3 PE-Cy5.5 antibody"
+        },
+        {
+          "name": "Anti-B7 FITC antibody"
+        },
+        {
+          "name": "Anti-CCR10 PE antibody"
+        },
+        {
+          "name": "Anti-CD62L APC-Alexa750 antibody"
+        },
+        {
+          "name": "Live/Dead Aqua"
+        },
+        {
+          "name": "peroxidase labeled Goat-anti-human IgA"
+        },
+        {
+          "name": "1-step Ultra TMB substrate"
+        },
+        {
+          "name": "peroxidase labeled Goat-anti-human IgG"
+        },
+        {
+          "name": "peroxidase labeled Goat-anti-human IgM"
+        },
+        {
+          "name": "Phosphatase labeled Goat-anti-human IgM"
+        },
+        {
+          "name": "Phosphatase labeled Goat-anti-human IgG"
+        },
+        {
+          "name": "Phosphatase labeled Goat-anti-human IgA"
+        },
+        {
+          "name": "Illumina TruSeq RNA kits"
+        },
+        {
+          "name": "Qiagen RNeasy micro kit."
+        },
+        {
+          "name": "The 2011-2012 WHO Influenza ragent kit for identification of influenza isolates"
+        },
+        {
+          "name": "TaqMan Array Fast Plates"
+        },
+        {
+          "name": "TaqMan Universal PCR Master mix, no AmpErase UNG"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has known anemia."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Is participating in other vaccination studies at the University of Rochester Medical Center."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Able to understand and comply with planned study procedures."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Is pregnant or less than 4 weeks postpartum."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has donated blood for transfusion purposes, or participated in another research study involving blood donation, within 56 days of enrollment, or has already donated 450 mL of blood total in this study within the last 56-days including study blood samples and blood donations for subsequent transfusion use."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Is using oral or parenteral steroids, high-dose inhaled steroids (>800 mcg/day of beclomethasone dipropionate or equivalent) or other immunosuppressive or cytotoxic drugs."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has any condition that would, in the opinion of the site principal investigator place the volunteer at an unacceptable risk of injury or render the subject unable to meet the requirements of the protocol."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Is undergoing immunosuppression as a result of an underlying illness or treatment."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Provide informed consent prior to any study."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Healthy adults ages 18 to 69 years."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has an active neoplastic disease or a history of any hematologic malignancy.  Exceptions to this exclusion criteria are: Subjects may have Basilar Cell Carcinoma, Squamous Cell Carcinoma, or their malignancy has not been active for at least 5 years."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Has a history of receiving immunoglobulin or other blood products within the 3 months prior to enrollment in this study."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Hulin",
+      "lastName": "Wu",
+      "email": "hulin_wu@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Zand",
+      "email": "martin_zand@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "University of Rochester Center for Biodefense Immune Modeling II",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN272201000055C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Our Center proposes to develop and refine multi-compartment, multi-level and multi-type mathematical/computational models for immune responses to vaccinations and infections of biodefense pathogens such as influenza viruses which will be tested and validated via the data from murine experiments and human studies. Our utmost goal is to develop modeling approaches to explore whether the rich in vitro and in vivo data from appropriate animal experiments, in combining with limited data from human studies, can be used to better predict human immune responses to vaccination and infections using both traditional modeling methods and cutting-edge systems biology approaches coupled with high-throughput technologies.   https://www.fbo.gov/?s=opportunity&mode=form&id=5a22e454d60d8d3a8a6701faa058d2b7&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22554464",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Li X(1), Miao H, Henn A, Topham DJ, Wu H, Zand MS, Mosmann TR.",
+      "title": "Ki-67 expression reveals strong, transient influenza specific CD4 T cell responses after adult vaccination.",
+      "publicationVenue": "Vaccine.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "23900141",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Henn AD(1), Wu S, Qiu X, Ruda M, Stover M, Yang H, Liu Z, Welle SL, Holden-Wiltse J, Wu H, Zand MS.",
+      "title": "High-resolution temporal response patterns to influenza vaccine reveal a distinct human plasma cell gene signature.",
+      "publicationVenue": "Sci Rep.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Immune Response"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Flow cytometry analysis of PBMCs pre and post influenza vaccination.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "To study activation and maturation of human B cell subpopulations after Influenza vaccination to build and validate immune response model using flow cytometry.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "To determine concentrations of Influenza specific IgA, IgM and IgG antibody subtypes in human after TIV and LAIV vaccination.",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "To assess influenza specific antibody secretion rate of activated B cell subsets following seasonal Influenza vaccination in human subjects",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Transcriptome analysis of  seasonal Influenza vaccine activated, class switched human B cells revealing gene regulatory network",
+        "types": [
+            {
+               "value": "Sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "Transcriptome analysis of  PBMC revealing gene regulatory network in seasonal influenza vaccinated human subjects",
+        "types": [
+            {
+               "value": "Sequencing"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "To determine antibody response to vaccine virus and other viruses in seasonal influenza vaccinated human subjects.",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "To confirm and validate changes in mRNA expression of selected B cell differentiation genes",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "Dimethyl Sulphoxide"
+        },
+        {
+          "name": "H1N1 15mer Peptides"
+        },
+        {
+          "name": "TIV Influenza Vaccine"
+        },
+        {
+          "name": "Staphylococcal exotoxin"
+        },
+        {
+          "name": "None"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY224",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Immune Responses to Seasonal TIV 2010-2011 Influenza Vaccination in Humans (see companion study SDY396,SDY564)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY224",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "University of Rochester Center for Biodefense Immune Modeling II",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&id=7236c0b575cad473e35e738c3565f739&tab=core&_cview=1"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To use system biology approaches to compare differences in immune responses to vaccine"
+}

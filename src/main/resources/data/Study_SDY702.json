@@ -1,0 +1,325 @@
+{
+  "title": "Human T Cell Profile",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY702",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Human T Cell Profile",
+  "performedBy": [
+    {
+      "firstName": "Donna",
+      "lastName": "Farber",
+      "email": "df2396@cumc.columbia.edu",
+      "affiliations": [
+          {
+             "name": "Columbia University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "All Subjects",
+          "size": 56
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "CD3-BV650"
+        },
+        {
+          "name": "CD4-PeCy7"
+        },
+        {
+          "name": "CD8-APC-Cy7"
+        },
+        {
+          "name": "CD19-PE-AF610"
+        },
+        {
+          "name": "CD28-PE"
+        },
+        {
+          "name": "CD45RA-BV605"
+        },
+        {
+          "name": "CD45RO-PerCP-eF710"
+        },
+        {
+          "name": "CD69-BV421"
+        },
+        {
+          "name": "CD127-BV711"
+        },
+        {
+          "name": "CCR7-AF488"
+        },
+        {
+          "name": "CD103-AF647"
+        },
+        {
+          "name": "T cell Surface Panel"
+        },
+        {
+          "name": "Ki67-PE"
+        },
+        {
+          "name": "T cell proliferation panel"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "T cell Surface Panel 2"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "T cell Surface Panel 3"
+        },
+        {
+          "name": "None"
+        },
+        {
+          "name": "T cell Surface Panel 4"
+        },
+        {
+          "name": "T cell Surface Panel 5"
+        },
+        {
+          "name": "T cell Surface Panel 6"
+        },
+        {
+          "name": "T cell Surface Panel 7"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Previously Healthy"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Donna",
+      "lastName": "Farber",
+      "email": "df2396@cumc.columbia.edu",
+      "affiliations": [
+          {
+             "name": "Columbia University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Tissue compartmentalization of human lymphocytes P01AI106697",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "P01AI106697"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Whole body analysis of human T cells in lymphoid and mucosal. TCs from blood, spleen, peripheral and tissue-draining lymph nodes, lung, small and large intestines from healthy donors. Composition of naive, memory and terminal effector CD4 and CD8 subsets in blood, lymphoid and mucosal tissues is intrinsic to the tissue site and similar between donors. Compartmentalization of human TCs in tissues throughout the body depends on multiple mechanisms including the extent of replication, expression of specific TC receptors (TCR), and tissue-specific factors. 1. role of replication and turnover in compartmentalization of TC subsets; 2. Assess how TCR diversity and clonality is related to compartmentalization of TC subsets in sites using sequencing approaches, are sites are enriched for specific TC clones or contain limited TCR diversity compared to blood; 3. Define the tissue-specific influences on TCs in circulating compared to lymphoid and mucosal sites through transcriptome analysis  http://projectreporter.nih.gov/project_info_details.cfm?aid=8667989&icde=23814469&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25417158",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Thome JJ(1), Yudanin N(1), Ohmura Y(2), Kubota M(2), Grinshpun B(3), Sathaliyawala T(4), Kato T(2), Lerner H(5), Shen Y(3), Farber DL(6).",
+      "title": "Spatial map of human T cell compartmentalization and maintenance over decades of  life.",
+      "publicationVenue": "Cell.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-07-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY702",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Human T Cell Profile",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY702",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Tissue compartmentalization of human lymphocytes P01AI106697",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8046604&icde=23811538&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "A multidimensional, quantitative analysis of human T cell compartmentalization and maintenance over six decades of life in blood, lymphoid, and mucosal tissues obtained from 56 individual organ donors."
+}

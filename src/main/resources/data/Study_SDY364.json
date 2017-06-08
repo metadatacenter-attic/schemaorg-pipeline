@@ -1,0 +1,393 @@
+{
+  "title": "Systems Biology Approach to Study Influenza Vaccine 2012-13 in Healthy Children (see companion studies SDY144, SDY368, SDY387)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY364",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Systems Biology Approach to Study Influenza Vaccine 2012-13 in Healthy Children (see companion studies SDY144, SDY368, SDY387)",
+  "performedBy": [
+    {
+      "firstName": "OCTAVIO",
+      "lastName": "RAMILO",
+      "email": "Octavio.Ramilo@nationwidechildrens.org",
+      "affiliations": [
+          {
+             "name": "NATIONWIDE CHILDREN'S HOSPITAL"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "NCH-2012-13",
+          "size": 23
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "NCH-2012-FR-R1"
+        },
+        {
+          "name": "NCH-2012-FR-R2"
+        },
+        {
+          "name": "NCH-2012-FR-R3"
+        },
+        {
+          "name": "NCH-2012-FR-R4"
+        },
+        {
+          "name": "NCH-2012-FR-R5"
+        },
+        {
+          "name": "NCH-2012-FR-R6"
+        },
+        {
+          "name": "NCH-2012-FR-R7"
+        },
+        {
+          "name": "NCH-2012-FR-R8"
+        },
+        {
+          "name": "NCH-2012-FR-R9"
+        },
+        {
+          "name": "NCH-2012-FR-R17"
+        },
+        {
+          "name": "NCH B-Cell"
+        },
+        {
+          "name": "NCH-2012-FR-R10"
+        },
+        {
+          "name": "NCH-2012-FR-R11"
+        },
+        {
+          "name": "NCH-2012-FR-R12"
+        },
+        {
+          "name": "NCH-2012-FR-R13"
+        },
+        {
+          "name": "NCH-2012-FR-R14"
+        },
+        {
+          "name": "NCH-2012-FR-R15"
+        },
+        {
+          "name": "NCH-2012-FR-R16"
+        },
+        {
+          "name": "NCH Dendritic Cell"
+        },
+        {
+          "name": "NCH-2012-FR-R27"
+        },
+        {
+          "name": "NCH-2012-FR-R28"
+        },
+        {
+          "name": "NCH-2012-FR-R29"
+        },
+        {
+          "name": "NCH-2012-FR-R30"
+        },
+        {
+          "name": "NCH-2012-FR-R31"
+        },
+        {
+          "name": "NCH-2012-FR-R32"
+        },
+        {
+          "name": "NCH Monocyte"
+        },
+        {
+          "name": "NCH-2012-FR-R18"
+        },
+        {
+          "name": "NCH-2012-FR-R19"
+        },
+        {
+          "name": "NCH-2012-FR-R20"
+        },
+        {
+          "name": "NCH-2012-FR-R21"
+        },
+        {
+          "name": "NCH-2012-FR-R22"
+        },
+        {
+          "name": "NCH-2012-FR-R23"
+        },
+        {
+          "name": "NCH-2012-FR-R24"
+        },
+        {
+          "name": "NCH-2012-FR-R25"
+        },
+        {
+          "name": "NCH-2012-FR-R26"
+        },
+        {
+          "name": "NCH TFH"
+        },
+        {
+          "name": "turkey blood in Alsevers"
+        },
+        {
+          "name": "Recombinant (6:2) influenza A virus A/Puerto Rico/8/1934: A/California/7/2009 HA, NA (H1N1)"
+        },
+        {
+          "name": "Influenza A virus A/Perth/19/2009 (H3N2)"
+        },
+        {
+          "name": "Influenza B virus B/Brisbane/60/2008"
+        },
+        {
+          "name": "GX-BeadChip HT12v4"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Has not had flu vaccine for this season"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Not allergic to eggs"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "No flu like symptoms on day of vaccine"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Between the ages of 6 months and 18 years."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "OCTAVIO",
+      "lastName": "RAMILO",
+      "email": "Octavio.Ramilo@nationwidechildrens.org",
+      "affiliations": [
+          {
+             "name": "NATIONWIDE CHILDREN'S HOSPITAL"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Systems Analysis Vaccine Responses in Healthy and Hyporesponsive Humans",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI089987"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Our goal is to identify early biomarkers of effective antibody responses to flu vaccination. Four aims are proposed to meet this goal: Aim 1: To establish the baseline immune profiles in healthy subjects. Aim 2: To establish the immune profiles of Flu vaccination in healthy subjects. Aim 3: To identify the molecular signatures of DC subset(s) in response to Flu vaccination. Aim 4: To identify the molecular signatures of activated monocytes in response to Flu vaccination. RELEVANCE (See instructions): Despite the success of vaccines, we understand little about how effective ones stimulate protective immune responses. We will study how the flu vaccine generates effective antibody responses. The goal is to identify the immune responses elicited by effective vaccines so that vaccines that aren't as effective can be improved. To do this, we will vaccinate healthy people with the flu vaccine and monitor their immune response following the vaccination.   http://projectreporter.nih.gov/project_info_details.cfm?aid=8691692&icde=23828587&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2012-08-13",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Virus Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "NCH_2012_None"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY364",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Systems Biology Approach to Study Influenza Vaccine 2012-13 in Healthy Children (see companion studies SDY144, SDY368, SDY387)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY364",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Systems Analysis Vaccine Responses in Healthy and Hyporesponsive Humans",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8259851&icde=23826717&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To characterize the cellular and transcriptional signatures of response to Flu vaccine in healthy children."
+}

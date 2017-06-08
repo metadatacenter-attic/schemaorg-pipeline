@@ -1,0 +1,542 @@
+{
+  "title": "B-Cell depletion by anti-CD20 in renal allograft recipients who develop de novo anti-HLA alloantibodies",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY689",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "B-Cell depletion by anti-CD20 in renal allograft recipients who develop de novo anti-HLA alloantibodies",
+  "performedBy": [
+    {
+      "firstName": "Mohamed",
+      "lastName": "Sayegh",
+      "email": "msayegh@rics.bwh.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Brigham and Women's Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Rituximab plus immunosuppression",
+          "size": 15
+        },
+        {
+          "name": "Placebo plus immunosuppression",
+          "size": 7
+        },
+        {
+          "name": "Screening group",
+          "size": 735
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "None"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - Subject and/or parent guardian must be able to understand and provide informed consent and/or assent"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - No known history of non-adherence to prescribed regimens"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - Male or Female, 5-70 years of age"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - Diagnosed with End Stage Renal Disease (ESRD)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - Renal transplant recipient, 3-36 months post renal transplantation"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - No known contraindications to therapy using Rituximab"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - Female subjects must agree to refrain from breast-feeding a child during study participation"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - Female and male subjects with reproductive potential must agree to use FDA approved methods of birth control during study participation"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Screening - Pediatrics (less than 18 years of age) must have all childhood vaccinations up to date for age, as medically indicated"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Recipients of kidneys from donors > 70 years of age"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Multi-organ transplant"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Prior history of organ transplantation (other than kidney transplantation)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Previous treatment with Rituximab (MabThera / Rituxan)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - History of severe allergic anaphylactic reactions to humanized or murine monoclonal antibodies"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Lack of IV venous access"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Sensitized to greater than 5% Panel Reactive Antibody (PRA) within 12 weeks prior to transplant"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - History of recurrent significant infection or history of recurrent bacterial infections"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Serologic positivity to HIV, HBsAg, HBc Ab, or HCV Ab"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - History of drug, alcohol, or chemical abuse within 6 months prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - History of malignancy except adequately treated in-situ cervical carcinoma, or adequately treated basal or squamous cell carcinoma of the skin"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Clinically significant cardiovascular or pulmonary disease"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Evidence of urinary tract obstruction causing decreased renal function, unless corrected by time of enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Any other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug or that may affect the interpretation of the results or render the patient at high risk from treatment complications"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - History of psychiatric disorder that would interfere with normal participation in this study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Inability or unwillingness of subject and/or parent guardian to provide informed consent or comply with the study protocol"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Use of other investigational drugs within 4 weeks of participation"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Screening - Recent recipient of any licensed or investigational live attenuated vaccine(s) within two months of enrollment and for the duration of the study"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Pilot - Living and deceased-donor renal transplant recipients who have developed de novo anti-HLA antibodies (Luminex platform with One Lambda?s LabScreen PRA Class I and II kit) measured on two occasions within the enrollment window (3 to 36 months post-transplantation)"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Pilot - Recipients who are 3 months but not greater than 39 months post-transplant"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Pilot - Female subjects of childbearing potential must have a negative serum pregnancy test prior to enrollment in the pilot study"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Pilot - Female and male subjects with reproductive potential must agree to use FDA approved methods of birth control during study participation, and for 12 months following study therapy"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Previous treatment with Rituximab (MabThera / Rituxan)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Immunoglobulin levels <500mg/dL (Combined IgM, IgG, IgA, IgE, IgD)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - History of severe allergic anaphylactic reactions to humanized or murine monoclonal antibodies"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Lack of IV venous access"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Active systemic infection at time of enrollment in the pilot study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Recipients demonstrating recurrent or de novo glomerular disease or Banff Grade III chronic rejection, other than chronic humoral rejection (CHR), in the renal transplant baseline biopsy will be excluded from the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - History of malignancy except adequately treated in-situ cervical carcinoma, or adequately treated basal or squamous cell carcinoma of the skin"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - History of Post-transplant lymphoproliferative disorder (PTLD)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Serum creatinine of >=3.0 mg/dl or calculated Glomerular Filtration Rate (GFR) <25 mL/minute (normalized to 1.73 m2 for subjects <=18 years of age) at time of enrollment in the pilot study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Pediatric subjects (less than 18) who test positive test for Parvovirus (B19) by PCR in the blood"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Known active bacterial, viral, fungal, mycobacterial, or other infection (including tuberculosis or atypical mycobacterial disease, but excluding fungal infections of nail beds) or any major episode of infection requiring hospitalization or treatment with intravenous antibiotics within 4 weeks of enrollment in the pilot study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Current hemoglobin < 8.5gm/dL, platelets <80,000/mm, white blood cell count <3000 /mm3 within 4 weeks prior to enrollment, subject may be enrolled once the parameter is corrected"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Absolute neutrophil count of <1000/mm3"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Elevation of liver function tests at time of enrollment in the pilot study (AST and/or ALT >2.5 times the upper limit of normal)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pilot - Female subjects presently breast-feeding a child"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Mohamed",
+      "lastName": "Sayegh",
+      "email": "msayegh@rics.bwh.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Brigham and Women's Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "NOVEL THERAPIES OF CHRONIC ALLOGRAFT DYSFUNCTION (CTOT-02)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "1U01AI063623"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "www.clinicaltrials.gov/ct/show/NCT00307125 http://projectreporter.nih.gov/project_info_description.cfm?aid=6880173"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-03-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "HLA TYPING"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Chemistry Test"
+        }
+      },{
+        "name": {
+            "value": "Blood Cell Count"
+        }
+      },{
+        "name": {
+            "value": "Fasting Lipid Profile"
+        }
+      },{
+        "name": {
+            "value": "Urinalysis"
+        }
+      },{
+        "name": {
+            "value": "Immunology Test"
+        }
+      },{
+        "name": {
+            "value": "Graft Failure"
+        }
+      },{
+        "name": {
+            "value": "Rejection"
+        }
+      },{
+        "name": {
+            "value": "Biopsy"
+        }
+      },{
+        "name": {
+            "value": "Death"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No Treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY689",
+              "identifierSource": "ImmPort"
+          },
+          "title": "B-Cell depletion by anti-CD20 in renal allograft recipients who develop de novo anti-HLA alloantibodies",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY689",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "NOVEL THERAPIES OF CHRONIC ALLOGRAFT DYSFUNCTION (CTOT-02)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "None"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of this study is to determine whether treatment with rituximab (anti-CD20, Rituxan, MabThera) in individuals who develop new anti-HLA antibodies after renal (kidney) transplant will promote longer-term survival of the transplanted kidney. The pilot study compares the use of rituximab (Rituxan) + site-specific standard immunosuppression to placebo + site-specific standard immunosuppression in the treatment of circulating anti-HLA antibodies in subjects who develop de novo anti-HLA antibodies between 3-36 months after transplant."
+}

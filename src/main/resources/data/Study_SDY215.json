@@ -1,0 +1,265 @@
+{
+  "title": "TIV 2008 vaccination of CD95-/- mice and ELISA for detection of influenza-specific antibodies",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY215",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "TIV 2008 vaccination of CD95-/- mice and ELISA for detection of influenza-specific antibodies",
+  "performedBy": [
+    {
+      "firstName": "Mark M.",
+      "lastName": "Davis",
+      "email": "mmdavis@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Influenza cohort 1",
+          "size": 3
+        },
+        {
+          "name": "Influenza cohort 2",
+          "size": 6
+        },
+        {
+          "name": "Influenza cohort 3",
+          "size": 4
+        },
+        {
+          "name": "Influenza_cohort 4",
+          "size": 4
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Fluzone"
+        },
+        {
+          "name": "anti-IgG"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Healthy and of correct strain"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Mark M.",
+      "lastName": "Davis",
+      "email": "mmdavis@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI090019"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?  http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23591775",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Furman D(1), Jojic V, Kidd B, Shen-Orr S, Price J, Jarrell J, Tse T, Huang H, Lund P, Maecker HT, Utz PJ, Dekker CL, Koller D, Davis MM.",
+      "title": "Apoptosis and other immune biomarkers predict influenza vaccine responsiveness.",
+      "publicationVenue": "Mol Syst Biol.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Longitudinal"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2008-10-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2008-12-30",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2013-08-15",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "Detection of influenza-specific antibodies in vaccinated CD95-/- mice using ELISA",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "No Treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY215",
+              "identifierSource": "ImmPort"
+          },
+          "title": "TIV 2008 vaccination of CD95-/- mice and ELISA for detection of influenza-specific antibodies",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY215",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Evaluation of influenza vaccination immune response in mice"
+}

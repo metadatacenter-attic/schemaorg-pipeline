@@ -1,0 +1,280 @@
+{
+  "title": "Vaccination with drifted variants of H5 hemagglutinin protein elicits a broadened antibody response",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY62",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Vaccination with drifted variants of H5 hemagglutinin protein elicits a broadened antibody response",
+  "performedBy": [
+    {
+      "firstName": "Felix",
+      "lastName": "Santiago",
+      "email": "felix_santiago@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "H5VN04-H5VN04-H5VN04",
+          "size": 28
+        },
+        {
+          "name": "H5IN05-H5IN05-H5VN04",
+          "size": 27
+        },
+        {
+          "name": "H5VN04-CpG-CpG",
+          "size": 13
+        },
+        {
+          "name": "H5IN05-H5IN05-H5IN05",
+          "size": 18
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "MDCK cells"
+        },
+        {
+          "name": "TPCK Trypsin"
+        },
+        {
+          "name": "96 Well Flat Bottom Plates"
+        },
+        {
+          "name": "H5N1 A/Vietnam/1203/04 X A/Puerto Rico/8/34"
+        },
+        {
+          "name": "96 well flat-bottom plates"
+        },
+        {
+          "name": "Goat anti-mouse IgG-HRP"
+        },
+        {
+          "name": "TMB substrate"
+        },
+        {
+          "name": "Sulfuric Acid"
+        },
+        {
+          "name": "rHA: A/VietNam/1203/04"
+        },
+        {
+          "name": "rHA: A/Indonesia/05/05"
+        },
+        {
+          "name": "rHA: H3/Wisconsin/67/05"
+        },
+        {
+          "name": "Albumin Bovine Fraction V"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Felix",
+      "lastName": "Santiago",
+      "email": "felix_santiago@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700008C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The New York Influenza Center of Excellence (NYICE) is collaborative, interdisciplinary approach involving investigators in the fields of immunology, virology, biochemistry, medicine, pediatrics, statistics and bioinformatics that will addresss directly the issues of cross-protective immunity and virus adaptation to the mammalian host. Our goal is to provide a truly transforming approach to influenza research.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=735406660d0e7582b7937b1d21142d8d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21963871",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Santiago FW(1), Fitzgerald T, Treanor JJ, Topham DJ.",
+      "title": "Vaccination with drifted variants of avian H5 hemagglutinin protein elicits a broadened antibody response that is protective against challenge with homologous  or drifted live H5 influenza virus.",
+      "publicationVenue": "Vaccine.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-06-12",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY62",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Vaccination with drifted variants of H5 hemagglutinin protein elicits a broadened antibody response",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY62",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8677681&icde=23841314&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Assess the humoral response of mice immunized with drifted variant H5 hemagglutinin proteins"
+}

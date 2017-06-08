@@ -1,0 +1,308 @@
+{
+  "title": "Programming the magnitude and persistence of antibody responses with innate immunity",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY268",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Programming the magnitude and persistence of antibody responses with innate immunity",
+  "performedBy": [
+    {
+      "firstName": "Bali",
+      "lastName": "Pulandran",
+      "email": "bpulend@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory Vaccine Center, Emory University, Atlanta GA 30329"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "WIV5_Alum",
+          "size": 1
+        },
+        {
+          "name": "WIV.05_PLGA",
+          "size": 1
+        },
+        {
+          "name": "WIV.5_PLGA",
+          "size": 1
+        },
+        {
+          "name": "WIV5_PLGA",
+          "size": 1
+        },
+        {
+          "name": "WIV.05",
+          "size": 1
+        },
+        {
+          "name": "WIV.5",
+          "size": 1
+        },
+        {
+          "name": "WIV5",
+          "size": 1
+        },
+        {
+          "name": "Ctrl",
+          "size": 1
+        },
+        {
+          "name": "SK11_Other_1",
+          "size": 0
+        },
+        {
+          "name": "SK11_Other_2",
+          "size": 0
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "N/A"
+        },
+        {
+          "name": "A/California/04/09"
+        },
+        {
+          "name": "poly(D,L-lactic-co-glycolic acid)"
+        },
+        {
+          "name": "detoxified lipid A"
+        },
+        {
+          "name": "TLR7 ligand R837"
+        },
+        {
+          "name": "Alum"
+        },
+        {
+          "name": "0.5% chicken red blood cells"
+        },
+        {
+          "name": "receptor-destroying enzyme"
+        },
+        {
+          "name": "PLGA (MPL+R837)"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "8-12 week old BALB/c mice"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Bali",
+      "lastName": "Pulandran",
+      "email": "bpulend@emory.edu",
+      "affiliations": [
+          {
+             "name": "Emory Vaccine Center, Emory University, Atlanta GA 30329"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700006C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Influenza Pathogenesis & Immunology Research Center (IPIRC) is one of five national Influenza Centers of Excellence funded by NIH/NIAID. The goals of the Center are to determine the molecular, ecologic and/or environmental factors that influence the evolution, emergence, transmission and pathogenicity of influenza viruses, including studies on animal influenza viruses with pandemic potential; and to characterize the immune response to influenza vaccination to improve understanding of the immune correlates of protection and cross-protection. The Center's structure is comprised of four research projects, two pilot projects, and two training slots. The scope of the Center's focus includes planning for pandemic influenza and sharing data with other scientists in order to promote collaboration and lay the groundwork for new and improved methods of controlling influenza virus. In the event of a public health emergency involving the emergence and spread of an influenza pandemic in humans, the Network of Centers will be on the frontline to implement the NIAID Pandemic Public Health Research Response Plan.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=da736a25c9098cee65ba909ab9c63121"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21350488",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Kasturi SP(1), Skountzou I, Albrecht RA, Koutsonanos D, Hua T, Nakaya HI, Ravindran R, Stewart S, Alam M, Kwissa M, Villinger F, Murthy N, Steel J, Jacob J, Hogan RJ, Garc?Sastre A, Compans R, Pulendran B.",
+      "title": "Programming the magnitude and persistence of antibody responses with innate immunity.",
+      "publicationVenue": "Nature.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2015-09-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Virus Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Hemagglutination Inhibition"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "SK11 Treatments"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY268",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Programming the magnitude and persistence of antibody responses with innate immunity",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY268",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Influenza Pathogenesis & Immunology Research Center (IPIRC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/?s=opportunity&mode=form&tab=core&id=380b2c8bd10fee1ebd65475f236dfd39&_cview=0"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Excerpted experiment: Adjuvanting the 2009 pandemic H1N1 whole inactivated virus (WIV) with PLGA(MPL+R837) confers enhanced antigen-specific immunity in mice"
+}

@@ -1,0 +1,502 @@
+{
+  "title": "Role of Antimicrobial Peptides in Host Defense Against Vaccinia Virus  ",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY10",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Role of Antimicrobial Peptides in Host Defense Against Vaccinia Virus  ",
+  "performedBy": [
+    {
+      "firstName": "Donald",
+      "lastName": "Leung",
+      "email": "leungd@NJHealth.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Boguniewicz",
+      "email": "boguniewiczm@NJHealth.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Howell",
+      "email": "howellm@NJHealth.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Gallo",
+      "email": "rgallo@ucsd.edu",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Paul B.",
+      "lastName": "Savage",
+      "email": "paul_savage@byu.edu",
+      "affiliations": [
+          {
+             "name": "Brigham Young University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Kathleen",
+      "lastName": "Barnes",
+      "email": "kbarnes@jhmi.edu",
+      "affiliations": [
+          {
+             "name": "Johns Hopkins Asthma and Allergy Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Dmitry",
+      "lastName": "Grigoryev",
+      "email": "dgrigor1@jhmi.edu",
+      "affiliations": [
+          {
+             "name": "Johns Hopkins Asthma and Allergy Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Milgrom",
+      "email": "milgromh@NJHealth.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "AD+ (psoriasis-, EH-, asthma-)",
+          "size": 79
+        },
+        {
+          "name": "AD+ non-active",
+          "size": 37
+        },
+        {
+          "name": "Psoriasis+ (AD-)",
+          "size": 44
+        },
+        {
+          "name": "Asthma+ (AD-)",
+          "size": 38
+        },
+        {
+          "name": "AD+ EH+",
+          "size": 27
+        },
+        {
+          "name": "Healthy controls",
+          "size": 67
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Has signed the informed consent form (patient or parent/guardian)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Male or female of any race and ethnicity."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Patient is two years of age or older with AD, or a history of EH, or patient is 18 years of age or older with asthma, psoriasis, or is a normal healthy control."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Patient falls into one of the following diagnostic categories as defined by the ADVN. Standardized Diagnostic Criteria: ? Normal healthy control patient with no systemic disorders as outlined in the exclusion criteria ? Patient with a history of active AD ? Patient with a history of quiescent AD ? Patient with a history of psoriasis ? Patient with a history of asthma not requiring systemic medications. Medical records must document standard American Thoracic Society (ATS) criteria, i.e., a history of reversible wheezing or improvement in forced expiratory volume (FEV)1 by at least 12% following use of a bronchodilator ? Patient with a history of EH."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient who is pregnant or lactating."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient using oral corticosteroids, or any systemic immunosuppressive, or immunomodulary medication within the last 28 days."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient who has received immunotherapy within the last 3 months."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient with a history of bleeding disorders."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of aspirin, oral antihistamines, oral antibiotics, oral cyclosporine, or topical medications within 7 days of the Screening/Baseline Visit including (but not restricted to), Elidel, Protopic, topical corticosteroids, and topical antibiotics."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of oral anxiolytic, or anti-depressant medications within 2 days of the Screening/Baseline Visit. "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient who is diabetic and requires medication."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient having autoimmune or immunodeficiency disease."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient with active fungal, bacterial, or viral infections within the last 7 days."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient with active systemic malignancy, excluding uncomplicated non-melanoma skin cancer."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient on theophylline or leukotriene antagonists within 24 hours of the Screening/Baseline Visit."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient has received a vaccination within the past 30 days."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patients with known lidocaine allergy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Patient has received a Small Pox Vaccination."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Donald",
+      "lastName": "Leung",
+      "email": "leungd@NJHealth.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "20109744",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Grigoryev DN(1), Howell MD, Watkins TN, Chen YC, Cheadle C, Boguniewicz M, Barnes KC, Leung DY.",
+      "title": "Vaccinia virus-specific molecular signature in atopic dermatitis skin.",
+      "publicationVenue": "J Allergy Clin Immunol.",
+      "dates": [
+        {
+          "date": "2010",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "21762972",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Howell MD(1), Gao P, Kim BE, Lesley LJ, Streib JE, Taylor PA, Zaccaro DJ, Boguniewicz M, Beck LA, Hanifin JM, Schneider LC, Hata TR, Gallo RL, Kaplan MH, Barnes KC, Leung DY.",
+      "title": "The signal transducer and activator of transcription 6 gene (STAT6) increases the propensity of patients with atopic dermatitis toward disseminated viral skin infections.",
+      "publicationVenue": "J Allergy Clin Immunol.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2005-06-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2012-11-16",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Pregnancy test"
+        }
+      },{
+        "name": {
+            "value": "Complete blood count"
+        }
+      },{
+        "name": {
+            "value": "Skin/Integument exam"
+        }
+      },{
+        "name": {
+            "value": "Rajka-Langeland Score"
+        }
+      },{
+        "name": {
+            "value": "Physical Exam"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Any Concomitant Medications"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY10",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Role of Antimicrobial Peptides in Host Defense Against Vaccinia Virus  ",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY10",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Atopic dermatitis (AD) is a chronic inflammatory skin disorder characterized by recurrent viral skin infections. Recent studies have demonstrated that the skin of people with AD my have decreased antimicrobial peptide (AMP) expression. The purpose of this study is to compare small pox virus replication and the number of AMPs and other antiviral molecules in people with AD, as compared to those seen in people with psoriasis or asthma, or healthy individuals."
+}

@@ -1,0 +1,490 @@
+{
+  "title": "Noninvasive Monitoring in Kidney Transplantation (CTOT-01)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY557",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Noninvasive Monitoring in Kidney Transplantation (CTOT-01)",
+  "performedBy": [
+    {
+      "firstName": "Peter",
+      "lastName": "Heeger",
+      "email": "peter.heeger@mssm.edu",
+      "affiliations": [
+          {
+             "name": "Mount Sinai School of Medicine, Ricanati Miller Transplant Institute"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Adult Kidney Transplant Recipients",
+          "size": 244
+        },
+        {
+          "name": "Child Kidney Transplant Recipients",
+          "size": 36
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Anti-human IFNG"
+        },
+        {
+          "name": "CCR5 Primers"
+        },
+        {
+          "name": "CCL5 Primers"
+        },
+        {
+          "name": "IL8 Primers"
+        },
+        {
+          "name": "Perforin Primers"
+        },
+        {
+          "name": "CCR1 Primers"
+        },
+        {
+          "name": "18S Primers"
+        },
+        {
+          "name": "IP10 Primers"
+        },
+        {
+          "name": "CXCR3 Primers"
+        },
+        {
+          "name": "Granzyme Primers"
+        },
+        {
+          "name": "CXCL9 Primers"
+        },
+        {
+          "name": "Luminex CCL2 (MCP1)"
+        },
+        {
+          "name": "Luminex CCL5 (RANTES)"
+        },
+        {
+          "name": "Luminex CXCL10 (IP-10)"
+        },
+        {
+          "name": "Luminex CXCL9 (MIG)"
+        },
+        {
+          "name": "Luminex IL-8"
+        },
+        {
+          "name": "None"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Deceased-donor or living-donor kidney transplant recipient"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Negative Crossmatch"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Male and Female, patients of all ages"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subject and/or parent guardian must be able to understand and provide informed consent"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Clinically significant liver disease (determined by investigator), Elevation of liver function tests at time of study entry (AST and/or ALT >2.5 times the upper limit of normal)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Other co-morbidities determined by the site investigator that would preclude satisfactory completion of the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Recipients of multiple organ transplants"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability or unwillingness to comply with the study protocol"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Peter",
+      "lastName": "Heeger",
+      "email": "peter.heeger@mssm.edu",
+      "affiliations": [
+          {
+             "name": "Mount Sinai School of Medicine, Ricanati Miller Transplant Institute"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "NONINVASIVE MARKERS AND TRANSPLANT OUTCOME IN HUMANS (CTOT-01)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "1U01AI063594"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "www.clinicaltrials.gov/ct/show/NCT00308802"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "23710568",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Ashoor I(1), Najafian N, Korin Y, Reed EF, Mohanakumar T, Ikle D, Heeger PS, Lin  M.",
+      "title": "Standardization and cross validation of alloreactive IFN? ELISPOT assays within the clinical trials in organ transplantation consortium.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "23763485",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Reed EF(1), Rao P, Zhang Z, Gebel H, Bray RA, Guleria I, Lunz J, Mohanakumar T, Nickerson P, Tambur AR, Zeevi A, Heeger PS, Gjertson D.",
+      "title": "Comprehensive assessment and standardization of solid phase multiplex-bead arrays for the detection of antibodies to HLA.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "23802725",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Keslar KS(1), Lin M, Zmijewska AA, Sigdel TK, Tran TQ, Ma L, Bhasin M, Rao P, Ding R, Ikl?N, Mannon RB, Sarwal MM, Strom TB, Reed EF, Heeger PS, Suthanthiran M, Fairchild RL.",
+      "title": "Multicenter evaluation of a standardized protocol for noninvasive gene expression profiling.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "23968332",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Hricik DE(1), Nickerson P, Formica RN, Poggio ED, Rush D, Newell KA, Goebel J, Gibson IW, Fairchild RL, Riggs M, Spain K, Ikle D, Bridges ND, Heeger PS; CTOT-01 consortium.",
+      "title": "Multicenter validation of urinary CXCL9 as a risk-stratifying biomarker for kidney transplant injury.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2013",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "24568099",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Sigdel TK, Nicora CD, Hsieh SC, Dai H, Qian WJ, Camp DG 2nd(1), Sarwal MM.",
+      "title": "Optimization for peptide sample preparation for urine peptidomics.",
+      "publicationVenue": "Clin Proteomics.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "26226830",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Hricik DE(1), Augustine J(1), Nickerson P(2), Formica RN(3), Poggio ED(4), Rush D(2), Newell KA(5), Goebel J(6), Gibson IW(7), Fairchild RL(8), Spain K(9), Ikle  D(9), Bridges ND(10), Heeger PS(11); CTOT-01 consortium.",
+      "title": "Interferon Gamma ELISPOT Testing as a Risk-Stratifying Biomarker for Kidney Transplant Injury: Results From the CTOT-01 Multicenter Study.",
+      "publicationVenue": "Am J Transplant.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2006-03-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Protein Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Genotyping"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "HLA TYPING"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Hematology test"
+        }
+      },{
+        "name": {
+            "value": "Comprehensive Metabolic Panel"
+        }
+      },{
+        "name": {
+            "value": "Rejection"
+        }
+      },{
+        "name": {
+            "value": "Biopsy"
+        }
+      },{
+        "name": {
+            "value": "Death"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "Third Party Stimulator Cells"
+        },
+        {
+          "name": "Panel of Reactive T Cell Assay"
+        },
+        {
+          "name": "Donor Stimulator Cells"
+        },
+        {
+          "name": "No Treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY557",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Noninvasive Monitoring in Kidney Transplantation (CTOT-01)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY557",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "NONINVASIVE MARKERS AND TRANSPLANT OUTCOME IN HUMANS (CTOT-01)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "None"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "This is a non randomized observational study to assess the sensitivity, specificity, and predictive value of a panel of noninvasive monitoring tests as correlates with acute rejection, graft loss, deterioration of renal function, and degree of graft fibrosis in renal allograft recipients receiving commonly used immunosuppressive regimens."
+}

@@ -1,0 +1,307 @@
+{
+  "title": "Immune Responses to Influenza-Like Illness",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY395",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Immune Responses to Influenza-Like Illness",
+  "performedBy": [
+    {
+      "firstName": "Harry",
+      "lastName": "Greenberg",
+      "email": "harry.greenberg@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Influenza-Like Illness (ILI)",
+          "size": 33
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Custom 51 plex Polysterene Bead array kit for Luminex: Discontinued"
+        },
+        {
+          "name": "Custom  63 plex Magnetic Bead array  kit for Luminex"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "older than 18 years."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Meets the criteria for influenza-like illness (ILI) as defined by the CDC: fever (temperature of 100?F or greater) AND a cough and /or sore throat in the absence of known cause other than influenza."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to complete the informed consent process."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Availability and willingness to complete an initial study visit with a brief follow-up phone call one week later. Completion of a second visit (approximately 28 days after visit 1) is encouraged, but optional."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Immunization with influenza vaccine within 14 days prior to the onset of flu-like symptoms."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of HIV, HBV or HCV infection"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Recent or current use of immunosuppressive medication, including systemic glucocorticoids (corticosteroid nasal sprays and topical steroids are permissible)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receipt of blood or blood products within the past 6 months"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Donation of the equivalent of a unit of blood within 6 weeks prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnant woman"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of investigational agents within 30 days prior to enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Any condition which, in the opinion of the investigator, might interfere with volunteer safety, study objectives or the ability of the participant to understand or comply with the study protocol."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Harry",
+      "lastName": "Greenberg",
+      "email": "harry.greenberg@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI090019"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?  http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2012-02-24",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-03-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cytokine Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Luminex xMAP"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "SLVP022_2012_luminextreatment"
+        },
+        {
+          "name": "SLVP022_2013_MBAAtreatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY395",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Immune Responses to Influenza-Like Illness",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY395",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "To investigate the nasal transcriptional response and peripheral plasmablast response in acute influenza infection"
+}

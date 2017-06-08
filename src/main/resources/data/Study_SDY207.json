@@ -1,0 +1,362 @@
+{
+  "title": "Cytometry by time-of-flight shows combinatorial cytokine expression and virus-specific cell niches within a continuum of CD8+ T cell phenotypes",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY207",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Cytometry by time-of-flight shows combinatorial cytokine expression and virus-specific cell niches within a continuum of CD8+ T cell phenotypes",
+  "performedBy": [
+    {
+      "firstName": "Mark",
+      "lastName": "Davis",
+      "email": "mmdavis@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Group A",
+          "size": 6
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Mouse CD45-139"
+        },
+        {
+          "name": "IL-2  -141"
+        },
+        {
+          "name": "CCR7  -142"
+        },
+        {
+          "name": "CD7  -143"
+        },
+        {
+          "name": "CD45RO -144"
+        },
+        {
+          "name": "CD57  -145"
+        },
+        {
+          "name": "CD8  -146"
+        },
+        {
+          "name": "GM-CSF  -147"
+        },
+        {
+          "name": "CD11a  -148"
+        },
+        {
+          "name": "CD69  -149"
+        },
+        {
+          "name": "MIP-1B -150"
+        },
+        {
+          "name": "Granzyme B-151"
+        },
+        {
+          "name": "TNF-a  -152"
+        },
+        {
+          "name": "CD107a/b -153"
+        },
+        {
+          "name": "CD27  -154"
+        },
+        {
+          "name": "CD28  -160"
+        },
+        {
+          "name": "CD29  -162"
+        },
+        {
+          "name": "CD45RA  -166"
+        },
+        {
+          "name": "CD43   -167"
+        },
+        {
+          "name": "CD62L  -169"
+        },
+        {
+          "name": "IFN-g  -170"
+        },
+        {
+          "name": "HLA-DR -171"
+        },
+        {
+          "name": "CD49d-172"
+        },
+        {
+          "name": "KLRG1  -174"
+        },
+        {
+          "name": "Perforin  -175"
+        },
+        {
+          "name": "MIP-1a -176"
+        },
+        {
+          "name": "CD3  -Cd 112/114"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "HLA-A0201 and or HLA-B0702"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Mark",
+      "lastName": "Davis",
+      "email": "mmdavis@stanford.edu",
+      "affiliations": [
+          {
+             "name": "Stanford University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI090019"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?  http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22265676",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Newell EW(1), Sigal N, Bendall SC, Nolan GP, Davis MM.",
+      "title": "Cytometry by time-of-flight shows combinatorial cytokine expression and virus-specific cell niches within a continuum of CD8+ T cell phenotypes.",
+      "publicationVenue": "Immunity.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2013-09-30",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "CyTOF"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "CyTOF"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "OKT3 anti-CD3"
+        },
+        {
+          "name": "CD28.2 anti-CD28"
+        },
+        {
+          "name": "PMA"
+        },
+        {
+          "name": "Ionomycin"
+        },
+        {
+          "name": "HLA-A2: CMV, pp65 482-490, NLVPMVATV"
+        },
+        {
+          "name": "HLA-B7: CMV2, pp65 265-275, RPHERNGFTVL"
+        },
+        {
+          "name": "HLA-B7: CMV3, pp65 417-426, TPRVTGGGAM"
+        },
+        {
+          "name": "HLA-A2: EBV- BRLF1 109-117 , YVLDHLIVV"
+        },
+        {
+          "name": "HLA-A2: EBV-BMLF1 259-267 , GLCTLVAML"
+        },
+        {
+          "name": "HLA-B7: EBV-EBNA3A 379-387, RPPIFIRRL"
+        },
+        {
+          "name": "HLA-A2: FluM1/MP 58-66 , GILGFVFTL"
+        },
+        {
+          "name": "HLA-A2: Mart1 (altered Melan-A 26-35A27L) (Sliz et al., 2001) ELAGIGILTV"
+        },
+        {
+          "name": "unstimulated"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY207",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Cytometry by time-of-flight shows combinatorial cytokine expression and virus-specific cell niches within a continuum of CD8+ T cell phenotypes",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY207",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Vaccination and infection: indicators of immunological health and responsiveness",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8527698&icde=23840268&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "High dimensional analysis of CD8+ T cell phenotype and function"
+}

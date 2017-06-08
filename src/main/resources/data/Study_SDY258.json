@@ -1,0 +1,642 @@
+{
+  "title": "Dendritic cells and TH2 differentiation in vivo",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY258",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Dendritic cells and TH2 differentiation in vivo",
+  "performedBy": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Kepler",
+      "email": "N/A",
+      "affiliations": [
+          {
+             "name": "Duke University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Duke_Emory_Exp13_papain-A488",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp13_PBS",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp13_PLGA-A488",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp14_WT_OVA_papain",
+          "size": 7
+        },
+        {
+          "name": "Duke_Emory_Exp36_CpG_4get",
+          "size": 5
+        },
+        {
+          "name": "Duke_Emory_Exp36_CpG_WT",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp36_papain_4get",
+          "size": 5
+        },
+        {
+          "name": "Duke_Emory_Exp36_papain_WT",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp36_PBS_4get",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp36_PBS_WT",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp7_BMW245c inhibitor",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_Ca2++ inhibitor",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_DMSO",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_earcut_4get",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_inhibitor",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS earcut 48h",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS earcut 5h",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS earcut_WT",
+          "size": 6
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS intact",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS_day 0",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS_day1",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS_day2",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_LPS_day3",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp7_naive",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_nanoparticle-blank control",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_nanoparticle-TEMPOL",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain earcut",
+          "size": 6
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain earcut 48h",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain earcut 5h",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain intact",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain positive control",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain_day3",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain_day4",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain_day5",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain_day6",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp7_papain_day7",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp7_PTX inhibitor",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp8_100 OT II CD11cDTR-100ngDT",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp8_100 OTII-WT-100ngDT",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp8_10000 OT II CD11cDTR-100ngDT",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp8_10000 OT II WT-100ngDT",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp8_1000000 OT II CD11cDTR-100ngDT",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp8_1000000 OTII-WT-100ngDT",
+          "size": 2
+        },
+        {
+          "name": "Duke_Emory_Exp8_CD11c-DTR_100ngDT",
+          "size": 5
+        },
+        {
+          "name": "Duke_Emory_Exp8_CD11c-DTR_800ngDT",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp8_CD11c-DTR_PBS",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp8_CD11c-WT chimera 800DT",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp8_CD11c-WT chimera no DT",
+          "size": 1
+        },
+        {
+          "name": "Duke_Emory_Exp8_CD11cDTR-800ngDT",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp8_CD11cDTR-no DT",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp8_DTR litermate with DT",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp8_no OT II CD111cDTR 100ng DT",
+          "size": 5
+        },
+        {
+          "name": "Duke_Emory_Exp8_no OT II WT_naive_100ngDT",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp8_no OT II WT-100ngDT",
+          "size": 6
+        },
+        {
+          "name": "Duke_Emory_Exp8_WT 800ngDT",
+          "size": 3
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-LN-CpG",
+          "size": 22
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-LN-LPS",
+          "size": 22
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-LN-papain",
+          "size": 22
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-LN-PBS",
+          "size": 22
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-sp-CpG",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-sp-LPS",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-sp-papain",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_langerin-DTR-sp-PBS",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-LN-CpG",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-LN-LPS",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-LN-papain",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-LN-PBS",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-sp-CpG",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-sp-LPS",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-sp-papain",
+          "size": 4
+        },
+        {
+          "name": "Duke_Emory_Exp9_wt-sp-PBS",
+          "size": 4
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Duke_Emory_B220_percp"
+        },
+        {
+          "name": "Duke_Emory_CD11c_APC"
+        },
+        {
+          "name": "Duke_Emory_CD205_PE"
+        },
+        {
+          "name": "Duke_Emory_papain_A488"
+        },
+        {
+          "name": "Duke_Emory_DX5_APC"
+        },
+        {
+          "name": "Duke_Emory_IgE_PE"
+        },
+        {
+          "name": "Duke_Emory_PLGA_A488"
+        },
+        {
+          "name": "Duke_Emory_CD4_FITC"
+        },
+        {
+          "name": "Duke_Emory_IFN-g_APC"
+        },
+        {
+          "name": "Duke_Emory_IL-4_PE"
+        },
+        {
+          "name": "Duke_Emory_CD4_APC"
+        },
+        {
+          "name": "Duke_Emory_CD4_percp"
+        },
+        {
+          "name": "Duke_Emory_IL-4_GFP"
+        },
+        {
+          "name": "Duke_Emory_CD8a_percp"
+        },
+        {
+          "name": "Duke_Emory_IL-4_EGFP"
+        },
+        {
+          "name": "Duke_Emory_Va2_APC"
+        },
+        {
+          "name": "Duke_Emory_Vb5_FITC"
+        },
+        {
+          "name": "Duke_Emory_IL-10_PE"
+        },
+        {
+          "name": "Duke_Emory_Foxp3_PE"
+        },
+        {
+          "name": "Duke_Emory_Am430"
+        },
+        {
+          "name": "Duke_Emory_CD11c_PacificBlue"
+        },
+        {
+          "name": "Duke_Emory_CD19TCR_APC_cy7"
+        },
+        {
+          "name": "Duke_Emory_CD205_FITC"
+        },
+        {
+          "name": "Duke_Emory_CD8a_Alexa700"
+        },
+        {
+          "name": "Duke_Emory_IFN-g_PE"
+        },
+        {
+          "name": "Duke_Emory_IL-17_APC"
+        },
+        {
+          "name": "Duke_Emory_IL-13_PE"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Healthy mice ages ranging between 8 to 15 weeks"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Kepler",
+      "email": "N/A",
+      "affiliations": [
+          {
+             "name": "Duke University"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Multiscale Systems Immunology for Adjuvant Development",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200500019C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Use of TLR ligands as adjuvants to modulate host immune responses.  The offerors will study: 1. murine dendritic cell and CD4 T cell responses to a variety of adjuvant/rPA complexes in vitro, ex vivo in cells harvested from immunization sites, and in situ using 2-photon microscopy and laser-capture microdissection.  Human studies: Analysis of gene expression and phenotypic changes from CD4 T cells isolated from Vaxgen anthrax vaccine trial participants.  Comparative studies provide data to begin to make the computational models predictive of human responses (based on animal data).  https://www.fpds.gov/ezsearch/search.do?s=FPDS&q=%22IT+strategy%22+OR+%22enterprise+architecture%22+DEPARTMENT_FULL_NAME%3A%22HEALTH+AND+HUMAN+SERVICES%2C+DEPARTMENT+OF%22+PIID%3A%22HHSD2002011F41972%22+VENDOR_ADDRESS_ZIP_CODE%3A%22221027508%22+GLOBAL_VENDOR_NAME%3A%22GAVER+TECHNOLOGIES++INC.%22+VENDOR_FULL_NAME%3A%22VANGENT%2C+INC.%22+TREASURY_ACCOUNT_SYMBOL%3A%22750885%22+CONTRACTING_OFFICE_NAME%3A%22NIH%2C+NIAID+DEA+OA+OFC+ACQUISITIONS%22+VENDOR_FULL_NAME%3A%22ST.+LOUIS+UNIVERSITY%22+PRODUCT_OR_SERVICE_CODE%3A%22AB93%22+PRINCIPAL_NAICS_CODE%3A%22325414%22+VENDOR_ADDRESS_ZIP_CODE%3A%22277088990%22+PIID%3A%22HHSN266200500019C%22&indexName=awardfull&templateName=1.4.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "20495560",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Tang H(1), Cao W, Kasturi SP, Ravindran R, Nakaya HI, Kundu K, Murthy N, Kepler TB, Malissen B, Pulendran B.",
+      "title": "The T helper type 2 response to cysteine proteases requires dendritic cell-basophil cooperation via ROS-mediated signaling.",
+      "publicationVenue": "Nat Immunol.",
+      "dates": [
+        {
+          "date": "2010",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Immune Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2014-01-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "To test whether basophil can take up antigen",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "To test whether basophils can polarize Th2 responses in vivo, basophils and DCs were purified from papain + OVA immunized mice and co-cultured with naive OTII T cells for 4-5 days.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "To compare the effect of papain and CpG",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "To determine a role for skin derived DCs in papain-induced Th2 response",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "To study the role of DC in papain-induced Th2 response, DCs were depleted by DT in CD11c-DTR mice.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "To investigate which skin DC subset was involved in a Th2 response to papain",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY258",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Dendritic cells and TH2 differentiation in vivo",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY258",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Multiscale Systems Immunology for Adjuvant Development",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=7277268&icde=23810485&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "TH2 cell differentiation was investigated by measuring IL-4 output after OVA plus papain challenge in normal and dendritic-cell depleted mice. The role of migrating dermal dendritic cells in OVA plus papain challenge by blocking migration and depleting dendritic cell subtypes."
+}

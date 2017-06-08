@@ -1,0 +1,353 @@
+{
+  "title": "Pediatric Kidney Transplant Without Calcineurin Inhibitors (CN01)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY131",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Pediatric Kidney Transplant Without Calcineurin Inhibitors (CN01)",
+  "performedBy": [
+    {
+      "firstName": "William",
+      "lastName": "Harmon",
+      "email": "William.Harmon@childrens.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Boston Children's Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Sirolimus",
+          "size": 34
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Unknown"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Exclusion",
+          "values": [
+              "Are recipients of identical (HLA matched) living-donor grafts"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Have certain abnormal kidney diseases that may return"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Have failed 2 or more previous kidney transplants"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Are recipients of cadaver-donor grafts"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Have fat abnormalities that are inherited or present at high levels"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Are kidney recipients of living-donor grafts, except when living-donor grafts are identically matched"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Are 21 years of age and under"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "William",
+      "lastName": "Harmon",
+      "email": "William.Harmon@childrens.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Boston Children's Hospital"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Data Coordinating Center for Cooperative Clinical Trials in Pediatric Transplantation",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "5U01AI067075-03"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "PPD, Inc. proposes to be the Statistical and Clinical Coordinating Center (SACCC) for the Cooperative Clinical Trials in Pediatric Transplantation (CCTPT) and Clinical Trials in Organ Transplantation (CTOT) clinical trials networks funded by NIAID to conduct organ transplant studies. The PPD team has extensive experience in working closely with both government and pharmaceutical partners in managing all facets necessary for the execution of clinical research ranging from novel statistical approaches to protocol development to IND submissions to study product distribution to comprehensive adverse event reporting. With PPD's experience as the coordinating center for the NIAID-funded Immune Tolerance Network (ITN), the team has great insight into the inherent complexities and challenges in conducting transplantation research and specific experience collaborating with NIAID staff in the management of collaborative clinical research. The specific aims of this project are to provide high quality resources and procedures in support of: 1) Clinical trial design, implementation and management, including the development and implementation of plans and standard operating procedures for the statistical design, analysis and management of clinical trials, monitoring of clinical sites, and training of site clinical, technical and data management staff, according to ICH and GCP guidelines; 2) Protocol development, including the creation and modification of clinical protocols, case report forms, standard consent forms and Manuals of Procedures (MOPs); 3) Regulatory compliance, including preparation of Investigational New Drug (IND) Applications, interim and annual reports to the FDA, tracking of IND applications, and provision of data to all IND sponsors; 4) Computerized data and communication systems, including the creation and maintenance of secure and confidential clinical data collection and management systems, electronic systems to link clinical sites and the SACCC, clinical site registration systems, and systems for the receipt, follow-up, reporting and disposition of adverse events; 5) Provision of specified logistical services, including, packaging, distribution and tracking of study medications and collection and tracking of specimens required by project protocols; 6) Preparation of reports and analyses, including routine reports to CCTPT-CTOT sponsors, reports used for scientific presentations, and publications in scientific journals; and 7) Coordination of meetings of the Steering Committees and of investigators for the CCTPT and CTOT networks. The SACCC will administer, manage and facilitate this program in support of the NIAID agenda, interacting closely with the NIAID Scientific Coordinator.    http://projectreporter.nih.gov/project_info_details.cfm?aid=7277268&icde=23810485&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "15049798",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Schachter AD(1), Meyers KE, Spaneas LD, Palmer JA, Salmanullah M, Baluarte J, Brayman KL, Harmon WE.",
+      "title": "Short sirolimus half-life in pediatric renal transplant recipients on a calcineurin inhibitor-free protocol.",
+      "publicationVenue": "Pediatr Transplant.",
+      "dates": [
+        {
+          "date": "2004",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "16382014",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Iacomini J, Sayegh MH.",
+      "title": "Measuring T cell alloreactivity to predict kidney transplant outcomes: are we there yet?",
+      "publicationVenue": "J Am Soc Nephrol.",
+      "dates": [
+        {
+          "date": "2006",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "16687625",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Harmon W(1), Meyers K, Ingelfinger J, McDonald R, McIntosh M, Ho M, Spaneas L, Palmer JA, Hawk M, Geehan C, Tinckam K, Hancock WW, Sayegh MH.",
+      "title": "Safety and efficacy of a calcineurin inhibitor avoidance regimen in pediatric renal transplantation.",
+      "publicationVenue": "J Am Soc Nephrol.",
+      "dates": [
+        {
+          "date": "2006",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "21538345",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Hoerning A(1), Koss K, Datta D, Boneschansker L, Jones CN, Wong IY, Irimia D, Calzadilla K, Benitez F, Hoyer PF, Harmon WE, Briscoe DM.",
+      "title": "Subsets of human CD4(+) regulatory T cells express the peripheral homing receptor CXCR3.",
+      "publicationVenue": "Eur J Immunol.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Transplantation"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2001-02-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2006-08-31",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2013-04-05",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Q-PCR"
+            }
+        ]
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY131",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Pediatric Kidney Transplant Without Calcineurin Inhibitors (CN01)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY131",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Data Coordinating Center for Cooperative Clinical Trials in Pediatric Transplantation",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8676643&icde=23828660&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "<p>The purpose of this study is to see the effect of using drugs other than calcineurin inhibitors to improve the rate of kidney transplant failure.</p><p>Kidney transplantation can help children with end-stage kidney disease. However, it has been difficult to find treatment for donor graft rejection that does not have a lot of side effects. Researchers hope to find treatments (immunosuppressants) with fewer side effects. One approach is to avoid using calcineurin inhibitors and to try a new drug known as sirolimus instead. Another is to use steroids less often. This study will test whether using sirolimus, fewer steroid treatments, MMF, and certain antibodies will improve long-term graft survival in children receiving kidney transplants from living donors.</p>"
+}

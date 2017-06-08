@@ -1,0 +1,500 @@
+{
+  "title": "Cellular and molecular characterization of the immune response in healthy NIH employees at baseline and after immunization with the H1N1 or seasonal influenza vaccines",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY80",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Cellular and molecular characterization of the immune response in healthy NIH employees at baseline and after immunization with the H1N1 or seasonal influenza vaccines",
+  "performedBy": [
+    {
+      "firstName": "John",
+      "lastName": "Tsang",
+      "email": "john.tsang@nih.gov",
+      "affiliations": [
+          {
+             "name": "NIH"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Cohort2",
+          "size": 63
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Affymetrix Human GeneChip Gene 1.0 ST"
+        },
+        {
+          "name": "A_Ca_07_swine X-179A virus"
+        },
+        {
+          "name": "H1N1 A/Brisbane/59/07"
+        },
+        {
+          "name": "H3N2 A/Uruguay/716/07"
+        },
+        {
+          "name": "B/Brisbane/60/2001"
+        },
+        {
+          "name": "anti-human light chain Abs"
+        },
+        {
+          "name": "2009 seasonal influenza vaccines"
+        },
+        {
+          "name": "H1N1 influenza vaccines"
+        },
+        {
+          "name": "Viability Aquablue"
+        },
+        {
+          "name": "CD45 BV785"
+        },
+        {
+          "name": "CD80 V450 Pac blue"
+        },
+        {
+          "name": "CD27 BV605"
+        },
+        {
+          "name": "CD19 BV655"
+        },
+        {
+          "name": "IgA FITC"
+        },
+        {
+          "name": "CD86 PcPcy5.5"
+        },
+        {
+          "name": "CD21 PE"
+        },
+        {
+          "name": "CD38 PE-TR"
+        },
+        {
+          "name": "IgG PEcy5"
+        },
+        {
+          "name": "CD20 PEcy5.5/PE-A700"
+        },
+        {
+          "name": "CD23 PEcy7"
+        },
+        {
+          "name": "IgD APC/eFluor660"
+        },
+        {
+          "name": "IgM Alexa700/APC Cy5.5"
+        },
+        {
+          "name": "CD103 APC cy7"
+        },
+        {
+          "name": "B cell panel 2"
+        },
+        {
+          "name": "CD4 V450 Pac blue"
+        },
+        {
+          "name": "CD8 BV605"
+        },
+        {
+          "name": "CD27 BV655"
+        },
+        {
+          "name": "CD39 FITC"
+        },
+        {
+          "name": "CD38 PcPcy5.5"
+        },
+        {
+          "name": "Foxp3 PE"
+        },
+        {
+          "name": "CD45-RA PE-TR"
+        },
+        {
+          "name": "CD103 PEcy5"
+        },
+        {
+          "name": "HLA-DR PEcy5.5/PE-A700"
+        },
+        {
+          "name": "CD25 PEcy7"
+        },
+        {
+          "name": "CD127 APC/eFluor660"
+        },
+        {
+          "name": "CD197 Alexa700/APC Cy5.5"
+        },
+        {
+          "name": "CD3 APC cy7"
+        },
+        {
+          "name": "T cell panel 1"
+        },
+        {
+          "name": "IL-23R FITC"
+        },
+        {
+          "name": "CD196 PcPcy5.5"
+        },
+        {
+          "name": "CD146 PE"
+        },
+        {
+          "name": "CD45-RO PE-TR"
+        },
+        {
+          "name": "CD161 PEcy5"
+        },
+        {
+          "name": "TNFa PEcy5.5/PE-A700"
+        },
+        {
+          "name": "IL-17A PEcy7"
+        },
+        {
+          "name": "IL-22 APC/eFluor660"
+        },
+        {
+          "name": "T cell panel 2"
+        },
+        {
+          "name": "CD69 FITC"
+        },
+        {
+          "name": "IL-4 PcPcy5.5"
+        },
+        {
+          "name": "Perforin PE"
+        },
+        {
+          "name": "CD40L PEcy5"
+        },
+        {
+          "name": "IFNg PEcy7"
+        },
+        {
+          "name": "IL-2 APC/eFluor660"
+        },
+        {
+          "name": "T cell panel 3"
+        },
+        {
+          "name": "CD123 V450 Pac blue"
+        },
+        {
+          "name": "CD4 BV655"
+        },
+        {
+          "name": "IFNa FITC"
+        },
+        {
+          "name": "TNFa PcPcy5.5"
+        },
+        {
+          "name": "CD40 PE"
+        },
+        {
+          "name": "HLA-DR PE-TR"
+        },
+        {
+          "name": "CD83 PEcy5"
+        },
+        {
+          "name": "CD11c PEcy5.5/PE-A700"
+        },
+        {
+          "name": "lineage PEcy7"
+        },
+        {
+          "name": "BDCA-2 APC/eFluor660"
+        },
+        {
+          "name": "CD33 Alexa700/APC Cy5.5"
+        },
+        {
+          "name": "CD86 APC cy7"
+        },
+        {
+          "name": "CD14 Qdot 655"
+        },
+        {
+          "name": "Dendritic / Monocytes panel"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "John",
+      "lastName": "Tsang",
+      "email": "john.tsang@nih.gov",
+      "affiliations": [
+          {
+             "name": "NIH"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Center for Human Immunology, Autoimmunity and  Inflammation",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "CHI-1"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "Center for Human Immunology, Autoimmunity and  Inflammation. The mission of the trans-NIH CHI is cooperative research based on advanced technologies in order to efficiently translate enhanced understanding of immune function and pathophysiology to the clinic. The Center is based on cooperative research, technologically driven with the goal of understanding human immunology, and addressing pathophysiologically-related human diseases. This initiative is translational, but this overused term is defined here as both directly resulting in improved therapy of immune-medicated diseases and deriving important and often unique biologic information from the study of ill human beings. 1. The Center is envisioned as a cooperative enterprise, with representatives form many NIH Institutes working together on focused projects with clear shared goals. 2. The Center will provide specific technologies often unavailable to individual laboratories because of cost, complexity, and novelty, incorporated into three technology centers dedicated to: * assays of immune cells and their products, mainly based on flow cytometry and other emerging multiplexed techniques; * high-throughput systems technologies, involving the use of new methods for large scale examination of the genome, gene expression epigenetic modulation, as well as the proteome, lipidome, and metabolome, and the application of advanced iostatiscal and computer modeling methods for mining these diverse data to aid in understanding immune function and pathology; * protocol development, with staff dedicated to the efficient translation to the clinic with appropriate ethical and regulatory requirements for human research. 3. The Center's focus is human immunology, normal but especially pathologic, with an emphasis on shared pathophysiologic mechanisms that underlie disease. This includes recognized immunologially-mediated diseases, organ specific autoimmunity, and the role of inflammation in a wide variety of common diseases, including cancer, atherosclerosis, and neurologic degeneration."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "24725414",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Tsang JS(1), Schwartzberg PL(2), Kotliarov Y(3), Biancotto A(3), Xie Z(3), Germain RN(4), Wang E(5), Olnes MJ(6), Narayanan M(7), Golding H(8), Moir S(9), Dickler HB(3), Perl S(3), Cheung F(3); Baylor HIPC Center; CHI Consortium.",
+      "title": "Global analyses of human immune variation reveal baseline predictors of postvaccination responses.",
+      "publicationVenue": "Cell.",
+      "dates": [
+        {
+          "date": "2014",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2015-09-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "CHI flow team (Phil McCoy and Angelique Biancotto) indicated that due to the 15-color nature of the data and complex compensation required to properly work with the raw fcs data, they preferred to release the processed files, which is already on our ftp site as Foo had previously indicated.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "CHI flow team (Phil McCoy and Angelique Biancotto) indicated that due to the 15-color nature of the data and complex compensation required to properly work with the raw fcs data, they preferred to release the processed files, which is already on our ftp site as Foo had previously indicated.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "CHI flow team (Phil McCoy and Angelique Biancotto) indicated that due to the 15-color nature of the data and complex compensation required to properly work with the raw fcs data, they preferred to release the processed files, which is already on our ftp site as Foo had previously indicated.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "CHI flow team (Phil McCoy and Angelique Biancotto) indicated that due to the 15-color nature of the data and complex compensation required to properly work with the raw fcs data, they preferred to release the processed files, which is already on our ftp site as Foo had previously indicated.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "CHI flow team (Phil McCoy and Angelique Biancotto) indicated that due to the 15-color nature of the data and complex compensation required to properly work with the raw fcs data, they preferred to release the processed files, which is already on our ftp site as Foo had previously indicated.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "09-H1-0239 treatment"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY80",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Cellular and molecular characterization of the immune response in healthy NIH employees at baseline and after immunization with the H1N1 or seasonal influenza vaccines",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY80",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Center for Human Immunology, Autoimmunity and  Inflammation",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "None"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The Center for Human Immunology, Autoimmunity, and Inflammatory Diseases proposes this protocol designed to obtain blood from healthy adult subjects (NIH employees) prior to vaccination and then at various time points after receiving the FDA-licensed seasonal and H1N1 influenza vaccine.  These samples will be used to perform a comprehensive and detailed analysis of the immune system at baseline and in response to vaccination. To our knowledge, this protocol will be the first study to characterize the human cellular and molecular immune system parameters, or immunome, in a large number of healthy adults (NIH employees). This information may be useful in designing newer, more effective vaccines to prevent the spread of H1N1 influenza."
+}

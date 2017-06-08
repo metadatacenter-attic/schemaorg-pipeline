@@ -1,0 +1,434 @@
+{
+  "title": "Effect of Influenza A (H5N1) Vaccine Prepandemic Priming on CD4+ T-Cell Responses",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY644",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Effect of Influenza A (H5N1) Vaccine Prepandemic Priming on CD4+ T-Cell Responses",
+  "performedBy": [
+    {
+      "firstName": "Jennifer",
+      "lastName": "Nayak",
+      "email": "jennifer_nayak@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Unprimed_15ugdose",
+          "size": 17
+        },
+        {
+          "name": "Unprimed_90ugdose",
+          "size": 13
+        },
+        {
+          "name": "Primed_15ugdose",
+          "size": 41
+        },
+        {
+          "name": "Primed_90ugdose",
+          "size": 23
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Anti-human IFN-gamma mAB"
+        },
+        {
+          "name": "A/Indonesia/05/2005 PR8-IBCDC-RG2 virus"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "To participate in the primed group, the subject must have previously received at least 2 doses via the intramuscular route of subvirion inactivated A/H5N1/VN/1203/04 (H5N1) vaccine as part of a DMID-sponsored Protocol. To participate in the multiple boost group, the subjects must have previously received both clade 1 and clade 3 vaccines as a participant in study DMID 05-0043. To participate in the unprimed group, the subject must not have received previous H5N1 vaccine at any dose."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject must be between the ages of 18 and 64 years, inclusive."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Female subjects must fulfill one of the following: (i) not able to bear children because she has been surgically sterilized (tubal ligation or hysterectomy) for at least one year or is at least 1 year post-menopausal or (ii) agrees to practice effective methods of contraception that may include, but are not limited to abstinence, barrier methods, monogamous relationship with vasectomized partner, birth control pills, patches, hormonal shots or hormonal implants, NuvaRing and IUDs (intrauterine devices), from 30 days prior to study enrollment through 30 days following receipt of the last dose of vaccine."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Female subjects of childbearing potential must have a negative pregnancy test (urine or serum) within 24 hours prior each to vaccination."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject must be in good health."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject is able to understand and comply with the planned study procedures, including being available for all study visits."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject has provided informed consent prior to any study procedures."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject is allergic to eggs, egg products, chicken or egg proteins or other components of the vaccine (including gelatin, formaldehyde, octoxinol and thimerosal)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject is a woman who is breastfeeding or intends to become pregnant during the study period between enrollment and 30 days following receipt of the last dose of vaccine."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject is immunosuppressed as a result of an underlying illness or treatment with immunosuppressive or cytotoxic drugs, or use of anticancer chemotherapy or radiation therapy within the preceding 36 months."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has an active neoplastic disease (excluding non-melanoma skin cancer or prostate cancer that is stable in the absence of therapy) or a history of any hematological malignancy. For this criterion, ?active? is defined as having received treatment within the past 5 years."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has long-term (greater than 2 weeks) use of oral or parenteral steroids, or high-dose inhaled steroids (>800 mcg/day of beclomethasone dipropionate or equivalent) within the preceding 6 months (nasal and topical steroids are allowed)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject received immunoglobulin or another blood product within the 3 months prior to enrollment in this study."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has received an inactivated vaccine within the 2 weeks or a live vaccine within the 4 weeks prior to enrollment in this study or plans to receive another vaccine within the next 28 days (or 56 days for vaccine na?ve recipients)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has an acute or chronic medical condition that, in the opinion of the investigator, would render vaccination unsafe or would interfere with the evaluation of responses."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a history of a severe reaction following receipt of an influenza virus vaccine."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has an acute illness or an oral temperature greater than 99.9?F (37.7?C) within 3 days prior to enrollment or vaccination. Subjects who had an acute illness that was treated symptoms resolved are eligible to enroll as long as treatment is completed and symptoms resolve > 3 days prior to enrollment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject is currently participating or plans to participate in a study that involves an experimental agent (vaccine, drug, biologic, device, blood product, or medication) or has received an experimental agent within 1 month prior to enrollment in this study, or expects to receive another experimental agent during participation in this study, or intends to donate blood during the study period."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has any condition that would, in the opinion of the site investigator, place the subject at an unacceptable risk of injury or render the subject unable to meet the requirements of the protocol."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a diagnosis of schizophrenia, bi-polar disease, or other severe (disabling) chronic psychiatric diagnosis."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has been hospitalized within the past 5 years prior to enrollment for psychiatric illness, history of suicide attempt or confinement for danger to self or others."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject is receiving psychiatric drugs. Psychiatric drugs include, but are not limited to: aripiprazole, clozapine, ziprasidone, haloperidol, molindone, loxapine, thioridazine, thiothixene, pimozide, fluphenazine, risperidone, mesoridazine, quetiapine, trifluoperazine, trifluopromazine, chlorprothixene, chlorpromazine, perphenazine, olanzapine, carbamazepine, divalproex sodium, lithium carbonate or lithium citrate. Subjects who are receiving a single antidepressant drug and are stable for at least 3 months prior to enrollment without decompensation are allowed enrollment into the study."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a history of alcohol or drug abuse in the 5 years prior to enrollment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a known human immunodeficiency virus, hepatitis B, or hepatitis C infection."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has a history of Guillain-Barr? syndrome."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has any condition that the investigator believes may interfere with successful completion of the study."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "The subject has occupational exposure to live H5N1 viruses or has received an H5N1 vaccine outside of the context of a DMID study. Subjects with a previous history of receipt of an H5N1 vaccine in an oil-in-water emulsion adjuvant are also excluded."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Intervention Longitudinal"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Jennifer",
+      "lastName": "Nayak",
+      "email": "jennifer_nayak@urmc.rochester.edu",
+      "affiliations": [
+          {
+             "name": "University of Rochester Medical Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "HHSN266200700008C"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The New York Influenza Center of Excellence (NYICE) is collaborative, interdisciplinary approach involving investigators in the fields of immunology, virology, biochemistry, medicine, pediatrics, statistics and bioinformatics that will addresss directly the issues of cross-protective immunity and virus adaptation to the mammalian host. Our goal is to provide a truly transforming approach to influenza research.  https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=735406660d0e7582b7937b1d21142d8d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "25378637",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Nayak JL(1), Richards KA(2), Yang H(3), Treanor JJ(4), Sant AJ(2).",
+      "title": "Effect of influenza A(H5N1) vaccine prepandemic priming on CD4+ T-cell responses.",
+      "publicationVenue": "J Infect Dis.",
+      "dates": [
+        {
+          "date": "2015",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Intervention Longitudinal"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2010-10-19",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2015-09-18",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Quantification of CD4+ T cell responses",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Neutralizing Antibody Titer"
+        },
+        "description": "Assay of serum neutralizing antibody responses",
+        "types": [
+            {
+               "value": "Virus Neutralization"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "H5 HA Unique peptide pool"
+        },
+        {
+          "name": "H5 HA Conserved peptide pool"
+        },
+        {
+          "name": "NP peptide pool"
+        },
+        {
+          "name": "None"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY644",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Effect of Influenza A (H5N1) Vaccine Prepandemic Priming on CD4+ T-Cell Responses",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY644",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "New York Influenza Center of Excellence",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8677681&icde=23841314&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Introduction: Previous priming with avian influenza vaccines results in more rapid and more robust neutralizing antibody responses upon revaccination, but the role CD4+ T cells play in this process is not currently known."
+}

@@ -1,0 +1,414 @@
+{
+  "title": "Asthma Control Evaluation (ACE): A Biomarker-Based Approach to Improving Asthma Control and Mechanistic Studies",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY210",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Asthma Control Evaluation (ACE): A Biomarker-Based Approach to Improving Asthma Control and Mechanistic Studies",
+  "performedBy": [
+    {
+      "firstName": "William",
+      "lastName": "Busse",
+      "email": "Unknown",
+      "affiliations": [
+          {
+             "name": "University of Wisconsin, Madison"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Reference Strategy group",
+          "size": 270
+        },
+        {
+          "name": "Biomarker Strategy group",
+          "size": 276
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those who meet pretreatment eligibility requirements for trial enrollment (acceptable medical history and physical examination results)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those males and females ages 12-20 years, inclusive, at the screening visit."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those whose primary place of residence is in one of the pre-selected recruitment census tracts that contains at least 20% of households below the U.S. government poverty level."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those whose caretaker does not primarily speak English (or Spanish at centers with Spanish speaking staff); not applicable if participant is able to provide consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who is defined as having mild intermittent asthma at Visit 1 (see Section 4.1; may be rescheduled once)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who do not primarily speak English (or Spanish at centers with Spanish speaking staff)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who are currently participating in another asthma-related pharmaceutical study or intervention study or who have participated in another asthma-related pharmaceutical study or intervention study in the month prior to Recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who have known hypersensitivity to any medications commonly used for the treatment of asthma."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those who have a history of clinical varicella or administration of varicella vaccine."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who do not sleep at least 4 nights per week in one home."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who are currently receiving hyposensitization therapy."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "PParticipants to be included in ACE are those who are able to perform eNO measurement procedures and spirometry according to American Thoracic Society (ATS) guidelines, as assessed at the Screening Visit (may be rescheduled once)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who are planning to move from the area within the next 12 months."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those who has had a clinical diagnosis of asthma by a physician made > 1 year ago, as reported at Recruitment, or for participants who received an asthma diagnosis less than 1 year ago, whose symptoms have been present greater than 1 year, as reported at Recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who have had a life-threatening asthma exacerbation in the last 5 years requiring intubation, mechanical ventilation, or resulting in a hypoxic seizure."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who are receiving therapy with an exclusionary drug during time specified (see Appendix 1)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those who is willing to sign the written Informed Consent or whose parent or legal guardian is willing to sign the written Informed Consent (age appropriate) prior to initiation of any study procedure."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who are unable to use a metered-dose inhaler (MDI) for administration of a beta-agonist rescue medication or use a dry powder inhaler (DPI) for the administration of asthma controller regimens."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those who are nonsmokers and have not used smokeless tobacco products for 1 year prior to Recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who does not have access to a phone (needed for scheduling appointments)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those whose adherence to the controller medication between Visits 1 and 2 is less than 25% (see Section 4.5 for determining treatment adherence)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those who is willing to sign the assent form, if age appropriate."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants to be included in ACE are those who, as reported at Recruitment, are currently receiving long-term asthma control therapy and either have symptoms consistent with persistent asthma (criterion 3a) or have evidence of uncontrolled disease (criterion 3b); or who are not currently receiving long-term asthma control therapy and have symptoms consistent with persistent asthma (criterion 3a) and have evidence of uncontrolled disease(criterion 3b). (See Protocol for complete criterion)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who do not have a home evaluation completed within 4 weeks of the Screening Visit (may be rescreened)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who have significant medical illnesses other than asthma such as: any hematologic, endocrine, respiratory (other than asthma) or cardiac condition requiring daily medications; significant neurological disorder requiring daily medications; any clotting disorder; any obvious severe mental retardation that prohibits the participant from answering questions or following instructions; any auto-immune disease; any immune deficiency; or any other serious medical condition. (See Protocol for complete criterion)"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who have a urine cotinine level above 100 ng/mL at screening (Visit 1)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who live with a foster parent; not applicable if participant is able to provide consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who will not allow the study physician, an asthma specialist, to manage their disease for the duration of the study or who are not willing to change their asthma medications to follow the protocol."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants to be excluded are those who are pregnant or lactating (Females of child-bearing potential must remain abstinent or use a medically acceptable birth control method throughout the study. This is not for safety, but because it may be difficult to assess asthma control since lung function may change, making it difficult to interpret outcome measures)."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "William",
+      "lastName": "Busse",
+      "email": "Unknown",
+      "affiliations": [
+          {
+             "name": "University of Wisconsin, Madison"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Inner City Asthma Consortium (ICAC)",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-25496"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Inner-city Asthma Consortium (ICAC) was founded to investigate causes and potential treatments of asthma in inner-city juvenile and adolescent populations. ICAC examines the pathology of asthma specific to inner-city populations and leverages these insights to design more effective treatments. Asthma Control Evaluation study: 500 adolescents with asthma were divided into two groups: treatment based solely on clinical guidelines of asthma management, while the treatment of the other group was based on the clinical guidelines plus the measurement of exhaled nitric oxide, which is a biomarker of lung inflammation.  Inner City Anti-IgE Therapy for Asthma (ICATA) 419 children with moderate to severe allergic asthma, were followed who were receiving NIH guidelines-based asthma therapy to control their disease. Half of the participants received omalizumab, and the other half received placebo.  http://projectreporter.nih.gov/project_info_details.cfm?aid=7337876&icde=23810630&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "18805335",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Szefler SJ(1), Mitchell H, Sorkness CA, Gergen PJ, O'Connor GT, Morgan WJ, Kattan M, Pongracic JA, Teach SJ, Bloomberg GR, Eggleston PA, Gruchalla RS, Kercsmar CM, Liu AH, Wildfire JJ, Curry MD, Busse WW.",
+      "title": "Management of asthma based on exhaled nitric oxide in addition to guideline-based treatment for inner-city adolescents and young adults: a randomised controlled trial.",
+      "publicationVenue": "Lancet.",
+      "dates": [
+        {
+          "date": "2008",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "26560898",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Arroyave WD(1), Rabito FA(2), Carlson JC(3), Sever ML(4), Lefante J(2).",
+      "title": "Asthma severity, not asthma control, is worse in atopic compared with nonatopic adolescents with asthma.",
+      "publicationVenue": "Ann Allergy Asthma Immunol.",
+      "dates": [
+        {
+          "date": "2016",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2004-08-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2016-06-17",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY210",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Asthma Control Evaluation (ACE): A Biomarker-Based Approach to Improving Asthma Control and Mechanistic Studies",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY210",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Inner City Asthma Consortium (ICAC)",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8787079&icde=23840541&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of ICAC-01 is to determine whether an asthma treatment strategy that measures exhaled nitric oxide (eNO) to indicate disease progression is more effective in treating asthma symptoms when combined with existing asthma treatment guidelines than treatment using the guidelines alone."
+}

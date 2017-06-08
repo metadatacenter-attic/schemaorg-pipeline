@@ -1,0 +1,517 @@
+{
+  "title": "Defining signatures for immune responsiveness by functional systems immunology",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY58",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Defining signatures for immune responsiveness by functional systems immunology",
+  "performedBy": [
+    {
+      "firstName": "David",
+      "lastName": "Hafler",
+      "email": "david.halfer@yale.edu",
+      "affiliations": [
+          {
+             "name": "Yale "
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Asymptomatics",
+          "size": 45
+        },
+        {
+          "name": "Encephalitis",
+          "size": 36
+        },
+        {
+          "name": "Meningitis",
+          "size": 23
+        },
+        {
+          "name": "MeningitisAndEncephalitis",
+          "size": 5
+        },
+        {
+          "name": "Fever",
+          "size": 26
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Human ProInflammatory 9-Plex Ultra-Sensitive Kit"
+        },
+        {
+          "name": "HumanHT-12_V4"
+        },
+        {
+          "name": "Human CCL3/MIP-1a"
+        },
+        {
+          "name": "Human CXCL10/IP-10"
+        },
+        {
+          "name": "RA_FCM_robot_CD39_561444"
+        },
+        {
+          "name": "RA_FCM_robot_CD25_341009"
+        },
+        {
+          "name": "RA_FCM_robot_Viability_L23102"
+        },
+        {
+          "name": "RA_FCM_robot_CD4_341654"
+        },
+        {
+          "name": "RA_FCM_robot_CCR4_557864"
+        },
+        {
+          "name": "RA_FCM_robot_CD127_560905"
+        },
+        {
+          "name": "RA_FCM_robot_FoxP3_56-4776"
+        },
+        {
+          "name": "RA_FCM_robot_CD45RO_561137"
+        },
+        {
+          "name": "RA_FCM_robot_CD3_560366"
+        },
+        {
+          "name": "RA_FCM_robot_HLA-DR_561224"
+        },
+        {
+          "name": "L3"
+        },
+        {
+          "name": "RA_FCM_robot_Ki67_556026"
+        },
+        {
+          "name": "RA_FCM_robot_bcl2_340576"
+        },
+        {
+          "name": "RA_FCM_robot_CD45RA_337167"
+        },
+        {
+          "name": "RA_FCM_robot_CD38_340439"
+        },
+        {
+          "name": "RA_FCM_robot_CCR7_561143"
+        },
+        {
+          "name": "RA_FCM_robot_CD8_560179"
+        },
+        {
+          "name": "P1"
+        },
+        {
+          "name": "RA_FCM_robot_CD10_340925"
+        },
+        {
+          "name": "RA_FCM_robot_CD24_555428"
+        },
+        {
+          "name": "RA_FCM_robot_CD19_340951"
+        },
+        {
+          "name": "RA_FCM_robot_CD27_557864"
+        },
+        {
+          "name": "RA_FCM_robot_CD20_561164"
+        },
+        {
+          "name": "RA_FCM_robot_IgD_561490"
+        },
+        {
+          "name": "L4"
+        },
+        {
+          "name": "RA_FCM_robot_CD16_555406"
+        },
+        {
+          "name": "RA_FCM_robot_2B4/CD244_550816"
+        },
+        {
+          "name": "RA_FCM_robot_CD56_335791"
+        },
+        {
+          "name": "RA_FCM_robot_NKG2D_562064"
+        },
+        {
+          "name": "P13"
+        },
+        {
+          "name": "RA_FCM_robot_HLA-A2_551285"
+        },
+        {
+          "name": "RA_FCM_robot_CD56_555516"
+        },
+        {
+          "name": "RA_FCM_robot_CD123_558714"
+        },
+        {
+          "name": "RA_FCM_robot_CD11c_561356"
+        },
+        {
+          "name": "RA_FCM_robot_CD16_561304"
+        },
+        {
+          "name": "RA_FCM_robot_CD3_560176"
+        },
+        {
+          "name": "RA_FCM_robot_CD19_641395"
+        },
+        {
+          "name": "RA_FCM_robot_CD14_560349"
+        },
+        {
+          "name": "L5"
+        },
+        {
+          "name": "RA_FCM_robot_CD27_555440"
+        },
+        {
+          "name": "RA_FCM_robot_CCR7_560765"
+        },
+        {
+          "name": "RA_FCM_robot_CD28_302920"
+        },
+        {
+          "name": "L1"
+        },
+        {
+          "name": "RA_FCM_robot_Tim3_FAB2365G"
+        },
+        {
+          "name": "RA_FCM_robot_CD57_560844"
+        },
+        {
+          "name": "RA_FCM_robot_PD-1_560609"
+        },
+        {
+          "name": "RA_FCM_robot_CD27_560611"
+        },
+        {
+          "name": "P2"
+        },
+        {
+          "name": "RA_FCM_robot_CXCR5_558112"
+        },
+        {
+          "name": "RA_FCM_robot_CXCR3_557185"
+        },
+        {
+          "name": "RA_FCM_robot_CCR6_560620"
+        },
+        {
+          "name": "L2"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_IFN-a_MC100133"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_IL-6_340527"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_HLA-DR_347364"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_CD123_25-1239-42"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_CD11c_340544"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_TNF-a_557996"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_CD3_557832"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_CD14_557831"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_CD16_557758"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_CD19_557791"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_IL-12p40p70_48-7129-42"
+        },
+        {
+          "name": "CytokineSet1"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_FITCMouseIgG1_555748"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_PEMouseIgG1_559320"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_AlexaFluor700MouseIgG1_557882"
+        },
+        {
+          "name": "RA_FCM_cytokine_2011_eFluor450MouseIgG1_48-4714-82"
+        },
+        {
+          "name": "IsotypeSet1"
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "David",
+      "lastName": "Hafler",
+      "email": "david.halfer@yale.edu",
+      "affiliations": [
+          {
+             "name": "Yale "
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Defining signatures for immune responsiveness by functional systems immunology",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "AI089992"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "In Research Project 1, we will develop immunologic signatures of influenza vaccine responsiveness and determine the effect of aging and functional status on these signatures. We will identify gene signatures and biological pathways that can distinguish between strong and weak immune responses to vaccination and that predict effective responses. In Research Project 2, we will investigate resistance to flaviviral infections using West Nile virus, and hepatitis C virus; through analysis of responses in patients from stratified cohorts, we will establish correlations between gene expression, immune cell responses and clinical outcome. In Research Project 3, we will generate mathematical models that detect connectivity and predict dynamic functional responses of the immune system. This approach will link data collected on both populations and individuals using multivariate statistical approaches to integrate cohort-wide data including genome wide association studies and novel single-cell analyses to assess immune responsiveness in relationship to genetic variation. Our functional systems immunology approach will allow us to define baseline human immune signatures following viral infection and vaccination along with deviations from this baseline, with the goal of identifying future targets for intervention and establishing sets of biomarkers that predict responses to vaccination  http://projectreporter.nih.gov/project_info_details.cfm?aid=8699127&icde=23814817&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Infection Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2015-12-14",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Meso Scale Discovery ECL"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Transcript Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Array"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "TR_Notreatment"
+        },
+        {
+          "name": "NT"
+        },
+        {
+          "name": "CpG"
+        },
+        {
+          "name": "LPS"
+        },
+        {
+          "name": "pIC"
+        },
+        {
+          "name": "R848"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY58",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Defining signatures for immune responsiveness by functional systems immunology",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY58",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Defining signatures for immune responsiveness by functional systems immunology",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=da736a25c9098cee65ba909ab9c63121"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Project 2: Immunologic and genomic signatures of response to neuroinvasive or non-neuroinvasive West Nile Virus infection."
+}
