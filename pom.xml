@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>org.metadatacenter</groupId>
-  <artifactId>alma</artifactId>
+  <artifactId>schemaorg-pipeline</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <name>Abstract Language for Mapping Attributes</name>
-  <description>A simple mapping language to match attributes between different data model using YAML-like construction</description>
+  <name>Schema.org Data Transformation Pipeline</name>
+  <description>To transform data from different specifications to a schema.org compliant document</description>
   
   <developers>
     <developer>
