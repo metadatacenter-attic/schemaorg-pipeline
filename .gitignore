@@ -1,21 +1,16 @@
-logs
-project/project
-project/target
-target
-tmp
-.history
-dist
-/.idea
-*.iml
-/out
-/.idea_modules
+# Eclipse
 .classpath
 .project
-*/RUNNING_PID
-.settings
-keycloak.json
+.settings/
 
-pom.xml.releaseBackup
-release.properties
-pom.xml.versionsBackup
-dependency-reduced-pom.xml
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
