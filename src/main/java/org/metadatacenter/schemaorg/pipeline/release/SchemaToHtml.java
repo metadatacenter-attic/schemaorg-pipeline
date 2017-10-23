@@ -107,7 +107,7 @@ public class SchemaToHtml {
     newline(sb);
     indent(sb, startIndentation).append("td.value { font-family: monospace; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }");
     newline(sb);
-    indent(sb, startIndentation).append("td.index { font-family: verdana; }");
+    indent(sb, startIndentation).append("td.index { font-family: verdana; font-size: 12px; width: 16px; }");
     newline(sb);
     indent(sb, startIndentation).append("td.item { /* empty */ }");
     newline(sb);
