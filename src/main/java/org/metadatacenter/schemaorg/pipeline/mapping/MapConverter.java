@@ -5,8 +5,12 @@ import javax.annotation.Nonnull;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.converter.SparqlConstructConverterFactory;
 import org.metadatacenter.schemaorg.pipeline.mapping.converter.XsltConverterFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class MapConverter {
+
+  private static final Logger logger = LoggerFactory.getLogger(MapConverter.class);
 
   private final MapNodeConverterFactoryRegistry registry;
 
@@ -28,7 +32,9 @@ public class MapConverter {
   public MapNodeConverter use(String converterName, Parameters parameters)
       throws ConverterNotFoundException {
     MapNodeConverterFactory converterFactory = registry.getConverterFactory(converterName);
-    return converterFactory.createConverter(parameters);
+    MapNodeConverter converter = converterFactory.createConverter(parameters);
+    logger.info("Use converter {\"converterName\":\"{}\", \"parameters\":{}}", converter.getName(), parameters);
+    return converter;
   }
 
   public String convert(MapNode mapNode, MapNodeConverter converter) {
