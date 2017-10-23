@@ -38,4 +38,46 @@ public abstract class Parameters {
     }
     return listOfValues.iterator();
   }
+
+  @Override
+  @SuppressWarnings("unchecked")
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("{");
+    boolean needComma = false;
+    for (Object key : properties.keySet()) {
+      if (needComma) {
+        sb.append(", ");
+      }
+      needComma = true;
+      sb.append("\"").append(key).append("\"").append(":");
+      Object value = properties.get(key);
+      if (value instanceof String) {
+        toStringForLiteral(sb, (String) value);
+      } else if (value instanceof List) {
+        toStringForList(sb, (List<Object>) value);
+      }
+    }
+    sb.append("}");
+    return sb.toString();
+  }
+
+  private void toStringForLiteral(StringBuilder sb, String str) {
+    sb.append("\"").append(str).append("\"");
+  }
+
+  private void toStringForList(StringBuilder sb, List<Object> list) {
+    boolean needComma = false;
+    for (Object item : list) {
+      if (needComma) {
+        sb.append(", ");
+      }
+      needComma = true;
+      if (item instanceof String) {
+        toStringForLiteral(sb, (String) item);
+      } else {
+        sb.append(item);
+      }
+    }
+  }
 }
