@@ -124,7 +124,7 @@ public class SchemaToHtml {
       newline(sb);
       indent(sb, (startIndentation + 3)).append(TR.open());
       newline(sb);
-      indent(sb, (startIndentation + 6)).append(TD.open(klass("key"))).append(key).append(TD.close());
+      indent(sb, (startIndentation + 6)).append(TD.open(klass("key"))).append(trimSchemaPrefix(key)).append(TD.close());
       newline(sb);
       indent(sb, (startIndentation + 6)).append(TD.open(klass("value")));
       Object node = jsonObject.get(key);
@@ -144,7 +144,7 @@ public class SchemaToHtml {
     return sb.toString();
   }
 
-  @SuppressWarnings("unchecked")
+ @SuppressWarnings("unchecked")
   private static String listing(JSONArray jsonArray, int startIndentation) {
     StringBuilder sb = new StringBuilder();
     indent(sb, startIndentation).append(TABLE.open());
@@ -172,6 +172,10 @@ public class SchemaToHtml {
     newline(sb);
     indent(sb, startIndentation).append(TABLE.close());
     return sb.toString();
+  }
+
+ private static String trimSchemaPrefix(String key) {
+    return key.replaceFirst("^(schema:)", "");
   }
 
   private static StringBuilder indent(StringBuilder sb, int size) {
