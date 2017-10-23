@@ -13,4 +13,6 @@ public abstract class MapNodeConverter {
   }
 
   public abstract void transform(MapNode mapNode, OutputStream out);
+
+  public abstract String getName();
 }

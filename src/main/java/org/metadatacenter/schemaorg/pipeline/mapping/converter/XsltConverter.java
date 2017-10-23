@@ -10,12 +10,19 @@ import com.google.common.collect.Maps;
 
 public class XsltConverter extends MapNodeConverter {
 
+  private static final String VERSION_NUMBER = "1.0";
+
   private static final String INSTANCE_TYPE = "@type";
 
   private String documentRoot = "";
 
   public void setDocumentRoot(String documentRoot) {
     this.documentRoot = documentRoot;
+  }
+
+  @Override
+  public String getName() {
+    return String.format("XSLT Simple Converter v%s", VERSION_NUMBER);
   }
 
   @Override

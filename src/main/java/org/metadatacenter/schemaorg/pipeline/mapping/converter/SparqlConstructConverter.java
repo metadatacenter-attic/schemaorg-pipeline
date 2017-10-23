@@ -18,6 +18,8 @@ import com.google.common.collect.Lists;
 
 public class SparqlConstructConverter extends MapNodeConverter {
 
+  private static final String VERSION_NUMBER = "1.0";
+
   private static final String ROOT_INSTANCE_NAME = "s";
 
   private static final String INSTANCE_TYPE = "@type";
@@ -32,6 +34,11 @@ public class SparqlConstructConverter extends MapNodeConverter {
 
   public void setInstanceIri(@Nonnull String instanceIriString) {
     this.instanceIriString = checkNotNull(instanceIriString);
+  }
+
+  @Override
+  public String getName() {
+    return String.format("SPARQL Construct Converter v%s", VERSION_NUMBER);
   }
 
   @Override
