@@ -17,11 +17,11 @@ import com.google.common.base.Charsets;
 
 public class RdfToSchema {
 
-  public String transform(String graphString) {
+  public static String transform(String graphString) {
     return transform(graphString, "Turtle");
   }
 
-  public String transform(String graphString, String rdfFormat) {
+  public static String transform(String graphString, String rdfFormat) {
     ByteArrayOutputStream out = new ByteArrayOutputStream();
     InputStream in = new ByteArrayInputStream(graphString.getBytes(Charsets.UTF_8));
     RDFFormat format = RdfFormatFinder.find(rdfFormat, RDFFormat.TURTLE);
@@ -29,16 +29,16 @@ public class RdfToSchema {
     return out.toString();
   }
 
-  public void transform(InputStream in, OutputStream out) {
+  public static void transform(InputStream in, OutputStream out) {
     transform(in, "Turtle", out);
   }
 
-  public void transform(InputStream in, String rdfFormat, OutputStream out) {
+  public static void transform(InputStream in, String rdfFormat, OutputStream out) {
     RDFFormat format = RdfFormatFinder.find(rdfFormat, RDFFormat.TURTLE);
     transform(in, format, out);
   }
 
-  private void transform(InputStream in, RDFFormat rdfFormat, OutputStream out) {
+  private static void transform(InputStream in, RDFFormat rdfFormat, OutputStream out) {
     graphToJsonLd(inputStreamToGraph(in, rdfFormat), out);
   }
 
