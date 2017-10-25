@@ -1,8 +1,10 @@
 package org.metadatacenter.schemaorg.pipeline.transform.datasource;
 
+import static com.google.common.base.Preconditions.checkNotNull;
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.util.List;
+import javax.annotation.Nonnull;
 import org.eclipse.rdf4j.model.Statement;
 import org.eclipse.rdf4j.query.GraphQuery;
 import org.eclipse.rdf4j.query.GraphQueryResult;
@@ -17,34 +19,43 @@ import com.google.common.collect.Lists;
 
 public class SparqlEndpointClient {
 
-  public static String evaluate(String endpointUrl, String constructSparqlQuery) {
-    ByteArrayOutputStream out = new ByteArrayOutputStream();
-    evaluate(endpointUrl, constructSparqlQuery, RDFFormat.TURTLE, out);
-    return out.toString();
-  }
+  private final String endpointUrl;
+  private final Repository repository;
 
-  public static String evaluate(String endpointUrl, String constructSparqlQuery, String rdfFormat) {
-    ByteArrayOutputStream out = new ByteArrayOutputStream();
-    evaluate(endpointUrl, constructSparqlQuery, rdfFormat, out);
-    return out.toString();
-  }
-
-  public static void evaluate(String endpointUrl, String constructSparqlQuery, OutputStream out) {
-    evaluate(endpointUrl, constructSparqlQuery, RDFFormat.TURTLE, out);
-  }
-
-  public static void evaluate(String endpointUrl, String constructSparqlQuery, String rdfFormat,
-      OutputStream out) {
-    RDFFormat format = RdfFormatFinder.find(rdfFormat, RDFFormat.TURTLE);
-    evaluate(endpointUrl, constructSparqlQuery, format, out);
-  }
-
-  private static void evaluate(String endpointUrl, String sparqlString, RDFFormat rdfFormat,
-      OutputStream outStream) {
-    Repository repository = new SPARQLRepository(endpointUrl);
+  public SparqlEndpointClient(@Nonnull String endpointUrl) {
+    this.endpointUrl = checkNotNull(endpointUrl);
+    this.repository = new SPARQLRepository(endpointUrl);
     repository.initialize();
+  }
+
+  public String getEndpointUrl() {
+    return endpointUrl;
+  }
+
+  public String evaluate(String constructSparqlQuery) {
+    ByteArrayOutputStream out = new ByteArrayOutputStream();
+    evaluate(constructSparqlQuery, RDFFormat.TURTLE, out);
+    return out.toString();
+  }
+
+  public String evaluate(String constructSparqlQuery, String rdfFormat) {
+    ByteArrayOutputStream out = new ByteArrayOutputStream();
+    evaluate(constructSparqlQuery, rdfFormat, out);
+    return out.toString();
+  }
+
+  public void evaluate(String constructSparqlQuery, OutputStream out) {
+    evaluate(constructSparqlQuery, RDFFormat.TURTLE, out);
+  }
+
+  public void evaluate(String constructSparqlQuery, String rdfFormat, OutputStream out) {
+    RDFFormat format = RdfFormatFinder.find(rdfFormat, RDFFormat.TURTLE);
+    evaluate(constructSparqlQuery, format, out);
+  }
+
+  private void evaluate(String queryString, RDFFormat rdfFormat, OutputStream out) {
     try (RepositoryConnection conn = repository.getConnection()) {
-      GraphQuery query = conn.prepareGraphQuery(QueryLanguage.SPARQL, sparqlString);
+      GraphQuery query = conn.prepareGraphQuery(QueryLanguage.SPARQL, queryString);
       List<Statement> statements = Lists.newArrayList();
       try (GraphQueryResult result = query.evaluate()) {
         while (result.hasNext()) {
@@ -53,7 +64,7 @@ public class SparqlEndpointClient {
         }
       }
       if (!statements.isEmpty()) {
-        Rio.write(statements, outStream, rdfFormat);
+        Rio.write(statements, out, rdfFormat);
       }
     }
   }
