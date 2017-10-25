@@ -42,10 +42,10 @@ public class SparqlConstructTranslatorTest {
         "   name:              /rdf:value";
     SparqlConstructTranslatorHandler handler = new SparqlConstructTranslatorHandler();
     handler.setInstanceIri("http://bio2rdf.org/drugbank:DB00112");
-    handler.addPrefix("schema: <http://schema.org/>");
-    handler.addPrefix("rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>");
-    handler.addPrefix("db: <http://bio2rdf.org/drugbank_vocabulary:>");
-    handler.addPrefix("bio2rdf: <http://bio2rdf.org/bio2rdf_vocabulary:>");
+    handler.addPrefix("schema", "http://schema.org/");
+    handler.addPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+    handler.addPrefix("db", "http://bio2rdf.org/drugbank_vocabulary:");
+    handler.addPrefix("bio2rdf", "http://bio2rdf.org/bio2rdf_vocabulary:");
     System.out.println(MapNodeTranslator.translate(handler, mapping));
     // Assertion
     assertThat(MapNodeTranslator.translate(handler, mapping), equalTo(

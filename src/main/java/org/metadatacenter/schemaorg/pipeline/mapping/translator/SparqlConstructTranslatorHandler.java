@@ -25,9 +25,10 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   private String instanceIriString = "";
   private List<String> prefixes = Lists.newArrayList();
 
-  public void addPrefix(@Nonnull String prefix) {
-    checkNotNull(prefix);
-    prefixes.add(prefix);
+  public void addPrefix(@Nonnull String prefixLabel, @Nonnull String prefixNamespace) {
+    checkNotNull(prefixLabel);
+    checkNotNull(prefixNamespace);
+    prefixes.add(String.format("%s: <%s>", prefixLabel, prefixNamespace));
   }
 
   public void setInstanceIri(@Nonnull String instanceIriString) {
