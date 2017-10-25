@@ -8,7 +8,7 @@ import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
-public class SparqlConstructLayout {
+class SparqlConstructLayout {
 
   private final static String SPARQL_PREFIX = "PREFIX";
   private final static String SPARQL_CONSTRUCT = "CONSTRUCT";

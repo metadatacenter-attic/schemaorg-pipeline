@@ -7,7 +7,7 @@ import javax.annotation.Nonnull;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 
-public class XsltLayout {
+class XsltLayout {
 
   private final StringBuilder stringBuilder;
 
