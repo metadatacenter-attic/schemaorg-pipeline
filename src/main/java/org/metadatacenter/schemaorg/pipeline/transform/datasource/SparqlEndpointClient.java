@@ -19,6 +19,8 @@ import com.google.common.collect.Lists;
 
 public class SparqlEndpointClient {
 
+  public static final SparqlEndpointClient BIO2RDF = new SparqlEndpointClient("http://bio2rdf.org/sparql");
+
   private final String endpointUrl;
   private final Repository repository;
 
