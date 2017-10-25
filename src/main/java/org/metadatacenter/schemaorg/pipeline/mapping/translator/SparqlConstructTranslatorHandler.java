@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.mapping.converter;
+package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import java.io.OutputStream;
@@ -12,13 +12,11 @@ import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ConstantNode;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.PathNode;
-import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeConverter;
+import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 
-public class SparqlConstructConverter extends MapNodeConverter {
-
-  private static final String VERSION_NUMBER = "1.0";
+public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   private static final String ROOT_INSTANCE_NAME = "s";
 
@@ -37,12 +35,7 @@ public class SparqlConstructConverter extends MapNodeConverter {
   }
 
   @Override
-  public String getName() {
-    return String.format("SPARQL Construct Converter v%s", VERSION_NUMBER);
-  }
-
-  @Override
-  public void transform(MapNode mapNode, OutputStream out) {
+  public void translate(MapNode mapNode, OutputStream out) {
     final SparqlConstructLayout sparqlLayout = new SparqlConstructLayout();
     sparqlLayout.addPrefixes(prefixes);
     parse(mapNode, sparqlLayout);

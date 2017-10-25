@@ -1,13 +1,11 @@
-package org.metadatacenter.schemaorg.pipeline.mapping.converter;
+package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.AttributeMapper;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapping.converter.XsltConverter;
+import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeTranslator;
 
-public class XsltConverterTest {
+public class XsltTranslatorTest {
 
   @Test
   public void shouldConvertToXsltTemplates() {
@@ -33,11 +31,8 @@ public class XsltConverterTest {
         "        state:     /state\n" + 
         "        zip:       /zip\n" + 
         "        country:   USA";
-    AttributeMapper mapper = new AttributeMapper();
-    MapNode mapNode = mapper.readText(mapping);
-    XsltConverter converter = new XsltConverter();
     // Assertions
-    assertThat(converter.transform(mapNode), equalTo(
+    assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
         "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
         "   <xsl:output method=\"xml\" indent=\"yes\" />\n" + 

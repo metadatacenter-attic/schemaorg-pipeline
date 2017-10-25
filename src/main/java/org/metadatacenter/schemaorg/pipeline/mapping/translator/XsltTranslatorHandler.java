@@ -1,26 +1,19 @@
-package org.metadatacenter.schemaorg.pipeline.mapping.converter;
+package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.Map;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeConverter;
+import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import com.google.common.collect.Maps;
 
-public class XsltConverter extends MapNodeConverter {
-
-  private static final String VERSION_NUMBER = "1.0";
+public class XsltTranslatorHandler extends TranslatorHandler {
 
   private static final String INSTANCE_TYPE = "@type";
 
   @Override
-  public String getName() {
-    return String.format("XSLT Simple Converter v%s", VERSION_NUMBER);
-  }
-
-  @Override
-  public void transform(MapNode mapNode, OutputStream out) {
+  public void translate(MapNode mapNode, OutputStream out) {
     final XsltLayout xsltLayout = new XsltLayout();
     init(mapNode, xsltLayout);
     try (PrintWriter printer = new PrintWriter(out)) {
