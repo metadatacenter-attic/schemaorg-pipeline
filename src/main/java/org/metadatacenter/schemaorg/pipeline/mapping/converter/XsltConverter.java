@@ -14,12 +14,6 @@ public class XsltConverter extends MapNodeConverter {
 
   private static final String INSTANCE_TYPE = "@type";
 
-  private String documentRoot = "";
-
-  public void setDocumentRoot(String documentRoot) {
-    this.documentRoot = documentRoot;
-  }
-
   @Override
   public String getName() {
     return String.format("XSLT Simple Converter v%s", VERSION_NUMBER);
@@ -35,7 +29,6 @@ public class XsltConverter extends MapNodeConverter {
   }
 
   private void init(MapNode mapNode, XsltLayout xsltLayout) {
-    xsltLayout.setDocumentRoot(documentRoot);
     String documentType = getType(mapNode);
     xsltLayout.addDocumentType(documentType);
     parse(mapNode, xsltLayout);

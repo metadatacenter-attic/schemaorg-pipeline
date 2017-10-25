@@ -36,14 +36,14 @@ public class XsltConverterTest {
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(mapping);
     XsltConverter converter = new XsltConverter();
-    converter.setDocumentRoot("clinical_study");
+    System.out.println(converter.transform(mapNode));
     // Assertions
     assertThat(converter.transform(mapNode), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
         "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
         "   <xsl:output method=\"xml\" indent=\"yes\" />\n" + 
-        "   <xsl:template match=\"clinical_study\">\n" + 
-        "      <instance _type=\"MedicalTrial\">\n" + 
+        "   <xsl:template match=\"/*\">\n" + 
+        "      <instance _context=\"http://schema.org\" _type=\"MedicalTrial\">\n" + 
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" + 

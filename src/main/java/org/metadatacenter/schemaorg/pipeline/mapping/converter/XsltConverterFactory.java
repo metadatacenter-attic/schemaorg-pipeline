@@ -8,8 +8,6 @@ public class XsltConverterFactory implements MapNodeConverterFactory {
 
   @Override
   public MapNodeConverter createConverter(Parameters parameters) {
-    XsltConverter converter = new XsltConverter();
-    converter.setDocumentRoot(parameters.get("documentRoot"));
-    return converter;
+    return new XsltConverter();
   }
 }

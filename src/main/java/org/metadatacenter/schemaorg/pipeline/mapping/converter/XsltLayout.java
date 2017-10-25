@@ -11,7 +11,6 @@ public class XsltLayout {
 
   private final StringBuilder stringBuilder;
 
-  private String rootDocumentPath;
   private String documentType;
   private List<XslTemplate> templates = Lists.newArrayList();
 
@@ -21,10 +20,6 @@ public class XsltLayout {
 
   public XsltLayout(@Nonnull StringBuilder stringBuilder) {
     this.stringBuilder = checkNotNull(stringBuilder);
-  }
-
-  public void setDocumentRoot(String rootDocumentPath) {
-    this.rootDocumentPath = rootDocumentPath;
   }
 
   public void addDocumentType(String documentType) {
@@ -47,7 +42,7 @@ public class XsltLayout {
     newline();
     indent(3).append("<xsl:output method=\"xml\" indent=\"yes\" />");
     newline();
-    indent(3).append(String.format("<xsl:template match=\"%s\">", rootDocumentPath));
+    indent(3).append(String.format("<xsl:template match=\"/*\">"));
     newline();
     indent(6).append(String.format("<instance _context=\"%s\" _type=\"%s\">", "http://schema.org", documentType));
     newline();
