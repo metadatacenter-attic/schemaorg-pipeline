@@ -14,7 +14,6 @@ import org.eclipse.rdf4j.repository.RepositoryConnection;
 import org.eclipse.rdf4j.repository.sparql.SPARQLRepository;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
-import org.metadatacenter.schemaorg.pipeline.transform.RdfFormatFinder;
 import com.google.common.collect.Lists;
 
 public class SparqlEndpointClient {
@@ -34,28 +33,18 @@ public class SparqlEndpointClient {
     return endpointUrl;
   }
 
+  public String evaluatePreparedQuery(String preparedQuery, Object... args) {
+    String queryString = String.format(preparedQuery, args);
+    return evaluate(queryString);
+  }
+
   public String evaluate(String constructSparqlQuery) {
     ByteArrayOutputStream out = new ByteArrayOutputStream();
-    evaluate(constructSparqlQuery, RDFFormat.TURTLE, out);
+    evaluate(constructSparqlQuery, out);
     return out.toString();
   }
 
-  public String evaluate(String constructSparqlQuery, String rdfFormat) {
-    ByteArrayOutputStream out = new ByteArrayOutputStream();
-    evaluate(constructSparqlQuery, rdfFormat, out);
-    return out.toString();
-  }
-
-  public void evaluate(String constructSparqlQuery, OutputStream out) {
-    evaluate(constructSparqlQuery, RDFFormat.TURTLE, out);
-  }
-
-  public void evaluate(String constructSparqlQuery, String rdfFormat, OutputStream out) {
-    RDFFormat format = RdfFormatFinder.find(rdfFormat, RDFFormat.TURTLE);
-    evaluate(constructSparqlQuery, format, out);
-  }
-
-  private void evaluate(String queryString, RDFFormat rdfFormat, OutputStream out) {
+  private void evaluate(String queryString, OutputStream out) {
     try (RepositoryConnection conn = repository.getConnection()) {
       GraphQuery query = conn.prepareGraphQuery(QueryLanguage.SPARQL, queryString);
       List<Statement> statements = Lists.newArrayList();
@@ -66,7 +55,7 @@ public class SparqlEndpointClient {
         }
       }
       if (!statements.isEmpty()) {
-        Rio.write(statements, out, rdfFormat);
+        Rio.write(statements, out, RDFFormat.TURTLE);
       }
     }
   }

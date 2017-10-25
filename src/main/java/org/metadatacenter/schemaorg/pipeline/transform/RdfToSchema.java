@@ -18,33 +18,19 @@ import com.google.common.base.Charsets;
 public class RdfToSchema {
 
   public static String transform(String graphString) {
-    return transform(graphString, "Turtle");
-  }
-
-  public static String transform(String graphString, String rdfFormat) {
     ByteArrayOutputStream out = new ByteArrayOutputStream();
     InputStream in = new ByteArrayInputStream(graphString.getBytes(Charsets.UTF_8));
-    RDFFormat format = RdfFormatFinder.find(rdfFormat, RDFFormat.TURTLE);
-    transform(in, format, out);
+    transform(in, out);
     return out.toString();
   }
 
   public static void transform(InputStream in, OutputStream out) {
-    transform(in, "Turtle", out);
+    graphToJsonLd(inputStreamToGraph(in), out);
   }
 
-  public static void transform(InputStream in, String rdfFormat, OutputStream out) {
-    RDFFormat format = RdfFormatFinder.find(rdfFormat, RDFFormat.TURTLE);
-    transform(in, format, out);
-  }
-
-  private static void transform(InputStream in, RDFFormat rdfFormat, OutputStream out) {
-    graphToJsonLd(inputStreamToGraph(in, rdfFormat), out);
-  }
-
-  private static Collection<Statement> inputStreamToGraph(InputStream in, RDFFormat rdfFormat) {
+  private static Collection<Statement> inputStreamToGraph(InputStream in) {
     try {
-      final RDFParser rdfParser = Rio.createParser(rdfFormat);
+      final RDFParser rdfParser = Rio.createParser(RDFFormat.TURTLE);
       final StatementCollector collector = new StatementCollector();
       rdfParser.setRDFHandler(collector);
       rdfParser.parse(in, ""); // empty base IRI
