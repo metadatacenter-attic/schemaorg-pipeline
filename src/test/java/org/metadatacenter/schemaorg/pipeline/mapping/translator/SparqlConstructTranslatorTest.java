@@ -41,7 +41,6 @@ public class SparqlConstructTranslatorTest {
         "   @type:             Organization\n" + 
         "   name:              /rdf:value";
     SparqlConstructTranslatorHandler handler = new SparqlConstructTranslatorHandler();
-    handler.setInstanceIri("http://bio2rdf.org/drugbank:DB00112");
     handler.addPrefix("schema", "http://schema.org/");
     handler.addPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
     handler.addPrefix("db", "http://bio2rdf.org/drugbank_vocabulary:");
@@ -112,7 +111,7 @@ public class SparqlConstructTranslatorTest {
         "      ?s db:manufacturer ?manufacturer.\n" + 
         "      ?manufacturer rdf:value ?manufacturerName.\n" + 
         "    }\n" + 
-        "   FILTER ( ?s = <http://bio2rdf.org/drugbank:DB00112> )\n" + 
+        "   FILTER ( ?s = <%s> )\n" + 
         " }\n")
     );
   }

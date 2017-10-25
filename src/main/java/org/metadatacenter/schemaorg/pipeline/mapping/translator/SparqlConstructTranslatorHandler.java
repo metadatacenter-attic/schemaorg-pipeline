@@ -22,7 +22,6 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   private static final String INSTANCE_TYPE = "@type";
 
-  private String instanceIriString = "";
   private List<String> prefixes = Lists.newArrayList();
 
   public void addPrefix(@Nonnull String prefixLabel, @Nonnull String prefixNamespace) {
@@ -31,18 +30,14 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
     prefixes.add(String.format("%s: <%s>", prefixLabel, prefixNamespace));
   }
 
-  public void setInstanceIri(@Nonnull String instanceIriString) {
-    this.instanceIriString = checkNotNull(instanceIriString);
-  }
-
   @Override
   public void translate(MapNode mapNode, OutputStream out) {
     final SparqlConstructLayout sparqlLayout = new SparqlConstructLayout();
     sparqlLayout.addPrefixes(prefixes);
     parse(mapNode, sparqlLayout);
+    String filterTemplate = rootVar() + " = <%s>";
+    sparqlLayout.addFilter(filterTemplate);
     try (PrintWriter printer = new PrintWriter(out)) {
-      String instanceEquality = String.format("%s = <%s>", rootVar(), instanceIriString);
-      sparqlLayout.addFilter(instanceEquality);
       printer.println(sparqlLayout.toString());
     }
   }
