@@ -36,7 +36,6 @@ public class XsltConverterTest {
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(mapping);
     XsltConverter converter = new XsltConverter();
-    System.out.println(converter.transform(mapNode));
     // Assertions
     assertThat(converter.transform(mapNode), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
