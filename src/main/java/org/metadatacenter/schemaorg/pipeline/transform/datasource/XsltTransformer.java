@@ -29,11 +29,15 @@ public class XsltTransformer {
     this.transformer = checkNotNull(transformer);
   }
 
-  public static XsltTransformer newTransformer(String xsltString) throws TransformerConfigurationException {
-    TransformerFactory transFactory = TransformerFactory.newInstance();
-    InputStream in = new ByteArrayInputStream(xsltString.getBytes(Charsets.UTF_8));
-    Transformer transformer = transFactory.newTransformer(new StreamSource(in));
-    return new XsltTransformer(transformer);
+  public static XsltTransformer newTransformer(String xsltString) {
+    try {
+      TransformerFactory transFactory = TransformerFactory.newInstance();
+      InputStream in = new ByteArrayInputStream(xsltString.getBytes(Charsets.UTF_8));
+      Transformer transformer = transFactory.newTransformer(new StreamSource(in));
+      return new XsltTransformer(transformer);
+    } catch (TransformerConfigurationException e) {
+      throw new RuntimeException(e);
+    }
   }
 
   public String transform(String xmlString) {
