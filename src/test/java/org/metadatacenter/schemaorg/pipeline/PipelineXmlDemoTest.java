@@ -59,12 +59,12 @@ public class PipelineXmlDemoTest {
 
     String input = CLINICAL_TRIALS_MAPPING;
 
-    showTextEditor(input);
-    showTextEditor(output);
+    showTextEditor(input, ".txt");
+    showTextEditor(output, ".html");
   }
 
-  private static void showTextEditor(String text) throws IOException {
-    File file = File.createTempFile(UUID.randomUUID().toString(), ".txt");
+  private static void showTextEditor(String text, String extension) throws IOException {
+    File file = File.createTempFile(UUID.randomUUID().toString(), extension);
     try (FileOutputStream fop = new FileOutputStream(file)) {
       byte[] contentInBytes = text.getBytes();
       fop.write(contentInBytes);
