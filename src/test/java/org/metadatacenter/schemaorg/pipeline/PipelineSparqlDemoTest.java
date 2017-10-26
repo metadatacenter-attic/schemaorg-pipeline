@@ -6,11 +6,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.UUID;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.AttributeMapper;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapping.ConverterNotFoundException;
-import org.metadatacenter.schemaorg.pipeline.mapping.MapConverter;
-import org.metadatacenter.schemaorg.pipeline.mapping.converter.SparqlParameters;
+import org.metadatacenter.schemaorg.pipeline.api.Pipeline;
+import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeTranslator;
+import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
+import org.metadatacenter.schemaorg.pipeline.mapping.translator.SparqlConstructTranslatorHandler;
 import org.metadatacenter.schemaorg.pipeline.release.SchemaToHtml;
 import org.metadatacenter.schemaorg.pipeline.transform.RdfToSchema;
 import org.metadatacenter.schemaorg.pipeline.transform.datasource.SparqlEndpointClient;
@@ -50,31 +49,32 @@ public class PipelineSparqlDemoTest {
       "   name:              /rdf:value";
 
   @Test
-  public void shouldProduceResultsFromBio2RDF() throws ConverterNotFoundException, IOException {
-    AttributeMapper attributeMapper = new AttributeMapper();
-    MapNode mapNode = attributeMapper.readText(DRUGBANK_MAPPING);
-    showTextEditor(DRUGBANK_MAPPING);
+  public void shouldProduceResultsFromBio2RDF() throws IOException {
+    TranslatorHandler handler = createTranslatorHandler();
+    String query = MapNodeTranslator.translate(handler, DRUGBANK_MAPPING);
 
-    SparqlParameters parameters = new SparqlParameters();
-    parameters.setInstanceIri("http://bio2rdf.org/drugbank:DB00001");
-    parameters.addPrefix("schema", "http://schema.org/");
-    parameters.addPrefix("db", "http://bio2rdf.org/drugbank_vocabulary:");
-    parameters.addPrefix("bio2rdf", "http://bio2rdf.org/bio2rdf_vocabulary:");
+    SparqlEndpointClient bio2rdf = SparqlEndpointClient.BIO2RDF;
 
-    MapConverter converter = MapConverter.newInstance();
-    String queryString = converter.use("sparql-construct", parameters).transform(mapNode);
-    showTextEditor(queryString);
+    String instanceId = "http://bio2rdf.org/drugbank:DB00112";
+    String output = Pipeline.create()
+        .pipe(s -> bio2rdf.evaluatePreparedQuery(s, instanceId))
+        .pipe(RdfToSchema::transform)
+        .pipe(SchemaToHtml::transform)
+        .run(query);
 
-    SparqlEndpointClient endpointClient = new SparqlEndpointClient("http://bio2rdf.org/sparql");
-    String graphResult = endpointClient.evaluate(queryString, "N-Triples");
-    showTextEditor(graphResult);
+    String input = DRUGBANK_MAPPING;
 
-    RdfToSchema graphToJsonLd = new RdfToSchema();
-    String jsonLdResult = graphToJsonLd.transform(graphResult);
-    showTextEditor(jsonLdResult);
+    showTextEditor(input);
+    showTextEditor(output);
+  }
 
-    String htmlResult = SchemaToHtml.transform(jsonLdResult);
-    showTextEditor(htmlResult);
+  private SparqlConstructTranslatorHandler createTranslatorHandler() {
+    SparqlConstructTranslatorHandler handler = new SparqlConstructTranslatorHandler();
+    handler.addPrefix("schema", "http://schema.org/");
+    handler.addPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+    handler.addPrefix("db", "http://bio2rdf.org/drugbank_vocabulary:");
+    handler.addPrefix("bio2rdf", "http://bio2rdf.org/bio2rdf_vocabulary:");
+    return handler;
   }
 
   private static void showTextEditor(String text) throws IOException {
