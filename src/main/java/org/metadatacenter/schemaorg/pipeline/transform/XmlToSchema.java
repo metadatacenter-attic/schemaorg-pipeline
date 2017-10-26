@@ -14,19 +14,19 @@ import com.google.common.io.CharStreams;
 
 public class XmlToSchema {
 
-  public String transform(String xmlDocument) {
+  public static String transform(String xmlDocument) {
     ByteArrayOutputStream out = new ByteArrayOutputStream();
     transform(xmlDocument, out);
     return out.toString();
   }
 
-  public String transform(InputStream in) throws IOException {
+  public static String transform(InputStream in) throws IOException {
     ByteArrayOutputStream out = new ByteArrayOutputStream();
     transform(in, out);
     return out.toString();
   }
 
-  public void transform(String xmlDocument, OutputStream out) {
+  public static void transform(String xmlDocument, OutputStream out) {
     try {
       JSONObject jsonObject = XML.toJSONObject(xmlDocument);
       JSONObject schemaInstance = (JSONObject) jsonObject.get("instance");
@@ -40,7 +40,7 @@ public class XmlToSchema {
     }
   }
 
-  public void transform(InputStream in, OutputStream out) throws IOException {
+  public static void transform(InputStream in, OutputStream out) throws IOException {
     String xmlDocument = CharStreams.toString(new InputStreamReader(in, Charsets.UTF_8));
     transform(xmlDocument, out);
   }
