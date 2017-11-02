@@ -35,6 +35,10 @@ public class ObjectNode extends MapNode {
     return factory.objectNode(v);
   }
 
+  public final ArrayNode arrayNode() {
+    return factory.arrayNode();
+  }
+
   public void put(String attrName, MapNode mapNode) {
     children.put(attrName, mapNode);
   }

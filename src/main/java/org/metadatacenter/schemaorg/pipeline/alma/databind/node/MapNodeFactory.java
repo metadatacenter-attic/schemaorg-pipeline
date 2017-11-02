@@ -13,4 +13,8 @@ public class MapNodeFactory {
   public ObjectNode objectNode(String path) {
     return new ObjectNode(path, this);
   }
+
+  public ArrayNode arrayNode() {
+    return new ArrayNode(this);
+  }
 }
