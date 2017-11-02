@@ -70,7 +70,7 @@ public class ObjectNode extends MapNode {
 
   @Override
   public int hashCode() {
-    return Objects.hash(children);
+    return Objects.hash(path, children);
   }
 
   @Override
@@ -82,12 +82,13 @@ public class ObjectNode extends MapNode {
       return false;
     }
     ObjectNode other = (ObjectNode) obj;
-    return Objects.equals(children, other.children);
+    return Objects.equals(path, other.path) && Objects.equals(children, other.children);
   }
 
   @Override
   public String toString() {
     return MoreObjects.toStringHelper(this)
+        .add("path", path)
         .add("children", children)
         .toString();
   }
