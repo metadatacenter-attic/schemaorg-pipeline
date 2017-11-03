@@ -52,7 +52,7 @@ public class ArrayNode extends MapNode {
   }
 
   @Override
-  public Iterator<MapNode> iterator() {
+  public Iterator<MapNode> elements() {
     return nodes.iterator();
   }
 
