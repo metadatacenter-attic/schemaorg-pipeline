@@ -17,6 +17,7 @@ public class AttributeMapperTest {
     assertThat(mapNode.get("a").isPathNode(), equalTo(true));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(false));
   }
 
   @Test
@@ -28,6 +29,7 @@ public class AttributeMapperTest {
     assertThat(mapNode.get("a").isPathNode(), equalTo(false));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(true));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(false));
   }
 
   @Test
@@ -42,6 +44,53 @@ public class AttributeMapperTest {
     assertThat(mapNode.get("a").isPathNode(), equalTo(false));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(true));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(false));
+  }
+
+  @Test
+  public void shouldParsePathArrayMap() {
+    final String text = 
+          "a: /path1\n"
+        + "a: /path2";
+    AttributeMapper mapper = new AttributeMapper();
+    MapNode mapNode = mapper.readText(text);
+    // Assertions
+    assertThat(mapNode.get("a").isPathNode(), equalTo(false));
+    assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(true));
+  }
+
+  @Test
+  public void shouldParseConstantArrayMap() {
+    final String text = 
+          "a: constant1\n"
+        + "a: constant2";
+    AttributeMapper mapper = new AttributeMapper();
+    MapNode mapNode = mapper.readText(text);
+    // Assertions
+    assertThat(mapNode.get("a").isPathNode(), equalTo(false));
+    assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(true));
+  }
+
+  @Test
+  public void shouldParseObjectArrayMap() {
+    final String text = 
+          "a: /parent1\n"
+        + "  b: /path1\n"
+        + "  c: constant1\n"
+        + "a: /parent2\n"
+        + "  b: /path2\n"
+        + "  c: constant2";
+    AttributeMapper mapper = new AttributeMapper();
+    MapNode mapNode = mapper.readText(text);
+    // Assertions
+    assertThat(mapNode.get("a").isPathNode(), equalTo(false));
+    assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(true));
   }
 
   @Test

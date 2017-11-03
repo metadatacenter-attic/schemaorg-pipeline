@@ -1,5 +1,6 @@
 package org.metadatacenter.schemaorg.pipeline.alma.databind;
 
+import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ArrayNode;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNodeFactory;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
@@ -16,37 +17,77 @@ public class AttributeMapper {
     IndentTextParser parser = new IndentTextParser();
     Section root = parser.parse(text);
 
-    MapNodeProvider mapNodeProvider = new MapNodeProvider("root");
+    ObjectNode rootNode = nodeFactory.objectNode("root");
+    MapNodeProvider mapNodeProvider = new MapNodeProvider(rootNode);
     root.accept(mapNodeProvider);
     return mapNodeProvider.getMapNode();
   }
 
   private class MapNodeProvider implements SectionVisitor {
 
-    private final ObjectNode mapNode;
+    private final ObjectNode objectNode;
 
-    public MapNodeProvider(String rootAttr) {
-      this.mapNode = nodeFactory.objectNode(rootAttr);
+    public MapNodeProvider(ObjectNode objectNode) {
+      this.objectNode = objectNode;
     }
 
     @Override
     public void visit(Section section) {
       for (Section child : section.getChildren()) {
         String text = child.getText();
-        String attr = MapString.read(text).key();
-        String refAttr = MapString.read(text).value();
-        if (!child.hasChildren()) {
-          mapNode.put(attr, refAttr);
+        String attrName = MapString.read(text).key();
+        String mappedData = MapString.read(text).value();
+        MapNode mapNode = null;
+        if (child.hasChildren()) {
+          mapNode = createObjectNode(child, mappedData);
         } else {
-          MapNodeProvider mapNodeProvider = new MapNodeProvider(refAttr);
-          child.accept(mapNodeProvider);
-          mapNode.put(MapString.read(text).key(), mapNodeProvider.getMapNode());
+          mapNode = createPathOrConstantNode(mappedData);
         }
+        storeNode(attrName, mapNode);
       }
     }
 
-    public MapNode getMapNode() {
+    private void storeNode(String attrName, MapNode mapNode) {
+      MapNode foundNode = objectNode.get(attrName);
+      if (foundNode == null) {
+        objectNode.put(attrName, mapNode);
+      } else {
+        ArrayNode arrayNode = getOrCreateArrayNode(foundNode);
+        arrayNode.add(mapNode);
+        objectNode.put(attrName, arrayNode);
+      }
+    }
+
+    private MapNode createObjectNode(Section child, String mappedData) {
+      ObjectNode parentNode = nodeFactory.objectNode(mappedData);
+      MapNodeProvider mapNodeProvider = new MapNodeProvider(parentNode);
+      child.accept(mapNodeProvider);
+      return mapNodeProvider.getMapNode();
+    }
+
+    public MapNode createPathOrConstantNode(String mappedData) {
+      MapNode mapNode = null;
+      if (mappedData.startsWith("/")) {
+        mapNode = nodeFactory.pathNode(mappedData);
+      } else {
+        mapNode = nodeFactory.constantNode(mappedData);
+      }
       return mapNode;
+    }
+
+    private ArrayNode getOrCreateArrayNode(MapNode foundNode) {
+      ArrayNode arrayNode = null;
+      if (foundNode.isArrayNode()) {
+        arrayNode = (ArrayNode) foundNode;
+      } else {
+        arrayNode = nodeFactory.arrayNode();
+        arrayNode.add(foundNode);
+      }
+      return arrayNode;
+    }
+
+    public MapNode getMapNode() {
+      return objectNode;
     }
   }
 }

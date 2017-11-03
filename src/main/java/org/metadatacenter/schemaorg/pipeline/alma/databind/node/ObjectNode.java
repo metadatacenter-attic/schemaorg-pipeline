@@ -43,16 +43,6 @@ public class ObjectNode extends MapNode {
     children.put(attrName, mapNode);
   }
 
-  public void put(String attrName, String mapValue) {
-    MapNode mapNode = null;
-    if (mapValue.startsWith("/")) {
-      mapNode = pathNode(mapValue);
-    } else {
-      mapNode = constantNode(mapValue);
-    }
-    put(attrName, mapNode);
-  }
-
   public MapNode get(String attrName) {
     return children.get(attrName);
   }
