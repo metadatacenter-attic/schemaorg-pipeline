@@ -9,7 +9,7 @@ import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
 public class AttributeMapperTest {
 
   @Test
-  public void shouldParseMappingToAPath() {
+  public void shouldParsePathMap() {
     final String text = "a: /path";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
@@ -20,7 +20,7 @@ public class AttributeMapperTest {
   }
 
   @Test
-  public void shouldParseMappingToAConstant() {
+  public void shouldParseConstantMap() {
     final String text = "a: constant";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
@@ -31,7 +31,7 @@ public class AttributeMapperTest {
   }
 
   @Test
-  public void shouldParseMappingToAnObject() {
+  public void shouldParseObjectMap() {
     final String text = 
           "a: /path\n"
         + "  b: /path\n"
