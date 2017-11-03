@@ -40,6 +40,20 @@ public class XsltTranslatorHandler extends TranslatorHandler {
       } else if (node.isPathNode()) {
         String path = node.asText();
         xsltLayout.addPathTemplate(attrName, path);
+      } else if (node.isArrayNode()) {
+        for (Iterator<MapNode> arrIter = node.elements(); arrIter.hasNext();) {
+          MapNode item = arrIter.next();
+          if (item.isObjectNode()) {
+            String path = item.asText();
+            String type = getType(item);
+            Map<String, String> valueMap = getValueMap(item);
+            xsltLayout.addObjectTemplate(attrName, path, type, valueMap);
+            parse(item, xsltLayout);
+          } else if (item.isPathNode()) {
+            String path = item.asText();
+            xsltLayout.addPathTemplate(attrName, path);
+          }
+        }
       }
     }
   }
