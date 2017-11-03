@@ -21,18 +21,18 @@ public class IndentTextParser {
         int depth = countIndentWhitespaces(line);
         if (depth > prev.getDepth()) {
           Section section = new Section(line.trim(), depth, prev);
-          prev.getChildren().add(section);
+          prev.getSubSections().add(section);
           prev = section;
         } else if (depth == prev.getDepth()) {
           Section section = new Section(line.trim(), depth, prev.getParent());
-          prev.getParent().getChildren().add(section);
+          prev.getParent().getSubSections().add(section);
           prev = section;
         } else {
           while (depth < prev.getDepth()) {
             prev = prev.getParent();
           }
           Section section = new Section(line.trim(), depth, prev.getParent());
-          prev.getParent().getChildren().add(section);
+          prev.getParent().getSubSections().add(section);
           prev = section;
         }
         line = buffer.readLine();

@@ -11,8 +11,8 @@ import com.google.common.collect.Lists;
 public class Section {
   private final String text;
   private final int depth;
-  private final List<Section> children;
   private final Section parent;
+  private final List<Section> subSections;
 
   public Section(@Nonnull String text, int depth) {
     this(text, depth, null);
@@ -22,7 +22,7 @@ public class Section {
     this.text = checkNotNull(text);
     this.depth = depth;
     this.parent = parent;
-    this.children = Lists.newArrayList();
+    this.subSections = Lists.newArrayList();
   }
 
   public static Section createRootSection() {
@@ -37,12 +37,12 @@ public class Section {
     return depth;
   }
 
-  public List<Section> getChildren() {
-    return children;
+  public List<Section> getSubSections() {
+    return subSections;
   }
 
-  public boolean hasChildren() {
-    return !children.isEmpty();
+  public boolean hasSubSections() {
+    return !subSections.isEmpty();
   }
 
   public Section getParent() {
@@ -55,7 +55,7 @@ public class Section {
 
   @Override
   public int hashCode() {
-    return Objects.hash(text, depth, children, parent);
+    return Objects.hash(text, depth, parent, subSections);
   }
 
   @Override
@@ -67,14 +67,18 @@ public class Section {
       return false;
     }
     Section other = (Section) obj;
-    return Objects.equals(this.text, other.text) && Objects.equals(this.depth, other.depth)
-        && Objects.equals(this.children, other.children)
-        && Objects.equals(this.parent, other.parent);
+    return Objects.equals(this.text, other.text)
+        && Objects.equals(this.depth, other.depth)
+        && Objects.equals(this.parent, other.parent)
+        && Objects.equals(this.subSections, other.subSections);
   }
 
   @Override
   public String toString() {
-    return MoreObjects.toStringHelper(this).add("text", text).add("depth", depth)
-        .add("children", children).toString();
+    return MoreObjects.toStringHelper(this)
+        .add("text", text)
+        .add("depth", depth)
+        .add("subSections", subSections)
+        .toString();
   }
 }

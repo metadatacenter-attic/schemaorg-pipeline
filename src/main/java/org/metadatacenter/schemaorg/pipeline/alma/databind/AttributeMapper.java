@@ -33,13 +33,13 @@ public class AttributeMapper {
 
     @Override
     public void visit(Section section) {
-      for (Section child : section.getChildren()) {
-        String text = child.getText();
+      for (Section subSection : section.getSubSections()) {
+        String text = subSection.getText();
         String attrName = MapString.read(text).key();
         String mappedData = MapString.read(text).value();
         MapNode mapNode = null;
-        if (child.hasChildren()) {
-          mapNode = createObjectNode(child, mappedData);
+        if (subSection.hasSubSections()) {
+          mapNode = createObjectNode(subSection, mappedData);
         } else {
           mapNode = createPathOrConstantNode(mappedData);
         }
@@ -58,10 +58,10 @@ public class AttributeMapper {
       }
     }
 
-    private MapNode createObjectNode(Section child, String mappedData) {
+    private MapNode createObjectNode(Section subSection, String mappedData) {
       ObjectNode parentNode = nodeFactory.objectNode(mappedData);
       MapNodeProvider mapNodeProvider = new MapNodeProvider(parentNode);
-      child.accept(mapNodeProvider);
+      subSection.accept(mapNodeProvider);
       return mapNodeProvider.getMapNode();
     }
 

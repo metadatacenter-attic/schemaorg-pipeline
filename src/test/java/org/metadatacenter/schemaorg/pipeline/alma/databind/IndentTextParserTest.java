@@ -16,12 +16,12 @@ public class IndentTextParserTest {
     Section root = parser.parse(text);
 
     // Assertions
-    List<Section> children = root.getChildren();
-    assertThat(children.size(), equalTo(1));
-    assertThat(children.get(0).getText(), equalTo("line"));
-    assertThat(children.get(0).getDepth(), equalTo(0));
-    assertThat(children.get(0).getParent(), equalTo(root));
-    assertThat(children.get(0).getChildren().isEmpty(), equalTo(true));
+    List<Section> subSections = root.getSubSections();
+    assertThat(subSections.size(), equalTo(1));
+    assertThat(subSections.get(0).getText(), equalTo("line"));
+    assertThat(subSections.get(0).getDepth(), equalTo(0));
+    assertThat(subSections.get(0).getParent(), equalTo(root));
+    assertThat(subSections.get(0).getSubSections().isEmpty(), equalTo(true));
   }
 
   @Test
@@ -35,32 +35,32 @@ public class IndentTextParserTest {
     Section root = parser.parse(text);
 
     // Assertions
-    List<Section> children = root.getChildren();
-    assertThat(children.size(), equalTo(4));
+    List<Section> subSections = root.getSubSections();
+    assertThat(subSections.size(), equalTo(4));
     
-    Section child1 = children.get(0);
-    assertThat(child1.getText(), equalTo("line1"));
-    assertThat(child1.getDepth(), equalTo(0));
-    assertThat(child1.getParent(), equalTo(root));
-    assertThat(child1.getChildren().size(), equalTo(0));
+    Section subSection1 = subSections.get(0);
+    assertThat(subSection1.getText(), equalTo("line1"));
+    assertThat(subSection1.getDepth(), equalTo(0));
+    assertThat(subSection1.getParent(), equalTo(root));
+    assertThat(subSection1.getSubSections().size(), equalTo(0));
 
-    Section child2 = children.get(1);
-    assertThat(child2.getText(), equalTo("line2"));
-    assertThat(child2.getDepth(), equalTo(0));
-    assertThat(child2.getParent(), equalTo(root));
-    assertThat(child2.getChildren().size(), equalTo(0));
+    Section subSection2 = subSections.get(1);
+    assertThat(subSection2.getText(), equalTo("line2"));
+    assertThat(subSection2.getDepth(), equalTo(0));
+    assertThat(subSection2.getParent(), equalTo(root));
+    assertThat(subSection2.getSubSections().size(), equalTo(0));
 
-    Section child3 = children.get(2);
-    assertThat(child3.getText(), equalTo("line3"));
-    assertThat(child3.getDepth(), equalTo(0));
-    assertThat(child3.getParent(), equalTo(root));
-    assertThat(child3.getChildren().size(), equalTo(0));
+    Section subSection3 = subSections.get(2);
+    assertThat(subSection3.getText(), equalTo("line3"));
+    assertThat(subSection3.getDepth(), equalTo(0));
+    assertThat(subSection3.getParent(), equalTo(root));
+    assertThat(subSection3.getSubSections().size(), equalTo(0));
 
-    Section child4 = children.get(3);
-    assertThat(child4.getText(), equalTo("line4"));
-    assertThat(child4.getDepth(), equalTo(0));
-    assertThat(child4.getParent(), equalTo(root));
-    assertThat(child4.getChildren().size(), equalTo(0));
+    Section subSection4 = subSections.get(3);
+    assertThat(subSection4.getText(), equalTo("line4"));
+    assertThat(subSection4.getDepth(), equalTo(0));
+    assertThat(subSection4.getParent(), equalTo(root));
+    assertThat(subSection4.getSubSections().size(), equalTo(0));
   }
   
   @Test
@@ -74,32 +74,32 @@ public class IndentTextParserTest {
     Section root = parser.parse(text);
 
  // Assertions
-    List<Section> children = root.getChildren();
-    assertThat(children.size(), equalTo(1));
+    List<Section> subSections = root.getSubSections();
+    assertThat(subSections.size(), equalTo(1));
     
-    Section child1 = children.get(0);
-    assertThat(child1.getText(), equalTo("line1"));
-    assertThat(child1.getDepth(), equalTo(0));
-    assertThat(child1.getParent(), equalTo(root));
-    assertThat(child1.getChildren().size(), equalTo(1));
+    Section subSection = subSections.get(0);
+    assertThat(subSection.getText(), equalTo("line1"));
+    assertThat(subSection.getDepth(), equalTo(0));
+    assertThat(subSection.getParent(), equalTo(root));
+    assertThat(subSection.getSubSections().size(), equalTo(1));
 
-    Section child11 = child1.getChildren().get(0);
-    assertThat(child11.getText(), equalTo("line2"));
-    assertThat(child11.getDepth(), equalTo(2));
-    assertThat(child11.getParent(), equalTo(child1));
-    assertThat(child11.getChildren().size(), equalTo(1));
+    Section subSubSection = subSection.getSubSections().get(0);
+    assertThat(subSubSection.getText(), equalTo("line2"));
+    assertThat(subSubSection.getDepth(), equalTo(2));
+    assertThat(subSubSection.getParent(), equalTo(subSection));
+    assertThat(subSubSection.getSubSections().size(), equalTo(1));
 
-    Section child111 = child11.getChildren().get(0);
-    assertThat(child111.getText(), equalTo("line3"));
-    assertThat(child111.getDepth(), equalTo(4));
-    assertThat(child111.getParent(), equalTo(child11));
-    assertThat(child111.getChildren().size(), equalTo(1));
+    Section subSubSubSection = subSubSection.getSubSections().get(0);
+    assertThat(subSubSubSection.getText(), equalTo("line3"));
+    assertThat(subSubSubSection.getDepth(), equalTo(4));
+    assertThat(subSubSubSection.getParent(), equalTo(subSubSection));
+    assertThat(subSubSubSection.getSubSections().size(), equalTo(1));
 
-    Section child1111 = child111.getChildren().get(0);
-    assertThat(child1111.getText(), equalTo("line4"));
-    assertThat(child1111.getDepth(), equalTo(6));
-    assertThat(child1111.getParent(), equalTo(child111));
-    assertThat(child1111.getChildren().size(), equalTo(0));
+    Section subSubSubSubSection = subSubSubSection.getSubSections().get(0);
+    assertThat(subSubSubSubSection.getText(), equalTo("line4"));
+    assertThat(subSubSubSubSection.getDepth(), equalTo(6));
+    assertThat(subSubSubSubSection.getParent(), equalTo(subSubSubSection));
+    assertThat(subSubSubSubSection.getSubSections().size(), equalTo(0));
   }
 
   @Test
@@ -116,50 +116,50 @@ public class IndentTextParserTest {
     Section root = parser.parse(text);
 
     // Assertions
-    List<Section> children = root.getChildren();
-    assertThat(children.size(), equalTo(2));
+    List<Section> subSections = root.getSubSections();
+    assertThat(subSections.size(), equalTo(2));
     
-    Section child1 = children.get(0);
-    assertThat(child1.getText(), equalTo("line1"));
-    assertThat(child1.getDepth(), equalTo(0));
-    assertThat(child1.getParent(), equalTo(root));
-    assertThat(child1.getChildren().size(), equalTo(2));
+    Section subSection1 = subSections.get(0);
+    assertThat(subSection1.getText(), equalTo("line1"));
+    assertThat(subSection1.getDepth(), equalTo(0));
+    assertThat(subSection1.getParent(), equalTo(root));
+    assertThat(subSection1.getSubSections().size(), equalTo(2));
 
-    Section child11 = child1.getChildren().get(0);
-    assertThat(child11.getText(), equalTo("line2"));
-    assertThat(child11.getDepth(), equalTo(2));
-    assertThat(child11.getParent(), equalTo(child1));
-    assertThat(child11.getChildren().size(), equalTo(2));
+    Section subSubSection1 = subSection1.getSubSections().get(0);
+    assertThat(subSubSection1.getText(), equalTo("line2"));
+    assertThat(subSubSection1.getDepth(), equalTo(2));
+    assertThat(subSubSection1.getParent(), equalTo(subSection1));
+    assertThat(subSubSection1.getSubSections().size(), equalTo(2));
 
-    Section child111 = child11.getChildren().get(0);
-    assertThat(child111.getText(), equalTo("line3"));
-    assertThat(child111.getDepth(), equalTo(4));
-    assertThat(child111.getParent(), equalTo(child11));
-    assertThat(child111.getChildren().size(), equalTo(1));
+    Section subSubSubSection1 = subSubSection1.getSubSections().get(0);
+    assertThat(subSubSubSection1.getText(), equalTo("line3"));
+    assertThat(subSubSubSection1.getDepth(), equalTo(4));
+    assertThat(subSubSubSection1.getParent(), equalTo(subSubSection1));
+    assertThat(subSubSubSection1.getSubSections().size(), equalTo(1));
 
-    Section child1111 = child111.getChildren().get(0);
-    assertThat(child1111.getText(), equalTo("line4"));
-    assertThat(child1111.getDepth(), equalTo(6));
-    assertThat(child1111.getParent(), equalTo(child111));
-    assertThat(child1111.getChildren().size(), equalTo(0));
+    Section subSubSubSubSection1 = subSubSubSection1.getSubSections().get(0);
+    assertThat(subSubSubSubSection1.getText(), equalTo("line4"));
+    assertThat(subSubSubSubSection1.getDepth(), equalTo(6));
+    assertThat(subSubSubSubSection1.getParent(), equalTo(subSubSubSection1));
+    assertThat(subSubSubSubSection1.getSubSections().size(), equalTo(0));
 
-    Section child112 = child11.getChildren().get(1);
-    assertThat(child112.getText(), equalTo("line5"));
-    assertThat(child112.getDepth(), equalTo(4));
-    assertThat(child112.getParent(), equalTo(child11));
-    assertThat(child112.getChildren().size(), equalTo(0));
+    Section subSubSubSection2 = subSubSection1.getSubSections().get(1);
+    assertThat(subSubSubSection2.getText(), equalTo("line5"));
+    assertThat(subSubSubSection2.getDepth(), equalTo(4));
+    assertThat(subSubSubSection2.getParent(), equalTo(subSubSection1));
+    assertThat(subSubSubSection2.getSubSections().size(), equalTo(0));
 
-    Section child12 = child1.getChildren().get(1);
-    assertThat(child12.getText(), equalTo("line6"));
-    assertThat(child12.getDepth(), equalTo(2));
-    assertThat(child12.getParent(), equalTo(child1));
-    assertThat(child12.getChildren().size(), equalTo(0));
+    Section subSubSection2 = subSection1.getSubSections().get(1);
+    assertThat(subSubSection2.getText(), equalTo("line6"));
+    assertThat(subSubSection2.getDepth(), equalTo(2));
+    assertThat(subSubSection2.getParent(), equalTo(subSection1));
+    assertThat(subSubSection2.getSubSections().size(), equalTo(0));
 
-    Section child2 = children.get(1);
-    assertThat(child2.getText(), equalTo("line7"));
-    assertThat(child2.getDepth(), equalTo(0));
-    assertThat(child2.getParent(), equalTo(root));
-    assertThat(child2.getChildren().size(), equalTo(0));
+    Section subSection2 = subSections.get(1);
+    assertThat(subSection2.getText(), equalTo("line7"));
+    assertThat(subSection2.getDepth(), equalTo(0));
+    assertThat(subSection2.getParent(), equalTo(root));
+    assertThat(subSection2.getSubSections().size(), equalTo(0));
   }
 
   @Test
@@ -174,37 +174,37 @@ public class IndentTextParserTest {
     Section root = parser.parse(text);
 
  // Assertions
-    List<Section> children = root.getChildren();
-    assertThat(children.size(), equalTo(1));
+    List<Section> subSections = root.getSubSections();
+    assertThat(subSections.size(), equalTo(1));
     
-    Section child1 = children.get(0);
-    assertThat(child1.getText(), equalTo("line1"));
-    assertThat(child1.getDepth(), equalTo(0));
-    assertThat(child1.getParent(), equalTo(root));
-    assertThat(child1.getChildren().size(), equalTo(3));
+    Section subSection = subSections.get(0);
+    assertThat(subSection.getText(), equalTo("line1"));
+    assertThat(subSection.getDepth(), equalTo(0));
+    assertThat(subSection.getParent(), equalTo(root));
+    assertThat(subSection.getSubSections().size(), equalTo(3));
 
-    Section child11 = child1.getChildren().get(0);
-    assertThat(child11.getText(), equalTo("line2"));
-    assertThat(child11.getDepth(), equalTo(2));
-    assertThat(child11.getParent(), equalTo(child1));
-    assertThat(child11.getChildren().size(), equalTo(0));
+    Section subSubSection1 = subSection.getSubSections().get(0);
+    assertThat(subSubSection1.getText(), equalTo("line2"));
+    assertThat(subSubSection1.getDepth(), equalTo(2));
+    assertThat(subSubSection1.getParent(), equalTo(subSection));
+    assertThat(subSubSection1.getSubSections().size(), equalTo(0));
 
-    Section child12 = child1.getChildren().get(1);
-    assertThat(child12.getText(), equalTo("line3"));
-    assertThat(child12.getDepth(), equalTo(2));
-    assertThat(child12.getParent(), equalTo(child1));
-    assertThat(child12.getChildren().size(), equalTo(1));
+    Section subSubSection2 = subSection.getSubSections().get(1);
+    assertThat(subSubSection2.getText(), equalTo("line3"));
+    assertThat(subSubSection2.getDepth(), equalTo(2));
+    assertThat(subSubSection2.getParent(), equalTo(subSection));
+    assertThat(subSubSection2.getSubSections().size(), equalTo(1));
     
-    Section child121 = child12.getChildren().get(0);
-    assertThat(child121.getText(), equalTo("line4"));
-    assertThat(child121.getDepth(), equalTo(4));
-    assertThat(child121.getParent(), equalTo(child12));
-    assertThat(child121.getChildren().size(), equalTo(0));
+    Section subSubSubSection = subSubSection2.getSubSections().get(0);
+    assertThat(subSubSubSection.getText(), equalTo("line4"));
+    assertThat(subSubSubSection.getDepth(), equalTo(4));
+    assertThat(subSubSubSection.getParent(), equalTo(subSubSection2));
+    assertThat(subSubSubSection.getSubSections().size(), equalTo(0));
 
-    Section child13 = child1.getChildren().get(2);
-    assertThat(child13.getText(), equalTo("line5"));
-    assertThat(child13.getDepth(), equalTo(2));
-    assertThat(child13.getParent(), equalTo(child1));
-    assertThat(child13.getChildren().size(), equalTo(0));
+    Section subSubSection3 = subSection.getSubSections().get(2);
+    assertThat(subSubSection3.getText(), equalTo("line5"));
+    assertThat(subSubSection3.getDepth(), equalTo(2));
+    assertThat(subSubSection3.getParent(), equalTo(subSection));
+    assertThat(subSubSection3.getSubSections().size(), equalTo(0));
   }
 }
