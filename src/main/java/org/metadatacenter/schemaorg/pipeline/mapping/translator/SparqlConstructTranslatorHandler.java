@@ -8,10 +8,8 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ConstantNode;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.PathNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
@@ -52,7 +50,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
       MapNode node = mapNode.get(attrName);
       String mapValue = node.asText();
       String objectInstanceName = mergeNames(subjectInstanceName, attrName);
-      if (node instanceof ObjectNode) {
+      if (node.isObjectNode()) {
         String newSubjectInstance = mergeNames(subjectInstanceName, attrName);
         constructTripleTemplate(
             subject(subjectInstanceName),
@@ -66,7 +64,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             newSubjectInstance,
             counter);
         visit(node, newSubjectInstance, sparqlLayout, counter);
-      } else if (node instanceof PathNode) {
+      } else if (node.isPathNode()) {
         constructTripleTemplate(
             subject(subjectInstanceName),
             predicate(attrName),
@@ -78,7 +76,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             sparqlLayout,
             subjectInstanceName,
             counter);
-      } else if (node instanceof ConstantNode) {
+      } else if (node.isConstantNode()) {
         constructTripleTemplate(
             subject(subjectInstanceName),
             predicate(attrName),
