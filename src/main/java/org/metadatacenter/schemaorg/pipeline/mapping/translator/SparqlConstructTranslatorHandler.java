@@ -82,6 +82,45 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             predicate(attrName),
             literal(attrName, mapValue),
             sparqlLayout);
+      } else if (node.isArrayNode()) {
+        int arrIndex = 0;
+        for (Iterator<MapNode> arrIter = node.elements(); arrIter.hasNext(); arrIndex++) {
+          MapNode item = arrIter.next();
+          String itemValue = item.asText();
+          if (item.isObjectNode()) {
+            String newSubjectInstance = mergeNames(subjectInstanceName, attrName + arrIndex);
+            constructTripleTemplate(
+                subject(subjectInstanceName),
+                predicate(attrName),
+                object(objectInstanceName + arrIndex),
+                sparqlLayout);
+            constructTriplePattern(
+                subject(subjectInstanceName),
+                predicateObject(itemValue, object(objectInstanceName + arrIndex)),
+                sparqlLayout,
+                newSubjectInstance,
+                counter);
+            visit(item, newSubjectInstance, sparqlLayout, counter);
+          } else if (item.isPathNode()) {
+            constructTripleTemplate(
+                subject(subjectInstanceName),
+                predicate(attrName),
+                object(objectInstanceName + arrIndex),
+                sparqlLayout);
+            constructTriplePattern(
+                subject(subjectInstanceName),
+                predicateObject(itemValue, object(objectInstanceName + arrIndex)),
+                sparqlLayout,
+                subjectInstanceName,
+                counter);
+          } else if (item.isConstantNode()) {
+            constructTripleTemplate(
+                subject(subjectInstanceName),
+                predicate(attrName),
+                literal(attrName, itemValue),
+                sparqlLayout);
+          }
+        }
       }
     }
   }
