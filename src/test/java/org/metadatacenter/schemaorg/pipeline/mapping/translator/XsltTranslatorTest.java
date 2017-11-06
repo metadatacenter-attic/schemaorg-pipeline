@@ -50,6 +50,18 @@ public class XsltTranslatorTest {
         "   <xsl:template match=\"clinical_study/id_info/nct_id\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
+        "   <xsl:template match=\"clinical_study/sponsors/lead_sponsor\">\n" + 
+        "      <sponsor _type=\"Organization\">\n" + 
+        "         <xsl:apply-templates select=\"agency\"/>\n" + 
+        "         <xsl:apply-templates select=\"agency_class\"/>\n" + 
+        "      </sponsor>\n" + 
+        "   </xsl:template>\n" + 
+        "   <xsl:template match=\"agency\">\n" + 
+        "      <name><xsl:value-of select=\".\"/></name>\n" + 
+        "   </xsl:template>\n" + 
+        "   <xsl:template match=\"agency_class\">\n" + 
+        "      <description><xsl:value-of select=\".\"/></description>\n" + 
+        "   </xsl:template>\n" + 
         "   <xsl:template match=\"clinical_study/sponsors/collaborator\">\n" + 
         "      <sponsor _type=\"Organization\">\n" + 
         "         <xsl:apply-templates select=\"agency\"/>\n" + 

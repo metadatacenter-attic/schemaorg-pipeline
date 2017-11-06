@@ -33,9 +33,6 @@ public class SparqlConstructTranslatorTest {
         "mechanismOfAction:    /db:mechanism-of-action/dcterms:description\n" + 
         "interactingDrug:      /db:ddi-interactor-in/dcterms:title\n" + 
         "foodWarning:          /db:food-interaction/rdf:value\n" + 
-        "availableStrength:    /db:dosage\n" + 
-        "   @type:             DrugStrength\n" + 
-        "   description:       /dcterms:title\n" + 
         "legalStatus:          /db:group/bio2rdf:identifier\n" + 
         "manufacturer:         /db:manufacturer\n" + 
         "   @type:             Organization\n" + 
