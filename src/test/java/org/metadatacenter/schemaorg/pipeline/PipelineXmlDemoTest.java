@@ -20,27 +20,55 @@ import com.google.common.base.Charsets;
 public class PipelineXmlDemoTest {
 
   private static final String CLINICAL_TRIALS_MAPPING =
-      "@type:             MedicalTrial\n" + 
-      "name:              /clinical_study/brief_title\n" + 
-      "description:       /clinical_study/detailed_description/textblock\n" + 
-      "identifier:        /clinical_study/id_info/nct_id\n" + 
-      "sponsor:           /clinical_study/sponsors/lead_sponsor\n" + 
-      "    @type:         Organization\n" + 
-      "    name:          /agency\n" + 
-      "    description:   /agency_class\n" + 
-      "collaborator:      /clinical_study/sponsors/collaborator\n" + 
-      "    @type:         Organization\n" + 
-      "    name:          /agency\n" + 
-      "    description:   /agency_class\n" + 
-      "location:          /clinical_study/location\n" + 
-      "    @type:         Place\n" + 
-      "    name:          /facility/name\n" + 
-      "    address:       /facility/address\n" + 
-      "        @type:     Address\n" + 
-      "        city:      /city\n" + 
-      "        state:     /state\n" + 
-      "        zip:       /zip\n" + 
-      "        country:   USA";
+      "@type:                       MedicalTrial\n" + 
+      "name:                        /clinical_study/official_title\n" + 
+      "alternateName:               /clinical_study/brief_title\n" + 
+      "alternateName:               /clinical_study/acronym\n" +
+      "identifier:                  /clinical_study/id_info/org_study_id\n" + 
+      "identifier:                  /clinical_study/id_info/nct_id\n" + 
+      "identifier:                  /clinical_study/id_info/secondary_id\n" + 
+      "status:                      /clinical_study/overall_status\n" +
+      "description:                 /clinical_study/detailed_description/textblock\n" +
+      "disambiguatingDescription:   /clinical_study/brief_summary/textblock\n" +
+      "studySubject:                /clinical_study/condition\n" +
+      "code:                        /clinical_study/keyword\n" +
+      "phase:                       /clinical_study/phase\n" +
+      "trialDesign:                 /clinical_study/study_design_info/intervention_model\n" +
+      "population:                  /clinical_study/eligibility/criteria/textblock\n" +
+      "sponsor:                     /clinical_study/sponsors/lead_sponsor\n" + 
+      "    @type:                   Organization\n" + 
+      "    name:                    /agency\n" + 
+      "    additionalType:          Lead Sponsor\n" + 
+      "sponsor:                     /clinical_study/sponsors/collaborator\n" + 
+      "    @type:                   Organization\n" + 
+      "    name:                    /agency\n" + 
+      "    additionalType:          Collaborator\n" + 
+      "studyLocation:               /clinical_study/location/facility\n" + 
+      "    @type:                   AdministrativeArea\n" + 
+      "    name:                    /name\n" +
+      "    additionalType:          Facility\n" +
+      "    address:                 /address\n" +
+      "        @type:               PostalAddress\n" +
+      "        addressLocality:     /city\n" + 
+      "        addressRegion:       /state\n" + 
+      "        postalCode:          /zip\n" + 
+      "        addressCountry:      /country\n" +
+      "studyLocation:               /clinical_study/location_countries\n" +
+      "    @type:                   AdministrativeArea\n" +
+      "    name:                    /country\n" +
+      "    additionalType:          Country Location\n" +
+      "subjectOf:                   /clinical_study/references\n" +
+      "    @type:                   CreativeWork\n" +
+      "    identifier:              /PMID\n" +
+      "    alternateName:           /citation\n" +
+      "subjectOf:                   /clinical_study/results_reference\n" +
+      "    @type:                   CreativeWork\n" +
+      "    identifier:              /PMID\n" +
+      "    alternateName:           /citation\n" +
+      "subjectOf:                   /clinical_study/link\n" +
+      "    @type:                   WebPage\n" +
+      "    url:                     /url\n" +
+      "    description:             /description";
 
   @Test
   public void shouldProduceResultsFromClinicalTrials() throws Exception {
