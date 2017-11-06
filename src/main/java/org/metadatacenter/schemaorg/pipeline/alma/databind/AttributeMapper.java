@@ -9,18 +9,18 @@ public class AttributeMapper {
 
   private final MapNodeFactory nodeFactory = new MapNodeFactory();
 
-  public MapNode readText(String text) {
+  public ObjectNode readText(String text) {
     return parse(text);
   }
 
-  private MapNode parse(String text) {
+  private ObjectNode parse(String text) {
     IndentTextParser parser = new IndentTextParser();
     Section root = parser.parse(text);
 
     ObjectNode rootNode = nodeFactory.objectNode("root");
     MapNodeTreeBuilder treeBuilder = new MapNodeTreeBuilder(rootNode);
     root.accept(treeBuilder);
-    return treeBuilder.getMapNode();
+    return treeBuilder.build();
   }
 
   private class MapNodeTreeBuilder implements SectionVisitor {
@@ -62,7 +62,7 @@ public class AttributeMapper {
       ObjectNode parentNode = nodeFactory.objectNode(mappedData);
       MapNodeTreeBuilder treeBuilder = new MapNodeTreeBuilder(parentNode);
       subSection.accept(treeBuilder);
-      return treeBuilder.getMapNode();
+      return treeBuilder.build();
     }
 
     public MapNode createPathOrConstantNode(String mappedData) {
@@ -86,7 +86,7 @@ public class AttributeMapper {
       return arrayNode;
     }
 
-    public MapNode getMapNode() {
+    public ObjectNode build() {
       return objectNode;
     }
   }
