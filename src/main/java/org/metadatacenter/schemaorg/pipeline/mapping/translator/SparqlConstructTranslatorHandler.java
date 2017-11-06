@@ -17,6 +17,7 @@ import com.google.common.collect.Lists;
 public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   private static final String ROOT_INSTANCE_NAME = "s";
+  private static final String FILTER_TEMPLATE = var(ROOT_INSTANCE_NAME) + " = <%s>";
 
   private List<String> prefixes = Lists.newArrayList();
 
@@ -28,97 +29,96 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   @Override
   public void translate(ObjectNode objectNode, OutputStream out) {
-    final SparqlConstructLayout sparqlLayout = new SparqlConstructLayout();
-    sparqlLayout.addPrefixes(prefixes);
-    init(objectNode, sparqlLayout);
-    String filterTemplate = rootVar() + " = <%s>";
-    sparqlLayout.addFilter(filterTemplate);
+    SparqlConstructLayout sparqlLayout = initSparqlLayout();
+    visit(objectNode, ROOT_INSTANCE_NAME, sparqlLayout, new AtomicInteger());
     try (PrintWriter printer = new PrintWriter(out)) {
       printer.println(sparqlLayout.toString());
     }
   }
 
-  private void init(ObjectNode objectNode, SparqlConstructLayout sparqlLayout) {
-    AtomicInteger counter = new AtomicInteger();
-    visit(objectNode, "", sparqlLayout, counter);
+  private SparqlConstructLayout initSparqlLayout() {
+    SparqlConstructLayout layout = new SparqlConstructLayout();
+    layout.addPrefixes(prefixes);
+    layout.addFilter(FILTER_TEMPLATE);
+    return layout;
   }
 
-  private void visit(MapNode mapNode, String subjectInstanceName, SparqlConstructLayout sparqlLayout,
+  private void visit(MapNode mapNode, String subjectVar, SparqlConstructLayout layout,
       final AtomicInteger counter) {
     for (Iterator<String> iter = mapNode.attributeNames(); iter.hasNext();) {
       String attrName = iter.next();
       MapNode node = mapNode.get(attrName);
-      String mapValue = node.asText();
-      String objectInstanceName = mergeNames(subjectInstanceName, attrName);
+      String objectVar = mergeNames(subjectVar, attrName);
       if (node.isObjectNode()) {
-        String newSubjectInstance = mergeNames(subjectInstanceName, attrName);
+        String dataPath = node.asText();
         constructTripleTemplate(
-            subject(subjectInstanceName),
+            subject(subjectVar),
             predicate(attrName),
-            object(objectInstanceName),
-            sparqlLayout);
+            object(objectVar),
+            layout);
         constructTriplePattern(
-            subject(subjectInstanceName),
-            predicateObject(mapValue, object(objectInstanceName)),
-            sparqlLayout,
-            newSubjectInstance,
-            counter);
-        visit(node, newSubjectInstance, sparqlLayout, counter);
+            subject(subjectVar),
+            predicateObject(dataPath, object(objectVar)),
+            patternGroup(objectVar, counter),
+            layout);
+        visit(node, objectVar, layout, counter);
       } else if (node.isPathNode()) {
+        String dataPath = node.asText();
         constructTripleTemplate(
-            subject(subjectInstanceName),
+            subject(subjectVar),
             predicate(attrName),
-            object(objectInstanceName),
-            sparqlLayout);
+            object(objectVar),
+            layout);
         constructTriplePattern(
-            subject(subjectInstanceName),
-            predicateObject(mapValue, object(objectInstanceName)),
-            sparqlLayout,
-            subjectInstanceName,
-            counter);
+            subject(subjectVar),
+            predicateObject(dataPath, object(objectVar)),
+            patternGroup(subjectVar, counter),
+            layout);
       } else if (node.isConstantNode()) {
+        String constantValue = node.asText();
         constructTripleTemplate(
-            subject(subjectInstanceName),
+            subject(subjectVar),
             predicate(attrName),
-            literal(attrName, mapValue),
-            sparqlLayout);
+            literal(attrName, constantValue),
+            layout);
       } else if (node.isArrayNode()) {
         int arrIndex = 0;
         for (Iterator<MapNode> arrIter = node.elements(); arrIter.hasNext(); arrIndex++) {
           MapNode item = arrIter.next();
-          String itemValue = item.asText();
+          objectVar = mergeNames(subjectVar, attrName + arrIndex);
           if (item.isObjectNode()) {
-            String newSubjectInstance = mergeNames(subjectInstanceName, attrName + arrIndex);
+            String dataPath = item.asText();
             constructTripleTemplate(
-                subject(subjectInstanceName),
+                subject(subjectVar),
                 predicate(attrName),
-                object(objectInstanceName + arrIndex),
-                sparqlLayout);
+                object(objectVar),
+                layout);
             constructTriplePattern(
-                subject(subjectInstanceName),
-                predicateObject(itemValue, object(objectInstanceName + arrIndex)),
-                sparqlLayout,
-                newSubjectInstance,
-                counter);
-            visit(item, newSubjectInstance, sparqlLayout, counter);
+                subject(subjectVar),
+                predicateObject(dataPath, object(objectVar)),
+                patternGroup(objectVar, counter),
+                layout);
+            visit(item, objectVar, layout, counter);
           } else if (item.isPathNode()) {
-            constructTripleTemplate(
-                subject(subjectInstanceName),
-                predicate(attrName),
-                object(objectInstanceName + arrIndex),
-                sparqlLayout);
+            String dataPath = item.asText();
             constructTriplePattern(
-                subject(subjectInstanceName),
-                predicateObject(itemValue, object(objectInstanceName + arrIndex)),
-                sparqlLayout,
-                subjectInstanceName,
-                counter);
-          } else if (item.isConstantNode()) {
+                subject(subjectVar),
+                predicateObject(dataPath,
+                    object(objectVar)),
+                patternGroup(subjectVar, counter),
+                layout);
             constructTripleTemplate(
-                subject(subjectInstanceName),
+                subject(subjectVar),
                 predicate(attrName),
-                literal(attrName, itemValue),
-                sparqlLayout);
+                object(objectVar),
+                layout);
+          } else if (item.isConstantNode()) {
+            String constantValue = item.asText();
+            constructTripleTemplate(
+                subject(subjectVar),
+                predicate(attrName),
+                literal(attrName, constantValue),
+                layout);
           }
         }
       }
@@ -126,25 +126,22 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   }
 
   private static void constructTripleTemplate(String subject, String predicate, String object,
-      SparqlConstructLayout sparqlLayout) {
+      SparqlConstructLayout layout) {
     String tripleTemplate = String.format("%s %s %s.", subject, predicate, object);
-    sparqlLayout.addTripleTemplate(tripleTemplate);
+    layout.addTripleTemplate(tripleTemplate);
   }
 
-  private static void constructTriplePattern(String subject, String predicateObject,
-      SparqlConstructLayout sparqlLayout, String patternGroup, final AtomicInteger counter) {
+  private static void constructTriplePattern(String subject, String predicateObject, String patternGroup,
+      SparqlConstructLayout layout) {
     String triplePattern = String.format("%s %s.", subject, predicateObject);
-    if (Strings.isNullOrEmpty(patternGroup)) {
-      patternGroup = ROOT_INSTANCE_NAME + counter.getAndIncrement();
-    }
-    sparqlLayout.addTriplePattern(triplePattern, patternGroup);
+    layout.addTriplePattern(triplePattern, patternGroup);
   }
 
-  private static String predicateObject(String path, String objectVar) {
+  private static String predicateObject(String dataPath, String objectVar) {
     String predicateObjectString = "";
     String closingBrackets = "";
     boolean needBrackets = false;
-    for (String pathElement : path.split("/")) {
+    for (String pathElement : dataPath.split("/")) {
       if (!Strings.isNullOrEmpty(pathElement)) {
         if (needBrackets) {
           predicateObjectString += " [";
@@ -158,20 +155,20 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
     return predicateObjectString;
   }
 
-  private static String subject(String subjecInstancetName) {
-    return var(subjecInstancetName);
+  private static String subject(String subjectVar) {
+    return var(subjectVar);
   }
 
-  private static String predicate(String propertyName) {
-    if (propertyName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
+  private static String predicate(String attrName) {
+    if (attrName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
       return typeAssertionProperty();
     } else {
-      return schema(propertyName);
+      return schema(attrName);
     }
   }
 
-  private static String object(String objectInstanceName) {
-    return var(objectInstanceName);
+  private static String object(String objectVar) {
+    return var(objectVar);
   }
 
   private static String literal(String propertyName, String constantValue) {
@@ -182,20 +179,20 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
     }
   }
 
-  private static String rootVar() {
-    return "?" + ROOT_INSTANCE_NAME;
+  private static String var(@Nullable String varname) {
+    return "?" + varname;
   }
 
-  private static String var(@Nullable String varname) {
-    if (Strings.isNullOrEmpty(varname)) {
-      return rootVar();
-    } else {
-      return "?" + varname;
+  private static String patternGroup(String subjectVar, AtomicInteger counter) {
+    String patternGroup = subjectVar;
+    if (ROOT_INSTANCE_NAME.equals(subjectVar)) {
+      patternGroup = ROOT_INSTANCE_NAME + counter.getAndIncrement();
     }
+    return patternGroup;
   }
 
   private static String mergeNames(@Nullable String str1, @Nonnull String str2) {
-    if (Strings.isNullOrEmpty(str1)) {
+    if (ROOT_INSTANCE_NAME.equals(str1)) {
       return str2.substring(0, 1).toLowerCase() + str2.substring(1);
     } else {
       return str1.substring(0, 1).toLowerCase() + str1.substring(1)
