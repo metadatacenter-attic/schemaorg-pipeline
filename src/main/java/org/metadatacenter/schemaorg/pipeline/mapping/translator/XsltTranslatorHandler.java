@@ -24,38 +24,42 @@ public class XsltTranslatorHandler extends TranslatorHandler {
   private void init(MapNode mapNode, XsltLayout xsltLayout) {
     String documentType = getType(mapNode);
     xsltLayout.addDocumentType(documentType);
-    parse(mapNode, xsltLayout);
+    render(mapNode, xsltLayout);
   }
 
-  private void parse(MapNode mapNode, XsltLayout xsltLayout) {
+  private void render(MapNode mapNode, XsltLayout xsltLayout) {
     for (Iterator<String> iter = mapNode.attributeNames(); iter.hasNext();) {
       String attrName = iter.next();
       MapNode node = mapNode.get(attrName);
       if (node.isObjectNode()) {
-        String path = node.asText();
-        String type = getType(node);
-        Map<String, String> valueMap = getValueMap(node);
-        xsltLayout.addObjectTemplate(attrName, path, type, valueMap);
-        parse(node, xsltLayout);
+        parseObjectNode(attrName, node, xsltLayout);
+        render(node, xsltLayout);
       } else if (node.isPathNode()) {
-        String path = node.asText();
-        xsltLayout.addPathTemplate(attrName, path);
+        parsePathNode(attrName, node, xsltLayout);
       } else if (node.isArrayNode()) {
         for (Iterator<MapNode> arrIter = node.elements(); arrIter.hasNext();) {
           MapNode item = arrIter.next();
           if (item.isObjectNode()) {
-            String path = item.asText();
-            String type = getType(item);
-            Map<String, String> valueMap = getValueMap(item);
-            xsltLayout.addObjectTemplate(attrName, path, type, valueMap);
-            parse(item, xsltLayout);
+            parseObjectNode(attrName, item, xsltLayout);
+            render(item, xsltLayout);
           } else if (item.isPathNode()) {
-            String path = item.asText();
-            xsltLayout.addPathTemplate(attrName, path);
+            parsePathNode(attrName, item, xsltLayout);
           }
         }
       }
     }
+  }
+
+  private void parsePathNode(String attrName, MapNode node, XsltLayout xsltLayout) {
+    String path = node.asText();
+    xsltLayout.addPathTemplate(attrName, path);
+  }
+
+  private void parseObjectNode(String attrName, MapNode item, XsltLayout xsltLayout) {
+    String path = item.asText();
+    String type = getType(item);
+    Map<String, String> valueMap = getValueMap(item);
+    xsltLayout.addObjectTemplate(attrName, path, type, valueMap);
   }
 
   private String getType(MapNode node) {
