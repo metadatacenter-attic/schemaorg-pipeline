@@ -20,8 +20,6 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   private static final String ROOT_INSTANCE_NAME = "s";
 
-  private static final String INSTANCE_TYPE = "@type";
-
   private List<String> prefixes = Lists.newArrayList();
 
   public void addPrefix(@Nonnull String prefixLabel, @Nonnull String prefixNamespace) {
@@ -31,10 +29,10 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   }
 
   @Override
-  public void translate(MapNode mapNode, OutputStream out) {
+  public void translate(ObjectNode objectNode, OutputStream out) {
     final SparqlConstructLayout sparqlLayout = new SparqlConstructLayout();
     sparqlLayout.addPrefixes(prefixes);
-    parse(mapNode, sparqlLayout);
+    init(objectNode, sparqlLayout);
     String filterTemplate = rootVar() + " = <%s>";
     sparqlLayout.addFilter(filterTemplate);
     try (PrintWriter printer = new PrintWriter(out)) {
@@ -42,12 +40,12 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
     }
   }
 
-  private void parse(MapNode mapNode, SparqlConstructLayout sparqlLayout) {
+  private void init(ObjectNode objectNode, SparqlConstructLayout sparqlLayout) {
     AtomicInteger counter = new AtomicInteger();
-    parse(mapNode, "", sparqlLayout, counter);
+    visit(objectNode, "", sparqlLayout, counter);
   }
 
-  private void parse(MapNode mapNode, String subjectInstanceName, SparqlConstructLayout sparqlLayout,
+  private void visit(MapNode mapNode, String subjectInstanceName, SparqlConstructLayout sparqlLayout,
       final AtomicInteger counter) {
     for (Iterator<String> iter = mapNode.attributeNames(); iter.hasNext();) {
       String attrName = iter.next();
@@ -67,7 +65,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             sparqlLayout,
             newSubjectInstance,
             counter);
-        parse(node, newSubjectInstance, sparqlLayout, counter);
+        visit(node, newSubjectInstance, sparqlLayout, counter);
       } else if (node instanceof PathNode) {
         constructTripleTemplate(
             subject(subjectInstanceName),
@@ -128,7 +126,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   }
 
   private static String predicate(String propertyName) {
-    if (propertyName.equals(INSTANCE_TYPE)) {
+    if (propertyName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
       return typeAssertionProperty();
     } else {
       return schema(propertyName);
@@ -140,7 +138,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   }
 
   private static String literal(String propertyName, String constantValue) {
-    if (propertyName.equals(INSTANCE_TYPE)) {
+    if (propertyName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
       return schema(constantValue);
     } else {
       return "'" + constantValue + "'";

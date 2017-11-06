@@ -5,77 +5,70 @@ import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.Map;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
+import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.alma.databind.node.PathNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import com.google.common.collect.Maps;
 
 public class XsltTranslatorHandler extends TranslatorHandler {
 
-  private static final String INSTANCE_TYPE = "@type";
-
   @Override
-  public void translate(MapNode mapNode, OutputStream out) {
+  public void translate(ObjectNode objectNode, OutputStream out) {
     final XsltLayout xsltLayout = new XsltLayout();
-    init(mapNode, xsltLayout);
+    init(objectNode, xsltLayout);
     try (PrintWriter printer = new PrintWriter(out)) {
       printer.println(xsltLayout.toString());
     }
   }
 
-  private void init(MapNode mapNode, XsltLayout xsltLayout) {
-    String documentType = getType(mapNode);
-    xsltLayout.addDocumentType(documentType);
-    render(mapNode, xsltLayout);
+  private void init(ObjectNode objectNode, XsltLayout xsltLayout) {
+    MapNode docType = objectNode.getType();
+    xsltLayout.addDocumentType(docType.asText());
+    visit(objectNode, xsltLayout);
   }
 
-  private void render(MapNode mapNode, XsltLayout xsltLayout) {
+  private void visit(MapNode mapNode, XsltLayout xsltLayout) {
     for (Iterator<String> iter = mapNode.attributeNames(); iter.hasNext();) {
       String attrName = iter.next();
       MapNode node = mapNode.get(attrName);
       if (node.isObjectNode()) {
-        parseObjectNode(attrName, node, xsltLayout);
-        render(node, xsltLayout);
+        translateObjectNode(attrName, (ObjectNode) node, xsltLayout);
+        visit(node, xsltLayout);
       } else if (node.isPathNode()) {
-        parsePathNode(attrName, node, xsltLayout);
+        translatePathNode(attrName, (PathNode) node, xsltLayout);
       } else if (node.isArrayNode()) {
         for (Iterator<MapNode> arrIter = node.elements(); arrIter.hasNext();) {
           MapNode item = arrIter.next();
           if (item.isObjectNode()) {
-            parseObjectNode(attrName, item, xsltLayout);
-            render(item, xsltLayout);
+            translateObjectNode(attrName, (ObjectNode) item, xsltLayout);
+            visit(item, xsltLayout);
           } else if (item.isPathNode()) {
-            parsePathNode(attrName, item, xsltLayout);
+            translatePathNode(attrName, (PathNode) item, xsltLayout);
           }
         }
       }
     }
   }
 
-  private void parsePathNode(String attrName, MapNode node, XsltLayout xsltLayout) {
-    String path = node.asText();
-    xsltLayout.addPathTemplate(attrName, path);
+  private void translatePathNode(String attrName, PathNode pathNode, XsltLayout xsltLayout) {
+    xsltLayout.addPathTemplate(attrName, pathNode.asText());
   }
 
-  private void parseObjectNode(String attrName, MapNode item, XsltLayout xsltLayout) {
-    String path = item.asText();
-    String type = getType(item);
-    Map<String, String> valueMap = getValueMap(item);
-    xsltLayout.addObjectTemplate(attrName, path, type, valueMap);
+  private void translateObjectNode(String attrName, ObjectNode objectNode, XsltLayout xsltLayout) {
+    String objectPath = objectNode.asText();
+    String objectType = objectNode.getType().asText();
+    Map<String, String> objectMap = toMapOfString(objectNode.getObjectMap());
+    xsltLayout.addObjectTemplate(attrName, objectPath, objectType, objectMap);
   }
 
-  private String getType(MapNode node) {
-    return node.get(INSTANCE_TYPE).asText();
-  }
-
-  private Map<String, String> getValueMap(MapNode node) {
-    Map<String, String> valueMap = Maps.newLinkedHashMap();
-    for (Iterator<String> iter = node.attributeNames(); iter.hasNext();) {
-      String attrName = iter.next();
-      if (attrName.equals(INSTANCE_TYPE)) {
-        continue;
+  private static Map<String, String> toMapOfString(Map<String, MapNode> objectMap) {
+    Map<String, String> mapOfString = Maps.newLinkedHashMap();
+    for (String attrName : objectMap.keySet()) {
+      if (!attrName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
+        String value = objectMap.get(attrName).asText();
+        mapOfString.put(attrName, value);
       }
-      String value = node.get(attrName).asText();
-      valueMap.put(attrName, value);
     }
-    return valueMap;
+    return mapOfString;
   }
 }
