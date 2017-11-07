@@ -124,9 +124,9 @@ public class SchemaToHtml {
       newline(sb);
       indent(sb, (startIndentation + 3)).append(TR.open());
       newline(sb);
-      indent(sb, (startIndentation + 6)).append(TD.open(cls("key"))).append(trimSchemaPrefix(key)).append(TD.close());
+      indent(sb, (startIndentation + 6)).append(TD.open(cssClass("key"))).append(trimSchemaPrefix(key)).append(TD.close());
       newline(sb);
-      indent(sb, (startIndentation + 6)).append(TD.open(cls("value")));
+      indent(sb, (startIndentation + 6)).append(TD.open(cssClass("value")));
       Object node = jsonObject.get(key);
       if (node instanceof JSONObject) {
         sb.append(tabling((JSONObject) node, 0));
@@ -152,9 +152,9 @@ public class SchemaToHtml {
       newline(sb);
       indent(sb, (startIndentation + 3)).append(TR.open());
       newline(sb);
-      indent(sb, (startIndentation + 6)).append(TD.open(cls("index"))).append(i + 1).append(TD.close());
+      indent(sb, (startIndentation + 6)).append(TD.open(cssClass("index"))).append(i + 1).append(TD.close());
       newline(sb);
-      indent(sb, (startIndentation + 6)).append(TD.open(cls("item")));
+      indent(sb, (startIndentation + 6)).append(TD.open(cssClass("item")));
       newline(sb);
       Object arrayNode = jsonArray.get(i);
       if (arrayNode instanceof JSONObject) {

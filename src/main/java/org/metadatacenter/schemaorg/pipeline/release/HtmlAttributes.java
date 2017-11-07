@@ -11,7 +11,7 @@ public class HtmlAttributes {
     return attributeMap;
   }
 
-  public static Map<String, String> cls(String value) {
+  public static Map<String, String> cssClass(String value) {
     Map<String, String> attributeMap = Maps.newHashMap();
     attributeMap.put("class", value);
     return attributeMap;
