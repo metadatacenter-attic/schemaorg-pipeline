@@ -37,7 +37,7 @@ public class HtmlAttributes {
 
   public static Map<String, String> alt(String value) {
     Map<String, String> attributeMap = Maps.newHashMap();
-    attributeMap.put("aalt", value);
+    attributeMap.put("alt", value);
     return attributeMap;
   }
 
