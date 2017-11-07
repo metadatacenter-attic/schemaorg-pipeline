@@ -18,6 +18,8 @@ class SparqlConstructLayout {
   
   private final StringBuilder stringBuilder;
   
+  private String typeAssertion = "";
+  
   private List<String> prefixes = Lists.newArrayList();
   private List<String> tripleTemplates = Lists.newArrayList();
   private Map<String, List<String>> triplePatterns = Maps.newLinkedHashMap();
@@ -29,6 +31,10 @@ class SparqlConstructLayout {
 
   public SparqlConstructLayout(@Nonnull StringBuilder stringBuilder) {
     this.stringBuilder = checkNotNull(stringBuilder);
+  }
+
+  public void setTypeAssertion(String typeAssertion) {
+    this.typeAssertion = typeAssertion;
   }
 
   public void addPrefixes(List<String> prefixes) {
@@ -70,6 +76,10 @@ class SparqlConstructLayout {
     newline();
     openBracket(SPARQL_WHERE, "{");
     newline();
+    if (!Strings.isNullOrEmpty(typeAssertion)) {
+      indent(3).append(typeAssertion);
+      newline();
+    }
     for (String patternGroup : triplePatterns.keySet()) {
       indent(3);
       List<String> triplePatternList = triplePatterns.get(patternGroup);
@@ -127,5 +137,4 @@ class SparqlConstructLayout {
   private void newline() {
     stringBuilder.append("\n");
   }
-
 }

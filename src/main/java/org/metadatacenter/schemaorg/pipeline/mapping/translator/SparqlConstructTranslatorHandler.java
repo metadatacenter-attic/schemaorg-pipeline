@@ -19,12 +19,19 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   private static final String ROOT_INSTANCE_NAME = "s";
   private static final String FILTER_TEMPLATE = var(ROOT_INSTANCE_NAME) + " = <%s>";
 
+  private String typeAssertion = "";
+
   private List<String> prefixes = Lists.newArrayList();
 
   public void addPrefix(@Nonnull String prefixLabel, @Nonnull String prefixNamespace) {
     checkNotNull(prefixLabel);
     checkNotNull(prefixNamespace);
     prefixes.add(String.format("%s: <%s>", prefixLabel, prefixNamespace));
+  }
+
+  public void setInstanceType(@Nonnull String instanceType) {
+    checkNotNull(instanceType);
+    typeAssertion = String.format("%s a %s", var(ROOT_INSTANCE_NAME), instanceType);
   }
 
   @Override
@@ -38,6 +45,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   private SparqlConstructLayout initSparqlLayout() {
     SparqlConstructLayout layout = new SparqlConstructLayout();
+    layout.setTypeAssertion(typeAssertion);
     layout.addPrefixes(prefixes);
     layout.addFilter(FILTER_TEMPLATE);
     return layout;

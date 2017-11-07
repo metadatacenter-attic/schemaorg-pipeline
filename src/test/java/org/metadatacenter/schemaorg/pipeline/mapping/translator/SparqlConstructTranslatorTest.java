@@ -42,6 +42,7 @@ public class SparqlConstructTranslatorTest {
     handler.addPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
     handler.addPrefix("db", "http://bio2rdf.org/drugbank_vocabulary:");
     handler.addPrefix("bio2rdf", "http://bio2rdf.org/bio2rdf_vocabulary:");
+    handler.setInstanceType("db:Drug");
     // Assertion
     assertThat(MapNodeTranslator.translate(handler, mapping), equalTo(
         "PREFIX schema: <http://schema.org/>\n" + 
@@ -79,6 +80,7 @@ public class SparqlConstructTranslatorTest {
         "   ?manufacturer schema:name ?manufacturerName.\n" + 
         " }\n" + 
         "WHERE { \n" + 
+        "   ?s a db:Drug\n" +
         "   OPTIONAL { ?s dcterms:title ?name. }\n" + 
         "   OPTIONAL { ?s dcterms:description ?description. }\n" + 
         "   OPTIONAL { ?s dcterms:identifier ?identifier. }\n" + 
