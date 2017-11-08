@@ -11,11 +11,12 @@ import java.util.Optional;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-public class DBpediaLookup {
+public class DBpediaLookup implements NameLookup {
 
   private static final String SERVICE_ENDPOINT = "http://lookup.dbpedia.org/api/search/KeywordSearch?QueryString=";
 
-  public static Optional<String> find(String name) {
+  @Override
+  public Optional<String> find(String name) {
     HttpURLConnection conn = null;
     try {
       String get = SERVICE_ENDPOINT + URLEncoder.encode(name, "UTF-8");

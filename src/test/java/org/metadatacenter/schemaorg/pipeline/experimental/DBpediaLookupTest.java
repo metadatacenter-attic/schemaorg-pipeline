@@ -9,12 +9,13 @@ public class DBpediaLookupTest {
 
   @Test
   public void canFindIdentifiers() {
-    Optional<String> result1 = DBpediaLookup.find("Stanford University");
-    Optional<String> result2 = DBpediaLookup.find("Stanford University Medical Center");
-    Optional<String> result3 = DBpediaLookup.find("California");
-    Optional<String> result4 = DBpediaLookup.find("united states");
-    Optional<String> result5 = DBpediaLookup.find("Colorectal cancer");
-    Optional<String> result6 = DBpediaLookup.find("lepirudin");
+    NameLookup dbpediaLookup = new DBpediaLookup();
+    Optional<String> result1 = dbpediaLookup.find("Stanford University");
+    Optional<String> result2 = dbpediaLookup.find("Stanford University Medical Center");
+    Optional<String> result3 = dbpediaLookup.find("California");
+    Optional<String> result4 = dbpediaLookup.find("united states");
+    Optional<String> result5 = dbpediaLookup.find("Colorectal cancer");
+    Optional<String> result6 = dbpediaLookup.find("lepirudin");
     // Asserts
     assertThat(result1.isPresent(), equalTo(true));
     assertThat(result1.get(), equalTo("http://dbpedia.org/resource/Stanford_University"));
