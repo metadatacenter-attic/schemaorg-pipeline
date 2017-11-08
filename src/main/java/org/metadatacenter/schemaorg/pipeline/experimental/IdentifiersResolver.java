@@ -1,6 +1,5 @@
 package org.metadatacenter.schemaorg.pipeline.experimental;
 
-import static com.google.common.base.Preconditions.checkNotNull;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -26,23 +25,18 @@ import org.w3c.dom.Document;
 import com.google.common.base.Charsets;
 import com.google.common.base.Strings;
 
-public class IdentifiersAutoComplete {
+public class IdentifiersResolver {
 
-  private static Logger logger = LoggerFactory.getLogger(IdentifiersAutoComplete.class);
+  private static Logger logger = LoggerFactory.getLogger(IdentifiersResolver.class);
 
-  private final JSONObject dictionary;
+  private JSONObject dictionary;
 
-  public IdentifiersAutoComplete(@Nonnull JSONObject dictionary) {
-    this.dictionary = checkNotNull(dictionary);
-  }
-
-  public static IdentifiersAutoComplete newInstance() {
+  public IdentifiersResolver() {
     String xmlContent = readResource("registry.xml");
     String xsltContent = readResource("dictionary.xslt");
     String dictionaryXml = transformXml(xmlContent, xsltContent);
-    JSONObject dictionary = convertToJson(dictionaryXml);
+    this.dictionary = convertToJson(dictionaryXml);
     logger.debug("Successfully creating a dictionary from identifiers.org registry\n" + dictionary.toString(2));
-    return new IdentifiersAutoComplete(dictionary);
   }
 
   public Optional<String> resolve(@Nonnull String id, @Nonnull String namespace) {
@@ -67,7 +61,7 @@ public class IdentifiersAutoComplete {
   }
 
   private static String readResource(String resource) {
-    InputStream in = IdentifiersAutoComplete.class.getClassLoader().getResourceAsStream(resource);
+    InputStream in = IdentifiersResolver.class.getClassLoader().getResourceAsStream(resource);
     try {
       ByteArrayOutputStream result = new ByteArrayOutputStream();
       byte[] buffer = new byte[1024];

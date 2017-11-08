@@ -6,52 +6,52 @@ import java.util.Optional;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class IdentifiersAutoCompleteTest {
+public class IdentifiersResolverTest {
 
-  private static IdentifiersAutoComplete autoComplete;
+  private static IdentifiersResolver resolver;
 
   @BeforeClass
   public static void setUp() {
-    autoComplete = IdentifiersAutoComplete.newInstance();
+    resolver = new IdentifiersResolver();
   }
 
   @Test
-  public void shouldAutoComplete_DrugBank_Variant1() {
+  public void shouldResolveDrugBankId_Variant1() {
     String id = "DB00088";
-    Optional<String> resolvedId = autoComplete.resolve(id, "drugbank");
+    Optional<String> resolvedId = resolver.resolve(id, "drugbank");
     // Asserts
     assertThat(resolvedId.isPresent(), equalTo(true));
     assertThat(resolvedId.get(), equalTo("http://identifiers.org/drugbank/DB00088"));
   }
 
   @Test
-  public void shouldAutoComplete_DrugBank_Variant2() {
+  public void shouldResolveDrugBankId_Variant2() {
     String id = "drugbank:DB00088";
-    Optional<String> resolvedId = autoComplete.resolve(id, "drugbank");
+    Optional<String> resolvedId = resolver.resolve(id, "drugbank");
     // Asserts
     assertThat(resolvedId.isPresent(), equalTo(true));
     assertThat(resolvedId.get(), equalTo("http://identifiers.org/drugbank/DB00088"));
   }
 
   @Test
-  public void shouldAutoComplete_ClinicalTrials() {
+  public void shouldResolveClinicalTrialsId() {
     String id = "NCT00002126";
-    Optional<String> resolvedId = autoComplete.resolve(id, "clinicaltrials");
+    Optional<String> resolvedId = resolver.resolve(id, "clinicaltrials");
     assertThat(resolvedId.isPresent(), equalTo(true));
     assertThat(resolvedId.get(), equalTo("http://identifiers.org/clinicaltrials/NCT00002126"));
   }
 
   @Test
-  public void shouldFailedAutoComplete_MismatchNamespace() {
+  public void shouldFailResolveClinicalTrialsId_MismatchNamespace() {
     String id = "NCT00002126";
-    Optional<String> resolvedId = autoComplete.resolve(id, "drugbank");
+    Optional<String> resolvedId = resolver.resolve(id, "drugbank");
     assertThat(resolvedId.isPresent(), equalTo(false));
   }
 
   @Test
-  public void shouldFailedAutoComplete_MismatchPattern() {
+  public void shouldFailResolveClinicalTrialsId_MismatchPattern() {
     String id = "NCT002126";
-    Optional<String> resolvedId = autoComplete.resolve(id, "clinicaltrials");
+    Optional<String> resolvedId = resolver.resolve(id, "clinicaltrials");
     assertThat(resolvedId.isPresent(), equalTo(false));
   }
 }
