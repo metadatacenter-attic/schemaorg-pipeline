@@ -3,6 +3,7 @@ package org.metadatacenter.schemaorg.pipeline.release;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.metadatacenter.schemaorg.pipeline.release.HtmlAttributes.*;
 import static org.metadatacenter.schemaorg.pipeline.release.HtmlTag.*;
+import java.net.URL;
 import java.util.List;
 import java.util.Properties;
 import javax.annotation.Nonnull;
@@ -133,7 +134,12 @@ public class SchemaToHtml {
       } else if (node instanceof JSONArray) {
         sb.append(listing((JSONArray) node, 0));
       } else {
-        sb.append(node.toString());
+        String valueString = node.toString();
+        if (isValidUrl(valueString)) {
+          sb.append(A.open(href(valueString), target("_blank"))).append(valueString).append(A.close());
+        } else {
+          sb.append(valueString);
+        }
       }
       indent(sb, 0).append(TD.close());
       newline(sb);
@@ -162,7 +168,12 @@ public class SchemaToHtml {
       } else if (arrayNode instanceof JSONArray) {
         sb.append(listing((JSONArray) arrayNode, (startIndentation + 9)));
       } else {
-        sb.append(arrayNode.toString());
+        String valueString = arrayNode.toString();
+        if (isValidUrl(valueString)) {
+          sb.append(A.open(href(valueString), target("_blank"))).append(valueString).append(A.close());
+        } else {
+          sb.append(valueString);
+        }
       }
       newline(sb);
       indent(sb, (startIndentation + 6)).append(TD.close());
@@ -186,5 +197,15 @@ public class SchemaToHtml {
   private static StringBuilder newline(StringBuilder sb) {
     sb.append("\n");
     return sb;
+  }
+
+  public static boolean isValidUrl(String urlString) {
+    try {
+      URL url = new URL(urlString);
+      url.toURI();
+      return true;
+    } catch (Exception exception) {
+      return false;
+    }
   }
 }

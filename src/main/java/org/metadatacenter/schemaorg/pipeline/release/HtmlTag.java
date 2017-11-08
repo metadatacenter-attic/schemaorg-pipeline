@@ -29,6 +29,7 @@ public class HtmlTag {
   public static final HtmlTag H3 = new HtmlTag("h3");
   public static final HtmlTag H4 = new HtmlTag("h4");
   public static final HtmlTag PRE = new HtmlTag("pre");
+  public static final HtmlTag A = new HtmlTag("a");
   public static final HtmlTag P = new HtmlTag("p");
 
   private final String name;
