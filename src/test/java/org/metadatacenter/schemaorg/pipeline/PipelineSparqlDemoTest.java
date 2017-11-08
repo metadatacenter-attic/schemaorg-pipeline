@@ -74,6 +74,7 @@ public class PipelineSparqlDemoTest {
     handler.addPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
     handler.addPrefix("db", "http://bio2rdf.org/drugbank_vocabulary:");
     handler.addPrefix("bio2rdf", "http://bio2rdf.org/bio2rdf_vocabulary:");
+    handler.setInstanceType("db:Drug");
     return handler;
   }
 
