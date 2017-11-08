@@ -3,19 +3,13 @@ package org.metadatacenter.schemaorg.pipeline.experimental;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Optional;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 
 public class DBpediaLookup {
 
@@ -46,34 +40,15 @@ public class DBpediaLookup {
 
   private static Optional<String> findId(String text) {
     String foundId = null;
-    Document doc = parseToXml(text);
-    NodeList resultList = doc.getElementsByTagName("Result");
-    if (resultList.getLength() > 0) {
-      Element firstResult = (Element) resultList.item(0);
+    Document doc = XmlUtils.parseToXml(text);
+    if (XmlUtils.containTagName(doc, "Result")) {
+      Element firstResult = (Element) doc.getElementsByTagName("Result").item(0);
       Element uriElement = (Element) firstResult.getElementsByTagName("URI").item(0);
       if (uriElement != null) {
-        foundId = getCharacterDataFromElement(uriElement);
+        foundId = XmlUtils.getCharacterDataFromElement(uriElement);
       }
     }
     return Optional.ofNullable(foundId);
-  }
-
-  public static String getCharacterDataFromElement(Element e) {
-    return e.getFirstChild().getNodeValue();
-  }
-
-  private static Document parseToXml(String text) {
-    try {
-      return DocumentBuilderFactory.newInstance()
-          .newDocumentBuilder()
-          .parse(new InputSource(new StringReader(text)));
-    } catch (SAXException e) {
-      throw new RuntimeException(e);
-    } catch (IOException e) {
-      throw new RuntimeException(e);
-    } catch (ParserConfigurationException e) {
-      throw new RuntimeException(e);
-    }
   }
 
   private static String readResponse(InputStream in) {
