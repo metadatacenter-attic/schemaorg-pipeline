@@ -78,6 +78,8 @@
         <directory>src/main/resources</directory>
         <targetPath>${project.build.directory}</targetPath>
         <includes>
+          <include>registry.xml</include>
+          <include>dictionary.xslt</include>
           <include>log4j.properties</include>
         </includes>
       </resource>
