@@ -25,7 +25,7 @@ import org.w3c.dom.Document;
 import com.google.common.base.Charsets;
 import com.google.common.base.Strings;
 
-public class IdentifiersResolver {
+public class IdentifiersResolver implements IdResolver {
 
   private static Logger logger = LoggerFactory.getLogger(IdentifiersResolver.class);
 
@@ -39,6 +39,7 @@ public class IdentifiersResolver {
     logger.debug("Successfully creating a dictionary from identifiers.org registry\n" + dictionary.toString(2));
   }
 
+  @Override
   public Optional<String> resolve(@Nonnull String id, @Nonnull String namespace) {
     String completeId = null;
     if (!Strings.isNullOrEmpty(namespace)) {
