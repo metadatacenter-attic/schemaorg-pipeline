@@ -11,7 +11,6 @@ class XsltLayout {
 
   private final StringBuilder stringBuilder;
 
-  private String documentType;
   private List<XslTemplate> templates = Lists.newArrayList();
 
   public XsltLayout() {
@@ -20,10 +19,6 @@ class XsltLayout {
 
   public XsltLayout(@Nonnull StringBuilder stringBuilder) {
     this.stringBuilder = checkNotNull(stringBuilder);
-  }
-
-  public void addDocumentType(String documentType) {
-    this.documentType = documentType;
   }
 
   public void addObjectTemplate(String attribute, String path, String type, Map<String, String> valueMap) {
@@ -42,38 +37,68 @@ class XsltLayout {
     newline();
     indent(3).append("<xsl:output method=\"xml\" indent=\"yes\" />");
     newline();
-    indent(3).append(String.format("<xsl:template match=\"/*\">"));
-    newline();
-    indent(6).append(String.format("<instance _context=\"%s\" _type=\"%s\">", "http://schema.org", documentType));
-    newline();
-    indent(9).append("<xsl:apply-templates />");
-    newline();
-    indent(6).append("</instance>");
-    newline();
-    indent(3).append("</xsl:template>");
-    newline();
+    boolean isTopLevel = true;
     for (XslTemplate template : templates) {
       if (template.isObjectTemplate()) {
         ObjectTemplate ot = (ObjectTemplate)template;
-        indent(3).append(String.format("<xsl:template match=\"%s\">", removeRootSlash(ot.path)));
-        newline();
-        indent(6).append(String.format("<%s _type=\"%s\">", ot.attribute, ot.type));
-        newline();
-        for (String attrName : ot.valueMap.keySet()) {
-          String value = ot.valueMap.get(attrName);
-          if (isPath(value)) {
-            indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", removeRootSlash(value)));
-          } else {
-            indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
-          }
+        if (isTopLevel) {
+          indent(3).append("<xsl:template match=\"/*\">");
           newline();
+          indent(6).append(String.format("<%s _context=\"http://schema.org\" _type=\"%s\">", ot.attribute, ot.type));
+          newline();
+          indent(9).append("<xsl:apply-templates />");
+          newline();
+          for (String attrName : ot.valueMap.keySet()) {
+            String value = ot.valueMap.get(attrName);
+            if (isArray(value)) {
+              String[] valueArray = value.substring(1, value.length()-1).split(",");
+              for (String itemValue : valueArray) {
+                if (isConstant(itemValue)) {
+                  indent(9).append(String.format("<%s>%s</%s>", attrName, itemValue, attrName));
+                  newline();
+                }
+              }
+            } else {
+              if (isConstant(value)) {
+                indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
+                newline();
+              }
+            }
+          }
+          isTopLevel = false;
+        } else {
+          indent(3).append(String.format("<xsl:template match=\"%s\">", removeStartingSlash(ot.path)));
+          newline();
+          indent(6).append(String.format("<%s _type=\"%s\">", ot.attribute, ot.type));
+          newline();
+          for (String attrName : ot.valueMap.keySet()) {
+            String value = ot.valueMap.get(attrName);
+            if (isArray(value)) {
+              String[] valueArray = value.substring(1, value.length()-1).split(",");
+              for (String itemValue : valueArray) {
+                if (isPath(itemValue)) {
+                  indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", removeStartingSlash(itemValue)));
+                } else {
+                  indent(9).append(String.format("<%s>%s</%s>", attrName, itemValue, attrName));
+                }
+                newline();
+              }
+            } else {
+              if (isPath(value)) {
+                indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", removeStartingSlash(value)));
+              } else {
+                indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
+              }
+              newline();
+            }
+          }
         }
         indent(6).append(String.format("</%s>", ot.attribute));
         newline();
         indent(3).append("</xsl:template>");
       } else if (template.isPathTemplate()) {
         PathTemplate pt = (PathTemplate)template;
-        indent(3).append(String.format("<xsl:template match=\"%s\">", removeRootSlash(pt.path)));
+        indent(3).append(String.format("<xsl:template match=\"%s\">", removeStartingSlash(pt.path)));
         newline();
         indent(6).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", pt.attribute, pt.attribute));
         newline();
@@ -100,12 +125,20 @@ class XsltLayout {
     stringBuilder.append("\n");
   }
 
-  private static String removeRootSlash(String path) {
+  private static String removeStartingSlash(String path) {
     return path.substring(1);
+  }
+
+  private static boolean isConstant(String value) {
+    return !isPath(value) && !isArray(value);
   }
 
   private static boolean isPath(String value) {
     return value.startsWith("/");
+  }
+
+  private static boolean isArray(String value) {
+    return value.startsWith("[") && value.endsWith("]");
   }
 
   abstract class XslTemplate {

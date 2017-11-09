@@ -21,9 +21,8 @@ public class XsltTranslatorHandler extends TranslatorHandler {
     }
   }
 
-  private void init(ObjectNode objectNode, XsltLayout xsltLayout) {
-    MapNode docType = objectNode.getType();
-    xsltLayout.addDocumentType(docType.getValue());
+  private void init(ObjectNode objectNode, final XsltLayout xsltLayout) {
+    translateObjectNode("instance", objectNode, xsltLayout);
     visit(objectNode, xsltLayout);
   }
 
@@ -65,8 +64,8 @@ public class XsltTranslatorHandler extends TranslatorHandler {
     Map<String, String> mapOfString = Maps.newLinkedHashMap();
     for (String attrName : objectMap.keySet()) {
       if (!attrName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
-        String value = objectMap.get(attrName).getValue();
-        mapOfString.put(attrName, value);
+        MapNode mapNode = objectMap.get(attrName);
+        mapOfString.put(attrName, mapNode.getValue());
       }
     }
     return mapOfString;
