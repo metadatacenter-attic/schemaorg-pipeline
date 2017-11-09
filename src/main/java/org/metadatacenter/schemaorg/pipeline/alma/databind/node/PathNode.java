@@ -7,10 +7,16 @@ import com.google.common.base.MoreObjects;
 
 public class PathNode extends MapNode {
 
+  private final String parent;
   private final String path;
-  
-  public PathNode(@Nonnull String path) {
+
+  public PathNode(@Nonnull String parent, @Nonnull String path) {
+    this.parent = checkNotNull(parent);
     this.path = checkNotNull(path);
+  }
+
+  public PathNode(@Nonnull String path) {
+    this("", path);
   }
 
   @Override
@@ -25,7 +31,7 @@ public class PathNode extends MapNode {
 
   @Override
   public int hashCode() {
-    return Objects.hash(path);
+    return Objects.hash(parent, path);
   }
 
   @Override
@@ -37,12 +43,13 @@ public class PathNode extends MapNode {
       return false;
     }
     PathNode other = (PathNode) obj;
-    return Objects.equals(path, other.path);
+    return Objects.equals(parent, other.parent) && Objects.equals(path, other.path);
   }
 
   @Override
   public String toString() {
     return MoreObjects.toStringHelper(this)
+        .add("parent", parent)
         .add("path", path)
         .toString();
   }
