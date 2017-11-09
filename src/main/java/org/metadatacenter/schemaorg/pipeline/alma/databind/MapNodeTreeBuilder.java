@@ -48,7 +48,8 @@ import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
   }
 
   private MapNode createObjectNode(Section subSection, String mappedData) {
-    ObjectNode parentNode = nodeFactory.objectNode(mappedData);
+    String parentPath = objectNode.getAbsolutePath();
+    ObjectNode parentNode = nodeFactory.objectNode(parentPath, mappedData);
     MapNodeTreeBuilder treeBuilder = new MapNodeTreeBuilder(parentNode);
     subSection.accept(treeBuilder);
     return treeBuilder.build();
@@ -57,8 +58,8 @@ import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
   public MapNode createPathOrConstantNode(String mappedData) {
     MapNode mapNode = null;
     if (mappedData.startsWith("/")) {
-      String objectPath = objectNode.getAbsolutePath();
-      mapNode = nodeFactory.pathNode(objectPath, mappedData);
+      String parentPath = objectNode.getAbsolutePath();
+      mapNode = nodeFactory.pathNode(parentPath, mappedData);
     } else {
       mapNode = nodeFactory.constantNode(mappedData);
     }

@@ -1,10 +1,11 @@
 package org.metadatacenter.schemaorg.pipeline.alma.databind;
 
-import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.AttributeMapper;
 import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
+import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.alma.databind.node.PathNode;
 
 public class AttributeMapperTest {
 
@@ -109,5 +110,44 @@ public class AttributeMapperTest {
     assertThat(mapNode.get("a3").getValue(), equalTo("/parent1"));
     assertThat(mapNode.get("a3").get("a4").getValue(), equalTo("/path2"));
     assertThat(mapNode.get("a3").get("a5").getValue(), equalTo("constant2"));
+  }
+
+  @Test
+  public void shouldParseMappingText_CheckPathHierarchy() {
+    final String text =
+          "a1: /path1\n"
+        + "a2: constant1\n"
+        + "a3: /parent1\n"
+        + "  a4: /path2\n"
+        + "  a5: constant2\n"
+        + "  a6: /parent2\n"
+        + "    a7: /path3\n"
+        + "    a8: /path4";
+    AttributeMapper mapper = new AttributeMapper();
+    MapNode mapNode = mapper.readText(text);
+    // Assertions
+    PathNode a1 = (PathNode) mapNode.get("a1");
+    assertThat(a1.getRelativePath(), equalTo("/path1"));
+    assertThat(a1.getAbsolutePath(), equalTo("/path1"));
+    
+    ObjectNode a3 = (ObjectNode) mapNode.get("a3");
+    assertThat(a3.getRelativePath(), equalTo("/parent1"));
+    assertThat(a3.getAbsolutePath(), equalTo("/parent1"));
+    
+    PathNode a4 = (PathNode) mapNode.get("a3").get("a4");
+    assertThat(a4.getRelativePath(), equalTo("/path2"));
+    assertThat(a4.getAbsolutePath(), equalTo("/parent1/path2"));
+    
+    ObjectNode a6 = (ObjectNode) mapNode.get("a3").get("a6");
+    assertThat(a6.getRelativePath(), equalTo("/parent2"));
+    assertThat(a6.getAbsolutePath(), equalTo("/parent1/parent2"));
+    
+    PathNode a7 = (PathNode) mapNode.get("a3").get("a6").get("a7");
+    assertThat(a7.getRelativePath(), equalTo("/path3"));
+    assertThat(a7.getAbsolutePath(), equalTo("/parent1/parent2/path3"));
+    
+    PathNode a8 = (PathNode) mapNode.get("a3").get("a6").get("a8");
+    assertThat(a8.getRelativePath(), equalTo("/path4"));
+    assertThat(a8.getAbsolutePath(), equalTo("/parent1/parent2/path4"));
   }
 }
