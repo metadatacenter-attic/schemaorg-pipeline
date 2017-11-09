@@ -19,6 +19,14 @@ public class PathNode extends MapNode {
     this("", path);
   }
 
+  public String getRelativePath() {
+    return path;
+  }
+
+  public String getAbsolutePath() {
+    return parent + path;
+  }
+
   @Override
   public boolean isPathNode() {
     return true;
@@ -26,7 +34,7 @@ public class PathNode extends MapNode {
 
   @Override
   public String getValue() {
-    return path;
+    return getRelativePath();
   }
 
   @Override
