@@ -46,5 +46,5 @@ public abstract class MapNode implements Iterable<MapNode> {
     return elements();
   }
 
-  public abstract String asText();
+  public abstract String getValue();
 }

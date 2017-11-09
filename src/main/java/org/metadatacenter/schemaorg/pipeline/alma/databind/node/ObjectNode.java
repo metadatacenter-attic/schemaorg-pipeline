@@ -73,7 +73,7 @@ public class ObjectNode extends MapNode {
   }
 
   @Override
-  public String asText() {
+  public String getValue() {
     return path;
   }
 

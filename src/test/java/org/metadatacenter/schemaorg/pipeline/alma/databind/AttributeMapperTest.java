@@ -104,10 +104,10 @@ public class AttributeMapperTest {
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
-    assertThat(mapNode.get("a1").asText(), equalTo("/path1"));
-    assertThat(mapNode.get("a2").asText(), equalTo("constant1"));
-    assertThat(mapNode.get("a3").asText(), equalTo("/parent1"));
-    assertThat(mapNode.get("a3").get("a4").asText(), equalTo("/path2"));
-    assertThat(mapNode.get("a3").get("a5").asText(), equalTo("constant2"));
+    assertThat(mapNode.get("a1").getValue(), equalTo("/path1"));
+    assertThat(mapNode.get("a2").getValue(), equalTo("constant1"));
+    assertThat(mapNode.get("a3").getValue(), equalTo("/parent1"));
+    assertThat(mapNode.get("a3").get("a4").getValue(), equalTo("/path2"));
+    assertThat(mapNode.get("a3").get("a5").getValue(), equalTo("constant2"));
   }
 }

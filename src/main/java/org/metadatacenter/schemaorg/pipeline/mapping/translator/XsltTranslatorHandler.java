@@ -23,7 +23,7 @@ public class XsltTranslatorHandler extends TranslatorHandler {
 
   private void init(ObjectNode objectNode, XsltLayout xsltLayout) {
     MapNode docType = objectNode.getType();
-    xsltLayout.addDocumentType(docType.asText());
+    xsltLayout.addDocumentType(docType.getValue());
     visit(objectNode, xsltLayout);
   }
 
@@ -51,12 +51,12 @@ public class XsltTranslatorHandler extends TranslatorHandler {
   }
 
   private void translatePathNode(String attrName, PathNode pathNode, XsltLayout xsltLayout) {
-    xsltLayout.addPathTemplate(attrName, pathNode.asText());
+    xsltLayout.addPathTemplate(attrName, pathNode.getValue());
   }
 
   private void translateObjectNode(String attrName, ObjectNode objectNode, XsltLayout xsltLayout) {
-    String objectPath = objectNode.asText();
-    String objectType = objectNode.getType().asText();
+    String objectPath = objectNode.getValue();
+    String objectType = objectNode.getType().getValue();
     Map<String, String> objectMap = toMapOfString(objectNode.getObjectMap());
     xsltLayout.addObjectTemplate(attrName, objectPath, objectType, objectMap);
   }
@@ -65,7 +65,7 @@ public class XsltTranslatorHandler extends TranslatorHandler {
     Map<String, String> mapOfString = Maps.newLinkedHashMap();
     for (String attrName : objectMap.keySet()) {
       if (!attrName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
-        String value = objectMap.get(attrName).asText();
+        String value = objectMap.get(attrName).getValue();
         mapOfString.put(attrName, value);
       }
     }

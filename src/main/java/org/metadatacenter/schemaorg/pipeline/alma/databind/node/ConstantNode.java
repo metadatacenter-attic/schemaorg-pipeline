@@ -19,7 +19,7 @@ public class ConstantNode extends MapNode {
   }
 
   @Override
-  public String asText() {
+  public String getValue() {
     return value;
   }
 

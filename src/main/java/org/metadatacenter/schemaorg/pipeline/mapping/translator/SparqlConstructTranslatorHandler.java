@@ -58,7 +58,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
       MapNode node = mapNode.get(attrName);
       String objectVar = mergeNames(subjectVar, attrName);
       if (node.isObjectNode()) {
-        String dataPath = node.asText();
+        String dataPath = node.getValue();
         constructTripleTemplate(
             subject(subjectVar),
             predicate(attrName),
@@ -71,7 +71,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             layout);
         visit(node, objectVar, layout, counter);
       } else if (node.isPathNode()) {
-        String dataPath = node.asText();
+        String dataPath = node.getValue();
         constructTripleTemplate(
             subject(subjectVar),
             predicate(attrName),
@@ -83,7 +83,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             patternGroup(subjectVar, counter),
             layout);
       } else if (node.isConstantNode()) {
-        String constantValue = node.asText();
+        String constantValue = node.getValue();
         constructTripleTemplate(
             subject(subjectVar),
             predicate(attrName),
@@ -95,7 +95,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
           MapNode item = arrIter.next();
           objectVar = mergeNames(subjectVar, attrName + arrIndex);
           if (item.isObjectNode()) {
-            String dataPath = item.asText();
+            String dataPath = item.getValue();
             constructTripleTemplate(
                 subject(subjectVar),
                 predicate(attrName),
@@ -108,7 +108,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
                 layout);
             visit(item, objectVar, layout, counter);
           } else if (item.isPathNode()) {
-            String dataPath = item.asText();
+            String dataPath = item.getValue();
             constructTriplePattern(
                 subject(subjectVar),
                 predicateObject(dataPath,
@@ -121,7 +121,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
                 object(objectVar),
                 layout);
           } else if (item.isConstantNode()) {
-            String constantValue = item.asText();
+            String constantValue = item.getValue();
             constructTripleTemplate(
                 subject(subjectVar),
                 predicate(attrName),
