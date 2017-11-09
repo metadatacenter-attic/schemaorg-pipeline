@@ -37,7 +37,19 @@ public class ArrayNode extends MapNode {
 
   @Override
   public String getValue() {
-    return nodes.toString();
+    StringBuilder valueBuilder = new StringBuilder();
+    valueBuilder.append("[");
+    boolean needComma = false;
+    for (MapNode mapNode : nodes) {
+      if (needComma) {
+        valueBuilder.append(",");
+      }
+      needComma = true;
+      String value = mapNode.getValue();
+      valueBuilder.append(value);
+    }
+    valueBuilder.append("]");
+    return valueBuilder.toString();
   }
 
   @Override
