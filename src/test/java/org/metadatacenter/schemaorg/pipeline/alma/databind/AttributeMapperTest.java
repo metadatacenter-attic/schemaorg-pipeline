@@ -94,20 +94,20 @@ public class AttributeMapperTest {
   }
 
   @Test
-  public void shouldParseMappingText() {
+  public void shouldParseMappingText_Case1() {
     final String text =
           "a1: /path1\n"
         + "a2: constant1\n"
-        + "a3: /path2\n"
-        + "  a4: /path3\n"
+        + "a3: /parent1\n"
+        + "  a4: /path2\n"
         + "  a5: constant2";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
     assertThat(mapNode.get("a1").asText(), equalTo("/path1"));
     assertThat(mapNode.get("a2").asText(), equalTo("constant1"));
-    assertThat(mapNode.get("a3").asText(), equalTo("/path2"));
-    assertThat(mapNode.get("a3").get("a4").asText(), equalTo("/path3"));
+    assertThat(mapNode.get("a3").asText(), equalTo("/parent1"));
+    assertThat(mapNode.get("a3").get("a4").asText(), equalTo("/path2"));
     assertThat(mapNode.get("a3").get("a5").asText(), equalTo("constant2"));
   }
 }
