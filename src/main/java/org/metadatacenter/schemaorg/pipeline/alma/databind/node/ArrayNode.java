@@ -17,21 +17,10 @@ public class ArrayNode extends MapNode {
     this.factory = checkNotNull(factory);
   }
 
-  public final PathNode pathNode(String v) {
-    return factory.pathNode(v);
+  public MapNodeFactory getNodeFactory() {
+    return factory;
   }
 
-  public final ConstantNode constantNode(String v) {
-    return factory.constantNode(v);
-  }
-
-  public final ObjectNode objectNode(String v) {
-    return factory.objectNode(v);
-  }
-
-  public final ArrayNode arrayNode() {
-    return factory.arrayNode();
-  }
 
   public void add(MapNode mapNode) {
     nodes.add(mapNode);

@@ -26,20 +26,8 @@ public class ObjectNode extends MapNode {
     return children.keySet().iterator();
   }
 
-  public final PathNode pathNode(String v) {
-    return factory.pathNode(v);
-  }
-
-  public final ConstantNode constantNode(String v) {
-    return factory.constantNode(v);
-  }
-
-  public final ObjectNode objectNode(String v) {
-    return factory.objectNode(v);
-  }
-
-  public final ArrayNode arrayNode() {
-    return factory.arrayNode();
+  public MapNodeFactory getNodeFactory() {
+    return factory;
   }
 
   public void put(String attrName, MapNode mapNode) {
