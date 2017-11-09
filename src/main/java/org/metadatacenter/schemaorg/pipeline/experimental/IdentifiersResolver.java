@@ -29,11 +29,17 @@ public class IdentifiersResolver implements IdResolver {
 
   private static Logger logger = LoggerFactory.getLogger(IdentifiersResolver.class);
 
+  private static final String IDENTIFIERS_REGISTRY_RESOURCE = "registry.xml";
+  private static final String IDENTIFIERS_STYLESHEET_RESOURCE = "dictionary.xslt";
+
+  private static final String DICTIONARY_TAG = "dictionary";
+  private static final String NAMESPACE_ENTRY_PREFIX = "ns.";
+
   private JSONObject dictionary;
 
   public IdentifiersResolver() {
-    String xmlContent = readResource("registry.xml");
-    String xsltContent = readResource("dictionary.xslt");
+    String xmlContent = readResource(IDENTIFIERS_REGISTRY_RESOURCE);
+    String xsltContent = readResource(IDENTIFIERS_STYLESHEET_RESOURCE);
     String dictionaryXml = transformXml(xmlContent, xsltContent);
     this.dictionary = convertToJson(dictionaryXml);
     logger.debug("Successfully creating a dictionary from identifiers.org registry\n" + dictionary.toString(2));
@@ -43,7 +49,7 @@ public class IdentifiersResolver implements IdResolver {
   public Optional<String> resolve(@Nonnull String id, @Nonnull String namespace) {
     String completeId = null;
     if (!Strings.isNullOrEmpty(namespace)) {
-      String namespaceKey = "ns." + namespace;
+      String namespaceKey = NAMESPACE_ENTRY_PREFIX + namespace;
       JSONArray namespaceDetails = dictionary.getJSONArray(namespaceKey);
       String pattern = namespaceDetails.getString(1); // index = 1 is the id pattern
       String normalizedId = removeNamespacePrefix(id, namespace);
@@ -70,7 +76,7 @@ public class IdentifiersResolver implements IdResolver {
       while ((length = in.read(buffer)) != -1) {
         result.write(buffer, 0, length);
       }
-      return result.toString("UTF-8");
+      return result.toString(Charsets.UTF_8.displayName());
     } catch (IOException e) {
       throw new RuntimeException(e);
     }
@@ -96,6 +102,6 @@ public class IdentifiersResolver implements IdResolver {
   }
 
   private static JSONObject convertToJson(String dictionaryXml) {
-    return XML.toJSONObject(dictionaryXml).getJSONObject("dictionary");
+    return XML.toJSONObject(dictionaryXml).getJSONObject(DICTIONARY_TAG);
   }
 }
