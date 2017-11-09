@@ -13,13 +13,19 @@ public class ObjectNode extends MapNode {
   public static final String OBJECT_ID_KEYWORD = "@id";
   public static final String OBJECT_TYPE_KEYWORD = "@type";
 
+  private final String parent;
   private final String path;
   private final Map<String, MapNode> children = Maps.newLinkedHashMap();
   private final MapNodeFactory factory;
 
-  public ObjectNode(@Nonnull String path, @Nonnull MapNodeFactory factory) {
+  public ObjectNode(@Nonnull String parent, @Nonnull String path, @Nonnull MapNodeFactory factory) {
+    this.parent = checkNotNull(parent);
     this.path = checkNotNull(path);
     this.factory = checkNotNull(factory);
+  }
+
+  public ObjectNode(@Nonnull String path, @Nonnull MapNodeFactory factory) {
+    this("", path, factory);
   }
 
   public Iterator<String> attributeNames() {
@@ -60,9 +66,17 @@ public class ObjectNode extends MapNode {
     return true;
   }
 
+  public String getRelativePath() {
+    return path;
+  }
+
+  public String getAbsolutePath() {
+    return parent + path;
+  }
+
   @Override
   public String getValue() {
-    return path;
+    return getRelativePath();
   }
 
   @Override
@@ -72,7 +86,7 @@ public class ObjectNode extends MapNode {
 
   @Override
   public int hashCode() {
-    return Objects.hash(path, children);
+    return Objects.hash(parent, path, children);
   }
 
   @Override
@@ -84,12 +98,15 @@ public class ObjectNode extends MapNode {
       return false;
     }
     ObjectNode other = (ObjectNode) obj;
-    return Objects.equals(path, other.path) && Objects.equals(children, other.children);
+    return Objects.equals(parent, other.parent)
+        && Objects.equals(path, other.path)
+        && Objects.equals(children, other.children);
   }
 
   @Override
   public String toString() {
     return MoreObjects.toStringHelper(this)
+        .add("parent", parent)
         .add("path", path)
         .add("children", children)
         .toString();

@@ -14,6 +14,10 @@ public class MapNodeFactory {
     return new ConstantNode(value);
   }
 
+  public ObjectNode objectNode(String parent, String path) {
+    return new ObjectNode(parent, path, this);
+  }
+
   public ObjectNode objectNode(String path) {
     return new ObjectNode(path, this);
   }
