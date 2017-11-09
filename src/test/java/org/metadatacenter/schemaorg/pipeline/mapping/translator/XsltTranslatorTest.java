@@ -11,6 +11,7 @@ public class XsltTranslatorTest {
   public void shouldConvertToXsltTemplates() {
     final String mapping =
         "@type:                       MedicalTrial\n" + 
+        "additionalType:              clinicaltrials\n" +
         "name:                        /clinical_study/official_title\n" + 
         "alternateName:               /clinical_study/brief_title\n" + 
         "alternateName:               /clinical_study/acronym\n" +
@@ -49,10 +50,12 @@ public class XsltTranslatorTest {
         "    additionalType:          Country Location\n" +
         "subjectOf:                   /clinical_study/references\n" +
         "    @type:                   CreativeWork\n" +
+        "    additionalType:          pubmed\n" +
         "    identifier:              /PMID\n" +
         "    alternateName:           /citation\n" +
         "subjectOf:                   /clinical_study/results_reference\n" +
         "    @type:                   CreativeWork\n" +
+        "    additionalType:          pubmed\n" +
         "    identifier:              /PMID\n" +
         "    alternateName:           /citation\n" +
         "subjectOf:                   /clinical_study/link\n" +
@@ -69,6 +72,7 @@ public class XsltTranslatorTest {
         "   <xsl:template match=\"/*\">\n" + 
         "      <instance _context=\"http://schema.org\" _type=\"MedicalTrial\">\n" + 
         "         <xsl:apply-templates />\n" + 
+        "         <additionalType>clinicaltrials</additionalType>\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"clinical_study/official_title\">\n" + 
@@ -172,6 +176,7 @@ public class XsltTranslatorTest {
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"clinical_study/references\">\n" + 
         "      <subjectOf _type=\"CreativeWork\">\n" + 
+        "         <additionalType>pubmed</additionalType>\n" + 
         "         <xsl:apply-templates select=\"PMID\"/>\n" + 
         "         <xsl:apply-templates select=\"citation\"/>\n" + 
         "      </subjectOf>\n" + 
@@ -184,6 +189,7 @@ public class XsltTranslatorTest {
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"clinical_study/results_reference\">\n" + 
         "      <subjectOf _type=\"CreativeWork\">\n" + 
+        "         <additionalType>pubmed</additionalType>\n" + 
         "         <xsl:apply-templates select=\"PMID\"/>\n" + 
         "         <xsl:apply-templates select=\"citation\"/>\n" + 
         "      </subjectOf>\n" + 

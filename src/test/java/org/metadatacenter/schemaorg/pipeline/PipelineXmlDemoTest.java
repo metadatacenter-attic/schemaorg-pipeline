@@ -9,6 +9,11 @@ import java.io.InputStream;
 import java.util.UUID;
 import org.junit.Test;
 import org.metadatacenter.schemaorg.pipeline.api.Pipeline;
+import org.metadatacenter.schemaorg.pipeline.experimental.DBpediaLookup;
+import org.metadatacenter.schemaorg.pipeline.experimental.IdResolver;
+import org.metadatacenter.schemaorg.pipeline.experimental.IdentifiersResolver;
+import org.metadatacenter.schemaorg.pipeline.experimental.NameLookup;
+import org.metadatacenter.schemaorg.pipeline.experimental.SchemaEnrichment;
 import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeTranslator;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import org.metadatacenter.schemaorg.pipeline.mapping.translator.XsltTranslatorHandler;
@@ -21,6 +26,7 @@ public class PipelineXmlDemoTest {
 
   private static final String CLINICAL_TRIALS_MAPPING =
       "@type:                       MedicalTrial\n" + 
+      "additionalType:              clinicaltrials\n" +
       "name:                        /clinical_study/official_title\n" + 
       "alternateName:               /clinical_study/brief_title\n" + 
       "alternateName:               /clinical_study/acronym\n" +
@@ -59,10 +65,12 @@ public class PipelineXmlDemoTest {
       "    additionalType:          Country Location\n" +
       "subjectOf:                   /clinical_study/references\n" +
       "    @type:                   CreativeWork\n" +
+      "    additionalType:          pubmed\n" +
       "    identifier:              /PMID\n" +
       "    alternateName:           /citation\n" +
       "subjectOf:                   /clinical_study/results_reference\n" +
       "    @type:                   CreativeWork\n" +
+      "    additionalType:          pubmed\n" +
       "    identifier:              /PMID\n" +
       "    alternateName:           /citation\n" +
       "subjectOf:                   /clinical_study/link\n" +
@@ -77,11 +85,16 @@ public class PipelineXmlDemoTest {
 
     XsltTransformer transformer = XsltTransformer.newTransformer(stylesheet);
 
+    NameLookup dbpediaLookup = new DBpediaLookup();
+    IdResolver identifiersResolver = new IdentifiersResolver();
+
     String xmlDocument = "document.xml";
     String output = Pipeline.create()
         .pipe(this::readDocument)
         .pipe(transformer::transform)
         .pipe(XmlToSchema::transform)
+        .pipe(s -> SchemaEnrichment.fillOutIdFromObjectIdentifier(s, identifiersResolver))
+        .pipe(s -> SchemaEnrichment.fillOutIdFromObjectName(s, dbpediaLookup))
         .pipe(SchemaToHtml::transform)
         .run(xmlDocument);
 
