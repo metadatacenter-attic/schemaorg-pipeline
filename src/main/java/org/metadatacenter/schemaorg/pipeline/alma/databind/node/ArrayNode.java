@@ -21,13 +21,16 @@ public class ArrayNode extends MapNode {
     return factory;
   }
 
-
   public void add(MapNode mapNode) {
     nodes.add(mapNode);
   }
 
   public MapNode get(int index) {
     return nodes.get(index);
+  }
+
+  public int size() {
+    return nodes.size();
   }
 
   @Override
