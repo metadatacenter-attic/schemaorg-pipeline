@@ -94,7 +94,7 @@ public class AttributeMapperTest {
   }
 
   @Test
-  public void shouldParseMappingText_Case1() {
+  public void shouldParseMappingText_CheckValue() {
     final String text =
           "a1: /path1\n"
         + "a2: constant1\n"
