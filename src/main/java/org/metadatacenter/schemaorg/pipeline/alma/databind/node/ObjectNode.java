@@ -53,12 +53,12 @@ public class ObjectNode extends MapNode {
     return objectMap;
   }
 
-  public MapNode getId() {
-    return children.getOrDefault(OBJECT_ID_KEYWORD, new NullNode());
+  public String getId() {
+    return children.getOrDefault(OBJECT_ID_KEYWORD, new NullNode()).getValue();
   }
 
-  public MapNode getType() {
-    return children.getOrDefault(OBJECT_TYPE_KEYWORD, new NullNode());
+  public String getType() {
+    return children.getOrDefault(OBJECT_TYPE_KEYWORD, new NullNode()).getValue();
   }
 
   @Override

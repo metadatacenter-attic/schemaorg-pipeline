@@ -55,7 +55,7 @@ public class XsltTranslatorHandler extends TranslatorHandler {
 
   private void translateObjectNode(String attrName, ObjectNode objectNode, XsltLayout xsltLayout) {
     String objectPath = objectNode.getAbsolutePath();
-    String objectType = objectNode.getType().getValue();
+    String objectType = objectNode.getType();
     Map<String, String> objectMap = toMapOfString(objectNode.getObjectMap());
     xsltLayout.addObjectTemplate(attrName, objectPath, objectType, objectMap);
   }
