@@ -16,17 +16,8 @@ public class IdentifiersResolverTest {
   }
 
   @Test
-  public void shouldResolveDrugBankId_Variant1() {
+  public void shouldResolveDrugBankId() {
     String id = "DB00088";
-    Optional<String> resolvedId = resolver.resolve(id, "drugbank");
-    // Asserts
-    assertThat(resolvedId.isPresent(), equalTo(true));
-    assertThat(resolvedId.get(), equalTo("http://identifiers.org/drugbank/DB00088"));
-  }
-
-  @Test
-  public void shouldResolveDrugBankId_Variant2() {
-    String id = "drugbank:DB00088";
     Optional<String> resolvedId = resolver.resolve(id, "drugbank");
     // Asserts
     assertThat(resolvedId.isPresent(), equalTo(true));

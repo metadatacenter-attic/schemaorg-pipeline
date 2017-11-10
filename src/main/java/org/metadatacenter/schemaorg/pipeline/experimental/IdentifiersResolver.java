@@ -52,19 +52,13 @@ public class IdentifiersResolver implements IdResolver {
       String namespaceKey = NAMESPACE_ENTRY_PREFIX + namespace;
       JSONArray namespaceDetails = dictionary.getJSONArray(namespaceKey);
       String pattern = namespaceDetails.getString(1); // index = 1 is the id pattern
-      String normalizedId = removeNamespacePrefix(id, namespace);
-      Matcher m = Pattern.compile(pattern).matcher(normalizedId);
+      Matcher m = Pattern.compile(pattern).matcher(id);
       if (m.matches()) {
         String urischeme = namespaceDetails.getString(2); // index = 2 is the URI scheme
-        completeId = urischeme + normalizedId;
+        completeId = urischeme + id;
       }
     }
     return Optional.ofNullable(completeId);
-  }
-
-  private static String removeNamespacePrefix(String codedId, String namespace) {
-    String namespacePrefix = namespace + ":";
-    return codedId.replace(namespacePrefix, "");
   }
 
   private static String readResource(String resource) {
