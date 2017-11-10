@@ -91,18 +91,18 @@ public class SchemaEnrichment {
 
   private static void fillOutId(JSONObject jsonObject, IdResolver resolver) {
     if (!hasId(jsonObject) && hasSchemaIdentifier(jsonObject) && hasSchemaAdditionalType(jsonObject)) {
-      Object obj = getSchemaIdentifier(jsonObject);
+      Object identifier = getSchemaIdentifier(jsonObject);
       List<String> candidateNamespaces = getSchemaAdditionalType(jsonObject);
-      if (obj instanceof String) {
-        String shortId = (String) obj;
+      if (identifier instanceof String || identifier instanceof Integer) {
+        String shortId = identifier.toString();
         String id = resolveShortId(shortId, candidateNamespaces, resolver);
         if (id != null) {
           jsonObject.put(JSONLD_ID, id);
         }
-      } else if (obj instanceof JSONArray) {
-        for (Object candidateIdentifier : (JSONArray) obj) {
-          if (candidateIdentifier instanceof String) {
-            String shortId = (String) candidateIdentifier;
+      } else if (identifier instanceof JSONArray) {
+        for (Object candidateIdentifier : (JSONArray) identifier) {
+          if (candidateIdentifier instanceof String || candidateIdentifier instanceof Integer) {
+            String shortId = candidateIdentifier.toString();
             String id = resolveShortId(shortId, candidateNamespaces, resolver);
             if (id != null) {
               jsonObject.put(JSONLD_ID, id);
