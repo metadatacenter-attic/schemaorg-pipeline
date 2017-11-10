@@ -123,7 +123,6 @@ public class PipelineXmlDemoTest {
           result.write(buffer, 0, length);
       }
       String output = result.toString(Charsets.UTF_8.name());
-      System.out.println(output);
       return output;
     } catch (IOException e) {
       e.printStackTrace();
