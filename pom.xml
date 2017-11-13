@@ -3,10 +3,10 @@
   
   <groupId>org.metadatacenter</groupId>
   <artifactId>schemaorg-pipeline</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0-SNAPSHOT</version>
   
-  <name>Schema.org Data Transformation Pipeline</name>
-  <description>To transform data from different specifications to a schema.org compliant document</description>
+  <name>Schema.org Data Publication Pipeline</name>
+  <description>To transform and publish data from different formats to a schema.org compliant document</description>
   
   <developers>
     <developer>
@@ -89,9 +89,7 @@
         <directory>src/main/resources</directory>
         <targetPath>${project.build.directory}</targetPath>
         <includes>
-          <include>registry.xml</include>
-          <include>dictionary.xslt</include>
-          <include>log4j.properties</include>
+          <include>**/*</include>
         </includes>
       </resource>
     </resources>
