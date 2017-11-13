@@ -18,13 +18,13 @@ public class SchemaEnrichment {
   private static final String SCHEMA_ADDITIONAL_TYPE = "schema:additionalType";
   private static final String SCHEMA_ADDITIONAL_TYPE_SHORT = "additionalType";
 
-  public static String fillOutIdFromObjectName(String jsonString, NameLookup lookup) {
+  public static String fillOutIdFromObjectName(String jsonString, TermLookup lookup) {
     final JSONObject jsonObject = new JSONObject(jsonString);
     doFillOut(jsonObject, lookup);
     return jsonObject.toString();
   }
 
-  private static void doFillOut(JSONObject jsonObject, NameLookup lookup) {
+  private static void doFillOut(JSONObject jsonObject, TermLookup lookup) {
     fillOutId(jsonObject, lookup);
     for (String key : jsonObject.keySet()) {
       Object obj = jsonObject.get(key);
@@ -41,7 +41,7 @@ public class SchemaEnrichment {
     }
   }
 
-  private static void fillOutId(JSONObject jsonObject, NameLookup lookup) {
+  private static void fillOutId(JSONObject jsonObject, TermLookup lookup) {
     if (!hasId(jsonObject) && hasSchemaName(jsonObject)) {
       Object obj = getSchemaName(jsonObject);
       if (obj instanceof String) {

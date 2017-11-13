@@ -9,7 +9,7 @@ public class DBpediaLookupTest {
 
   @Test
   public void canFindIdentifiers() {
-    NameLookup dbpediaLookup = new DBpediaLookup();
+    TermLookup dbpediaLookup = new DBpediaLookup();
     Optional<String> result1 = dbpediaLookup.find("Stanford University");
     Optional<String> result2 = dbpediaLookup.find("Stanford University Medical Center");
     Optional<String> result3 = dbpediaLookup.find("California");

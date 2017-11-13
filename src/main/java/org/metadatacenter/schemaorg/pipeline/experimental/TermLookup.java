@@ -3,7 +3,7 @@ package org.metadatacenter.schemaorg.pipeline.experimental;
 import java.util.Optional;
 import java.util.Properties;
 
-public interface NameLookup {
+public interface TermLookup {
 
   Optional<String> find(String name);
 

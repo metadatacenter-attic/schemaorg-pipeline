@@ -12,8 +12,8 @@ import org.metadatacenter.schemaorg.pipeline.api.Pipeline;
 import org.metadatacenter.schemaorg.pipeline.experimental.DBpediaLookup;
 import org.metadatacenter.schemaorg.pipeline.experimental.IdResolver;
 import org.metadatacenter.schemaorg.pipeline.experimental.IdentifiersResolver;
-import org.metadatacenter.schemaorg.pipeline.experimental.NameLookup;
 import org.metadatacenter.schemaorg.pipeline.experimental.SchemaEnrichment;
+import org.metadatacenter.schemaorg.pipeline.experimental.TermLookup;
 import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeTranslator;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import org.metadatacenter.schemaorg.pipeline.mapping.translator.XsltTranslatorHandler;
@@ -85,7 +85,7 @@ public class PipelineXmlDemoTest {
 
     XsltTransformer transformer = XsltTransformer.newTransformer(stylesheet);
 
-    NameLookup dbpediaLookup = new DBpediaLookup();
+    TermLookup dbpediaLookup = new DBpediaLookup();
     IdResolver identifiersResolver = new IdentifiersResolver();
 
     String xmlDocument = "document.xml";

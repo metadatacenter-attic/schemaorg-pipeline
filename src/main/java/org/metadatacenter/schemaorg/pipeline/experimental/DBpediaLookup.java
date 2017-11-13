@@ -12,7 +12,7 @@ import java.util.Properties;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-public class DBpediaLookup implements NameLookup {
+public class DBpediaLookup implements TermLookup {
 
   private static final String SERVICE_ENDPOINT = "http://lookup.dbpedia.org/api/search/KeywordSearch?QueryString=";
 
