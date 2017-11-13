@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.alma.databind;
+package org.metadatacenter.schemaorg.pipeline.caml.databind;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.alma.databind.node;
+package org.metadatacenter.schemaorg.pipeline.caml.databind.node;
 
 import java.util.Collections;
 import java.util.Iterator;

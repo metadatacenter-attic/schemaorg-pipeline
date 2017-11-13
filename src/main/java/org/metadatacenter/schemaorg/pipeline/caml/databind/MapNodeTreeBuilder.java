@@ -1,9 +1,9 @@
-package org.metadatacenter.schemaorg.pipeline.alma.databind;
+package org.metadatacenter.schemaorg.pipeline.caml.databind;
 
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ArrayNode;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNodeFactory;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ArrayNode;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.MapNode;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.MapNodeFactory;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
 
 /*package*/ class MapNodeTreeBuilder implements SectionVisitor {
 

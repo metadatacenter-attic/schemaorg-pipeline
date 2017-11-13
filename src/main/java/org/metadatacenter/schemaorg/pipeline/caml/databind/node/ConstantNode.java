@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.alma.databind.node;
+package org.metadatacenter.schemaorg.pipeline.caml.databind.node;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.Objects;

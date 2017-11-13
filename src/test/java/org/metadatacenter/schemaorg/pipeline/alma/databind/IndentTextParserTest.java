@@ -4,8 +4,8 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import java.util.List;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.IndentTextParser;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.Section;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.IndentTextParser;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.Section;
 
 public class IndentTextParserTest {
 

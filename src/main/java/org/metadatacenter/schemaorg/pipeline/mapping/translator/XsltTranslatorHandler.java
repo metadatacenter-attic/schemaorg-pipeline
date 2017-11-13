@@ -4,9 +4,9 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.Map;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.MapNode;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.alma.databind.node.PathNode;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.MapNode;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.PathNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import com.google.common.collect.Maps;
 
