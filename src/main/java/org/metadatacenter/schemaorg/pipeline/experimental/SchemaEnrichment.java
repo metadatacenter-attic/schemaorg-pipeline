@@ -13,6 +13,8 @@ public class SchemaEnrichment {
 
   private static final String SCHEMA_NAME = "schema:name";
   private static final String SCHEMA_NAME_SHORT = "name";
+  private static final String SCHEMA_CODE_VALUE = "schema:codeValue";
+  private static final String SCHEMA_CODE_VALUE_SHORT = "codeValue";
   private static final String SCHEMA_IDENTIFIER = "schema:identifier";
   private static final String SCHEMA_IDENTIFIER_SHORT = "identifier";
   private static final String SCHEMA_ADDITIONAL_TYPE = "schema:additionalType";
@@ -20,30 +22,78 @@ public class SchemaEnrichment {
 
   public static String fillOutIdFromObjectName(String jsonString, TermLookup lookup) {
     final JSONObject jsonObject = new JSONObject(jsonString);
-    doFillOut(jsonObject, lookup);
+    scanObjectName(jsonObject, lookup);
     return jsonObject.toString();
   }
 
-  private static void doFillOut(JSONObject jsonObject, TermLookup lookup) {
-    fillOutId(jsonObject, lookup);
+  private static void scanObjectName(JSONObject jsonObject, TermLookup lookup) {
+    doFillOutIdFromObjectName(jsonObject, lookup);
     for (String key : jsonObject.keySet()) {
       Object obj = jsonObject.get(key);
       if (obj instanceof JSONObject) {
-        doFillOut((JSONObject) obj, lookup);
+        scanObjectName((JSONObject) obj, lookup);
       } else if (obj instanceof JSONArray) {
         JSONArray jsonArray = (JSONArray) obj;
         for (Object arrayItem : jsonArray) {
           if (arrayItem instanceof JSONObject) {
-            doFillOut((JSONObject) arrayItem, lookup);
+            scanObjectName((JSONObject) arrayItem, lookup);
           }
         }
       }
     }
   }
 
-  private static void fillOutId(JSONObject jsonObject, TermLookup lookup) {
-    if (!hasId(jsonObject) && hasSchemaName(jsonObject)) {
-      Object obj = getSchemaName(jsonObject);
+  private static void doFillOutIdFromObjectName(JSONObject jsonObject, TermLookup lookup) {
+    if (!hasId(jsonObject) && hasName(jsonObject)) {
+      Object obj = getName(jsonObject);
+      if (obj instanceof String) {
+        String name = (String) obj;
+        Optional<String> id = lookup.find(name);
+        if (id.isPresent()) {
+          jsonObject.put(JSONLD_ID, id.get());
+        }
+      } else if (obj instanceof JSONArray) {
+        JSONArray nameArray = (JSONArray) obj;
+        for (Object nameObject : nameArray) {
+          if (nameObject instanceof String) {
+            String name = (String) nameObject;
+            Optional<String> id = lookup.find(name);
+            if (id.isPresent()) {
+              jsonObject.put(JSONLD_ID, id.get());
+              break;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  public static String fillOutIdFromObjectCodeValue(String jsonString, TermLookup lookup) {
+    final JSONObject jsonObject = new JSONObject(jsonString);
+    scanObjectCodeValue(jsonObject, lookup);
+    return jsonObject.toString();
+  }
+
+  private static void scanObjectCodeValue(JSONObject jsonObject, TermLookup lookup) {
+    doFillOutIdFromObjectCodeValue(jsonObject, lookup);
+    for (String key : jsonObject.keySet()) {
+      Object obj = jsonObject.get(key);
+      if (obj instanceof JSONObject) {
+        scanObjectCodeValue((JSONObject) obj, lookup);
+      } else if (obj instanceof JSONArray) {
+        JSONArray jsonArray = (JSONArray) obj;
+        for (Object arrayItem : jsonArray) {
+          if (arrayItem instanceof JSONObject) {
+            scanObjectCodeValue((JSONObject) arrayItem, lookup);
+          }
+        }
+      }
+    }
+  }
+
+  private static void doFillOutIdFromObjectCodeValue(JSONObject jsonObject, TermLookup lookup) {
+    if (!hasId(jsonObject) && hasCodeValue(jsonObject)) {
+      Object obj = getCodeValue(jsonObject);
       if (obj instanceof String) {
         String name = (String) obj;
         Optional<String> id = lookup.find(name);
@@ -129,8 +179,12 @@ public class SchemaEnrichment {
     return jsonObject.has(JSONLD_ID);
   }
 
-  private static boolean hasSchemaName(JSONObject jsonObject) {
+  private static boolean hasName(JSONObject jsonObject) {
     return jsonObject.has(SCHEMA_NAME) || jsonObject.has(SCHEMA_NAME_SHORT);
+  }
+
+  private static boolean hasCodeValue(JSONObject jsonObject) {
+    return jsonObject.has(SCHEMA_CODE_VALUE) || jsonObject.has(SCHEMA_CODE_VALUE_SHORT);
   }
 
   private static boolean hasSchemaIdentifier(JSONObject jsonObject) {
@@ -142,12 +196,23 @@ public class SchemaEnrichment {
   }
 
   @Nullable
-  private static Object getSchemaName(JSONObject jsonObject) {
+  private static Object getName(JSONObject jsonObject) {
     Object obj = null;
     if (jsonObject.has(SCHEMA_NAME)) {
       obj = jsonObject.get(SCHEMA_NAME);
     } else if (jsonObject.has(SCHEMA_NAME_SHORT)) {
       obj = jsonObject.get(SCHEMA_NAME_SHORT);
+    }
+    return obj;
+  }
+
+  @Nullable
+  private static Object getCodeValue(JSONObject jsonObject) {
+    Object obj = null;
+    if (jsonObject.has(SCHEMA_CODE_VALUE)) {
+      obj = jsonObject.get(SCHEMA_CODE_VALUE);
+    } else if (jsonObject.has(SCHEMA_CODE_VALUE_SHORT)) {
+      obj = jsonObject.get(SCHEMA_CODE_VALUE_SHORT);
     }
     return obj;
   }
