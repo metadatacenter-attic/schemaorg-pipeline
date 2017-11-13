@@ -8,11 +8,11 @@ import org.junit.Test;
 
 public class IdentifiersResolverTest {
 
-  private static IdentifiersResolver resolver;
+  private static IdentifiersExpander resolver;
 
   @BeforeClass
   public static void setUp() {
-    resolver = new IdentifiersResolver();
+    resolver = new IdentifiersExpander();
   }
 
   @Test

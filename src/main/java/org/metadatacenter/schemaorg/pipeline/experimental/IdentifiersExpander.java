@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
 import java.util.Optional;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.annotation.Nonnull;
@@ -25,9 +26,9 @@ import org.w3c.dom.Document;
 import com.google.common.base.Charsets;
 import com.google.common.base.Strings;
 
-public class IdentifiersResolver implements IdExpander {
+public class IdentifiersExpander implements IdExpander {
 
-  private static Logger logger = LoggerFactory.getLogger(IdentifiersResolver.class);
+  private static Logger logger = LoggerFactory.getLogger(IdentifiersExpander.class);
 
   private static final String IDENTIFIERS_REGISTRY_RESOURCE = "registry.xml";
   private static final String IDENTIFIERS_STYLESHEET_RESOURCE = "dictionary.xslt";
@@ -37,7 +38,7 @@ public class IdentifiersResolver implements IdExpander {
 
   private JSONObject dictionary;
 
-  public IdentifiersResolver() {
+  public IdentifiersExpander() {
     String xmlContent = readResource(IDENTIFIERS_REGISTRY_RESOURCE);
     String xsltContent = readResource(IDENTIFIERS_STYLESHEET_RESOURCE);
     String dictionaryXml = transformXml(xmlContent, xsltContent);
@@ -47,6 +48,12 @@ public class IdentifiersResolver implements IdExpander {
 
   @Override
   public Optional<String> expand(@Nonnull String id, @Nonnull String namespace) {
+    return expand(id, namespace, new Properties());
+  }
+
+  @Override
+  public Optional<String> expand(@Nonnull String id, @Nonnull String namespace,
+      @Nonnull Properties additionalParemeters) {
     String completeId = null;
     if (!Strings.isNullOrEmpty(namespace)) {
       String namespaceKey = NAMESPACE_ENTRY_PREFIX + namespace;
@@ -62,7 +69,7 @@ public class IdentifiersResolver implements IdExpander {
   }
 
   private static String readResource(String resource) {
-    InputStream in = IdentifiersResolver.class.getClassLoader().getResourceAsStream(resource);
+    InputStream in = IdentifiersExpander.class.getClassLoader().getResourceAsStream(resource);
     try {
       ByteArrayOutputStream result = new ByteArrayOutputStream();
       byte[] buffer = new byte[1024];
