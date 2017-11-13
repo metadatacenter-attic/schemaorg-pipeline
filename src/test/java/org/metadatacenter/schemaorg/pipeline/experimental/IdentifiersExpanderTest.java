@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class IdentifiersResolverTest {
+public class IdentifiersExpanderTest {
 
   private static IdentifiersExpander resolver;
 
