@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
 import java.util.Optional;
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.annotation.Nonnull;
@@ -48,12 +47,6 @@ public class IdentifiersExpander implements IdExpander {
 
   @Override
   public Optional<String> expand(@Nonnull String id, @Nonnull String namespace) {
-    return expand(id, namespace, new Properties());
-  }
-
-  @Override
-  public Optional<String> expand(@Nonnull String id, @Nonnull String namespace,
-      @Nonnull Properties additionalParemeters) {
     String completeId = null;
     if (!Strings.isNullOrEmpty(namespace)) {
       String namespaceKey = NAMESPACE_ENTRY_PREFIX + namespace;
