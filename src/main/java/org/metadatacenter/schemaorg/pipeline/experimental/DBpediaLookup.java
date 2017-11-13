@@ -8,6 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Optional;
+import java.util.Properties;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -17,6 +18,11 @@ public class DBpediaLookup implements NameLookup {
 
   @Override
   public Optional<String> find(String name) {
+    return find(name, new Properties());
+  }
+
+  @Override
+  public Optional<String> find(String name, Properties additionalParameters) {
     HttpURLConnection conn = null;
     try {
       String get = SERVICE_ENDPOINT + URLEncoder.encode(name, "UTF-8");
