@@ -66,13 +66,13 @@ public class SchemaEnrichment {
     }
   }
 
-  public static String fillOutIdFromObjectIdentifier(String jsonString, IdResolver resolver) {
+  public static String fillOutIdFromObjectIdentifier(String jsonString, IdExpander resolver) {
     final JSONObject jsonObject = new JSONObject(jsonString);
     doFillOut(jsonObject, resolver);
     return jsonObject.toString();
   }
 
-  private static void doFillOut(JSONObject jsonObject, IdResolver resolver) {
+  private static void doFillOut(JSONObject jsonObject, IdExpander resolver) {
     fillOutId(jsonObject, resolver);
     for (String key : jsonObject.keySet()) {
       Object obj = jsonObject.get(key);
@@ -89,7 +89,7 @@ public class SchemaEnrichment {
     }
   }
 
-  private static void fillOutId(JSONObject jsonObject, IdResolver resolver) {
+  private static void fillOutId(JSONObject jsonObject, IdExpander resolver) {
     if (!hasId(jsonObject) && hasSchemaIdentifier(jsonObject) && hasSchemaAdditionalType(jsonObject)) {
       Object identifier = getSchemaIdentifier(jsonObject);
       List<String> candidateNamespaces = getSchemaAdditionalType(jsonObject);
@@ -115,9 +115,9 @@ public class SchemaEnrichment {
   }
 
   @Nullable
-  private static String resolveShortId(String shortId, List<String> candidateNamespaces, IdResolver resolver) {
+  private static String resolveShortId(String shortId, List<String> candidateNamespaces, IdExpander resolver) {
     for (String namespace : candidateNamespaces) {
-      Optional<String> resolvedId = resolver.resolve(shortId, namespace);
+      Optional<String> resolvedId = resolver.expand(shortId, namespace);
       if (resolvedId.isPresent()) {
         return resolvedId.get();
       }

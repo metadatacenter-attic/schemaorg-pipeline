@@ -2,7 +2,7 @@ package org.metadatacenter.schemaorg.pipeline.experimental;
 
 import java.util.Optional;
 
-public interface IdResolver {
+public interface IdExpander {
 
-  Optional<String> resolve(String id, String namespace);
+  Optional<String> expand(String id, String namespace);
 }

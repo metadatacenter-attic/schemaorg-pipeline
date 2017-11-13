@@ -10,7 +10,7 @@ import java.util.UUID;
 import org.junit.Test;
 import org.metadatacenter.schemaorg.pipeline.api.Pipeline;
 import org.metadatacenter.schemaorg.pipeline.experimental.DBpediaLookup;
-import org.metadatacenter.schemaorg.pipeline.experimental.IdResolver;
+import org.metadatacenter.schemaorg.pipeline.experimental.IdExpander;
 import org.metadatacenter.schemaorg.pipeline.experimental.IdentifiersResolver;
 import org.metadatacenter.schemaorg.pipeline.experimental.SchemaEnrichment;
 import org.metadatacenter.schemaorg.pipeline.experimental.TermLookup;
@@ -86,7 +86,7 @@ public class PipelineXmlDemoTest {
     XsltTransformer transformer = XsltTransformer.newTransformer(stylesheet);
 
     TermLookup dbpediaLookup = new DBpediaLookup();
-    IdResolver identifiersResolver = new IdentifiersResolver();
+    IdExpander identifiersResolver = new IdentifiersResolver();
 
     String xmlDocument = "document.xml";
     String output = Pipeline.create()

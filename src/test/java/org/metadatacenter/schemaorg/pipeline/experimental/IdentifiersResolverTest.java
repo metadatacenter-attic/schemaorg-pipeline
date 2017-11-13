@@ -18,7 +18,7 @@ public class IdentifiersResolverTest {
   @Test
   public void shouldResolveDrugBankId() {
     String id = "DB00088";
-    Optional<String> resolvedId = resolver.resolve(id, "drugbank");
+    Optional<String> resolvedId = resolver.expand(id, "drugbank");
     // Asserts
     assertThat(resolvedId.isPresent(), equalTo(true));
     assertThat(resolvedId.get(), equalTo("http://identifiers.org/drugbank/DB00088"));
@@ -27,7 +27,7 @@ public class IdentifiersResolverTest {
   @Test
   public void shouldResolveClinicalTrialsId() {
     String id = "NCT00002126";
-    Optional<String> resolvedId = resolver.resolve(id, "clinicaltrials");
+    Optional<String> resolvedId = resolver.expand(id, "clinicaltrials");
     assertThat(resolvedId.isPresent(), equalTo(true));
     assertThat(resolvedId.get(), equalTo("http://identifiers.org/clinicaltrials/NCT00002126"));
   }
@@ -35,14 +35,14 @@ public class IdentifiersResolverTest {
   @Test
   public void shouldFailResolveClinicalTrialsId_MismatchNamespace() {
     String id = "NCT00002126";
-    Optional<String> resolvedId = resolver.resolve(id, "drugbank");
+    Optional<String> resolvedId = resolver.expand(id, "drugbank");
     assertThat(resolvedId.isPresent(), equalTo(false));
   }
 
   @Test
   public void shouldFailResolveClinicalTrialsId_MismatchPattern() {
     String id = "NCT002126";
-    Optional<String> resolvedId = resolver.resolve(id, "clinicaltrials");
+    Optional<String> resolvedId = resolver.expand(id, "clinicaltrials");
     assertThat(resolvedId.isPresent(), equalTo(false));
   }
 }

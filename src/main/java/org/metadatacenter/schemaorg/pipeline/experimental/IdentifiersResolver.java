@@ -25,7 +25,7 @@ import org.w3c.dom.Document;
 import com.google.common.base.Charsets;
 import com.google.common.base.Strings;
 
-public class IdentifiersResolver implements IdResolver {
+public class IdentifiersResolver implements IdExpander {
 
   private static Logger logger = LoggerFactory.getLogger(IdentifiersResolver.class);
 
@@ -46,7 +46,7 @@ public class IdentifiersResolver implements IdResolver {
   }
 
   @Override
-  public Optional<String> resolve(@Nonnull String id, @Nonnull String namespace) {
+  public Optional<String> expand(@Nonnull String id, @Nonnull String namespace) {
     String completeId = null;
     if (!Strings.isNullOrEmpty(namespace)) {
       String namespaceKey = NAMESPACE_ENTRY_PREFIX + namespace;
