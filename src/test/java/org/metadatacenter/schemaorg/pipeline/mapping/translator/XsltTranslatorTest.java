@@ -326,6 +326,8 @@ public class XsltTranslatorTest {
         "disambiguatingDescription:   /clinical_study/brief_summary/textblock\n" +
         "studySubject:                /clinical_study/condition\n" +
         "code:                        /clinical_study/keyword\n" +
+        "    @type:                   MedicalCode\n" +
+        "    codeValue:               /.\n" +
         "phase:                       /clinical_study/phase\n" +
         "trialDesign:                 /clinical_study/study_design_info/intervention_model\n" +
         "population:                  /clinical_study/eligibility/criteria/textblock\n" +
@@ -367,6 +369,7 @@ public class XsltTranslatorTest {
         "    description:             /description";
 
     // Assertions
+    System.out.println(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping));
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
         "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
@@ -408,7 +411,9 @@ public class XsltTranslatorTest {
         "      <studySubject><xsl:value-of select=\".\"/></studySubject>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"clinical_study/keyword\">\n" + 
-        "      <code><xsl:value-of select=\".\"/></code>\n" + 
+        "      <code _type=\"MedicalCode\">\n" +
+        "         <codeValue><xsl:value-of select=\".\"/></codeValue>\n" +
+        "      </code>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"clinical_study/phase\">\n" + 
         "      <phase><xsl:value-of select=\".\"/></phase>\n" + 

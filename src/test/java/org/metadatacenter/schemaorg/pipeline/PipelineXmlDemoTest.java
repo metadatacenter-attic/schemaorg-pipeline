@@ -38,6 +38,8 @@ public class PipelineXmlDemoTest {
       "disambiguatingDescription:   /clinical_study/brief_summary/textblock\n" +
       "studySubject:                /clinical_study/condition\n" +
       "code:                        /clinical_study/keyword\n" +
+      "    @type:                   MedicalCode\n" +
+      "    codeValue:               /.\n" +
       "phase:                       /clinical_study/phase\n" +
       "trialDesign:                 /clinical_study/study_design_info/intervention_model\n" +
       "population:                  /clinical_study/eligibility/criteria/textblock\n" +

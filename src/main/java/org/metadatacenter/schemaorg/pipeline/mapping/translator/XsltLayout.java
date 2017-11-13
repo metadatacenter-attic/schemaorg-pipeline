@@ -77,7 +77,12 @@ class XsltLayout {
               String[] valueArray = value.substring(1, value.length()-1).split(",");
               for (String itemValue : valueArray) {
                 if (isPath(itemValue)) {
-                  indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", removeStartingSlash(itemValue)));
+                  String path = removeStartingSlash(itemValue);
+                  if (".".equals(path)) {
+                    indent(9).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", attrName, attrName));
+                  } else {
+                    indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", path));
+                  }
                 } else {
                   indent(9).append(String.format("<%s>%s</%s>", attrName, itemValue, attrName));
                 }
@@ -85,7 +90,12 @@ class XsltLayout {
               }
             } else {
               if (isPath(value)) {
-                indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", removeStartingSlash(value)));
+                String path = removeStartingSlash(value);
+                if (".".equals(path)) {
+                  indent(9).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", attrName, attrName));
+                } else {
+                  indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", path));
+                }
               } else {
                 indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
               }

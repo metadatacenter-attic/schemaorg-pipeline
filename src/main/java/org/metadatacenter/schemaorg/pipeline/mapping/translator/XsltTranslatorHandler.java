@@ -50,7 +50,14 @@ public class XsltTranslatorHandler extends TranslatorHandler {
   }
 
   private void translatePathNode(String attrName, PathNode pathNode, XsltLayout xsltLayout) {
-    xsltLayout.addPathTemplate(attrName, pathNode.getAbsolutePath());
+    String relativePath = pathNode.getRelativePath();
+    if (!pointsToCurrentLocation(relativePath)) {
+      xsltLayout.addPathTemplate(attrName, pathNode.getAbsolutePath());
+    }
+  }
+
+  private static boolean pointsToCurrentLocation(String path) {
+    return "/.".equals(path);
   }
 
   private void translateObjectNode(String attrName, ObjectNode objectNode, XsltLayout xsltLayout) {
