@@ -9,7 +9,7 @@ import java.io.InputStream;
 import java.util.UUID;
 import org.junit.Test;
 import org.metadatacenter.schemaorg.pipeline.api.Pipeline;
-import org.metadatacenter.schemaorg.pipeline.experimental.BioPortalLookup;
+import org.metadatacenter.schemaorg.pipeline.experimental.BioPortalRecommender;
 import org.metadatacenter.schemaorg.pipeline.experimental.DBpediaLookup;
 import org.metadatacenter.schemaorg.pipeline.experimental.IdExpander;
 import org.metadatacenter.schemaorg.pipeline.experimental.IdentifiersExpander;
@@ -88,7 +88,7 @@ public class PipelineXmlDemoTest {
 
     XsltTransformer transformer = XsltTransformer.newTransformer(stylesheet);
 
-    TermLookup bioPortalLookup = new BioPortalLookup("3e25dfb6-7519-411a-898a-940fbd3f7d20");
+    TermLookup bioPortalRecommender = new BioPortalRecommender("3e25dfb6-7519-411a-898a-940fbd3f7d20");
     TermLookup dbpediaLookup = new DBpediaLookup();
     IdExpander identifiersResolver = new IdentifiersExpander();
 
@@ -98,7 +98,7 @@ public class PipelineXmlDemoTest {
         .pipe(transformer::transform)
         .pipe(XmlToSchema::transform)
         .pipe(s -> SchemaEnrichment.fillOutIdFromObjectIdentifier(s, identifiersResolver))
-        .pipe(s -> SchemaEnrichment.fillOutIdFromObjectCodeValue(s, bioPortalLookup))
+        .pipe(s -> SchemaEnrichment.fillOutIdFromObjectCodeValue(s, bioPortalRecommender))
         .pipe(s -> SchemaEnrichment.fillOutIdFromObjectName(s, dbpediaLookup))
         .pipe(SchemaToHtml::transform)
         .run(xmlDocument);
