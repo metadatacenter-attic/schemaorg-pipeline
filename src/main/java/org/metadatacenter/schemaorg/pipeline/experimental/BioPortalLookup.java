@@ -28,7 +28,7 @@ public class BioPortalLookup implements TermLookup {
   public Optional<String> find(String name) {
     HttpURLConnection conn = null;
     try {
-      String serviceAddress = getServiceAddress(SERVICE_ENDPOINT, name, apiKey);
+      String serviceAddress = getServiceAddress(SERVICE_ENDPOINT, name);
       URL url = new URL(serviceAddress);
       conn = (HttpURLConnection) url.openConnection();
       conn.setRequestMethod("GET");
@@ -75,11 +75,10 @@ public class BioPortalLookup implements TermLookup {
     }
   }
 
-  private static String getServiceAddress(String serviceEndpoint, String paramName, String paramApiKey)
+  private static String getServiceAddress(String serviceEndpoint, String paramName)
       throws UnsupportedEncodingException {
     StringBuilder sb = new StringBuilder(serviceEndpoint);
     sb.append("q=").append(URLEncoder.encode(paramName, "UTF-8"));
-    sb.append("&apikey=").append(paramApiKey);
     sb.append("&exact_match=true");
     sb.append("&include=prefLabel");
     return sb.toString();
