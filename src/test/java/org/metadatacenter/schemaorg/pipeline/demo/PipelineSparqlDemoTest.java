@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline;
+package org.metadatacenter.schemaorg.pipeline.demo;
 
 import java.awt.Desktop;
 import java.io.File;

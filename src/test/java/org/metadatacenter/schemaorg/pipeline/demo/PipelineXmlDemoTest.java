@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline;
+package org.metadatacenter.schemaorg.pipeline.demo;
 
 import java.awt.Desktop;
 import java.io.ByteArrayOutputStream;
@@ -92,7 +92,7 @@ public class PipelineXmlDemoTest {
     TermLookup dbpediaLookup = new DBpediaLookup();
     IdExpander identifiersResolver = new IdentifiersExpander();
 
-    String xmlDocument = "document.xml";
+    String xmlDocument = "clinicaltrials.xml";
     String output = Pipeline.create()
         .pipe(this::readDocument)
         .pipe(transformer::transform)
