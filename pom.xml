@@ -3,7 +3,7 @@
   
   <groupId>org.metadatacenter</groupId>
   <artifactId>schemaorg-pipeline</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   
   <name>Schema.org Data Publication Pipeline</name>
   <description>To transform and publish data from different formats to a schema.org compliant document</description>
@@ -25,7 +25,7 @@
     <connection>scm:git:git@github.com:metadatacenter/schemaorg-pipeline.git</connection>
     <developerConnection>scm:git:git@github.com:metadatacenter/schemaorg-pipeline.git</developerConnection>
     <url>https://github.com/metadatacenter/schemaorg-pipeline</url>
-    <tag>v0.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub</system>
