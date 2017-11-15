@@ -4,7 +4,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.Objects;
 import javax.annotation.Nonnull;
 
-public class MapString {
+/*package*/ class MapString {
 
   private final String text;
 
