@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.transform.datasource;
+package org.metadatacenter.schemaorg.pipeline.extract;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import java.io.ByteArrayOutputStream;
