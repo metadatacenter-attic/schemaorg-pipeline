@@ -1,8 +1,8 @@
-package org.metadatacenter.schemaorg.pipeline.release;
+package org.metadatacenter.schemaorg.pipeline.embed;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-import static org.metadatacenter.schemaorg.pipeline.release.HtmlAttributes.*;
-import static org.metadatacenter.schemaorg.pipeline.release.HtmlTag.*;
+import static org.metadatacenter.schemaorg.pipeline.embed.HtmlAttributes.*;
+import static org.metadatacenter.schemaorg.pipeline.embed.HtmlTag.*;
 import java.net.URL;
 import java.util.List;
 import java.util.Properties;
