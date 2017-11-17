@@ -88,7 +88,7 @@ public class PipelineXmlDemoTest {
 
     XsltTransformer transformer = XsltTransformer.newTransformer(stylesheet);
 
-    TermLookup bioPortalRecommender = new BioPortalRecommender("3e25dfb6-7519-411a-898a-940fbd3f7d20");
+    TermLookup bioPortalRecommender = new BioPortalRecommender();
     TermLookup dbpediaLookup = new DBpediaLookup();
     IdExpander identifiersResolver = new IdentifiersExpander();
 

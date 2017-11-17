@@ -9,7 +9,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Optional;
-import javax.annotation.Nonnull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -20,8 +19,8 @@ public class BioPortalRecommender implements TermLookup {
 
   private final String apiKey;
 
-  public BioPortalRecommender(@Nonnull String apiKey) {
-    this.apiKey = checkNotNull(apiKey);
+  public BioPortalRecommender() {
+    this.apiKey = checkNotNull(System.getenv("BIOPORTAL_APIKEY"));
   }
 
   @Override
