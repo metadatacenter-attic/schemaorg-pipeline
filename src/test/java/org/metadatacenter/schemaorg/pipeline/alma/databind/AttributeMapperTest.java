@@ -24,7 +24,7 @@ public class AttributeMapperTest {
 
   @Test
   public void shouldParseConstantMap() {
-    final String text = "a: constant";
+    final String text = "a: 'constant'";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
@@ -39,7 +39,7 @@ public class AttributeMapperTest {
     final String text = 
           "a: /path\n"
         + "  b: /path\n"
-        + "  c: constant";
+        + "  c: 'constant'";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
@@ -66,8 +66,8 @@ public class AttributeMapperTest {
   @Test
   public void shouldParseConstantArrayMap() {
     final String text = 
-          "a: constant1\n"
-        + "a: constant2";
+          "a: 'constant1'\n"
+        + "a: 'constant2'";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
@@ -82,10 +82,10 @@ public class AttributeMapperTest {
     final String text = 
           "a: /parent1\n"
         + "  b: /path1\n"
-        + "  c: constant1\n"
+        + "  c: 'constant1'\n"
         + "a: /parent2\n"
         + "  b: /path2\n"
-        + "  c: constant2";
+        + "  c: 'constant2'";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
@@ -99,10 +99,10 @@ public class AttributeMapperTest {
   public void shouldParseMappingText_CheckValue() {
     final String text =
           "a1: /path1\n"
-        + "a2: constant1\n"
+        + "a2: 'constant1'\n"
         + "a3: /parent1\n"
         + "  a4: /path2\n"
-        + "  a5: constant2";
+        + "  a5: 'constant2'";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
@@ -117,10 +117,10 @@ public class AttributeMapperTest {
   public void shouldParseMappingText_CheckPathHierarchy() {
     final String text =
           "a1: /path1\n"
-        + "a2: constant1\n"
+        + "a2: 'constant1'\n"
         + "a3: /parent1\n"
         + "  a4: /path2\n"
-        + "  a5: constant2\n"
+        + "  a5: 'constant2'\n"
         + "  a6: /parent2\n"
         + "    a7: /path3\n"
         + "    a8: /path4";

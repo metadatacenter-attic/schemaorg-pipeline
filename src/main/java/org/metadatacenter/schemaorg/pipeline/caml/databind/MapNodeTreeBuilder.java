@@ -60,7 +60,8 @@ import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
     if (mappedData.startsWith("/")) {
       String parentPath = objectNode.getAbsolutePath();
       mapNode = nodeFactory.pathNode(parentPath, mappedData);
-    } else {
+    } else if (mappedData.startsWith("'") && mappedData.endsWith("'")) {
+      mappedData = mappedData.substring(1, mappedData.length() - 1);
       mapNode = nodeFactory.constantNode(mappedData);
     }
     return mapNode;

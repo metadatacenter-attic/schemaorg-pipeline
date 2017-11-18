@@ -10,8 +10,8 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateConstant() {
     final String mapping =
-        "@type:             MedicalTrial\n" + 
-        "additionalType:    clinicaltrials";
+        "@type:             'MedicalTrial'\n" + 
+        "additionalType:    'clinicaltrials'";
     // Asserts
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
@@ -30,7 +30,7 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslatePath() {
     final String mapping =
-        "@type:             MedicalTrial\n" + 
+        "@type:             'MedicalTrial'\n" + 
         "name:              /clinical_study/official_title"; 
     // Asserts
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
@@ -52,11 +52,11 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateObject() {
     final String mapping =
-        "@type:                 MedicalTrial\n" + 
+        "@type:                 'MedicalTrial'\n" + 
         "sponsor:               /clinical_study/sponsors/lead_sponsor\n" + 
-        "    @type:             Organization\n" + 
+        "    @type:             'Organization'\n" + 
         "    name:              /agency\n" + 
-        "    additionalType:    Lead Sponsor";
+        "    additionalType:    'Lead Sponsor'";
     // Asserts
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
@@ -83,10 +83,10 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateArrayOfConstants() {
     final String mapping =
-        "@type:             MedicalTrial\n" + 
-        "additionalType:    clinicaltrials\n" +
-        "additionalType:    CohortStudy\n" +
-        "additionalType:    Observational";
+        "@type:             'MedicalTrial'\n" + 
+        "additionalType:    'clinicaltrials'\n" +
+        "additionalType:    'CohortStudy'\n" +
+        "additionalType:    'Observational'";
     // Asserts
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
@@ -107,7 +107,7 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateArrayOfPaths() {
     final String mapping =
-        "@type:             MedicalTrial\n" + 
+        "@type:             'MedicalTrial'\n" + 
         "identifier:        /clinical_study/id_info/org_study_id\n" + 
         "identifier:        /clinical_study/id_info/nct_id\n" + 
         "identifier:        /clinical_study/id_info/secondary_id"; 
@@ -137,17 +137,17 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateArrayOfObjects() {
     final String mapping =
-        "@type:                 MedicalTrial\n" + 
+        "@type:                 'MedicalTrial'\n" + 
         "subjectOf:                   /clinical_study/references\n" +
-        "    @type:                   CreativeWork\n" +
-        "    additionalType:          pubmed\n" +
+        "    @type:                   'CreativeWork'\n" +
+        "    additionalType:          'pubmed'\n" +
         "    alternateName:           /citation\n" +
         "subjectOf:                   /clinical_study/results_reference\n" +
-        "    @type:                   CreativeWork\n" +
-        "    additionalType:          pubmed\n" +
+        "    @type:                   'CreativeWork'\n" +
+        "    additionalType:          'pubmed'\n" +
         "    alternateName:           /citation\n" +
         "subjectOf:                   /clinical_study/link\n" +
-        "    @type:                   WebPage\n" +
+        "    @type:                   'WebPage'\n" +
         "    description:             /description";
     // Asserts
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
@@ -192,13 +192,13 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateNestedObject() {
     final String mapping =
-        "@type:                       MedicalTrial\n" + 
+        "@type:                       'MedicalTrial'\n" + 
         "studyLocation:               /clinical_study/location/facility\n" + 
-        "    @type:                   AdministrativeArea\n" + 
+        "    @type:                   'AdministrativeArea'\n" + 
         "    address:                 /address\n" +
-        "        @type:               PostalAddress\n" +
+        "        @type:               'PostalAddress'\n" +
         "        addressLocality:     /city\n" + 
-        "        addressCountry:      USA";
+        "        addressCountry:      'USA'";
     // Asserts
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
@@ -230,14 +230,14 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateArrayOfConstantsInNestedObject() {
     final String mapping =
-        "@type:                       MedicalTrial\n" + 
+        "@type:                       'MedicalTrial'\n" + 
         "studyLocation:               /clinical_study/location/facility\n" + 
-        "    @type:                   AdministrativeArea\n" + 
+        "    @type:                   'AdministrativeArea'\n" + 
         "    address:                 /address\n" +
-        "        @type:               PostalAddress\n" +
-        "        addressLocality:     San Francisco\n" +
-        "        addressLocality:     Palo Alto\n" +
-        "        addressLocality:     Mountain View";
+        "        @type:               'PostalAddress'\n" +
+        "        addressLocality:     'San Francisco'\n" +
+        "        addressLocality:     'Palo Alto'\n" +
+        "        addressLocality:     'Mountain View'";
     // Asserts
     assertThat(MapNodeTranslator.translate(new XsltTranslatorHandler(), mapping), equalTo(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
@@ -267,11 +267,11 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateArrayOfPathsInNestedObject() {
     final String mapping =
-        "@type:                       MedicalTrial\n" + 
+        "@type:                       'MedicalTrial'\n" + 
         "studyLocation:               /clinical_study/location/facility\n" + 
-        "    @type:                   AdministrativeArea\n" + 
+        "    @type:                   'AdministrativeArea'\n" + 
         "    address:                 /address\n" +
-        "        @type:               PostalAddress\n" +
+        "        @type:               'PostalAddress'\n" +
         "        addressLocality:     /city\n" +
         "        addressLocality:     /subsidiary/city\n" +
         "        addressLocality:     /administration/city";
@@ -313,8 +313,8 @@ public class XsltTranslatorTest {
   @Test
   public void shouldTranslateClinicalTrialsMapping() {
     final String mapping =
-        "@type:                       MedicalTrial\n" + 
-        "additionalType:              clinicaltrials\n" +
+        "@type:                       'MedicalTrial'\n" + 
+        "additionalType:              'clinicaltrials'\n" +
         "name:                        /clinical_study/official_title\n" + 
         "alternateName:               /clinical_study/brief_title\n" + 
         "alternateName:               /clinical_study/acronym\n" +
@@ -326,45 +326,45 @@ public class XsltTranslatorTest {
         "disambiguatingDescription:   /clinical_study/brief_summary/textblock\n" +
         "studySubject:                /clinical_study/condition\n" +
         "code:                        /clinical_study/keyword\n" +
-        "    @type:                   MedicalCode\n" +
+        "    @type:                   'MedicalCode'\n" +
         "    codeValue:               /.\n" +
         "phase:                       /clinical_study/phase\n" +
         "trialDesign:                 /clinical_study/study_design_info/intervention_model\n" +
         "population:                  /clinical_study/eligibility/criteria/textblock\n" +
         "sponsor:                     /clinical_study/sponsors/lead_sponsor\n" + 
-        "    @type:                   Organization\n" + 
+        "    @type:                   'Organization'\n" + 
         "    name:                    /agency\n" + 
-        "    additionalType:          Lead Sponsor\n" + 
+        "    additionalType:          'Lead Sponsor'\n" + 
         "sponsor:                     /clinical_study/sponsors/collaborator\n" + 
-        "    @type:                   Organization\n" + 
+        "    @type:                   'Organization'\n" + 
         "    name:                    /agency\n" + 
-        "    additionalType:          Collaborator\n" + 
+        "    additionalType:          'Collaborator'\n" + 
         "studyLocation:               /clinical_study/location/facility\n" + 
-        "    @type:                   AdministrativeArea\n" + 
+        "    @type:                   'AdministrativeArea'\n" + 
         "    name:                    /name\n" +
-        "    additionalType:          Facility\n" +
+        "    additionalType:          'Facility'\n" +
         "    address:                 /address\n" +
-        "        @type:               PostalAddress\n" +
+        "        @type:               'PostalAddress'\n" +
         "        addressLocality:     /city\n" + 
         "        addressRegion:       /state\n" + 
         "        postalCode:          /zip\n" + 
         "        addressCountry:      /country\n" +
         "studyLocation:               /clinical_study/location_countries\n" +
-        "    @type:                   AdministrativeArea\n" +
+        "    @type:                   'AdministrativeArea'\n" +
         "    name:                    /country\n" +
-        "    additionalType:          Country Location\n" +
+        "    additionalType:          'Country Location'\n" +
         "subjectOf:                   /clinical_study/references\n" +
-        "    @type:                   CreativeWork\n" +
-        "    additionalType:          pubmed\n" +
+        "    @type:                   'CreativeWork'\n" +
+        "    additionalType:          'pubmed'\n" +
         "    identifier:              /PMID\n" +
         "    alternateName:           /citation\n" +
         "subjectOf:                   /clinical_study/results_reference\n" +
-        "    @type:                   CreativeWork\n" +
-        "    additionalType:          pubmed\n" +
+        "    @type:                   'CreativeWork'\n" +
+        "    additionalType:          'pubmed'\n" +
         "    identifier:              /PMID\n" +
         "    alternateName:           /citation\n" +
         "subjectOf:                   /clinical_study/link\n" +
-        "    @type:                   WebPage\n" +
+        "    @type:                   'WebPage'\n" +
         "    url:                     /url\n" +
         "    description:             /description";
 

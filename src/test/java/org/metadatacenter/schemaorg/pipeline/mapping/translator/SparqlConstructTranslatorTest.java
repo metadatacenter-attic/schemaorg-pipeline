@@ -10,7 +10,7 @@ public class SparqlConstructTranslatorTest {
   @Test
   public void shouldConvertToSparqlConstruct() {
     final String mapping =
-        "@type:                Drug\n" + 
+        "@type:                'Drug'\n" + 
         "name:                 /dcterms:title\n" + 
         "description:          /dcterms:description\n" + 
         "identifier:           /dcterms:identifier\n" + 
@@ -21,12 +21,12 @@ public class SparqlConstructTranslatorTest {
         "clinicalPharmacology: /db:pharmacodynamics/dcterms:description\n" + 
         "drugClass:            /db:category/dcterms:title\n" + 
         "drugCost:             /db:product\n" + 
-        "   @type:             DrugCost\n" + 
+        "   @type:             'DrugCost'\n" + 
         "   costPerUnit:       /db:price\n" + 
-        "   costCurrency:      USD\n" + 
+        "   costCurrency:      'USD'\n" + 
         "   drugUnit:          /dcterms:title\n" +
         "availableStrength:    /db:dosage\n" + 
-        "   @type:             DrugStrength\n" + 
+        "   @type:             'DrugStrength'\n" + 
         "   description:       /dcterms:title\n" + 
         "administrationRoute:  /db:dosage/db:route/dcterms:title\n" + 
         "administrationForm:   /db:dosage/db:form/dcterms:title\n" + 
@@ -35,7 +35,7 @@ public class SparqlConstructTranslatorTest {
         "foodWarning:          /db:food-interaction/rdf:value\n" + 
         "legalStatus:          /db:group/bio2rdf:identifier\n" + 
         "manufacturer:         /db:manufacturer\n" + 
-        "   @type:             Organization\n" + 
+        "   @type:             'Organization'\n" + 
         "   name:              /rdf:value";
     SparqlConstructTranslatorHandler handler = new SparqlConstructTranslatorHandler();
     handler.addPrefix("schema", "http://schema.org/");
