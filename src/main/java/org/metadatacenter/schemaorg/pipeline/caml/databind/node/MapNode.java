@@ -29,6 +29,10 @@ public abstract class MapNode implements Iterable<MapNode> {
     return false;
   }
 
+  public boolean isPairNode() {
+    return false;
+  }
+
   public boolean isObjectNode() {
     return false;
   }

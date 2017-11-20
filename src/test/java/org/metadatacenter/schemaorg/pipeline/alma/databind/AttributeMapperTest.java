@@ -18,6 +18,7 @@ public class AttributeMapperTest {
     // Assertions
     assertThat(mapNode.get("a").isPathNode(), equalTo(true));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(false));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
     assertThat(mapNode.get("a").isArrayNode(), equalTo(false));
   }
@@ -30,6 +31,20 @@ public class AttributeMapperTest {
     // Assertions
     assertThat(mapNode.get("a").isPathNode(), equalTo(false));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(true));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(false));
+    assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(false));
+  }
+
+  @Test
+  public void shouldParsePairMap() {
+    final String text = "a: ('constant1', 'constant2')";
+    AttributeMapper mapper = new AttributeMapper();
+    MapNode mapNode = mapper.readText(text);
+    // Assertions
+    assertThat(mapNode.get("a").isPathNode(), equalTo(false));
+    assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(true));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
     assertThat(mapNode.get("a").isArrayNode(), equalTo(false));
   }
@@ -45,6 +60,7 @@ public class AttributeMapperTest {
     // Assertions
     assertThat(mapNode.get("a").isPathNode(), equalTo(false));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(false));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(true));
     assertThat(mapNode.get("a").isArrayNode(), equalTo(false));
   }
@@ -59,6 +75,7 @@ public class AttributeMapperTest {
     // Assertions
     assertThat(mapNode.get("a").isPathNode(), equalTo(false));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(false));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
     assertThat(mapNode.get("a").isArrayNode(), equalTo(true));
   }
@@ -73,6 +90,22 @@ public class AttributeMapperTest {
     // Assertions
     assertThat(mapNode.get("a").isPathNode(), equalTo(false));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(false));
+    assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
+    assertThat(mapNode.get("a").isArrayNode(), equalTo(true));
+  }
+
+  @Test
+  public void shouldParsePairArrayMap() {
+    final String text = 
+          "a: ('constant1', 'constant2')\n"
+        + "a: ('constant3', 'constant4')";
+    AttributeMapper mapper = new AttributeMapper();
+    MapNode mapNode = mapper.readText(text);
+    // Assertions
+    assertThat(mapNode.get("a").isPathNode(), equalTo(false));
+    assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(false));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
     assertThat(mapNode.get("a").isArrayNode(), equalTo(true));
   }
@@ -91,6 +124,7 @@ public class AttributeMapperTest {
     // Assertions
     assertThat(mapNode.get("a").isPathNode(), equalTo(false));
     assertThat(mapNode.get("a").isConstantNode(), equalTo(false));
+    assertThat(mapNode.get("a").isPairNode(), equalTo(false));
     assertThat(mapNode.get("a").isObjectNode(), equalTo(false));
     assertThat(mapNode.get("a").isArrayNode(), equalTo(true));
   }
@@ -100,17 +134,22 @@ public class AttributeMapperTest {
     final String text =
           "a1: /path1\n"
         + "a2: 'constant1'\n"
-        + "a3: /parent1\n"
-        + "  a4: /path2\n"
-        + "  a5: 'constant2'";
+        + "a3: ('key1', 'value1')\n"
+        + "a4: /parent1\n"
+        + "  a5: /path2\n"
+        + "  a6: 'constant2'\n"
+        + "  a7: ('key2', 'value2')";
     AttributeMapper mapper = new AttributeMapper();
     MapNode mapNode = mapper.readText(text);
     // Assertions
     assertThat(mapNode.get("a1").getValue(), equalTo("/path1"));
     assertThat(mapNode.get("a2").getValue(), equalTo("constant1"));
-    assertThat(mapNode.get("a3").getValue(), equalTo("/parent1"));
-    assertThat(mapNode.get("a3").get("a4").getValue(), equalTo("/path2"));
-    assertThat(mapNode.get("a3").get("a5").getValue(), equalTo("constant2"));
+    assertThat(mapNode.get("a3").getValue(), equalTo("key1,value1"));
+    assertThat(mapNode.get("a4").getValue(), equalTo("/parent1"));
+    assertThat(mapNode.get("a4").get("a5").getValue(), equalTo("/path2"));
+    assertThat(mapNode.get("a4").get("a6").getValue(), equalTo("constant2"));
+    assertThat(mapNode.get("a4").get("a6").getValue(), equalTo("constant2"));
+    assertThat(mapNode.get("a4").get("a7").getValue(), equalTo("key2,value2"));
   }
 
   @Test

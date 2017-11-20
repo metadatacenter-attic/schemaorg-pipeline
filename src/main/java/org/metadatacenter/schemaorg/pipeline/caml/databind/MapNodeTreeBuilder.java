@@ -1,5 +1,7 @@
 package org.metadatacenter.schemaorg.pipeline.caml.databind;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ArrayNode;
 import org.metadatacenter.schemaorg.pipeline.caml.databind.node.MapNode;
 import org.metadatacenter.schemaorg.pipeline.caml.databind.node.MapNodeFactory;
@@ -30,7 +32,7 @@ import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
       if (subSection.hasSubSections()) {
         mapNode = createObjectNode(subSection, mappedData);
       } else {
-        mapNode = createPathOrConstantNode(mappedData);
+        mapNode = createPathOrConstantOrPairNode(mappedData);
       }
       storeNode(attrName, mapNode);
     }
@@ -55,16 +57,42 @@ import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
     return treeBuilder.build();
   }
 
-  public MapNode createPathOrConstantNode(String mappedData) {
+  public MapNode createPathOrConstantOrPairNode(String mappedData) {
     MapNode mapNode = null;
     if (mappedData.startsWith("/")) {
-      String parentPath = objectNode.getAbsolutePath();
-      mapNode = nodeFactory.pathNode(parentPath, mappedData);
+      mapNode = createPathNode(mappedData);
     } else if (mappedData.startsWith("'") && mappedData.endsWith("'")) {
-      mappedData = mappedData.substring(1, mappedData.length() - 1);
-      mapNode = nodeFactory.constantNode(mappedData);
+      mapNode = createConstantNode(mappedData);
+    } else if (mappedData.startsWith("(") && mappedData.endsWith(")")) {
+      mapNode = createPairNode(mappedData);
     }
     return mapNode;
+  }
+
+  private MapNode createPathNode(String value) {
+    String parentPath = objectNode.getAbsolutePath();
+    return nodeFactory.pathNode(parentPath, value);
+  }
+
+  private MapNode createConstantNode(String value) {
+    final Pattern constantPattern = Pattern.compile("^'(.*)'$");
+    Matcher m = constantPattern.matcher(value);
+    if (m.find()) {
+      String constant = m.group(1);
+      return nodeFactory.constantNode(constant);
+    }
+    throw new IllegalArgumentException("The string \"" + value + "\" is not a valid constant value");
+  }
+
+  private MapNode createPairNode(String value) {
+    final Pattern pairPattern = Pattern.compile("^\\('(.*)',\\s*'(.*)'\\)$");
+    Matcher m = pairPattern.matcher(value);
+    if (m.find()) {
+      String value1 = m.group(1);
+      String value2 = m.group(2);
+      return nodeFactory.pairNode(value1, value2);
+    }
+    throw new IllegalArgumentException("The string \"" + value + "\" is not a valid pair value");
   }
 
   private ArrayNode getOrCreateArrayNode(MapNode foundNode) {
