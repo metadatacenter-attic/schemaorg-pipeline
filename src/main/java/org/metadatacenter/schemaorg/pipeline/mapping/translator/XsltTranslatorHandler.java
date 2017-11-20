@@ -62,7 +62,7 @@ public class XsltTranslatorHandler extends TranslatorHandler {
 
   private void translateObjectNode(String attrName, ObjectNode objectNode, XsltLayout xsltLayout) {
     String objectPath = objectNode.getAbsolutePath();
-    String objectType = objectNode.getType();
+    String objectType = ReservedAttributes.getType(objectNode);
     Map<String, String> objectMap = toMapOfString(objectNode.getObjectMap());
     xsltLayout.addObjectTemplate(attrName, objectPath, objectType, objectMap);
   }
@@ -70,7 +70,7 @@ public class XsltTranslatorHandler extends TranslatorHandler {
   private static Map<String, String> toMapOfString(Map<String, MapNode> objectMap) {
     Map<String, String> mapOfString = Maps.newLinkedHashMap();
     for (String attrName : objectMap.keySet()) {
-      if (!attrName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
+      if (!ReservedAttributes.isType(attrName)) {
         MapNode mapNode = objectMap.get(attrName);
         mapOfString.put(attrName, mapNode.getValue());
       }

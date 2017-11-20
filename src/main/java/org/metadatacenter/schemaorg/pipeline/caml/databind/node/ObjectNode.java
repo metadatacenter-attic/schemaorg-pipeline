@@ -10,9 +10,6 @@ import com.google.common.collect.Maps;
 
 public class ObjectNode extends MapNode {
 
-  public static final String OBJECT_ID_KEYWORD = "@id";
-  public static final String OBJECT_TYPE_KEYWORD = "@type";
-
   private final String parent;
   private final String path;
   private final Map<String, MapNode> children = Maps.newLinkedHashMap();
@@ -51,14 +48,6 @@ public class ObjectNode extends MapNode {
       objectMap.put(attrName, get(attrName));
     }
     return objectMap;
-  }
-
-  public String getId() {
-    return children.getOrDefault(OBJECT_ID_KEYWORD, new NullNode()).getValue();
-  }
-
-  public String getType() {
-    return children.getOrDefault(OBJECT_TYPE_KEYWORD, new NullNode()).getValue();
   }
 
   @Override

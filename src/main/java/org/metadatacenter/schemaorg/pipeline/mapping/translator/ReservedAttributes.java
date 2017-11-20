@@ -1,5 +1,7 @@
 package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
+
 public final class ReservedAttributes {
 
   public static final String ID = "@id";
@@ -16,5 +18,17 @@ public final class ReservedAttributes {
 
   public static boolean isPrefix(String s) {
     return PREFIX.equals(s);
+  }
+
+  public static String getId(final ObjectNode objectNode) {
+    return objectNode.get(ID).getValue();
+  }
+
+  public static String getType(final ObjectNode objectNode) {
+    return objectNode.get(TYPE).getValue();
+  }
+
+  public static String getPrefix(final ObjectNode objectNode) {
+    return objectNode.get(PREFIX).getValue();
   }
 }

@@ -189,11 +189,11 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
     return var(subjectVar);
   }
 
-  private static String predicate(String attrName) {
-    if (attrName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
+  private static String predicate(String propertyName) {
+    if (ReservedAttributes.isType(propertyName)) {
       return typeAssertionProperty();
     } else {
-      return schema(attrName);
+      return schema(propertyName);
     }
   }
 
@@ -202,7 +202,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   }
 
   private static String literal(String propertyName, String constantValue) {
-    if (propertyName.equals(ObjectNode.OBJECT_TYPE_KEYWORD)) {
+    if (ReservedAttributes.isType(propertyName)) {
       return schema(constantValue);
     } else {
       return "'" + constantValue + "'";
