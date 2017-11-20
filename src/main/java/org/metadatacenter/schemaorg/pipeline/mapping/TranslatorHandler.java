@@ -2,7 +2,7 @@ package org.metadatacenter.schemaorg.pipeline.mapping;
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
-import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
 
 public abstract class TranslatorHandler {
 

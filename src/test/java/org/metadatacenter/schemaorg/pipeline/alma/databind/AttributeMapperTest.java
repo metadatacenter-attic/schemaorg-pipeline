@@ -4,9 +4,9 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.Test;
 import org.metadatacenter.schemaorg.pipeline.caml.databind.AttributeMapper;
-import org.metadatacenter.schemaorg.pipeline.caml.databind.node.MapNode;
-import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.caml.databind.node.PathNode;
+import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNode;
+import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapmodel.PathNode;
 
 public class AttributeMapperTest {
 

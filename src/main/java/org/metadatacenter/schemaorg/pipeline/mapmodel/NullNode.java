@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.caml.databind.node;
+package org.metadatacenter.schemaorg.pipeline.mapmodel;
 
 public final class NullNode extends MapNode {
 

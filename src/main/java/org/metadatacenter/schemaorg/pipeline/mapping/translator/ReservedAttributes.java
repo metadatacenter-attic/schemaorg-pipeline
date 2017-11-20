@@ -1,6 +1,6 @@
 package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 
-import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
 
 public final class ReservedAttributes {
 
