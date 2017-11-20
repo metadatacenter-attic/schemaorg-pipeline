@@ -14,7 +14,7 @@ public class SparqlConstructTranslatorTest {
         "@prefix:              ('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')\n" + 
         "@prefix:              ('db', 'http://bio2rdf.org/drugbank_vocabulary:')\n" + 
         "@prefix:              ('bio2rdf', 'http://bio2rdf.org/bio2rdf_vocabulary:')\n" + 
-        "@type:                'Drug'\n" + 
+        "@type:                ('Drug', 'db:Drug')\n" + 
         "name:                 /dcterms:title\n" + 
         "description:          /dcterms:description\n" + 
         "identifier:           /dcterms:identifier\n" + 
@@ -42,7 +42,6 @@ public class SparqlConstructTranslatorTest {
         "   @type:             'Organization'\n" + 
         "   name:              /rdf:value";
     SparqlConstructTranslatorHandler handler = new SparqlConstructTranslatorHandler();
-    handler.setInstanceType("db:Drug");
     // Assertion
     assertThat(MapNodeTranslator.translate(handler, mapping), equalTo(
         "PREFIX schema: <http://schema.org/>\n" + 
@@ -80,7 +79,7 @@ public class SparqlConstructTranslatorTest {
         "   ?manufacturer schema:name ?manufacturerName.\n" + 
         " }\n" + 
         "WHERE { \n" + 
-        "   ?s a db:Drug\n" +
+        "   OPTIONAL { ?s a db:Drug. }\n" +
         "   OPTIONAL { ?s dcterms:title ?name. }\n" + 
         "   OPTIONAL { ?s dcterms:description ?description. }\n" + 
         "   OPTIONAL { ?s dcterms:identifier ?identifier. }\n" + 
