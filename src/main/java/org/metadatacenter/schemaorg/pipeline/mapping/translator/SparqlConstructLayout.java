@@ -3,6 +3,7 @@ package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import javax.annotation.Nonnull;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
@@ -16,23 +17,20 @@ class SparqlConstructLayout {
   private final static String SPARQL_OPTIONAL = "OPTIONAL";
   private final static String SPARQL_FILTER = "FILTER";
   
+  private final Set<String> prefixes;
   private final StringBuilder stringBuilder;
   
-  private List<String> prefixes = Lists.newArrayList();
   private List<String> tripleTemplates = Lists.newArrayList();
   private Map<String, List<String>> triplePatterns = Maps.newLinkedHashMap();
   private List<String> filters = Lists.newArrayList();
 
-  public SparqlConstructLayout() {
-    this(new StringBuilder());
+  public SparqlConstructLayout(@Nonnull Set<String> prefixes) {
+    this(prefixes, new StringBuilder());
   }
 
-  public SparqlConstructLayout(@Nonnull StringBuilder stringBuilder) {
+  public SparqlConstructLayout(@Nonnull Set<String> prefixes, @Nonnull StringBuilder stringBuilder) {
+    this.prefixes = checkNotNull(prefixes);
     this.stringBuilder = checkNotNull(stringBuilder);
-  }
-
-  public void addPrefixes(List<String> prefixes) {
-    this.prefixes = prefixes;
   }
 
   public void addTripleTemplate(String tripleTemplate) {
@@ -52,6 +50,7 @@ class SparqlConstructLayout {
     filters.add(filter);
   }
 
+  @Override
   public String toString() {
     if (!prefixes.isEmpty()) {
       for (String prefix : prefixes) {

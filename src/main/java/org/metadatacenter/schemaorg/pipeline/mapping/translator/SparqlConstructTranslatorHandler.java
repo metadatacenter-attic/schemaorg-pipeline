@@ -4,7 +4,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
-import java.util.List;
+import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -13,19 +13,20 @@ import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.caml.databind.node.PairNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import com.google.common.base.Strings;
-import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 
 public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   private static final String ROOT_INSTANCE_NAME = "s";
   private static final String FILTER_TEMPLATE = var(ROOT_INSTANCE_NAME) + " = <%s>";
 
-  private List<String> prefixes = Lists.newArrayList();
+  private Set<String> prefixes = Sets.newLinkedHashSet();
 
   public void addPrefix(@Nonnull String prefixLabel, @Nonnull String prefixNamespace) {
     checkNotNull(prefixLabel);
     checkNotNull(prefixNamespace);
-    prefixes.add(String.format("%s: <%s>", prefixLabel, prefixNamespace));
+    String prefixDefinition = String.format("%s: <%s>", prefixLabel, prefixNamespace);
+    prefixes.add(prefixDefinition);
   }
 
   @Override
@@ -38,8 +39,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   }
 
   private SparqlConstructLayout initSparqlLayout() {
-    SparqlConstructLayout layout = new SparqlConstructLayout();
-    layout.addPrefixes(prefixes);
+    SparqlConstructLayout layout = new SparqlConstructLayout(prefixes);
     layout.addFilter(FILTER_TEMPLATE);
     return layout;
   }
