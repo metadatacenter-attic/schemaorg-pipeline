@@ -10,6 +10,7 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import org.metadatacenter.schemaorg.pipeline.caml.databind.node.MapNode;
 import org.metadatacenter.schemaorg.pipeline.caml.databind.node.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.caml.databind.node.PairNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
@@ -89,12 +90,26 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             predicate(attrName),
             literal(attrName, constantValue),
             layout);
+      } else if (node.isPairNode()) {
+        PairNode pairNode = (PairNode) node;
+        if (ReservedAttributes.isPrefix(attrName)) {
+          String prefixLabel = pairNode.getFirstValue();
+          String prefixNamespace = pairNode.getSecondValue();
+          addPrefix(prefixLabel, prefixNamespace);
+        }
       } else if (node.isArrayNode()) {
         int arrIndex = 0;
         for (Iterator<MapNode> arrIter = node.elements(); arrIter.hasNext(); arrIndex++) {
           MapNode item = arrIter.next();
           objectVar = mergeNames(subjectVar, attrName + arrIndex);
-          if (item.isObjectNode()) {
+          if (node.isPairNode()) {
+            PairNode pairNode = (PairNode) node;
+            if (ReservedAttributes.isPrefix(attrName)) {
+              String prefixLabel = pairNode.getFirstValue();
+              String prefixNamespace = pairNode.getSecondValue();
+              addPrefix(prefixLabel, prefixNamespace);
+            }
+          } else if (item.isObjectNode()) {
             String dataPath = item.getValue();
             constructTripleTemplate(
                 subject(subjectVar),
@@ -127,6 +142,13 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
                 predicate(attrName),
                 literal(attrName, constantValue),
                 layout);
+          } else if (item.isPairNode()) {
+            PairNode pairNode = (PairNode) item;
+            if (ReservedAttributes.isPrefix(attrName)) {
+              String prefixLabel = pairNode.getFirstValue();
+              String prefixNamespace = pairNode.getSecondValue();
+              addPrefix(prefixLabel, prefixNamespace);
+            }
           }
         }
       }

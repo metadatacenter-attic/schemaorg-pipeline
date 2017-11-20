@@ -10,6 +10,10 @@ public class SparqlConstructTranslatorTest {
   @Test
   public void shouldConvertToSparqlConstruct() {
     final String mapping =
+        "@prefix:              ('schema', 'http://schema.org/')\n" + 
+        "@prefix:              ('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')\n" + 
+        "@prefix:              ('db', 'http://bio2rdf.org/drugbank_vocabulary:')\n" + 
+        "@prefix:              ('bio2rdf', 'http://bio2rdf.org/bio2rdf_vocabulary:')\n" + 
         "@type:                'Drug'\n" + 
         "name:                 /dcterms:title\n" + 
         "description:          /dcterms:description\n" + 
@@ -38,10 +42,6 @@ public class SparqlConstructTranslatorTest {
         "   @type:             'Organization'\n" + 
         "   name:              /rdf:value";
     SparqlConstructTranslatorHandler handler = new SparqlConstructTranslatorHandler();
-    handler.addPrefix("schema", "http://schema.org/");
-    handler.addPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
-    handler.addPrefix("db", "http://bio2rdf.org/drugbank_vocabulary:");
-    handler.addPrefix("bio2rdf", "http://bio2rdf.org/bio2rdf_vocabulary:");
     handler.setInstanceType("db:Drug");
     // Assertion
     assertThat(MapNodeTranslator.translate(handler, mapping), equalTo(
