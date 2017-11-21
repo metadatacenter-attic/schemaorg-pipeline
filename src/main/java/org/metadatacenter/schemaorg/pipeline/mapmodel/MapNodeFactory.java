@@ -26,6 +26,10 @@ public class MapNodeFactory {
     return new ObjectNode(path, this);
   }
 
+  public ObjectNode rootNode() {
+    return new ObjectNode("", this);
+  }
+
   public ArrayNode arrayNode() {
     return new ArrayNode(this);
   }
