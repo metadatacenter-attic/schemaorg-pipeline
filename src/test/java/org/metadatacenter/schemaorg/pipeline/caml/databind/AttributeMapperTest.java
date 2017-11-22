@@ -3,7 +3,6 @@ package org.metadatacenter.schemaorg.pipeline.caml.databind;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.caml.databind.AttributeMapper;
 import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNode;
 import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.mapmodel.PathNode;
@@ -144,12 +143,12 @@ public class AttributeMapperTest {
     // Assertions
     assertThat(mapNode.get("a1").getValue(), equalTo("/path1"));
     assertThat(mapNode.get("a2").getValue(), equalTo("constant1"));
-    assertThat(mapNode.get("a3").getValue(), equalTo("key1,value1"));
+    assertThat(mapNode.get("a3").getValue(), equalTo("(key1,value1)"));
     assertThat(mapNode.get("a4").getValue(), equalTo("/parent1"));
     assertThat(mapNode.get("a4").get("a5").getValue(), equalTo("/path2"));
     assertThat(mapNode.get("a4").get("a6").getValue(), equalTo("constant2"));
     assertThat(mapNode.get("a4").get("a6").getValue(), equalTo("constant2"));
-    assertThat(mapNode.get("a4").get("a7").getValue(), equalTo("key2,value2"));
+    assertThat(mapNode.get("a4").get("a7").getValue(), equalTo("(key2,value2)"));
   }
 
   @Test

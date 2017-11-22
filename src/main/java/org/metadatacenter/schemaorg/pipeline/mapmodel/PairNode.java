@@ -30,7 +30,7 @@ public class PairNode extends MapNode {
 
   @Override
   public String getValue() {
-    return value1 + "," + value2;
+    return String.format("(%s,%s)", value1, value2);
   }
 
   @Override
