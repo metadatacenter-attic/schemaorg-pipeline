@@ -70,7 +70,7 @@ public class XsltTranslatorHandler extends TranslatorHandler {
   private static Map<String, String> toMapOfString(Map<String, MapNode> objectMap) {
     Map<String, String> mapOfString = Maps.newLinkedHashMap();
     for (String attrName : objectMap.keySet()) {
-      if (!ReservedAttributes.isType(attrName)) {
+      if (!ReservedAttributes.isReserved(attrName)) {
         MapNode mapNode = objectMap.get(attrName);
         mapOfString.put(attrName, mapNode.getValue());
       }
