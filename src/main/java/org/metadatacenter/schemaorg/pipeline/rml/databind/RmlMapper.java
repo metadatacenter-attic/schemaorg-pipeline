@@ -135,12 +135,9 @@ public class RmlMapper {
       } else {
         ObjectMap om = objectMaps.stream().findFirst().get();
         if (om.getTermMapType().equals(TermMapType.CONSTANT_VALUED) ) {
-          String constantValue = om.getConstantValue().stringValue();
-          objectNode.put(attrName, mapNodeFactory.constantNode(constantValue));
+          objectNode.put(attrName, mapNodeFactory.constantNode(getConstantValue(om)));
         } else if (om.getTermMapType().equals(TermMapType.REFERENCE_VALUED)) {
-          String parentPath = pom.getOwnTriplesMap().getLogicalSource().getIterator();
-          String dataPath = om.getReferenceMap().getReference();
-          objectNode.put(attrName, mapNodeFactory.pathNode(parentPath, dataPath));
+          objectNode.put(attrName, mapNodeFactory.pathNode(getParentPath(om), getDataPath(om)));
         }
       }
     }
@@ -149,12 +146,9 @@ public class RmlMapper {
   private void bindMultipleObjectMaps(Set<ObjectMap> objectMaps, final ArrayNode arrayNode) {
     for (ObjectMap om : objectMaps) {
       if (om.getTermMapType().equals(TermMapType.CONSTANT_VALUED) ) {
-        String constantValue = om.getConstantValue().stringValue();
-        arrayNode.add(mapNodeFactory.constantNode(constantValue));
+        arrayNode.add(mapNodeFactory.constantNode(getConstantValue(om)));
       } else if (om.getTermMapType().equals(TermMapType.REFERENCE_VALUED)) {
-        String parentPath = om.getOwnTriplesMap().getLogicalSource().getIterator();
-        String dataPath = om.getReferenceMap().getReference();
-        arrayNode.add(mapNodeFactory.pathNode(parentPath, dataPath));
+        arrayNode.add(mapNodeFactory.pathNode(getParentPath(om), getDataPath(om)));
       }
     }
   }
@@ -187,9 +181,23 @@ public class RmlMapper {
     }
   }
 
+  private static String getConstantValue(ObjectMap om) {
+    return om.getConstantValue().stringValue();
+  }
+
+  private static String getParentPath(ObjectMap om) {
+    String iterator = om.getOwnTriplesMap().getLogicalSource().getIterator();
+    return (iterator == null) ? "" : iterator;
+  }
+
+  private static String getDataPath(ObjectMap om) {
+    return om.getReferenceMap().getReference();
+  }
+
   private static String getReferencingDataPath(ReferencingObjectMap rom) {
     TriplesMap triplesMap = rom.getParentTriplesMap();
-    return triplesMap.getLogicalSource().getIterator();
+    String iterator = triplesMap.getLogicalSource().getIterator();
+    return (iterator == null) ? "" : iterator;
   }
 
   private static String getAttributeName(PredicateObjectMap pom) {
