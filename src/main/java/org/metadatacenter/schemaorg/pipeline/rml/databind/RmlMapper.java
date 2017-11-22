@@ -78,7 +78,7 @@ public class RmlMapper {
       while (nsResult.hasNext()) {
         Namespace ns = nsResult.next();
         String prefixLabel = ns.getPrefix();
-        if (!"rr".equals(prefixLabel) || !"rml".equals(prefixLabel)) {
+        if (!("rr".equals(prefixLabel) || "rml".equals(prefixLabel))) {
           PairNode prefixDefinition = mapNodeFactory.pairNode(prefixLabel, ns.getName());
           prefixes.add(prefixDefinition);
         }
