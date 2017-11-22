@@ -385,7 +385,7 @@ public class RmlMapperTest {
     assertThat(a1.getAbsolutePath(), equalTo("/root/path1"));
     
     ObjectNode a3 = (ObjectNode) mapNode.get("attribute3");
-    assertThat(a3.getRelativePath(), equalTo("/root/parent1"));
+    assertThat(a3.getRelativePath(), equalTo("/parent1"));
     assertThat(a3.getAbsolutePath(), equalTo("/root/parent1"));
     
     PathNode a4 = (PathNode) mapNode.get("attribute3").get("attribute4");
@@ -393,7 +393,7 @@ public class RmlMapperTest {
     assertThat(a4.getAbsolutePath(), equalTo("/root/parent1/path2"));
     
     ObjectNode a6 = (ObjectNode) mapNode.get("attribute3").get("attribute6");
-    assertThat(a6.getRelativePath(), equalTo("/root/parent1/parent2"));
+    assertThat(a6.getRelativePath(), equalTo("/parent2"));
     assertThat(a6.getAbsolutePath(), equalTo("/root/parent1/parent2"));
     
     PathNode a7 = (PathNode) mapNode.get("attribute3").get("attribute6").get("attribute7");

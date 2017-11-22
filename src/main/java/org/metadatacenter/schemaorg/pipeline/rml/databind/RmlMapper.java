@@ -164,7 +164,9 @@ public class RmlMapper {
       } else {
         ReferencingObjectMap rom = referencingObjectMaps.stream().findFirst().get();
         TriplesMap triplesMap = rom.getParentTriplesMap();
-        ObjectNode objectNode = mapNodeFactory.objectNode(getReferencingDataPath(rom));
+        ObjectNode objectNode = mapNodeFactory.objectNode(
+            getReferencingParentPath(rom),
+            getReferencingDataPath(rom));
         bindTriplesMap(triplesMap, objectNode);
         parentNode.put(attrName, objectNode);
       }
@@ -175,7 +177,9 @@ public class RmlMapper {
       final ArrayNode arrayNode) {
     for (ReferencingObjectMap rom : referencingObjectMaps) {
       TriplesMap triplesMap = rom.getParentTriplesMap();
-      ObjectNode objectNode = mapNodeFactory.objectNode(getReferencingDataPath(rom));
+      ObjectNode objectNode = mapNodeFactory.objectNode(
+          getReferencingParentPath(rom),
+          getReferencingDataPath(rom));
       bindTriplesMap(triplesMap, objectNode);
       arrayNode.add(objectNode);
     }
@@ -190,14 +194,20 @@ public class RmlMapper {
     return (iterator == null) ? "" : iterator;
   }
 
+  private static String getReferencingParentPath(ReferencingObjectMap rom) {
+    String iterator = rom.getChildReference();
+    return (iterator == null) ? "" : iterator;
+  }
+
   private static String getDataPath(ObjectMap om) {
     return om.getReferenceMap().getReference();
   }
 
   private static String getReferencingDataPath(ReferencingObjectMap rom) {
-    TriplesMap triplesMap = rom.getParentTriplesMap();
-    String iterator = triplesMap.getLogicalSource().getIterator();
-    return (iterator == null) ? "" : iterator;
+    String topIterator = getReferencingParentPath(rom);
+    TriplesMap linkedTriplesMap = rom.getParentTriplesMap();
+    String bottomIterator = linkedTriplesMap.getLogicalSource().getIterator();
+    return bottomIterator.substring(topIterator.length());
   }
 
   private String getTypeName(SubjectMap sm) {
