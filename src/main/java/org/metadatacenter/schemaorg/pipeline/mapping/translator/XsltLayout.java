@@ -58,11 +58,9 @@ class XsltLayout {
                   newline();
                 }
               }
-            } else {
-              if (isConstant(value)) {
-                indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
-                newline();
-              }
+            } else if (isConstant(value)) {
+              indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
+              newline();
             }
           }
           isTopLevel = false;
@@ -83,7 +81,7 @@ class XsltLayout {
                   } else {
                     indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", path));
                   }
-                } else {
+                } else if (isConstant(itemValue)) {
                   indent(9).append(String.format("<%s>%s</%s>", attrName, itemValue, attrName));
                 }
                 newline();
@@ -96,7 +94,7 @@ class XsltLayout {
                 } else {
                   indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", path));
                 }
-              } else {
+              } else if (isConstant(value)) {
                 indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
               }
               newline();
@@ -140,7 +138,7 @@ class XsltLayout {
   }
 
   private static boolean isConstant(String value) {
-    return !isPath(value) && !isArray(value);
+    return !isPath(value) && !isArray(value) && !isPair(value);
   }
 
   private static boolean isPath(String value) {
@@ -149,6 +147,10 @@ class XsltLayout {
 
   private static boolean isArray(String value) {
     return value.startsWith("[") && value.endsWith("]");
+  }
+
+  private static boolean isPair(String value) {
+    return value.startsWith("(") && value.endsWith(")");
   }
 
   abstract class XslTemplate {
