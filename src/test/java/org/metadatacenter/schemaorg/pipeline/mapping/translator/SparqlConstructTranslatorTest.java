@@ -11,7 +11,9 @@ public class SparqlConstructTranslatorTest {
   public void shouldConvertToSparqlConstruct() {
     final String mapping =
         "@prefix:              ('schema', 'http://schema.org/')\n" + 
-        "@prefix:              ('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')\n" + 
+        "@prefix:              ('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')\n" +
+        "@prefix:              ('rdfs', 'http://www.w3.org/2000/01/rdf-schema#')\n" + 
+        "@prefix:              ('dcterms', 'http://purl.org/dc/terms/')\n" + 
         "@prefix:              ('db', 'http://bio2rdf.org/drugbank_vocabulary:')\n" + 
         "@prefix:              ('bio2rdf', 'http://bio2rdf.org/bio2rdf_vocabulary:')\n" + 
         "@type:                ('Drug', 'db:Drug')\n" + 
@@ -46,6 +48,8 @@ public class SparqlConstructTranslatorTest {
     assertThat(MapNodeTranslator.translate(handler, mapping), equalTo(
         "PREFIX schema: <http://schema.org/>\n" + 
         "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" + 
+        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" + 
+        "PREFIX dcterms: <http://purl.org/dc/terms/>\n" + 
         "PREFIX db: <http://bio2rdf.org/drugbank_vocabulary:>\n" + 
         "PREFIX bio2rdf: <http://bio2rdf.org/bio2rdf_vocabulary:>\n" + 
         "\n" + 
