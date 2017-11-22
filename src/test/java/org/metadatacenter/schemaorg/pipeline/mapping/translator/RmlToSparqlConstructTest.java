@@ -151,6 +151,5 @@ public class RmlToSparqlConstructTest {
     String output = MapNodeTranslator.translate(handler, rmlMapping, MappingLanguages.RML);
     // Assertion
     assertThat(output.length(), equalTo(2830));
-    assertThat(output.getBytes().hashCode(), equalTo(1263391254));
   }
 }
