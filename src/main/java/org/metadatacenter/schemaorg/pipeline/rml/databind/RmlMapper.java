@@ -119,7 +119,7 @@ public class RmlMapper {
   }
 
   private void bindSubjectMap(SubjectMap sm, final ObjectNode objectNode) {
-    String typeName = sm.getClassIRIs().stream().findFirst().get().stringValue();
+    String typeName = getTypeName(sm);
     ConstantNode constantNode = mapNodeFactory.constantNode(typeName);
     objectNode.put(ReservedAttributes.TYPE, constantNode);
   }
@@ -200,9 +200,18 @@ public class RmlMapper {
     return (iterator == null) ? "" : iterator;
   }
 
+  private String getTypeName(SubjectMap sm) {
+    String typeName = sm.getClassIRIs().stream().findFirst().get().stringValue();
+    return removeSchemeOrgNamespace(typeName);
+  }
+
   private static String getAttributeName(PredicateObjectMap pom) {
     PredicateMap predicateMap = pom.getPredicateMaps().stream().findFirst().get();
-    String constantValue = predicateMap.getConstantValue().stringValue();
-    return constantValue.replaceAll("http://schema.org/", "");
+    String attributeName = predicateMap.getConstantValue().stringValue();
+    return removeSchemeOrgNamespace(attributeName);
+  }
+
+  private static String removeSchemeOrgNamespace(String s) {
+    return s.replaceAll("http://schema.org/", "");
   }
 }
