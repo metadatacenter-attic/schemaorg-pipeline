@@ -5,6 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeTranslator;
 import org.metadatacenter.schemaorg.pipeline.mapping.MappingLanguages;
+import org.metadatacenter.schemaorg.pipeline.operation.translate.XsltTranslatorHandler;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class RmlToXsltTest {

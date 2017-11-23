@@ -4,6 +4,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeTranslator;
 import org.metadatacenter.schemaorg.pipeline.mapping.MappingLanguages;
+import org.metadatacenter.schemaorg.pipeline.operation.translate.SparqlConstructTranslatorHandler;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class RmlToSparqlConstructTest {

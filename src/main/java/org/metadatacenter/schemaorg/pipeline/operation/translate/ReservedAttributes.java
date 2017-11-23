@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.mapping.translator;
+package org.metadatacenter.schemaorg.pipeline.operation.translate;
 
 import java.util.List;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;

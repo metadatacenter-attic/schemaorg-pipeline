@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.transform;
+package org.metadatacenter.schemaorg.pipeline.operation.transform;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

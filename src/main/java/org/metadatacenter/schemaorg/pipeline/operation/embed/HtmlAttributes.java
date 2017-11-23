@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.embed;
+package org.metadatacenter.schemaorg.pipeline.operation.embed;
 
 import java.util.Map;
 import com.google.common.collect.Maps;

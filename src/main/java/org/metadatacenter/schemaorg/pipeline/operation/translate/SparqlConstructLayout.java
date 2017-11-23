@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.mapping.translator;
+package org.metadatacenter.schemaorg.pipeline.operation.translate;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.List;

@@ -9,7 +9,7 @@ import org.metadatacenter.schemaorg.pipeline.mapping.model.ConstantNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNodeFactory;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.PairNode;
-import org.metadatacenter.schemaorg.pipeline.mapping.translator.ReservedAttributes;
+import org.metadatacenter.schemaorg.pipeline.operation.translate.ReservedAttributes;
 import org.openrdf.model.Namespace;
 import org.openrdf.repository.Repository;
 import org.openrdf.repository.RepositoryException;

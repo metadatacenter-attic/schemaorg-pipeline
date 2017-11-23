@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.transform;
+package org.metadatacenter.schemaorg.pipeline.operation.transform;
 
 import java.util.List;
 import java.util.Set;
