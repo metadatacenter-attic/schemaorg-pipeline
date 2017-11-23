@@ -8,10 +8,10 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.PairNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.PairNode;
 import com.google.common.base.Strings;
 import com.google.common.collect.Sets;
 

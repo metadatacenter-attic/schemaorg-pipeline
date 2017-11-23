@@ -1,11 +1,11 @@
-package org.metadatacenter.schemaorg.pipeline.caml.databind;
+package org.metadatacenter.schemaorg.pipeline.mapping.caml.databind;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ArrayNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNodeFactory;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ArrayNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNodeFactory;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 
 /*package*/ class MapNodeTreeBuilder implements SectionVisitor {
 

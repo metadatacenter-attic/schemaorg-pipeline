@@ -3,10 +3,11 @@ package org.metadatacenter.schemaorg.pipeline.rml.databind;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ArrayNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.PathNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ArrayNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.PathNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.rml.databind.RmlMapper;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class RmlMapperTest {

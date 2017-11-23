@@ -1,8 +1,8 @@
 package org.metadatacenter.schemaorg.pipeline.mapping;
 
-import org.metadatacenter.schemaorg.pipeline.caml.databind.AttributeMapper;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.rml.databind.RmlMapper;
+import org.metadatacenter.schemaorg.pipeline.mapping.caml.databind.AttributeMapper;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.rml.databind.RmlMapper;
 
 public class MapNodeTranslator {
 

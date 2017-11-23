@@ -1,14 +1,14 @@
-package org.metadatacenter.schemaorg.pipeline.rml.databind;
+package org.metadatacenter.schemaorg.pipeline.mapping.rml.databind;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Set;
 import org.apache.commons.io.FileUtils;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ArrayNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ConstantNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNodeFactory;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.PairNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ArrayNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ConstantNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNodeFactory;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.PairNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.translator.ReservedAttributes;
 import org.openrdf.model.Namespace;
 import org.openrdf.repository.Repository;

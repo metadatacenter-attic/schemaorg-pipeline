@@ -3,9 +3,10 @@ package org.metadatacenter.schemaorg.pipeline.caml.databind;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.PathNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.caml.databind.AttributeMapper;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.PathNode;
 
 public class AttributeMapperTest {
 

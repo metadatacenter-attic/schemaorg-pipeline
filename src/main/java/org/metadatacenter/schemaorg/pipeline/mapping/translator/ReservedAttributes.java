@@ -1,7 +1,7 @@
 package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 
 import java.util.List;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 import com.google.common.collect.Lists;
 
 public final class ReservedAttributes {

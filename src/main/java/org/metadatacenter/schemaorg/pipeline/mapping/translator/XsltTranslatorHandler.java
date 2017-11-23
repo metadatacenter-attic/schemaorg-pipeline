@@ -4,10 +4,10 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.Map;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.MapNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
-import org.metadatacenter.schemaorg.pipeline.mapmodel.PathNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.PathNode;
 import com.google.common.collect.Maps;
 
 public class XsltTranslatorHandler extends TranslatorHandler {

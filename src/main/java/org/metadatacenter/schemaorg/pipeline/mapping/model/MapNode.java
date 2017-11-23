@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.mapmodel;
+package org.metadatacenter.schemaorg.pipeline.mapping.model;
 
 import java.util.Collections;
 import java.util.Iterator;

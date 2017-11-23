@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.mapmodel;
+package org.metadatacenter.schemaorg.pipeline.mapping.model;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.Iterator;

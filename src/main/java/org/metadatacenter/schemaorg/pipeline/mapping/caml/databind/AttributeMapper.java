@@ -1,6 +1,6 @@
-package org.metadatacenter.schemaorg.pipeline.caml.databind;
+package org.metadatacenter.schemaorg.pipeline.mapping.caml.databind;
 
-import org.metadatacenter.schemaorg.pipeline.mapmodel.ObjectNode;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 
 public class AttributeMapper {
 
