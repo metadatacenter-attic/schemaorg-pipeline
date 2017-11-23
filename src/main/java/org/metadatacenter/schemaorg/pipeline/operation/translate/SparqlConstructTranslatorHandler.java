@@ -8,7 +8,6 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.PairNode;

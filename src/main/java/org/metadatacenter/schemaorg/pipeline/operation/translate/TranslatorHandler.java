@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.mapping;
+package org.metadatacenter.schemaorg.pipeline.operation.translate;
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;

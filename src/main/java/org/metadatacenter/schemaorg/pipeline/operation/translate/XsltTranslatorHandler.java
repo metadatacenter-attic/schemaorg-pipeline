@@ -4,7 +4,6 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.Map;
-import org.metadatacenter.schemaorg.pipeline.mapping.TranslatorHandler;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.PathNode;

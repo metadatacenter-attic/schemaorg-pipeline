@@ -1,5 +1,6 @@
-package org.metadatacenter.schemaorg.pipeline.mapping;
+package org.metadatacenter.schemaorg.pipeline.operation.translate;
 
+import org.metadatacenter.schemaorg.pipeline.mapping.MappingLanguages;
 import org.metadatacenter.schemaorg.pipeline.mapping.caml.databind.AttributeMapper;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.rml.databind.RmlMapper;

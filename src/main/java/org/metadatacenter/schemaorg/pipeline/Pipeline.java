@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.api;
+package org.metadatacenter.schemaorg.pipeline;
 
 public class Pipeline {
 

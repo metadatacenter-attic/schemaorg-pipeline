@@ -3,7 +3,7 @@ package org.metadatacenter.schemaorg.pipeline.mapping.translator;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.Test;
-import org.metadatacenter.schemaorg.pipeline.mapping.MapNodeTranslator;
+import org.metadatacenter.schemaorg.pipeline.operation.translate.MapNodeTranslator;
 import org.metadatacenter.schemaorg.pipeline.operation.translate.SparqlConstructTranslatorHandler;
 
 public class SparqlConstructTranslatorTest {
