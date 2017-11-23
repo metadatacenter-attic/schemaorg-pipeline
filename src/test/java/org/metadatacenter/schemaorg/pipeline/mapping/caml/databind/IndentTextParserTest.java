@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.caml.databind;
+package org.metadatacenter.schemaorg.pipeline.mapping.caml.databind;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.mapping.translator;
+package org.metadatacenter.schemaorg.pipeline.operation.translate;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;

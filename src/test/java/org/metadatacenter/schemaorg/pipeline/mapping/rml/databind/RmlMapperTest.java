@@ -1,4 +1,4 @@
-package org.metadatacenter.schemaorg.pipeline.rml.databind;
+package org.metadatacenter.schemaorg.pipeline.mapping.rml.databind;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Ignore;
