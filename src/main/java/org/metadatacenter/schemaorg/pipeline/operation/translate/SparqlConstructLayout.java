@@ -46,8 +46,8 @@ class SparqlConstructLayout {
     triplePatternList.add(triplePattern);
   }
 
-  public void addFilter(String filter) {
-    filters.add(filter);
+  public void addFilter(String filterExpression) {
+    filters.add(filterExpression);
   }
 
   @Override
@@ -89,10 +89,10 @@ class SparqlConstructLayout {
       }
     }
     if (!filters.isEmpty()) {
-      for (String filter : filters) {
+      for (String filterExpression : filters) {
         indent(3);
         openBracket(SPARQL_FILTER, "(");
-        indent(0).append(filter);
+        indent(0).append(filterExpression);
         closeBracket(")");
         newline();
       }

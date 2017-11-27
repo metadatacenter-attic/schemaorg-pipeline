@@ -17,7 +17,6 @@ import com.google.common.collect.Sets;
 public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   private static final String ROOT_INSTANCE_NAME = "s";
-  private static final String FILTER_TEMPLATE = var(ROOT_INSTANCE_NAME) + " = <%s>";
 
   private Set<String> prefixes = Sets.newLinkedHashSet();
 
@@ -30,17 +29,18 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
 
   @Override
   public void translate(ObjectNode objectNode, OutputStream out) {
-    SparqlConstructLayout sparqlLayout = initSparqlLayout();
-    visit(objectNode, ROOT_INSTANCE_NAME, sparqlLayout, new AtomicInteger());
+    SparqlConstructLayout sparqlLayout = new SparqlConstructLayout(prefixes);
+    visitRoot(objectNode, sparqlLayout);
     try (PrintWriter printer = new PrintWriter(out)) {
       printer.println(sparqlLayout.toString());
     }
   }
 
-  private SparqlConstructLayout initSparqlLayout() {
-    SparqlConstructLayout layout = new SparqlConstructLayout(prefixes);
-    layout.addFilter(FILTER_TEMPLATE);
-    return layout;
+  private void visitRoot(ObjectNode rootNode, SparqlConstructLayout layout) {
+    if (!rootNode.has(ReservedAttributes.ID)) {
+      constructDefaultRootFilter(layout);
+    }
+    visit(rootNode, ROOT_INSTANCE_NAME, layout, new AtomicInteger());
   }
 
   private void visit(MapNode mapNode, String subjectVar, SparqlConstructLayout layout,
@@ -76,11 +76,18 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             layout);
       } else if (node.isConstantNode()) {
         String constantValue = node.getValue();
-        constructTripleTemplate(
-            subject(subjectVar),
-            predicate(attrName),
-            literal(attrName, constantValue),
-            layout);
+        if (attrName.equals(ReservedAttributes.ID)) {
+          constructFilter(
+              subject(subjectVar),
+              literal(attrName, constantValue),
+              layout);
+        } else {
+          constructTripleTemplate(
+              subject(subjectVar),
+              predicate(attrName),
+              literal(attrName, constantValue),
+              layout);
+        }
       } else if (node.isPairNode()) {
         PairNode pairNode = (PairNode) node;
         if (ReservedAttributes.isPrefix(attrName)) {
@@ -141,11 +148,18 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
                 layout);
           } else if (item.isConstantNode()) {
             String constantValue = item.getValue();
-            constructTripleTemplate(
-                subject(subjectVar),
-                predicate(attrName),
-                literal(attrName, constantValue),
-                layout);
+            if (attrName.equals(ReservedAttributes.ID)) {
+              constructFilter(
+                  var(subjectVar),
+                  literal(attrName, constantValue),
+                  layout);
+            } else {
+              constructTripleTemplate(
+                  subject(subjectVar),
+                  predicate(attrName),
+                  literal(attrName, constantValue),
+                  layout);
+            }
           } else if (item.isPairNode()) {
             PairNode pairNode = (PairNode) item;
             if (ReservedAttributes.isPrefix(attrName)) {
@@ -169,6 +183,15 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
       SparqlConstructLayout layout) {
     String triplePattern = String.format("%s %s.", subject, predicateObject);
     layout.addTriplePattern(triplePattern, patternGroup);
+  }
+
+  private void constructFilter(String variable, String value, SparqlConstructLayout layout) {
+    String filterExpression = String.format("%s = %s", variable, value);
+    layout.addFilter(filterExpression);
+  }
+
+  private void constructDefaultRootFilter(SparqlConstructLayout layout) {
+    constructFilter(subject(ROOT_INSTANCE_NAME), "<%s>", layout);
   }
 
   private static String predicateObject(String dataPath, String objectVar) {
@@ -208,6 +231,8 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
   private static String literal(String propertyName, String constantValue) {
     if (ReservedAttributes.isType(propertyName)) {
       return schema(constantValue);
+    } else if (ReservedAttributes.isId(propertyName)) {
+      return "<" + constantValue + ">";
     } else {
       return "'" + constantValue + "'";
     }
