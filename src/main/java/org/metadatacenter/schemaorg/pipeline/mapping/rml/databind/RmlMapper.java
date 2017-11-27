@@ -11,6 +11,7 @@ import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.PairNode;
 import org.metadatacenter.schemaorg.pipeline.operation.translate.ReservedAttributes;
 import org.openrdf.model.Namespace;
+import org.openrdf.model.Value;
 import org.openrdf.repository.Repository;
 import org.openrdf.repository.RepositoryException;
 import org.openrdf.repository.RepositoryResult;
@@ -119,9 +120,19 @@ public class RmlMapper {
   }
 
   private void bindSubjectMap(SubjectMap sm, final ObjectNode objectNode) {
+    String subjectId = getSubjectId(sm);
+    if (subjectId != null) {
+      ConstantNode constantNode = mapNodeFactory.constantNode(subjectId);
+      objectNode.put(ReservedAttributes.ID, constantNode);
+    }
     String typeName = getTypeName(sm);
     ConstantNode constantNode = mapNodeFactory.constantNode(typeName);
     objectNode.put(ReservedAttributes.TYPE, constantNode);
+  }
+
+  private String getSubjectId(SubjectMap sm) {
+    Value value = sm.getConstantValue();
+    return (value != null) ? value.stringValue() : null;
   }
 
   private void bindNonReferencingObjectMap(PredicateObjectMap pom, final ObjectNode objectNode) {
