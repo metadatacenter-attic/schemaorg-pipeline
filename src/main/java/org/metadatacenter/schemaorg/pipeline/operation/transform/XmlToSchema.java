@@ -65,13 +65,15 @@ public class XmlToSchema {
   private static JSONArray visitArrayNode(JSONArray jsonArray) {
     JSONArray newJsonArray = new JSONArray();
     for (int i = 0; i < jsonArray.length(); i++) {
-      Object arrayNode = jsonArray.get(i);
-      if (arrayNode instanceof JSONObject) {
-        arrayNode = visitObjectNode((JSONObject) arrayNode);
-      } else if (arrayNode instanceof JSONArray) {
-        arrayNode = visitArrayNode((JSONArray) arrayNode);
+      Object item = jsonArray.get(i);
+      if (!item.equals("")) {
+        if (item instanceof JSONObject) {
+          item = visitObjectNode((JSONObject) item);
+        } else if (item instanceof JSONArray) {
+          item = visitArrayNode((JSONArray) item);
+        }
+        putIfNotDuplicates(newJsonArray, item);
       }
-      putIfNotDuplicates(newJsonArray, arrayNode);
     }
     return newJsonArray;
   }
