@@ -65,7 +65,7 @@ class XsltLayout {
           }
           isTopLevel = false;
         } else {
-          indent(3).append(String.format("<xsl:template match=\"%s\">", removeStartingSlash(ot.path)));
+          indent(3).append(String.format("<xsl:template match=\"%s\">", ot.path));
           newline();
           indent(6).append(String.format("<%s _type=\"%s\">", ot.attribute, ot.type));
           newline();
@@ -106,7 +106,7 @@ class XsltLayout {
         indent(3).append("</xsl:template>");
       } else if (template.isPathTemplate()) {
         PathTemplate pt = (PathTemplate)template;
-        indent(3).append(String.format("<xsl:template match=\"%s\">", removeStartingSlash(pt.path)));
+        indent(3).append(String.format("<xsl:template match=\"%s\">", pt.path));
         newline();
         indent(6).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", pt.attribute, pt.attribute));
         newline();

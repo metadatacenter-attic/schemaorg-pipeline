@@ -65,7 +65,7 @@ public class RmlToXsltTest {
         "   ].";
     String output = MapNodeTranslator.translate(new XsltTranslatorHandler(), rmlMapping, MappingLanguages.RML);
     // Asserts
-    assertThat(output.length(), equalTo(502));
+    assertThat(output.length(), equalTo(503));
 //    assertThat(output, equalTo(
 //        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
 //        "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
@@ -119,7 +119,7 @@ public class RmlToXsltTest {
         "   ].";
     String output = MapNodeTranslator.translate(new XsltTranslatorHandler(), rmlMapping, MappingLanguages.RML);
     // Asserts
-    assertThat(output.length(), equalTo(755));
+    assertThat(output.length(), equalTo(757));
 //    assertThat(output, equalTo(
 //        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
 //        "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
@@ -203,7 +203,7 @@ public class RmlToXsltTest {
         "   ].";
     String output = MapNodeTranslator.translate(new XsltTranslatorHandler(), rmlMapping, MappingLanguages.RML);
     // Asserts
-    assertThat(output.length(), equalTo(792));
+    assertThat(output.length(), equalTo(795));
 //    assertThat(output, equalTo(
 //        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
 //        "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
@@ -386,7 +386,7 @@ public class RmlToXsltTest {
         "   ].";
     String output = MapNodeTranslator.translate(new XsltTranslatorHandler(), rmlMapping, MappingLanguages.RML);
     // Asserts
-    assertThat(output.length(), equalTo(972));
+    assertThat(output.length(), equalTo(975));
 //    assertThat(output, equalTo(
 //        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
 //        "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
@@ -462,7 +462,7 @@ public class RmlToXsltTest {
         "   ].";
     String output = MapNodeTranslator.translate(new XsltTranslatorHandler(), rmlMapping, MappingLanguages.RML);
     // Asserts
-    assertThat(output.length(), equalTo(891));
+    assertThat(output.length(), equalTo(893));
 //    assertThat(output, equalTo(
 //        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
 //        "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 
@@ -536,7 +536,7 @@ public class RmlToXsltTest {
         "   ].";
     String output = MapNodeTranslator.translate(new XsltTranslatorHandler(), rmlMapping, MappingLanguages.RML);
     // Asserts
-    assertThat(output.length(), equalTo(1388));
+    assertThat(output.length(), equalTo(1393));
 //    assertThat(output, equalTo(
 //        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
 //        "<xsl:stylesheet version=\"2.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n" + 

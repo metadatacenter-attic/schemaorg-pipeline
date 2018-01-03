@@ -43,7 +43,7 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" +
-        "   <xsl:template match=\"clinical_study/official_title\">\n" + 
+        "   <xsl:template match=\"/clinical_study/official_title\">\n" + 
         "      <name><xsl:value-of select=\".\"/></name>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"text()\"/>\n" + 
@@ -68,13 +68,13 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" +
-        "   <xsl:template match=\"clinical_study/sponsors/lead_sponsor\">\n" + 
+        "   <xsl:template match=\"/clinical_study/sponsors/lead_sponsor\">\n" + 
         "      <sponsor _type=\"Organization\">\n" + 
         "         <xsl:apply-templates select=\"agency\"/>\n" + 
         "         <additionalType>Lead Sponsor</additionalType>\n" + 
         "      </sponsor>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/sponsors/lead_sponsor/agency\">\n" + 
+        "   <xsl:template match=\"/clinical_study/sponsors/lead_sponsor/agency\">\n" + 
         "      <name><xsl:value-of select=\".\"/></name>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"text()\"/>\n" + 
@@ -122,13 +122,13 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" +
-        "   <xsl:template match=\"clinical_study/id_info/org_study_id\">\n" + 
+        "   <xsl:template match=\"/clinical_study/id_info/org_study_id\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/id_info/nct_id\">\n" + 
+        "   <xsl:template match=\"/clinical_study/id_info/nct_id\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/id_info/secondary_id\">\n" + 
+        "   <xsl:template match=\"/clinical_study/id_info/secondary_id\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"text()\"/>\n" + 
@@ -160,30 +160,30 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" +
-        "   <xsl:template match=\"clinical_study/references\">\n" + 
+        "   <xsl:template match=\"/clinical_study/references\">\n" + 
         "      <subjectOf _type=\"CreativeWork\">\n" + 
         "         <additionalType>pubmed</additionalType>\n" + 
         "         <xsl:apply-templates select=\"citation\"/>\n" + 
         "      </subjectOf>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/references/citation\">\n" + 
+        "   <xsl:template match=\"/clinical_study/references/citation\">\n" + 
         "      <alternateName><xsl:value-of select=\".\"/></alternateName>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/results_reference\">\n" + 
+        "   <xsl:template match=\"/clinical_study/results_reference\">\n" + 
         "      <subjectOf _type=\"CreativeWork\">\n" + 
         "         <additionalType>pubmed</additionalType>\n" + 
         "         <xsl:apply-templates select=\"citation\"/>\n" + 
         "      </subjectOf>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/results_reference/citation\">\n" + 
+        "   <xsl:template match=\"/clinical_study/results_reference/citation\">\n" + 
         "      <alternateName><xsl:value-of select=\".\"/></alternateName>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/link\">\n" + 
+        "   <xsl:template match=\"/clinical_study/link\">\n" + 
         "      <subjectOf _type=\"WebPage\">\n" + 
         "         <xsl:apply-templates select=\"description\"/>\n" + 
         "      </subjectOf>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/link/description\">\n" + 
+        "   <xsl:template match=\"/clinical_study/link/description\">\n" + 
         "      <description><xsl:value-of select=\".\"/></description>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"text()\"/>\n" + 
@@ -210,18 +210,18 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility\">\n" + 
         "      <studyLocation _type=\"AdministrativeArea\">\n" + 
         "         <xsl:apply-templates select=\"address\"/>\n" + 
         "      </studyLocation>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address\">\n" + 
         "      <address _type=\"PostalAddress\">\n" + 
         "         <xsl:apply-templates select=\"city\"/>\n" + 
         "         <addressCountry>USA</addressCountry>\n" + 
         "      </address>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/city\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/city\">\n" + 
         "      <addressLocality><xsl:value-of select=\".\"/></addressLocality>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"text()\"/>\n" + 
@@ -249,12 +249,12 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility\">\n" + 
         "      <studyLocation _type=\"AdministrativeArea\">\n" + 
         "         <xsl:apply-templates select=\"address\"/>\n" + 
         "      </studyLocation>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address\">\n" + 
         "      <address _type=\"PostalAddress\">\n" + 
         "         <addressLocality>San Francisco</addressLocality>\n" + 
         "         <addressLocality>Palo Alto</addressLocality>\n" + 
@@ -286,25 +286,25 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates />\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility\">\n" + 
         "      <studyLocation _type=\"AdministrativeArea\">\n" + 
         "         <xsl:apply-templates select=\"address\"/>\n" + 
         "      </studyLocation>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address\">\n" + 
         "      <address _type=\"PostalAddress\">\n" + 
         "         <xsl:apply-templates select=\"city\"/>\n" + 
         "         <xsl:apply-templates select=\"subsidiary/city\"/>\n" + 
         "         <xsl:apply-templates select=\"administration/city\"/>\n" + 
         "      </address>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/city\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/city\">\n" + 
         "      <addressLocality><xsl:value-of select=\".\"/></addressLocality>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/subsidiary/city\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/subsidiary/city\">\n" + 
         "      <addressLocality><xsl:value-of select=\".\"/></addressLocality>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/administration/city\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/administration/city\">\n" + 
         "      <addressLocality><xsl:value-of select=\".\"/></addressLocality>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"text()\"/>\n" + 
@@ -380,79 +380,79 @@ public class CamlToXsltTest {
         "         <additionalType>clinicaltrials</additionalType>\n" + 
         "      </instance>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/official_title\">\n" + 
+        "   <xsl:template match=\"/clinical_study/official_title\">\n" + 
         "      <name><xsl:value-of select=\".\"/></name>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/brief_title\">\n" + 
+        "   <xsl:template match=\"/clinical_study/brief_title\">\n" + 
         "      <alternateName><xsl:value-of select=\".\"/></alternateName>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/acronym\">\n" + 
+        "   <xsl:template match=\"/clinical_study/acronym\">\n" + 
         "      <alternateName><xsl:value-of select=\".\"/></alternateName>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/id_info/org_study_id\">\n" + 
+        "   <xsl:template match=\"/clinical_study/id_info/org_study_id\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/id_info/nct_id\">\n" + 
+        "   <xsl:template match=\"/clinical_study/id_info/nct_id\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/id_info/secondary_id\">\n" + 
+        "   <xsl:template match=\"/clinical_study/id_info/secondary_id\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/overall_status\">\n" + 
+        "   <xsl:template match=\"/clinical_study/overall_status\">\n" + 
         "      <status><xsl:value-of select=\".\"/></status>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/detailed_description/textblock\">\n" + 
+        "   <xsl:template match=\"/clinical_study/detailed_description/textblock\">\n" + 
         "      <description><xsl:value-of select=\".\"/></description>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/brief_summary/textblock\">\n" + 
+        "   <xsl:template match=\"/clinical_study/brief_summary/textblock\">\n" + 
         "      <disambiguatingDescription><xsl:value-of select=\".\"/></disambiguatingDescription>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/condition\">\n" + 
+        "   <xsl:template match=\"/clinical_study/condition\">\n" + 
         "      <studySubject><xsl:value-of select=\".\"/></studySubject>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/keyword\">\n" + 
+        "   <xsl:template match=\"/clinical_study/keyword\">\n" + 
         "      <code _type=\"MedicalCode\">\n" +
         "         <codeValue><xsl:value-of select=\".\"/></codeValue>\n" +
         "      </code>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/phase\">\n" + 
+        "   <xsl:template match=\"/clinical_study/phase\">\n" + 
         "      <phase><xsl:value-of select=\".\"/></phase>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/study_design_info/intervention_model\">\n" + 
+        "   <xsl:template match=\"/clinical_study/study_design_info/intervention_model\">\n" + 
         "      <trialDesign><xsl:value-of select=\".\"/></trialDesign>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/eligibility/criteria/textblock\">\n" + 
+        "   <xsl:template match=\"/clinical_study/eligibility/criteria/textblock\">\n" + 
         "      <population><xsl:value-of select=\".\"/></population>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/sponsors/lead_sponsor\">\n" + 
+        "   <xsl:template match=\"/clinical_study/sponsors/lead_sponsor\">\n" + 
         "      <sponsor _type=\"Organization\">\n" + 
         "         <xsl:apply-templates select=\"agency\"/>\n" + 
         "         <additionalType>Lead Sponsor</additionalType>\n" + 
         "      </sponsor>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/sponsors/lead_sponsor/agency\">\n" + 
+        "   <xsl:template match=\"/clinical_study/sponsors/lead_sponsor/agency\">\n" + 
         "      <name><xsl:value-of select=\".\"/></name>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/sponsors/collaborator\">\n" + 
+        "   <xsl:template match=\"/clinical_study/sponsors/collaborator\">\n" + 
         "      <sponsor _type=\"Organization\">\n" + 
         "         <xsl:apply-templates select=\"agency\"/>\n" + 
         "         <additionalType>Collaborator</additionalType>\n" + 
         "      </sponsor>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/sponsors/collaborator/agency\">\n" + 
+        "   <xsl:template match=\"/clinical_study/sponsors/collaborator/agency\">\n" + 
         "      <name><xsl:value-of select=\".\"/></name>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility\">\n" + 
         "      <studyLocation _type=\"AdministrativeArea\">\n" + 
         "         <xsl:apply-templates select=\"name\"/>\n" + 
         "         <additionalType>Facility</additionalType>\n" + 
         "         <xsl:apply-templates select=\"address\"/>\n" + 
         "      </studyLocation>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/name\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/name\">\n" + 
         "      <name><xsl:value-of select=\".\"/></name>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address\">\n" + 
         "      <address _type=\"PostalAddress\">\n" + 
         "         <xsl:apply-templates select=\"city\"/>\n" + 
         "         <xsl:apply-templates select=\"state\"/>\n" + 
@@ -460,63 +460,63 @@ public class CamlToXsltTest {
         "         <xsl:apply-templates select=\"country\"/>\n" + 
         "      </address>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/city\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/city\">\n" + 
         "      <addressLocality><xsl:value-of select=\".\"/></addressLocality>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/state\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/state\">\n" + 
         "      <addressRegion><xsl:value-of select=\".\"/></addressRegion>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/zip\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/zip\">\n" + 
         "      <postalCode><xsl:value-of select=\".\"/></postalCode>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location/facility/address/country\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location/facility/address/country\">\n" + 
         "      <addressCountry><xsl:value-of select=\".\"/></addressCountry>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location_countries\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location_countries\">\n" + 
         "      <studyLocation _type=\"AdministrativeArea\">\n" + 
         "         <xsl:apply-templates select=\"country\"/>\n" + 
         "         <additionalType>Country Location</additionalType>\n" + 
         "      </studyLocation>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/location_countries/country\">\n" + 
+        "   <xsl:template match=\"/clinical_study/location_countries/country\">\n" + 
         "      <name><xsl:value-of select=\".\"/></name>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/references\">\n" + 
+        "   <xsl:template match=\"/clinical_study/references\">\n" + 
         "      <subjectOf _type=\"CreativeWork\">\n" + 
         "         <additionalType>pubmed</additionalType>\n" + 
         "         <xsl:apply-templates select=\"PMID\"/>\n" + 
         "         <xsl:apply-templates select=\"citation\"/>\n" + 
         "      </subjectOf>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/references/PMID\">\n" + 
+        "   <xsl:template match=\"/clinical_study/references/PMID\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/references/citation\">\n" + 
+        "   <xsl:template match=\"/clinical_study/references/citation\">\n" + 
         "      <alternateName><xsl:value-of select=\".\"/></alternateName>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/results_reference\">\n" + 
+        "   <xsl:template match=\"/clinical_study/results_reference\">\n" + 
         "      <subjectOf _type=\"CreativeWork\">\n" + 
         "         <additionalType>pubmed</additionalType>\n" + 
         "         <xsl:apply-templates select=\"PMID\"/>\n" + 
         "         <xsl:apply-templates select=\"citation\"/>\n" + 
         "      </subjectOf>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/results_reference/PMID\">\n" + 
+        "   <xsl:template match=\"/clinical_study/results_reference/PMID\">\n" + 
         "      <identifier><xsl:value-of select=\".\"/></identifier>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/results_reference/citation\">\n" + 
+        "   <xsl:template match=\"/clinical_study/results_reference/citation\">\n" + 
         "      <alternateName><xsl:value-of select=\".\"/></alternateName>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/link\">\n" + 
+        "   <xsl:template match=\"/clinical_study/link\">\n" + 
         "      <subjectOf _type=\"WebPage\">\n" + 
         "         <xsl:apply-templates select=\"url\"/>\n" + 
         "         <xsl:apply-templates select=\"description\"/>\n" + 
         "      </subjectOf>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/link/url\">\n" + 
+        "   <xsl:template match=\"/clinical_study/link/url\">\n" + 
         "      <url><xsl:value-of select=\".\"/></url>\n" + 
         "   </xsl:template>\n" + 
-        "   <xsl:template match=\"clinical_study/link/description\">\n" + 
+        "   <xsl:template match=\"/clinical_study/link/description\">\n" + 
         "      <description><xsl:value-of select=\".\"/></description>\n" + 
         "   </xsl:template>\n" + 
         "   <xsl:template match=\"text()\"/>\n" + 
