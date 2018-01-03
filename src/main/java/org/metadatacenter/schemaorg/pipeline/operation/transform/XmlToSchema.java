@@ -30,10 +30,9 @@ public class XmlToSchema {
     try {
       JSONObject jsonObject = XML.toJSONObject(xmlDocument);
       JSONObject schemaInstance = (JSONObject) jsonObject.get("instance");
-      schemaInstance = renameJsonKey(schemaInstance, "_context", "@context");
-      schemaInstance = renameJsonKey(schemaInstance, "_type", "@type");
+      JSONObject finalSchemaInstance = fixJsonLabel(schemaInstance);
       try (OutputStreamWriter osw = new OutputStreamWriter(out, Charsets.UTF_8)) {
-        osw.write(schemaInstance.toString());
+        osw.write(finalSchemaInstance.toString());
       }
     } catch (Exception e) {
       // TODO Throw a custom exception
@@ -45,35 +44,45 @@ public class XmlToSchema {
     transform(xmlDocument, out);
   }
 
-  private static JSONObject renameJsonKey(JSONObject jsonObject, String oldName, String newName) {
+  private static JSONObject fixJsonLabel(JSONObject jsonObject) {
+    return visitObjectNode(jsonObject);
+  }
+
+  private static JSONObject visitObjectNode(JSONObject jsonObject) {
     JSONObject newJsonObject = new JSONObject();
     for (String key : jsonObject.keySet()) {
       Object node = jsonObject.get(key);
       if (node instanceof JSONObject) {
-        node = renameJsonKey((JSONObject) node, oldName, newName);
+        node = visitObjectNode((JSONObject) node);
       } else if (node instanceof JSONArray) {
-        node = renameJsonKey((JSONArray) node, oldName, newName);
+        node = visitArrayNode((JSONArray) node);
       }
-      newJsonObject.put(rename(key, oldName, newName), node);
+      newJsonObject.put(rename(key), node);
     }
     return newJsonObject;
   }
 
-  private static JSONArray renameJsonKey(JSONArray jsonArray, String oldName, String newName) {
+  private static JSONArray visitArrayNode(JSONArray jsonArray) {
     JSONArray newJsonArray = new JSONArray();
     for (int i = 0; i < jsonArray.length(); i++) {
       Object arrayNode = jsonArray.get(i);
       if (arrayNode instanceof JSONObject) {
-        arrayNode = renameJsonKey((JSONObject) arrayNode, oldName, newName);
+        arrayNode = visitObjectNode((JSONObject) arrayNode);
       } else if (arrayNode instanceof JSONArray) {
-        arrayNode = renameJsonKey((JSONArray) arrayNode, oldName, newName);
+        arrayNode = visitArrayNode((JSONArray) arrayNode);
       }
       newJsonArray.put(arrayNode);
     }
     return newJsonArray;
   }
 
-  private static String rename(String originalName, String oldName, String newName) {
-    return originalName.equals(oldName) ? newName : originalName;
+  private static String rename(String label) {
+    if (label.equals("_context")) {
+      return "@context";
+    } else if (label.equals("_type")) {
+      return "@type";
+    } else {
+      return label;
+    }
   }
 }
