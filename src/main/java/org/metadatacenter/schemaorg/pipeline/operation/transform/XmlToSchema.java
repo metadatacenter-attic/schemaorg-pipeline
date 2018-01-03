@@ -71,9 +71,15 @@ public class XmlToSchema {
       } else if (arrayNode instanceof JSONArray) {
         arrayNode = visitArrayNode((JSONArray) arrayNode);
       }
-      newJsonArray.put(arrayNode);
+      putIfNotDuplicates(newJsonArray, arrayNode);
     }
     return newJsonArray;
+  }
+
+  private static void putIfNotDuplicates(JSONArray newJsonArray, Object arrayNode) {
+    if (!newJsonArray.toList().contains(arrayNode)) {
+      newJsonArray.put(arrayNode);
+    }
   }
 
   private static String rename(String label) {
