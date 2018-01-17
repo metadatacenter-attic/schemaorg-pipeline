@@ -1,16 +1,16 @@
 # Welcome to the schemaorg-pipeline code repository
 
-This is the main code repository for the CEDAR schemaorg-pipeline project. Please see [our wiki](https://github.com/metadatacenter/schemaorg-pipeline/wiki) for detailed information about the library and the mapping languages.
+This is the main code repository for the CEDAR schemaorg-pipeline project. Please check [our wiki](https://github.com/metadatacenter/schemaorg-pipeline/wiki) for detailed information about how to use the library and the mapping languages.
 
 ## Quick Summary
 
 ### The playground
 
-Feel free to visit and learn the framework through our [playground](https://schemaorg.metadatacenter.org/playground/) web-app
+Please visit our [playground](https://schemaorg.metadatacenter.org/playground/) web-app to learn more about the pipeline.
 
 ### Programming with the library
 
-The code to construct a pipeline is generally in the form of:
+The code to construct a pipeline generally uses the pattern below:
 ```
 String output = Pipeline.create()
       .pipe(...Function1...)
@@ -19,9 +19,11 @@ String output = Pipeline.create()
       ...
       .run(input);
 ```
-where the `Function` is any static function with an input and output of String, the execution order is from top to bottom (i.e., from `Function1` to `FunctionN`), the length of the pipeline depends on the `pipe` count and the `input` is the source data.
+where the `Function` is any static function with an input and output of String, the execution order is from top to bottom (i.e., from `Function1` to `FunctionN`), the length of the pipeline is the number of the `pipe` call and the source data is the input.
 
 ### CAML Notations
+
+CAML is a recursive acronym for "CAML is Another Mapping Language"
 
 A data map in CAML is composed of one or more mapping definitions. A _mapping definition_ is written as a key-value pair separated by a colon and at least one space, where the key is the _schema.org_ keyword and the value is either a data path, a data object or a constant value.
 
@@ -53,6 +55,8 @@ identifier:  /Dataset/Identifier
 identifier:  /Dataset/SecondaryIdentifier
 identifier:  /Dataset/Others/PMID
 ```
+
+The RDF Mapping Language (RML) can be used as well to create the data map. Please check [some of the constraints](https://github.com/metadatacenter/schemaorg-pipeline/wiki/RML) before applying it.
 
 ## License
 ```
