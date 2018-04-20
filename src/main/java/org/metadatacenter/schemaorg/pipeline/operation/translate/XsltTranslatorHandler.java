@@ -3,7 +3,9 @@ package org.metadatacenter.schemaorg.pipeline.operation.translate;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
+import org.metadatacenter.schemaorg.pipeline.mapping.model.FunctionNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.PathNode;
@@ -34,7 +36,10 @@ public class XsltTranslatorHandler extends TranslatorHandler {
         visit(node, xsltLayout);
       } else if (node.isPathNode()) {
         translatePathNode(attrName, (PathNode) node, xsltLayout);
-      } else if (node.isArrayNode()) {
+      } else if (node.isFunctionNode()) {
+        translateFunctionNode(attrName, (FunctionNode) node, xsltLayout);
+      }
+      else if (node.isArrayNode()) {
         for (Iterator<MapNode> arrIter = node.elements(); arrIter.hasNext();) {
           MapNode item = arrIter.next();
           if (item.isObjectNode()) {
@@ -42,6 +47,8 @@ public class XsltTranslatorHandler extends TranslatorHandler {
             visit(item, xsltLayout);
           } else if (item.isPathNode()) {
             translatePathNode(attrName, (PathNode) item, xsltLayout);
+          } else if (item.isFunctionNode()) {
+            translateFunctionNode(attrName, (FunctionNode) item, xsltLayout);
           }
         }
       }
@@ -51,8 +58,14 @@ public class XsltTranslatorHandler extends TranslatorHandler {
   private void translatePathNode(String attrName, PathNode pathNode, XsltLayout xsltLayout) {
     String relativePath = pathNode.getRelativePath();
     if (!pointsToCurrentLocation(relativePath)) {
-      xsltLayout.addPathTemplate(attrName, pathNode.getAbsolutePath());
+      xsltLayout.addPathTemplate(fixAttributeName(attrName), pathNode.getAbsolutePath());
     }
+  }
+
+  private void translateFunctionNode(String attrName, FunctionNode functionNode, XsltLayout xsltLayout) {
+    String functionName = functionNode.getName();
+    List<String> arguments = functionNode.getArguments();
+    xsltLayout.addFunctionTemplate(fixAttributeName(attrName), functionName, arguments);
   }
 
   private static boolean pointsToCurrentLocation(String path) {
@@ -61,19 +74,20 @@ public class XsltTranslatorHandler extends TranslatorHandler {
 
   private void translateObjectNode(String attrName, ObjectNode objectNode, XsltLayout xsltLayout) {
     String objectPath = objectNode.getAbsolutePath();
-    String objectType = ReservedAttributes.getType(objectNode);
     Map<String, String> objectMap = toMapOfString(objectNode.getObjectMap());
-    xsltLayout.addObjectTemplate(attrName, objectPath, objectType, objectMap);
+    xsltLayout.addObjectTemplate(fixAttributeName(attrName), objectPath, objectMap);
   }
 
   private static Map<String, String> toMapOfString(Map<String, MapNode> objectMap) {
     Map<String, String> mapOfString = Maps.newLinkedHashMap();
     for (String attrName : objectMap.keySet()) {
-      if (!ReservedAttributes.isReserved(attrName)) {
-        MapNode mapNode = objectMap.get(attrName);
-        mapOfString.put(attrName, mapNode.getValue());
-      }
+      MapNode mapNode = objectMap.get(attrName);
+      mapOfString.put(fixAttributeName(attrName), mapNode.getValue());
     }
     return mapOfString;
+  }
+
+  private static String fixAttributeName(String name) {
+    return name.replaceFirst("@", "_");
   }
 }

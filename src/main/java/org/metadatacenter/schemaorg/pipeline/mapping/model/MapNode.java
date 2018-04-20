@@ -41,6 +41,10 @@ public abstract class MapNode implements Iterable<MapNode> {
     return false;
   }
 
+  public boolean isFunctionNode() {
+    return false;
+  }
+
   public Iterator<MapNode> elements() {
     return NO_NODES.iterator();
   }

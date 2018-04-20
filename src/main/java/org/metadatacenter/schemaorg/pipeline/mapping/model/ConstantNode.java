@@ -20,7 +20,7 @@ public class ConstantNode extends MapNode {
 
   @Override
   public String getValue() {
-    return value;
+    return String.format("'%s'", value);
   }
 
   @Override

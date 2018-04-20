@@ -21,12 +21,35 @@ class XsltLayout {
     this.stringBuilder = checkNotNull(stringBuilder);
   }
 
-  public void addObjectTemplate(String attribute, String path, String type, Map<String, String> valueMap) {
-    templates.add(new ObjectTemplate(attribute, path, type, valueMap));
+  public void addObjectTemplate(String name, String path, Map<String, String> attributeMap) {
+    templates.add(new ObjectTemplate(name, path, attributeMap));
   }
 
-  public void addPathTemplate(String attribute, String path) {
-    templates.add(new PathTemplate(attribute, path));
+  public void addPathTemplate(String name, String path) {
+    templates.add(new PathTemplate(name, path));
+  }
+
+  public void addFunctionTemplate(String name, String functionName, List<String> arguments) {
+    if ("concat".equals(functionName)) {
+      String path = "";
+      StringBuilder expressionBuilder = new StringBuilder("concat");
+      expressionBuilder.append("(");
+      boolean needComma = false;
+      for (String argument : arguments) {
+        if (needComma) {
+          expressionBuilder.append(",");
+        }
+        if (isPath(argument)) {
+          path = argument;
+          expressionBuilder.append(".");
+        } else if (isConstant(argument)) {
+          expressionBuilder.append(argument);
+        }
+        needComma = true;
+      }
+      expressionBuilder.append(")");
+      templates.add(new FunctionTemplate(name, path, expressionBuilder.toString()));
+    }
   }
 
   @Override
@@ -44,14 +67,14 @@ class XsltLayout {
         if (isTopLevel) {
           indent(3).append("<xsl:template match=\"/*\">");
           newline();
-          indent(6).append(String.format("<%s _context=\"http://schema.org\" _type=\"%s\">", ot.attribute, ot.type));
+          indent(6).append(String.format("<%s _context=\"http://schema.org\">", ot.name));
           newline();
           indent(9).append("<xsl:apply-templates />");
           newline();
-          for (String attrName : ot.valueMap.keySet()) {
-            String value = ot.valueMap.get(attrName);
+          for (String attrName : ot.attributeMap.keySet()) {
+            String value = ot.attributeMap.get(attrName);
             if (isArray(value)) {
-              String[] valueArray = value.substring(1, value.length()-1).split(",");
+              String[] valueArray = getArrayValues(value);
               for (String itemValue : valueArray) {
                 if (isConstant(itemValue)) {
                   indent(9).append(String.format("<%s>%s</%s>", attrName, itemValue, attrName));
@@ -59,7 +82,8 @@ class XsltLayout {
                 }
               }
             } else if (isConstant(value)) {
-              indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
+              String constant = getConstantValue(value);
+              indent(9).append(String.format("<%s>%s</%s>", attrName, constant, attrName));
               newline();
             }
           }
@@ -67,48 +91,58 @@ class XsltLayout {
         } else {
           indent(3).append(String.format("<xsl:template match=\"%s\">", ot.path));
           newline();
-          indent(6).append(String.format("<%s _type=\"%s\">", ot.attribute, ot.type));
+          indent(6).append(String.format("<%s>", ot.name));
           newline();
-          for (String attrName : ot.valueMap.keySet()) {
-            String value = ot.valueMap.get(attrName);
+          for (String attrName : ot.attributeMap.keySet()) {
+            String value = ot.attributeMap.get(attrName);
             if (isArray(value)) {
-              String[] valueArray = value.substring(1, value.length()-1).split(",");
+              String[] valueArray = getArrayValues(value);
               for (String itemValue : valueArray) {
                 if (isPath(itemValue)) {
-                  String path = removeStartingSlash(itemValue);
+                  String path = getPathValue(itemValue);
                   if (".".equals(path)) {
                     indent(9).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", attrName, attrName));
+                    newline();
                   } else {
                     indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", path));
+                    newline();
                   }
                 } else if (isConstant(itemValue)) {
                   indent(9).append(String.format("<%s>%s</%s>", attrName, itemValue, attrName));
+                  newline();
                 }
+              }
+            } else if (isPath(value)) {
+              String path = getPathValue(value);
+              if (".".equals(path)) {
+                indent(9).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", attrName, attrName));
+                newline();
+              } else {
+                indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", path));
                 newline();
               }
-            } else {
-              if (isPath(value)) {
-                String path = removeStartingSlash(value);
-                if (".".equals(path)) {
-                  indent(9).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", attrName, attrName));
-                } else {
-                  indent(9).append(String.format("<xsl:apply-templates select=\"%s\"/>", path));
-                }
-              } else if (isConstant(value)) {
-                indent(9).append(String.format("<%s>%s</%s>", attrName, value, attrName));
-              }
+            } else if (isConstant(value)) {
+              String constant = getConstantValue(value);
+              indent(9).append(String.format("<%s>%s</%s>", attrName, constant, attrName));
               newline();
             }
           }
         }
-        indent(6).append(String.format("</%s>", ot.attribute));
+        indent(6).append(String.format("</%s>", ot.name));
         newline();
         indent(3).append("</xsl:template>");
       } else if (template.isPathTemplate()) {
-        PathTemplate pt = (PathTemplate)template;
+        PathTemplate pt = (PathTemplate) template;
         indent(3).append(String.format("<xsl:template match=\"%s\">", pt.path));
         newline();
-        indent(6).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", pt.attribute, pt.attribute));
+        indent(6).append(String.format("<%s><xsl:value-of select=\".\"/></%s>", pt.name, pt.name));
+        newline();
+        indent(3).append("</xsl:template>");
+      } else if (template.isFunctionTemplate()) {
+        FunctionTemplate ft = (FunctionTemplate) template;
+        indent(3).append(String.format("<xsl:template match=\"%s\">", ft.path));
+        newline();
+        indent(6).append(String.format("<%s><xsl:value-of select=\"%s\"/></%s>", ft.name, ft.expression, ft.name));
         newline();
         indent(3).append("</xsl:template>");
       }
@@ -133,12 +167,20 @@ class XsltLayout {
     stringBuilder.append("\n");
   }
 
-  private static String removeStartingSlash(String path) {
+  private static String getPathValue(String path) {
     return path.substring(1);
   }
 
+  private static String getConstantValue(String value) {
+    return value.substring(1, value.length()-1);
+  }
+
+  private static String[] getArrayValues(String value) {
+    return value.substring(1, value.length()-1).split(",");
+  }
+
   private static boolean isConstant(String value) {
-    return !isPath(value) && !isArray(value) && !isPair(value);
+    return value.startsWith("'") && value.endsWith("'");
   }
 
   private static boolean isPath(String value) {
@@ -149,38 +191,44 @@ class XsltLayout {
     return value.startsWith("[") && value.endsWith("]");
   }
 
-  private static boolean isPair(String value) {
-    return value.startsWith("(") && value.endsWith(")");
-  }
-
   abstract class XslTemplate {
-    protected final String attribute;
-    public XslTemplate(String attribute) {
-      this.attribute = attribute;
+    protected final String name;
+    public XslTemplate(String name) {
+      this.name = name;
     }
     public boolean isObjectTemplate() { return false; }
     public boolean isPathTemplate() { return false; }
+    public boolean isFunctionTemplate() { return false; }
   }
 
   class ObjectTemplate extends XslTemplate {
     protected final String path;
-    protected final String type;
-    protected final Map<String, String> valueMap;
-    public ObjectTemplate(String attribute, String path, String type, Map<String, String> valueMap) {
-      super(attribute);
+    protected final Map<String, String> attributeMap;
+    public ObjectTemplate(String name, String path, Map<String, String> attributeMap) {
+      super(name);
       this.path = path;
-      this.type = type;
-      this.valueMap = valueMap;
+      this.attributeMap = attributeMap;
     }
     @Override public boolean isObjectTemplate() { return true; }
   }
 
   class PathTemplate extends XslTemplate {
     protected final String path;
-    public PathTemplate(String attribute, String path) {
-      super(attribute);
+    public PathTemplate(String name, String path) {
+      super(name);
       this.path = path;
     }
     @Override public boolean isPathTemplate() { return true; }
+  }
+
+  class FunctionTemplate extends XslTemplate {
+    protected final String path;
+    protected final String expression;
+    public FunctionTemplate(String name, String path, String expression) {
+      super(name);
+      this.path = path;
+      this.expression = expression;
+    }
+    @Override public boolean isFunctionTemplate() { return true; }
   }
 }

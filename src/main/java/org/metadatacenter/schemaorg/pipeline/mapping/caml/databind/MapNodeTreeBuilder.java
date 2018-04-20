@@ -1,11 +1,13 @@
 package org.metadatacenter.schemaorg.pipeline.mapping.caml.databind;
 
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ArrayNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNode;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.MapNodeFactory;
 import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
+import com.google.common.collect.Lists;
 
 /*package*/ class MapNodeTreeBuilder implements SectionVisitor {
 
@@ -65,6 +67,8 @@ import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
       mapNode = createConstantNode(mappedData);
     } else if (mappedData.startsWith("(") && mappedData.endsWith(")")) {
       mapNode = createPairNode(mappedData);
+    } else if (mappedData.startsWith("=")) {
+      mapNode = createFunctionNode(mappedData);
     }
     return mapNode;
   }
@@ -92,7 +96,21 @@ import org.metadatacenter.schemaorg.pipeline.mapping.model.ObjectNode;
       String value2 = m.group(2);
       return nodeFactory.pairNode(value1, value2);
     }
-    throw new IllegalArgumentException("The string \"" + value + "\" is not a valid pair value");
+    throw new IllegalArgumentException("The string \"" + value + "\" is not a valid pair expression");
+  }
+
+  private MapNode createFunctionNode(String value) {
+    final Pattern functionPattern = Pattern.compile("^=(.*)\\((.+)\\)$");
+    Matcher m = functionPattern.matcher(value);
+    if (m.find()) {
+      String functionName = m.group(1);
+      List<String> arguments = Lists.newArrayList();
+      for (String arg : m.group(2).split(",")) {
+        arguments.add(arg.trim());
+      }
+      return nodeFactory.functionNode(functionName, arguments);
+    }
+    throw new IllegalArgumentException("The string \"" + value + "\" is not a valid function expression");
   }
 
   private ArrayNode getOrCreateArrayNode(MapNode foundNode) {
