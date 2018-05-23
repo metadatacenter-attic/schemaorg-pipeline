@@ -1,8 +1,12 @@
 package org.metadatacenter.schemaorg.pipeline.experimental;
 
-import java.util.Optional;
+import java.util.Collection;
+import java.util.Map;
 
 public interface TermLookup {
 
-  Optional<String> find(String name);
+  public static final String CONCEPT_IRI = "concept_iri";
+  public static final String SOURCE_ONTOLOGY = "source_ontology";
+
+  Collection<Map<String, String>> find(String name);
 }
