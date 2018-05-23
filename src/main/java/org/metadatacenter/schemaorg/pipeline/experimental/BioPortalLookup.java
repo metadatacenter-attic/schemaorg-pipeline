@@ -20,6 +20,10 @@ public class BioPortalLookup implements TermLookup {
 
   private final String apiKey;
 
+  public BioPortalLookup() {
+    this.apiKey = checkNotNull(System.getenv("BIOPORTAL_APIKEY"));
+  }
+
   public BioPortalLookup(@Nonnull String apiKey) {
     this.apiKey = checkNotNull(apiKey);
   }
