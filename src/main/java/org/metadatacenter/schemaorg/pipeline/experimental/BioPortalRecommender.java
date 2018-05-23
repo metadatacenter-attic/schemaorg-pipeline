@@ -1,17 +1,18 @@
 package org.metadatacenter.schemaorg.pipeline.experimental;
 
-import java.io.ByteArrayOutputStream;
+import static com.google.common.base.Preconditions.checkNotNull;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.util.Optional;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
 import org.json.JSONArray;
-import org.json.JSONObject;
-import static com.google.common.base.Preconditions.checkNotNull;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
 
 public class BioPortalRecommender implements TermLookup {
 
@@ -24,7 +25,7 @@ public class BioPortalRecommender implements TermLookup {
   }
 
   @Override
-  public Optional<String> find(String name) {
+  public Collection<Map<String, String>> find(String name) {
     HttpURLConnection conn = null;
     try {
       String serviceAddress = getServiceAddress(SERVICE_ENDPOINT, name);
@@ -36,7 +37,7 @@ public class BioPortalRecommender implements TermLookup {
       if (conn.getResponseCode() != 200) {
         throw new RuntimeException("Failed: HTTP error code " + conn.getResponseCode());
       }
-      String response = readResponse(conn.getInputStream());
+      String response = ResponseUtils.getString(conn.getInputStream());
       return findId(response);
     } catch (MalformedURLException e) {
       throw new RuntimeException(e);
@@ -49,32 +50,21 @@ public class BioPortalRecommender implements TermLookup {
     }
   }
 
-  private static Optional<String> findId(String text) {
-    String foundId = null;
+  private static List<Map<String, String>> findId(String text) {
+    List<Map<String, String>> toReturn = Lists.newArrayList();
     JSONArray results = new JSONArray(text);
-    if (results.length() > 0) {
-      JSONObject topResult = results.getJSONObject(0);
-      foundId = topResult.getJSONObject("coverageResult")
+    for (int i = 0; i < results.length(); i++) {
+      Map<String, String> map = Maps.newHashMap();
+      map.put(TermLookup.CONCEPT_IRI, results.getJSONObject(i).getJSONObject("coverageResult")
           .getJSONArray("annotations")
           .getJSONObject(0)
           .getJSONObject("annotatedClass")
-          .getString("@id");
+          .getString("@id"));
+      map.put(TermLookup.SOURCE_ONTOLOGY, results.getJSONObject(i).getJSONArray("ontologies")
+          .getJSONObject(0)
+          .getString("acronym"));
     }
-    return Optional.ofNullable(foundId);
-  }
-
-  private static String readResponse(InputStream in) {
-    try {
-      ByteArrayOutputStream result = new ByteArrayOutputStream();
-      byte[] buffer = new byte[1024];
-      int length;
-      while ((length = in.read(buffer)) != -1) {
-        result.write(buffer, 0, length);
-      }
-      return result.toString("UTF-8");
-    } catch (IOException e) {
-      throw new RuntimeException(e);
-    }
+    return toReturn;
   }
 
   private static String getServiceAddress(String serviceEndpoint, String paramName)

@@ -1,6 +1,7 @@
 package org.metadatacenter.schemaorg.pipeline.experimental;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import javax.annotation.Nullable;
 import org.json.JSONArray;
@@ -15,6 +16,8 @@ public class SchemaEnrichment {
   private static final String SCHEMA_NAME_SHORT = "name";
   private static final String SCHEMA_CODE_VALUE = "schema:codeValue";
   private static final String SCHEMA_CODE_VALUE_SHORT = "codeValue";
+  private static final String SCHEMA_CODING_SYSTEM = "schema:codingSystem";
+  private static final String SCHEMA_CODING_SYSTEM_SHORT = "codingSystem";
   private static final String SCHEMA_IDENTIFIER = "schema:identifier";
   private static final String SCHEMA_IDENTIFIER_SHORT = "identifier";
   private static final String SCHEMA_ADDITIONAL_TYPE = "schema:additionalType";
@@ -48,18 +51,18 @@ public class SchemaEnrichment {
       Object obj = getName(jsonObject);
       if (obj instanceof String) {
         String name = (String) obj;
-        Optional<String> id = lookup.find(name);
-        if (id.isPresent()) {
-          jsonObject.put(JSONLD_ID, id.get());
+        Optional<Map<String, String>> result = lookup.find(name).stream().findFirst();
+        if (result.isPresent()) {
+          jsonObject.put(JSONLD_ID, result.get().get(TermLookup.CONCEPT_IRI));
         }
       } else if (obj instanceof JSONArray) {
         JSONArray nameArray = (JSONArray) obj;
         for (Object nameObject : nameArray) {
           if (nameObject instanceof String) {
             String name = (String) nameObject;
-            Optional<String> id = lookup.find(name);
-            if (id.isPresent()) {
-              jsonObject.put(JSONLD_ID, id.get());
+            Optional<Map<String, String>> result = lookup.find(name).stream().findFirst();
+            if (result.isPresent()) {
+              jsonObject.put(JSONLD_ID, result.get().get(TermLookup.CONCEPT_IRI));
               break;
             }
           }
@@ -96,18 +99,20 @@ public class SchemaEnrichment {
       Object obj = getCodeValue(jsonObject);
       if (obj instanceof String) {
         String name = (String) obj;
-        Optional<String> id = lookup.find(name);
-        if (id.isPresent()) {
-          jsonObject.put(JSONLD_ID, id.get());
+        Optional<Map<String, String>> result = lookup.find(name).stream().findFirst();
+        if (result.isPresent()) {
+          jsonObject.put(SCHEMA_CODE_VALUE_SHORT, result.get().get(TermLookup.CONCEPT_IRI));
+          jsonObject.put(SCHEMA_CODING_SYSTEM_SHORT, result.get().get(TermLookup.SOURCE_ONTOLOGY));
         }
       } else if (obj instanceof JSONArray) {
         JSONArray nameArray = (JSONArray) obj;
         for (Object nameObject : nameArray) {
           if (nameObject instanceof String) {
             String name = (String) nameObject;
-            Optional<String> id = lookup.find(name);
-            if (id.isPresent()) {
-              jsonObject.put(JSONLD_ID, id.get());
+            Optional<Map<String, String>> result = lookup.find(name).stream().findFirst();
+            if (result.isPresent()) {
+              jsonObject.put(SCHEMA_CODE_VALUE_SHORT, result.get().get(TermLookup.CONCEPT_IRI));
+              jsonObject.put(SCHEMA_CODING_SYSTEM_SHORT, result.get().get(TermLookup.SOURCE_ONTOLOGY));
               break;
             }
           }
