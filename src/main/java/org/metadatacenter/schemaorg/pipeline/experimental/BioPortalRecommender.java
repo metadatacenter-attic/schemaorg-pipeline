@@ -63,6 +63,7 @@ public class BioPortalRecommender implements TermLookup {
       map.put(TermLookup.SOURCE_ONTOLOGY, results.getJSONObject(i).getJSONArray("ontologies")
           .getJSONObject(0)
           .getString("acronym"));
+      toReturn.add(map);
     }
     return toReturn;
   }
