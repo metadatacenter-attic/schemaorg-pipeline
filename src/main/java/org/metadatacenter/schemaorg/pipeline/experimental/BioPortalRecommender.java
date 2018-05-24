@@ -10,6 +10,7 @@ import java.net.URLEncoder;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import org.apache.commons.lang.StringUtils;
 import org.json.JSONArray;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
@@ -60,6 +61,11 @@ public class BioPortalRecommender implements TermLookup {
           .getJSONObject(0)
           .getJSONObject("annotatedClass")
           .getString("@id"));
+      map.put(TermLookup.CONCEPT_LABEL, StringUtils.capitalize(
+          results.getJSONObject(i).getJSONObject("coverageResult")
+            .getJSONArray("annotations")
+            .getJSONObject(0)
+            .getString("text")));
       map.put(TermLookup.SOURCE_ONTOLOGY, results.getJSONObject(i).getJSONArray("ontologies")
           .getJSONObject(0)
           .getString("acronym"));

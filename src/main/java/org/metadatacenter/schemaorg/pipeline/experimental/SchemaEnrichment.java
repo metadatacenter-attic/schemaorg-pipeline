@@ -103,6 +103,7 @@ public class SchemaEnrichment {
         if (result.isPresent()) {
           jsonObject.put(SCHEMA_CODE_VALUE_SHORT, result.get().get(TermLookup.CONCEPT_IRI));
           jsonObject.put(SCHEMA_CODING_SYSTEM_SHORT, result.get().get(TermLookup.SOURCE_ONTOLOGY));
+          jsonObject.put(SCHEMA_NAME_SHORT, result.get().get(TermLookup.CONCEPT_LABEL));
         }
       } else if (obj instanceof JSONArray) {
         JSONArray nameArray = (JSONArray) obj;
@@ -113,6 +114,7 @@ public class SchemaEnrichment {
             if (result.isPresent()) {
               jsonObject.put(SCHEMA_CODE_VALUE_SHORT, result.get().get(TermLookup.CONCEPT_IRI));
               jsonObject.put(SCHEMA_CODING_SYSTEM_SHORT, result.get().get(TermLookup.SOURCE_ONTOLOGY));
+              jsonObject.put(SCHEMA_NAME_SHORT, result.get().get(TermLookup.CONCEPT_LABEL));
               break;
             }
           }
