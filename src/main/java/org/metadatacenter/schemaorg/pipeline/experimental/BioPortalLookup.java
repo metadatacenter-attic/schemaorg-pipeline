@@ -73,7 +73,6 @@ public class BioPortalLookup implements TermLookup {
     StringBuilder sb = new StringBuilder(serviceEndpoint);
     sb.append("q=").append(URLEncoder.encode(paramName, "UTF-8"));
     sb.append("&exact_match=true");
-    sb.append("&include=prefLabel");
     return sb.toString();
   }
 }
