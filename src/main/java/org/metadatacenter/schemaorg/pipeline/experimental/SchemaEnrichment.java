@@ -101,6 +101,7 @@ public class SchemaEnrichment {
         String name = (String) obj;
         Optional<Map<String, String>> result = lookup.find(name).stream().findFirst();
         if (result.isPresent()) {
+          jsonObject.put(JSONLD_ID, result.get().get(TermLookup.CONCEPT_IRI));
           jsonObject.put(SCHEMA_CODE_VALUE_SHORT, result.get().get(TermLookup.CONCEPT_IRI));
           jsonObject.put(SCHEMA_CODING_SYSTEM_SHORT, result.get().get(TermLookup.SOURCE_ONTOLOGY));
           jsonObject.put(SCHEMA_NAME_SHORT, result.get().get(TermLookup.CONCEPT_LABEL));
@@ -112,6 +113,7 @@ public class SchemaEnrichment {
             String name = (String) nameObject;
             Optional<Map<String, String>> result = lookup.find(name).stream().findFirst();
             if (result.isPresent()) {
+              jsonObject.put(JSONLD_ID, result.get().get(TermLookup.CONCEPT_IRI));
               jsonObject.put(SCHEMA_CODE_VALUE_SHORT, result.get().get(TermLookup.CONCEPT_IRI));
               jsonObject.put(SCHEMA_CODING_SYSTEM_SHORT, result.get().get(TermLookup.SOURCE_ONTOLOGY));
               jsonObject.put(SCHEMA_NAME_SHORT, result.get().get(TermLookup.CONCEPT_LABEL));
