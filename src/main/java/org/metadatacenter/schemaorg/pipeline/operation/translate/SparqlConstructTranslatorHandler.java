@@ -75,7 +75,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
             patternGroup(subjectVar, counter),
             layout);
       } else if (node.isConstantNode()) {
-        String constantValue = node.getValue();
+        String constantValue = removeQuotes(node.getValue());
         if (attrName.equals(ReservedAttributes.ID)) {
           constructFilter(
               subject(subjectVar),
@@ -147,7 +147,7 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
                 object(objectVar),
                 layout);
           } else if (item.isConstantNode()) {
-            String constantValue = item.getValue();
+            String constantValue = removeQuotes(item.getValue());
             if (attrName.equals(ReservedAttributes.ID)) {
               constructFilter(
                   var(subjectVar),
@@ -171,6 +171,13 @@ public class SparqlConstructTranslatorHandler extends TranslatorHandler {
         }
       }
     }
+  }
+
+  private static String removeQuotes(String value) {
+    if (value.startsWith("'") && value.endsWith("'")) {
+      value = value.substring(1, value.length()-1);
+    }
+    return value;
   }
 
   private static void constructTripleTemplate(String subject, String predicate, String object,
