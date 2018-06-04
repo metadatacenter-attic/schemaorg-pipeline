@@ -304,9 +304,9 @@ public class RmlMapperTest {
     MapNode mapNode = mapper.readText(rmlMapping);
     // Assertions
     assertThat(mapNode.get("attribute1").getValue(), equalTo("/path1"));
-    assertThat(mapNode.get("attribute2").getValue(), equalTo("constant1"));
+    assertThat(mapNode.get("attribute2").getValue(), equalTo("'constant1'"));
     assertThat(mapNode.get("attribute3").get("attribute4").getValue(), equalTo("/path2"));
-    assertThat(mapNode.get("attribute3").get("attribute5").getValue(), equalTo("constant2"));
+    assertThat(mapNode.get("attribute3").get("attribute5").getValue(), equalTo("'constant2'"));
   }
 
   @Test
