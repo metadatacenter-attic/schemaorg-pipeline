@@ -62,10 +62,20 @@ public class BioPortalLookup implements TermLookup {
     JSONArray results = responseObject.getJSONArray("collection");
     for (int i = 0; i < results.length(); i++) {
       Map<String, String> map = Maps.newHashMap();
-      map.put(TermLookup.CONCEPT_IRI, results.getJSONObject(i).getString("@id"));
+      String conceptIri = results.getJSONObject(i).getString("@id");
+      map.put(TermLookup.CONCEPT_IRI, conceptIri);
+      map.put(TermLookup.CONCEPT_CODE, extractConceptCode(conceptIri));
       toReturn.add(map);
     }
     return toReturn;
+  }
+
+  private static String extractConceptCode(String conceptIri) {
+    int startPos = conceptIri.lastIndexOf("#");
+    if (startPos == -1) {
+      startPos = conceptIri.lastIndexOf("/");
+    }
+    return conceptIri.substring(startPos+1);
   }
 
   private static String getServiceAddress(String serviceEndpoint, String paramName)
