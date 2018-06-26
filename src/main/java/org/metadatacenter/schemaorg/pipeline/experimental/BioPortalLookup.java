@@ -120,7 +120,6 @@ public class BioPortalLookup implements TermLookup {
     sb.append("&exact_match=true");
     sb.append("&display_context=false");
     sb.append("&display_links=false");
-    sb.append("&pagesize=1");
     sb.append("&include=prefLabel,definition,notation");
     return sb.toString();
   }
