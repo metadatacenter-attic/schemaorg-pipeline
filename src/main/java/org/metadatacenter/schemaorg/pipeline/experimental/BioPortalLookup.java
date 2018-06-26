@@ -117,7 +117,7 @@ public class BioPortalLookup implements TermLookup {
       throws UnsupportedEncodingException {
     StringBuilder sb = new StringBuilder(serviceEndpoint);
     sb.append("q=").append(URLEncoder.encode(paramName, "UTF-8"));
-    sb.append("&exact_match=false");
+    sb.append("&exact_match=true");
     sb.append("&display_context=false");
     sb.append("&display_links=false");
     sb.append("&pagesize=1");
