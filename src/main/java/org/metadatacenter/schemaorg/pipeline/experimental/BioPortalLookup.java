@@ -67,12 +67,25 @@ public class BioPortalLookup implements TermLookup {
       Map<String, String> map = Maps.newHashMap();
       String conceptIri = results.getJSONObject(i).getString("@id");
       map.put(TermLookup.CONCEPT_IRI, conceptIri);
-      map.put(TermLookup.CONCEPT_CODE, results.getJSONObject(i).getString("notation"));
+      map.put(TermLookup.CONCEPT_CODE, getCode(results.getJSONObject(i)));
       map.put(TermLookup.SOURCE_ONTOLOGY, getSourceOntology(conceptIri));
       map.put(TermLookup.CONCEPT_LABEL, results.getJSONObject(i).getString("prefLabel"));
       toReturn.add(map);
     }
     return toReturn;
+  }
+
+  private static String getCode(JSONObject item) {
+    if (item.has("notation")) {
+      return item.getString("notation");
+    } else {
+      String conceptId = item.getString("@id");
+      int startPos = conceptId.lastIndexOf("#");
+      if (startPos == -1) {
+        startPos = conceptId.lastIndexOf("/");
+      }
+      return conceptId.substring(startPos+1);
+    }
   }
 
   @Nullable
@@ -104,7 +117,7 @@ public class BioPortalLookup implements TermLookup {
       throws UnsupportedEncodingException {
     StringBuilder sb = new StringBuilder(serviceEndpoint);
     sb.append("q=").append(URLEncoder.encode(paramName, "UTF-8"));
-    sb.append("&exact_match=true");
+    sb.append("&exact_match=false");
     sb.append("&display_context=false");
     sb.append("&display_links=false");
     sb.append("&pagesize=1");
