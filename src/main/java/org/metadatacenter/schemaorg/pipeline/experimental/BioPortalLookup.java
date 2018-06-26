@@ -93,7 +93,7 @@ public class BioPortalLookup implements TermLookup {
     Pattern purlPattern = Pattern.compile("http://purl.bioontology.org/ontology/(.+)/.+");
     Matcher m = purlPattern.matcher(conceptIri);
     if (m.find()) {
-      return m.group(0);
+      return m.group(1);
     }
     Pattern ncitPattern = Pattern.compile("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#.+");
     m = ncitPattern.matcher(conceptIri);
