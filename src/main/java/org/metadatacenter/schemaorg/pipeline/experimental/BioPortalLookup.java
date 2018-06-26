@@ -10,7 +10,10 @@ import java.net.URLEncoder;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import com.google.common.collect.Lists;
@@ -64,18 +67,37 @@ public class BioPortalLookup implements TermLookup {
       Map<String, String> map = Maps.newHashMap();
       String conceptIri = results.getJSONObject(i).getString("@id");
       map.put(TermLookup.CONCEPT_IRI, conceptIri);
-      map.put(TermLookup.CONCEPT_CODE, extractConceptCode(conceptIri));
+      map.put(TermLookup.CONCEPT_CODE, results.getJSONObject(i).getString("notation"));
+      map.put(TermLookup.SOURCE_ONTOLOGY, getSourceOntology(conceptIri));
+      map.put(TermLookup.CONCEPT_LABEL, results.getJSONObject(i).getString("prefLabel"));
       toReturn.add(map);
     }
     return toReturn;
   }
 
-  private static String extractConceptCode(String conceptIri) {
-    int startPos = conceptIri.lastIndexOf("#");
-    if (startPos == -1) {
-      startPos = conceptIri.lastIndexOf("/");
+  @Nullable
+  private static String getSourceOntology(String conceptIri) {
+    Pattern purlPattern = Pattern.compile("http://purl.bioontology.org/ontology/(.+)/.+");
+    Matcher m = purlPattern.matcher(conceptIri);
+    if (m.find()) {
+      return m.group(0);
     }
-    return conceptIri.substring(startPos+1);
+    Pattern ncitPattern = Pattern.compile("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#.+");
+    m = ncitPattern.matcher(conceptIri);
+    if (m.matches()) {
+      return "NCIT";
+    }
+    Pattern efoPattern = Pattern.compile("http://www.ebi.ac.uk/efo/.+");
+    m = efoPattern.matcher(conceptIri);
+    if (m.matches()) {
+      return "EFO";
+    }
+    Pattern radlexPattern = Pattern.compile("http://www.radlex.org/.+");
+    m = radlexPattern.matcher(conceptIri);
+    if (m.matches()) {
+      return "RADLEX";
+    }
+    return null;
   }
 
   private static String getServiceAddress(String serviceEndpoint, String paramName)
@@ -83,6 +105,10 @@ public class BioPortalLookup implements TermLookup {
     StringBuilder sb = new StringBuilder(serviceEndpoint);
     sb.append("q=").append(URLEncoder.encode(paramName, "UTF-8"));
     sb.append("&exact_match=true");
+    sb.append("&display_context=false");
+    sb.append("&display_links=false");
+    sb.append("&pagesize=1");
+    sb.append("&include=prefLabel,definition,notation");
     return sb.toString();
   }
 }

@@ -88,7 +88,9 @@ public class BioPortalRecommender implements TermLookup {
       throws UnsupportedEncodingException {
     StringBuilder sb = new StringBuilder(serviceEndpoint);
     sb.append("input=").append(URLEncoder.encode(paramName, "UTF-8"));
-    sb.append("&input_type=").append("2");
+    sb.append("&input_type=2");
+    sb.append("&display_context=false");
+    sb.append("&display_links=false");
     return sb.toString();
   }
 }
